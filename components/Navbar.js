@@ -10,8 +10,8 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="nav-links">
-          <Link href="/argument" className="nav-link">
-            Argument
+          <Link href="/premise" className="nav-link">
+            Premise
           </Link>
           <Link href="/research" className="nav-link">
             Research

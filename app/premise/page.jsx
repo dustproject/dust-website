@@ -240,7 +240,7 @@ const SectionHeading = ({ title, href }) => {
         <div className="sectionHeading">
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             {title}
-            {href && (
+            {/* {href && (
               <a 
                 href={href}
                 target="_blank"
@@ -249,7 +249,7 @@ const SectionHeading = ({ title, href }) => {
               >
                 More ›
               </a>
-            )}
+            )} */}
           </div>
         </div>
       );
@@ -262,7 +262,18 @@ const AcademicManifesto = () => {
             
             {/* <div className="title">Foundations for DUST</div> */}
             <div className="title">Manifesting Universes with Idealized Mathematical Objects</div>
-            
+
+            <div className='authorInfo'>
+              Written by Zuse.
+              Formative ideas from Ludens, Max Tegmark, Eugene Wigner, David Chalmers, Nick Bostrom, Gubsheep, Nick Szabo, Timothy May, Josh Stark, Max Hodak, Robin Hanson, Hans Moravec, Eric Gans, Greg Egan, and Venkatesh Rao.
+              {" "}
+              <a href={"https://drive.google.com/drive/folders/1GawZa1Jd43VqbmK0BrdutfL270-wrunM?usp=sharing"}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                    Read Their Work
+              </a>
+              </div>
+
             <div className="abstractBox">
               <div className="abstractHeading">Abstract</div>
               <div className="abstractText">
