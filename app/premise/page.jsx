@@ -269,9 +269,11 @@ const AcademicManifesto = () => {
               {" "}
               <a href={"https://drive.google.com/drive/folders/1GawZa1Jd43VqbmK0BrdutfL270-wrunM?usp=sharing"}
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                  style={{fontWeight: "bold"}}>
                     Read Their Work
               </a>
+              .
               </div>
 
             <div className="abstractBox">
