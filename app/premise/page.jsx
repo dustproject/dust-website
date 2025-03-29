@@ -265,7 +265,7 @@ const AcademicManifesto = () => {
 
             <div className='authorInfo'>
               Written by Zuse.
-              Formative ideas from Ludens, Max Tegmark, Eugene Wigner, David Chalmers, Nick Bostrom, Gubsheep, Nick Szabo, Timothy May, Josh Stark, Max Hodak, Robin Hanson, Hans Moravec, Eric Gans, Greg Egan, and Venkatesh Rao.
+              Formative Ideas from Mathematical Philosophy (Max Tegmark, Eugene Wigner), Simulation Theory (David Chalmers, Nick Bostrom), Generative Anthropology (Eric Gans, Venkatesh Rao), Programmable Cryptography (Ludens, Gubsheep, Nick Szabo, Timothy May, Josh Stark), and Substrate Independence (Max Hodak, Robin Hanson, Hans Moravec, Greg Egan).
               {" "}
               <a href={"https://drive.google.com/drive/folders/1GawZa1Jd43VqbmK0BrdutfL270-wrunM?usp=sharing"}
                   target="_blank"
