@@ -8,14 +8,6 @@ export default function Page() {
 
   return (
     <div className="page-style">
-      <a href="/about" className="eye-link">
-        <img 
-          src="/eyelogo.svg" 
-        />
-      </a>
-      <div className="hover-text">
-        all that remains is what never needs belief
-      </div>
       <div className="title-style">
         DUST
       </div>
