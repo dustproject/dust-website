@@ -261,42 +261,73 @@ const AcademicManifesto = () => {
           <div className="container">
             
             {/* <div className="title">Foundations for DUST</div> */}
-            <div className="title">Manifesting Universes with Idealized Mathematical Objects</div>
+            <div className="title">From Escapism to Realism: Manifesting Universes with Idealized Mathematical Objects</div>
+
 
             <div className='authorInfo'>
-              Written by Zuse.
-              Formative Ideas from Mathematical Philosophy (Max Tegmark, Eugene Wigner), Simulation Theory (David Chalmers, Nick Bostrom), Generative Anthropology (Eric Gans, Venkatesh Rao), Programmable Cryptography (Ludens, Gubsheep, Nick Szabo, Timothy May, Josh Stark), and Substrate Independence (Max Hodak, Robin Hanson, Hans Moravec, Greg Egan).
+              Written by Zuse. Foundational ideas from
               {" "}
-              <a href={"https://drive.google.com/drive/folders/1GawZa1Jd43VqbmK0BrdutfL270-wrunM?usp=sharing"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{fontWeight: "bold"}}>
-                    Read Their Work
-              </a>
-              .
-              </div>
+              <a href="https://drive.google.com/drive/folders/1xXQ_krIM8D1Py06xC9PWZ7fvg6fqTEEm?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Mathematical Philosophy
+              </a> (Max Tegmark, Eugene Wigner, David Lewis),
+              {" "}
+              <a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Programmable Cryptography
+              </a> (Ludens, Gubsheep, Nick Szabo, Timothy May, Josh Stark),
+              {" "}
+              <a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Escapism Critique
+              </a> (Guy Debord, Jean Baudrillard, Neil Postman),
+              {" "}
+              <a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Simulation Theory
+              </a> (David Chalmers, Nick Bostrom),
+              {" "}
+              <a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Generative Anthropology
+              </a> (Eric Gans, Peter Thiel, Venkatesh Rao), and
+              {" "}
+              <a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Substrate Independence Futurism
+              </a> (Max Hodak, Robin Hanson, Hans Moravec, Greg Egan).
+            </div>
+
+
 
             <div className="abstractBox">
               <div className="abstractHeading">Abstract</div>
               <div className="abstractText">
-              Information technology has enabled humans to inhabit customizable shared fictions of our choosing. Unlike physical reality, these fictions depend on belief in an attesting authority, and when it falters, the shared fiction dissolves. As humans increasingly inhabit these fictions, there is a crucial need for them to exist independently of human belief akin to objective physical reality. Mathematical objects fulfill this need as they exist objectively and independently. In their idealized form, achieved through cryptographic techniques, they would autonomously self-operate, maintain their own secrets, and grow to arbitrary complexity and scale. These idealized mathematical objects may transform dissolvable fictions into mathematically robust, sensorially equivalent, and infinitely customizable universes.
+                With progressing information technology, humans increasingly escape into shared fictions that, unlike physical reality, depend on belief to exist. Idealized mathematical objects, if achieved through cryptographic techniques, offer an alternative due to their objective independent existence. These objects would autonomously self-operate, maintain their own secrets, and grow unbounded in complexity. They may transform shared fictions into objectively real universes that are enriching for humans to inhabit rather than escapist.
               </div>
             </div>
       
             <SectionHeading 
-              title="I. Introduction" 
+              title="I. Escapist Fictions" 
               href="https://drive.google.com/drive/folders/13CbR5pur5xuAbMAJM3wiu58uhZ_eQ10K?usp=sharing" 
             />
             
             <div className="paragraph">
-              Objective physical reality, governed by immutable natural laws, exists independently of human belief - gravity works whether we acknowledge it or not. This provides a robust foundation to exist on, but at the cost of customization. We cannot edit natural laws to spawn a metallic element with an ideal supply curve and fair distribution across Earth.
+            Objective physical reality, governed by immutable natural laws, exists independently of human belief - gravity works whether we acknowledge it or not. This provides a robust foundation to exist on, but at the cost of customization. We cannot edit physical laws to spawn a metallic element with an ideal supply curve and fair distribution across Earth.
             </div>
       
             <div className="paragraph">
-            As a consequence of nature's immutability, humans transcended objective physical reality to inhabit customizable shared fictions of our choosing. As shown in Figures 1 and 2, information technologies have progressively expanded our capacity to construct shared fictions, and in turn, we have invested more into them.        </div>
+            Unlike immutable physical laws, shared fictions are customizable to our choosing. As shown in Figures 1 and 2, as information technologies have expanded our capacity to construct shared fictions, we have increasingly escaped the "state of nature" to inhabit them instead.
+            </div>
       
             <div className="paragraph">
-            Unlike physical reality, shared fictions depend on belief in an attesting authority. When this authority falters, as shown in Figure 3, the shared fiction dissolves - often with devastating consequences. Shared fictions offer customization at the cost of robustness.
+            Unlike objective physical reality, shared fictions depend on belief in an attesting authority. When this authority falters, as shown in Figure 3, the shared fiction dissolves - often with devastating consequences. Shared fictions offer customization at the cost of robustness.
             </div>
       
             <div className="imagePlaceholder">
@@ -312,12 +343,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-              These shared fictions will become increasingly sophisticated and humans will make increasingly substantial investments into them.           
-              Yet even their most advanced forms - generative simulations connected to our sensorium with AI and BCI technologies - remain tethered to belief in an attesting authority.
-            </div>
-      
-            <div className="paragraph">
-            There is a crucial need for these fictions to exist independently of human belief, and evolve to a form that is as unanimously accepted as objective physical reality itself, so that it can be robust enough to support the extremely substantial investments we intend to make in them.
+            Shared fictions will become increasingly sophisticated - generative simulations connected to our sensorium with AI and BCI technologies. However, they will always require escapism to inhabit because they depend on belief to exist and are never unanimously accepted like physical reality. As a result of the escapism, fictions remain dissolvable, risky to invest in, and fundamentally separate from reality.
             </div>
       
             <SectionHeading 
@@ -326,25 +352,19 @@ const AcademicManifesto = () => {
             />
       
             <div className="paragraph">
-              Mathematical Platonism asserts that mathematical objects exist objectively, outside of physical spacetime, and independent of human belief; this allows them to achieve unanimous acceptance on par with physical reality.
-              These objects could fulfill our crucial need.
+            Mathematical platonism offers a solution. It asserts that mathematical objects exist objectively and independently of belief; this allows them to achieve unanimous acceptance on par with physical reality. As shown in Figure 4, these objects have long been used to represent physical reality and successfully act within it, often when shared fictions failed.
             </div>
-      
-            <div className="paragraph">
-            As shown in Figure 4, mathematical objects have long been used to represent physical reality and successfully act within it, often when shared fictions failed.
-            </div>
-      
+    
             <div className="imagePlaceholder">
               <ImageGallery imageSet={`images4`}/>
             </div>
             
             <div className="paragraph">
-              Mathematical objects have also been used to go beyond merely representing physical reality to actually manifesting new aspects of reality. Hash functions assign a unique ID to each unique piece of information - akin to fingerprints that everyone sees, with no shared fictions necessary. Digital signatures prove information authorship and are unforgeable, unlike physical signatures. Bitcoin, using hash functions and digital signatures, created a scarcity that objectively exists outside of physical spacetime and independently of belief in any attesting authority.
+            Beyond mere representation, mathematical objects have even begun manifesting new aspects of reality. Hash functions assign IDs to each unique piece of  information - like fingerprints everyone sees, with no shared fictions necessary. Digital signatures prove information authorship with more unforgeability than physical signatures. Bitcoin, using these techniques, created a scarcity that objectively exists outside of physical spacetime and independently of belief in any attesting authority.
             </div>
       
             <div className="paragraph">
-            Taking the "unreasonable effectiveness of mathematics", in both representing our reality but also manifesting new aspects of it, to its logical conclusion reveals a profound implication: all mathematically-consistent universes may objectively exist, with our physical spacetime merely being the particular structure we currently observe. We may eventually manifest and observe the rest, and safely invest in the ones possessing immutable laws of our choosing.
-            However, the mathematical objects we can currently represent are too primitive to manifest such complexity and scale.
+            Mathematics has shown 'unreasonable effectiveness' in both representing and manifesting new aspects of reality. Taking this to its logical conclusion reveals a profound implication: all mathematically-consistent universes may objectively exist, with our physical spacetime merely being the particular structure we currently observe. We may eventually manifest the rest, and safely inhabit the ones of our choosing without requiring escapism. However, the mathematical objects we can currently represent are too primitive for such complexity and scale.
             </div>
       
             <SectionHeading 
@@ -353,17 +373,15 @@ const AcademicManifesto = () => {
             />
       
             <div className="paragraph">
-            Mathematical objects exist abstractly outside of physical spacetime, so we represent them symbolically. Written language enabled static symbolic representation, and electrical encoding advanced it into dynamic symbolic representation. However, significant developments were necessary to harness this into dynamic communication and, now, dynamic mathematical objects.
+            Mathematical objects exist abstractly, so we represent them symbolically. Written language enabled static symbolic representation, and electrical encoding advanced it into dynamic symbolic representation.
             </div>
       
             <div className="paragraph">
-            Networked computing, driven by trillions of dollars of capital expenditure on fiberoptic cables and datacenters, completed communication's evolution from static, primitive text letters to the dynamic, idealized multimedia web of today. The exponential growth of our shared fictions can in many ways be attributed to this evolution.
+            Through this advancement, communication reached its idealized endstate. Networked computing evolved communication from static text letters to the dynamic multimedia web of today, growing shared fictions into the size of entire cyberspaces.
             </div>
       
             <div className="paragraph">
-                    By applying cryptographic techniques as shown in Figure 5 to networked computing, mathematical objects are now similarly evolving from their static, primitive form to their dynamic, idealized endstate.        
-                    Idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale.
-      
+            Cryptographic techniques, as shown in Figure 5, applied to networked computing are now similarly evolving mathematical objects from their static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale.      
             </div>
       
             <div style={{
@@ -384,16 +402,16 @@ const AcademicManifesto = () => {
             </div>
       
             <SectionHeading 
-              title="IV. Manifestation" 
+              title="IV. Manifesting Realism" 
               href="https://drive.google.com/drive/folders/1xPzLZy9cpWaeg7vZju8PJpOciYPStpfw?usp=sharing" 
             />
       
             <div className="paragraph">
-            Today, billions inhabit cyberspaces - shared fictions dependent on corporate authorities to exist. This dependence restricts cyberspaces to malleable business logic that only the corporation can upgrade or scale; and, user actions remain temporary event logs that cannot freely connect to their broader lives without the corporation's validation. Our investment in cyberspaces will only grow, so there is a crucial need to remove this dependence.
+            Today, billions have escaped to cyberspaces - shared fictions dependent on corporate authorities. This dependence restricts cyberspaces to malleable business logic that only the corporation can upgrade or scale, where user actions remain temporary event logs that cannot connect to their broader lives without corporate permission. Removal of this dependence, and thus requirement for escapism, would make cyberspaces enriching to reality rather than separate from it.
             </div>
       
             <div className="paragraph">
-            As shown in Figure 6, idealized mathematical objects operate as immutable laws that exist independently of authority. Users would collectively run, upgrade, and scale the resulting cyberspace themselves. Every user action would become a permanent, objectively verifiable record that permissionlessly connects with their broader lives.
+            As shown in Figure 6, idealized mathematical objects operate as immutable laws existing independently of authority. Users would collectively run, upgrade, and scale the resulting cyberspace themselves, with every action becoming a permanent, objectively verifiable record that permissionlessly connects with their broader lives. Cyberspaces would transition from escapist diversions to enriching expansions of reality.
             </div>
       
             <div style={{
@@ -405,25 +423,22 @@ const AcademicManifesto = () => {
               backgroundColor: "#f9f9f6"
             }}>
                 <SingleImage 
-                  title="Figure 6. A mathematical cyberspace as a robust foundation for investment."
+                  title="Figure 6. A mathematical cyberspace for a realist experience."
                   imageSrc="/images/cyberspace.svg"
-                  caption="Servers need administrative control, corporations have financial and legal constraints, and computation requires data visibility. Truly public or truly private computation is not possible. As a result, corporate servers can only implement malleable business logic. This malleability means digital symbols cannot objectively achieve the properties of physical matter - non-fungibility, scarcity, embodiment, and intrinsic value. Furthermore, only corporate servers can validate state and actions within a cyberspace - Twitter can assert your follower count, Bob cannot. As a result, only the corporate authority can implement upgrades or operate servers, and users cannot freely share data or exchange assets beyond the system's boundaries without the corporation's permission."
-                  captionTwo="(B) An idealized mathematical object operates as Digital Physics, man-made laws which are immutable, unbreakable, and contain unleakable secrets. They perform both truly public and truly private computation. This grants physical properties to digital symbols, and may culminate in creating Digital Matter itself - nonfungible, scarce, embodied, and intrinsically valuable within Digital Physics. 
+                  caption="Servers need administrative control, corporations have financial and legal constraints, and computation requires data visibility. Truly public or truly private computation is not possible. As a result, corporate servers can only implement malleable business logic. This malleability means digital symbols cannot objectively achieve the properties of physical matter: non-fungibility, scarcity, embodiment, and intrinsic value. Furthermore, only corporations can validate state and actions within a cyberspace - Twitter can assert your follower count, Bob cannot. As a result, only the corporation can implement upgrades or operate servers, and users cannot freely exchange data or assets beyond the system's boundaries without the corporation's permission."
+                  captionTwo="(B) An idealized mathematical object operates as Digital Physics, man-made laws which are immutable, unbreakable, and contain unleakable secrets. They perform both truly public and truly private computation. This grants physical properties to digital symbols, and may culminate in creating Digital Matter itself: nonfungible, scarce, embodied, and intrinsically valuable within Digital Physics. 
                   (C) (D) Digital Physics and Matter create credibly neutral rules and systems of value inside of which user actions become permanent, objectively verifiable records that permissionlessly connect to their broader lives.
-                  For example, users within the cyberspace can: configure a door to a building to only open for top posters on a subreddit, or secure a real money loan using a chest filled with Emerald Ore configured as collateral.
-                  (A) Beyond participation, user can even contribute resources and propose upgrades to the cyberspace itself."
+                  For example, users within the cyberspace can: configure a building door to only open for top posters on a subreddit, or secure a real loan using an emerald ore chest as collateral.
+                  (A) Beyond participation, users can even contribute resources and propose upgrades to the cyberspace itself."
                 />
             </div>
       
             <div className="paragraph">
-            As societies emerge in the cyberspace and connect to users' broader lives, Digital Matter - required for all user actions - accrues value. This incentivizes users with stakes in the emergent societies to contribute resources and implement upgrades. Through these collective improvements, the mathematical object defining the cyberspace evolves towards its idealized endstate with the complexity and objectivity of an entire universe.
+            As societies emerge in a mathematical cyberspace and enrich users' broader lives, Digital Matter - required for all user actions - accrues value. This value incentivizes stakeholders to contribute computational resources and implement upgrades. Through these collective improvements, the mathematical cyberspace evolves towards its idealized endstate of manifesting an entire universe. One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit.
             </div>
       
-            <div className="paragraph">
-            Ultimately, the transition from dissolvable fictions to idealized mathematical objects may culminate in manifesting the other possible universes - mathematically robust, sensorially equivalent, and infinitely customizable - based on their capacity to support and enrich our experience.
-            </div>
       
-            <div className="footer">
+            {/* <div className="footer">
               Join 
               {' '}
               <a 
@@ -435,7 +450,7 @@ const AcademicManifesto = () => {
               </a>
               {' '}
                for further discussion.
-            </div>
+            </div> */}
           </div>
         </div>
       );
