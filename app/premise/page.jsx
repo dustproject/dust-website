@@ -310,8 +310,6 @@ const AcademicManifesto = () => {
               </a> (Robin Hanson, Hans Moravec, Greg Egan).
             </div>
 
-
-
             <div className="abstractBox">
               <div className="abstractHeading">Abstract</div>
               <div className="abstractText">
