@@ -384,14 +384,11 @@ const AcademicManifesto = () => {
       
             <div className="paragraph">
             Mathematical objects exist abstractly, so we represent them symbolically. Written language enabled static symbolic representation, and electrical encoding advanced it into dynamic symbolic representation.
+            Through the development of networked computing to harness this advancement, communication evolved from static text letters to the dynamic multimedia web of today, growing shared fictions into the size of entire cyberspaces in the process.
             </div>
       
             <div className="paragraph">
-            Through this advancement, communication reached its idealized endstate. Networked computing evolved communication from static text letters to the dynamic multimedia web of today, growing shared fictions into the size of entire cyberspaces.
-            </div>
-      
-            <div className="paragraph">
-            Cryptographic techniques, as shown in Figure 5, applied to networked computing are now similarly evolving mathematical objects from their static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale
+            Cryptographic techniques, as shown in Figure 5, applied to networked computing are now similarly evolving mathematical objects from static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale
             <sup><a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link" target="_blank" rel="noopener noreferrer">5</a></sup>.
             </div>
       
