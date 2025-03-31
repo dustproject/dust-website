@@ -28,7 +28,7 @@ export default function Navbar() {
           <Link href="/economics" className={`nav-link ${isActive("/economics") ? "active" : ""}`}>
             Economics
           </Link>
-          <Link href="/projects" className={`nav-link ${isActive("/products") ? "active" : ""}`}>
+          <Link href="/products" className={`nav-link ${isActive("/products") ? "active" : ""}`}>
             Products
           </Link>
           <Link href="/projects" className={`nav-link ${isActive("/projects") ? "active" : ""}`}>
