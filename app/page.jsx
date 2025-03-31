@@ -79,7 +79,7 @@ export default function Page() {
     <div className='homepage-container'>
       <div>
         <div className='subtitle' style={{paddingBottom: "40px"}}>
-          Dust is a coalition.
+        The Dust Project is a proposed coalition to <strong>manifest objectively real universes that are enriching for humans to inhabit rather than escapist</strong>. This needs diverse contributions beyond any single entity's capabilities, and provides contributors with substantial, otherwise unattainable, benefits.
         </div>
         <div>
           <TrackSection track={exampleTrack} />
