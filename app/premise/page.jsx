@@ -267,23 +267,23 @@ const AcademicManifesto = () => {
             <div className='authorInfo'>
               Written by Zuse. Foundational ideas from
               {" "}
-              <a href="https://drive.google.com/drive/folders/1xXQ_krIM8D1Py06xC9PWZ7fvg6fqTEEm?usp=drive_link"
+              <a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Mathematical Philosophy
-              </a> (Max Tegmark, Eugene Wigner, David Lewis),
-              {" "}
-              <a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link"
-                target="_blank"
-                rel="noopener noreferrer">
-                Programmable Cryptography
-              </a> (Ludens, Gubsheep, Nick Szabo, Timothy May, Josh Stark),
+                Generative Anthropology
+              </a> (Eric Gans, Peter Thiel, Venkatesh Rao),
               {" "}
               <a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
                 Escapism Critique
-              </a> (Guy Debord, Jean Baudrillard, Neil Postman),
+              </a> (Guy Debord, Jean Baudrillard, Neil Postman, Byung Chul Han),
+              {" "}
+              <a href="https://drive.google.com/drive/folders/1xXQ_krIM8D1Py06xC9PWZ7fvg6fqTEEm?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Mathematical Philosophy
+              </a> (Max Tegmark, Eugene Wigner, David Lewis),
               {" "}
               <a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link"
                 target="_blank"
@@ -291,17 +291,23 @@ const AcademicManifesto = () => {
                 Simulation Theory
               </a> (David Chalmers, Nick Bostrom),
               {" "}
-              <a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link"
+              <a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Generative Anthropology
-              </a> (Eric Gans, Peter Thiel, Venkatesh Rao), and
+                Programmable Cryptography
+              </a> (Gubsheep, Nick Szabo, Timothy May),
+              {" "}
+              <a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Cryptoeconomic Commons
+              </a> (Ludens, Vitalik Buterin, Josh Stark), and
               {" "}
               <a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
                 Substrate Independence Futurism
-              </a> (Max Hodak, Robin Hanson, Hans Moravec, Greg Egan).
+              </a> (Robin Hanson, Hans Moravec, Greg Egan).
             </div>
 
 
@@ -309,7 +315,7 @@ const AcademicManifesto = () => {
             <div className="abstractBox">
               <div className="abstractHeading">Abstract</div>
               <div className="abstractText">
-                With progressing information technology, humans increasingly escape into shared fictions that, unlike physical reality, depend on belief to exist. Idealized mathematical objects, if achieved through cryptographic techniques, offer an alternative due to their objective independent existence. These objects would autonomously self-operate, maintain their own secrets, and grow unbounded in complexity. They may transform shared fictions into objectively real universes that are enriching for humans to inhabit rather than escapist.
+                With progressing information technology, humans increasingly escape into shared fictions that, unlike physical reality, depend on belief to exist. Idealized mathematical objects, if achieved through cryptographic techniques, offer an alternative due to their objective independent existence. These objects would autonomously-operate, maintain their own secrets, and grow unbounded in complexity. They may transform shared fictions into objectively real universes that are enriching for humans to inhabit rather than escapist.
               </div>
             </div>
       
@@ -323,7 +329,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Unlike immutable physical laws, shared fictions are customizable to our choosing. As shown in Figures 1 and 2, as information technologies have expanded our capacity to construct shared fictions, we have increasingly escaped the "state of nature" to inhabit them instead.
+            Unlike immutable physical laws, shared fictions are customizable to our choosing. As shown in Figures 1 and 2, as information technologies have expanded our capacity to construct shared fictions, we have increasingly escaped the "state of nature" to inhabit them.
             </div>
       
             <div className="paragraph">
@@ -428,7 +434,7 @@ const AcademicManifesto = () => {
                   caption="Servers need administrative control, corporations have financial and legal constraints, and computation requires data visibility. Truly public or truly private computation is not possible. As a result, corporate servers can only implement malleable business logic. This malleability means digital symbols cannot objectively achieve the properties of physical matter: non-fungibility, scarcity, embodiment, and intrinsic value. Furthermore, only corporations can validate state and actions within a cyberspace - Twitter can assert your follower count, Bob cannot. As a result, only the corporation can implement upgrades or operate servers, and users cannot freely exchange data or assets beyond the system's boundaries without the corporation's permission."
                   captionTwo="(B) An idealized mathematical object operates as Digital Physics, man-made laws which are immutable, unbreakable, and contain unleakable secrets. They perform both truly public and truly private computation. This grants physical properties to digital symbols, and may culminate in creating Digital Matter itself: nonfungible, scarce, embodied, and intrinsically valuable within Digital Physics. 
                   (C) (D) Digital Physics and Matter create credibly neutral rules and systems of value inside of which user actions become permanent, objectively verifiable records that permissionlessly connect to their broader lives.
-                  For example, users within the cyberspace can: configure a building door to only open for top posters on a subreddit, or secure a real loan using an emerald ore chest as collateral.
+                  For example, users within the cyberspace can: configure a building door to only open for proof-holders of posting on a subreddit, or secure a real loan using an emerald ore chest as collateral.
                   (A) Beyond participation, users can even contribute resources and propose upgrades to the cyberspace itself."
                 />
             </div>

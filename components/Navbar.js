@@ -28,10 +28,13 @@ export default function Navbar() {
           <Link href="/economics" className={`nav-link ${isActive("/economics") ? "active" : ""}`}>
             Economics
           </Link>
+          <Link href="/projects" className={`nav-link ${isActive("/products") ? "active" : ""}`}>
+            Products
+          </Link>
           <Link href="/projects" className={`nav-link ${isActive("/projects") ? "active" : ""}`}>
             Projects
           </Link>
-          <Link href="https://everlon.xyz/">
+          <Link href="https://www.alpha.dustproject.org/">
             <div className="buttonContainerStyle">
               <div className="buttonInnerStyle">ENTER</div>
             </div>
