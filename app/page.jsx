@@ -67,7 +67,7 @@ const TrackComponent = ({
 
       <div className="paragraph">{description}</div>
 
-      <div className="subheading">Contributors</div>
+      <div className="subheading">Current Contributions</div>
 
       {contributors && contributors.length > 0 ? (
           <div className="contributorsList">
@@ -80,10 +80,10 @@ const TrackComponent = ({
         ) : (
           <p><em>Founding contributors sought for this track.</em></p>
         )}
-            
 
-      
-      {/* Alignments Section */}
+      <div className="subheading">Alignments</div>
+
+            
       <div className="alignmentsSection">
         <h3>Alignments</h3>
         <div className="alignmentsList">

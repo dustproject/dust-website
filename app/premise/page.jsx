@@ -270,43 +270,43 @@ const AcademicManifesto = () => {
               <a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Generative Anthropology
+                Generative Anthropology<sup>1</sup>
               </a> (Eric Gans, Peter Thiel, Venkatesh Rao),
               {" "}
               <a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Escapism Critique
+                Escapism Critique<sup>2</sup>
               </a> (Guy Debord, Jean Baudrillard, Neil Postman, Byung Chul Han),
               {" "}
               <a href="https://drive.google.com/drive/folders/1xXQ_krIM8D1Py06xC9PWZ7fvg6fqTEEm?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Mathematical Philosophy
+                Mathematical Philosophy<sup>3</sup>
               </a> (Max Tegmark, Eugene Wigner, David Lewis),
               {" "}
               <a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Simulation Theory
+                Simulation Theory<sup>4</sup>
               </a> (David Chalmers, Nick Bostrom),
               {" "}
               <a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Programmable Cryptography
+                Programmable Cryptography<sup>5</sup>
               </a> (Gubsheep, Nick Szabo, Timothy May),
               {" "}
               <a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Cryptoeconomic Commons
+                Cryptoeconomic Commons<sup>6</sup>
               </a> (Ludens, Vitalik Buterin, Josh Stark), and
               {" "}
               <a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Substrate Independence Futurism
+                Substrate Independence Futurism<sup>7</sup>
               </a> (Robin Hanson, Hans Moravec, Greg Egan).
             </div>
 
@@ -329,7 +329,8 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Unlike immutable physical laws, shared fictions are customizable to our choosing. As shown in Figures 1 and 2, as information technologies have expanded our capacity to construct shared fictions, we have increasingly escaped the "state of nature" to inhabit them.
+            Unlike immutable physical laws, shared fictions are customizable to our choosing. As shown in Figures 1 and 2, as information technologies have expanded our capacity to construct shared fictions, we have increasingly escaped the "state of nature" to inhabit them
+            <sup><a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link" target="_blank" rel="noopener noreferrer">1</a></sup>.
             </div>
       
             <div className="paragraph">
@@ -349,7 +350,8 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Shared fictions will become increasingly sophisticated - generative simulations connected to our sensorium with AI and BCI technologies. However, they will always require escapism to inhabit because they depend on belief to exist and are never unanimously accepted like physical reality. As a result of the escapism, fictions remain dissolvable, risky to invest in, and fundamentally separate from reality.
+            Shared fictions will become increasingly sophisticated - generative simulations connected to our sensorium with AI and BCI technologies. However, they will always require escapism to inhabit because they depend on belief to exist and are never unanimously accepted like physical reality. As a result of the escapism, fictions remain dissolvable, risky to invest in, and fundamentally separate from reality
+            <sup><a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link" target="_blank" rel="noopener noreferrer">2</a></sup>.
             </div>
       
             <SectionHeading 
@@ -358,7 +360,9 @@ const AcademicManifesto = () => {
             />
       
             <div className="paragraph">
-            Mathematical platonism offers a solution. It asserts that mathematical objects exist objectively and independently of belief; this allows them to achieve unanimous acceptance on par with physical reality. As shown in Figure 4, these objects have long been used to represent physical reality and successfully act within it, often when shared fictions failed.
+            Mathematical platonism offers a solution. It asserts that mathematical objects exist objectively and independently of belief; this allows them to achieve unanimous acceptance on par with physical reality
+            <sup><a href="https://drive.google.com/drive/folders/1xXQ_krIM8D1Py06xC9PWZ7fvg6fqTEEm?usp=drive_link" target="_blank" rel="noopener noreferrer">3</a></sup>
+            . As shown in Figure 4, these objects have long been used to represent physical reality and successfully act within it, often when shared fictions failed.
             </div>
     
             <div className="imagePlaceholder">
@@ -370,7 +374,9 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Mathematics has shown 'unreasonable effectiveness' in both representing and manifesting new aspects of reality. Taking this to its logical conclusion reveals a profound implication: all mathematically-consistent universes may objectively exist, with our physical spacetime merely being the particular structure we currently observe. We may eventually manifest the rest, and safely inhabit the ones of our choosing without requiring escapism. However, the mathematical objects we can currently represent are too primitive for such complexity and scale.
+            Mathematics has shown 'unreasonable effectiveness' in both representing and manifesting new aspects of reality. Taking this to its logical conclusion reveals a profound implication: all mathematically-consistent universes may objectively exist, with our physical spacetime merely being the particular structure we currently observe. We may eventually manifest the rest, and safely inhabit the ones of our choosing without requiring escapism
+            <sup><a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link" target="_blank" rel="noopener noreferrer">4</a></sup>
+            . However, the mathematical objects we can currently represent are too primitive for such complexity and scale.
             </div>
       
             <SectionHeading 
@@ -387,7 +393,8 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Cryptographic techniques, as shown in Figure 5, applied to networked computing are now similarly evolving mathematical objects from their static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale.      
+            Cryptographic techniques, as shown in Figure 5, applied to networked computing are now similarly evolving mathematical objects from their static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale
+            <sup><a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link" target="_blank" rel="noopener noreferrer">5</a></sup>.
             </div>
       
             <div style={{
@@ -440,7 +447,10 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            As societies emerge in a mathematical cyberspace and enrich users' broader lives, Digital Matter - required for all user actions - accrues value. This value incentivizes stakeholders to contribute computational resources and implement upgrades. Through these collective improvements, the mathematical cyberspace evolves towards its idealized endstate of manifesting an entire universe. One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit.
+            As societies emerge in a mathematical cyberspace and enrich users' broader lives, Digital Matter - required for all user actions - accrues value. This value incentivizes stakeholders to contribute computational resources and implement upgrades. Through these collective improvements, the mathematical cyberspace evolves towards its idealized endstate of manifesting an entire universe
+            <sup><a href="https://drive.google.com/drive/folders/1Vn5i9m3VbVKlO8BuRO10OUf_sSzWVqzB?usp=drive_link" target="_blank" rel="noopener noreferrer">6</a></sup>
+            . One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit
+            <sup><a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link" target="_blank" rel="noopener noreferrer">7</a></sup>.
             </div>
       
       
