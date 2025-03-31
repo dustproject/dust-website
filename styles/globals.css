@@ -628,3 +628,69 @@ transition: all 0.3s ease;
   margin: 0 auto;
   padding: clamp(1rem, 5vw, 2.5rem) clamp(0.75rem, 2vw, 1.25rem);
 }
+
+/* Track Section Styles */
+.track-header {
+  background-color: #000828;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.table-container {
+  border: 1px solid #ddd;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  border-bottom: 1px solid #ddd;
+}
+
+.key-works-row {
+  background-color: #f9f9f6;
+  border-bottom: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.key-works-label {
+  padding: 0.75rem;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.05em;
+  border-right: 1px solid #ddd;
+}
+
+.key-works-list {
+  padding: 0.75rem;
+  max-height: 128px;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.key-work-item {
+  display: flex;
+}
+
+.contribute-link {
+  color: #ddd;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.table-header-cell-last {
+  border-right: none;
+}

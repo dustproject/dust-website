@@ -33,89 +33,36 @@ const exampleTrack = {
 const TrackSection = ({ track }) => {
   const { title, categories } = track;
 
-  // Define styles as objects
-  const styles = {
-    trackHeader: {
-      backgroundColor: '#000828',
-      color: 'white',
-      padding: "1rem",
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      borderTop: '1px solid black',
-      borderLeft: '1px solid black',
-      borderRight: '1px solid black'
-    },
-    tableContainer: {
-      border: '1px solid #ddd'
-    },
-    tableHeader: {
-      display: 'grid',
-      gridTemplateColumns: '1fr 2fr 2fr',
-      borderBottom: '1px solid #ddd'
-    },
-    row: {
-      display: 'grid',
-      gridTemplateColumns: '1fr 2fr 2fr',
-      borderBottom: '1px solid #ddd'
-    },
-    keyWorksRow: {
-      backgroundColor: '#f9f9f6',
-      borderBottom: '1px solid #ddd',
-      display: 'grid',
-      gridTemplateColumns: '1fr 4fr',
-    },
-    keyWorksLabel: {
-      padding: '0.75rem',
-      fontWeight: 'bold',
-      fontSize: '12px',
-      color: 'rgba(0, 0, 0, 0.5)',
-      letterSpacing: '0.05em',
-      borderRight: '1px solid #ddd',
-    },
-    keyWorksList: {
-      padding: '0.75rem',
-      maxHeight: '128px',
-      overflowY: 'auto',
-      backgroundColor: 'white',
-    },
-    keyWorkItem: {
-      display: 'flex',
-    }
-  };
-
   return (
     <div>
-      <div style={styles.trackHeader}>
-        <div className='columnHeading'>{title}</div>
-        <Link href="/premise" style={{color: "#ddd", textDecoration: "none", letterSpacing: "0.1rem"}}>
+      <div className="track-header">
+        <div className="columnHeading">{title}</div>
+        <Link href="/premise" className="contribute-link">
           CONTRIBUTE →
         </Link>
       </div>
 
-      <div style={styles.tableContainer}>
-        <div style={styles.tableHeader}>
-          <div className='tableHeaderCell'>CATEGORY</div>
-          <div className='tableHeaderCell'>CONTRIBUTIONS NEEDED</div>
-          <div  className='tableHeaderCell' style={{borderRight: 'none' }}>BENEFITS PROVIDED</div>
+      <div className="table-container">
+        <div className="table-header">
+          <div className="tableHeaderCell">CATEGORY</div>
+          <div className="tableHeaderCell">CONTRIBUTIONS NEEDED</div>
+          <div className="tableHeaderCell table-header-cell-last">BENEFITS PROVIDED</div>
         </div>
 
         {categories.map((category, index) => (
           <React.Fragment key={index}>
-            <div style={{
-              ...styles.row
-            }}>
-              <div className='tableCellTitle'>{category.title}</div>
-              <div className='tableCell'>{category.ourBenefit}</div>
-              <div className='tableCell'>{category.theirBenefit}</div>
+            <div className="table-row">
+              <div className="tableCellTitle">{category.title}</div>
+              <div className="tableCell">{category.ourBenefit}</div>
+              <div className="tableCell">{category.theirBenefit}</div>
             </div>
             
-            <div style={styles.keyWorksRow}>
-              <div style={styles.keyWorksLabel}>ALIGNED INITIATIVES</div>
-              <div style={styles.keyWorksList}>
+            <div className="key-works-row">
+              <div className="key-works-label">ALIGNED INITIATIVES</div>
+              <div className="key-works-list">
                 {category.keyWorks.map((work, workIndex) => (
-                  <div key={workIndex} style={styles.keyWorkItem}>
-                    <li className='abstractText'>{work}</li>
+                  <div key={workIndex} className="key-work-item">
+                    <li className="abstractText">{work}</li>
                   </div>
                 ))}
               </div>
