@@ -78,10 +78,29 @@ export default function Page() {
   return (
     <div className='homepage-container'>
       <div>
-        <div className='subtitle' style={{paddingBottom: "40px"}}>
-        The Dust Project is a proposed coalition to <strong>manifest objectively real universes that are enriching for humans to inhabit rather than escapist</strong>. This needs diverse contributions beyond any single entity's capabilities, and provides contributors with substantial, otherwise unattainable, benefits.
+        <div className='subtitle'>
+          The Dust Project is a proposed coalition for <strong>ending escapism by manifesting real universes that are enriching for humans to inhabit</strong>.
+          This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors that would otherwise be unattainable.
+          The coalition consists of five key efforts, each suited for various types of contributors:
         </div>
-        <div>
+        <ul className='subtitle' style={{marginTop: "12px", marginBottom: "0", lineHeight: "150%"}}>
+          <li>
+            <strong>Premise:</strong> hiii
+          </li>
+          <li>
+            <strong>Research:</strong> hiii
+          </li>
+          <li>
+            <strong>Economics:</strong> hiii
+          </li>
+          <li>
+            <strong>Products:</strong> hiii
+          </li>
+          <li>
+            <strong>Projects:</strong> hiii
+          </li>
+        </ul>
+        <div style={{paddingTop: "24px"}}>
           <TrackSection track={exampleTrack} />
         </div>
       </div>
