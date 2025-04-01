@@ -383,8 +383,8 @@ const AcademicManifesto = () => {
             />
       
             <div className="paragraph">
-            Mathematical objects exist abstractly, so we represent them symbolically. Written language enabled static symbolic representation, and electrical encoding advanced it into dynamic symbolic representation.
-            Through the development of networked computing to harness this advancement, communication evolved from static text letters to the dynamic multimedia web of today, growing shared fictions into the size of entire cyberspaces in the process.
+            Mathematical objects exist abstractly, so we represent them symbolically. Written language enabled static symbolic representation, and electrical encoding advanced it into dynamic symbolic manipulation.
+            By harnessing this advancement using networked computing, communication evolved from static text letters to the dynamic multimedia web of today, growing shared fictions into the size of entire cyberspaces in the process.
             </div>
       
             <div className="paragraph">

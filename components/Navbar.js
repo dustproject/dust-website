@@ -34,7 +34,7 @@ export default function Navbar() {
           <Link href="/projects" className={`nav-link ${isActive("/projects") ? "active" : ""}`}>
             Projects
           </Link>
-          <Link href="https://www.alpha.dustproject.org/">
+          <Link href="https://alpha.dustproject.org/">
             <div className="buttonContainerStyle">
               <div className="buttonInnerStyle">ENTER</div>
             </div>

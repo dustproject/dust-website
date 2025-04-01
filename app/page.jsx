@@ -45,8 +45,8 @@ const TrackSection = ({ track }) => {
       <div className="table-container">
         <div className="table-header">
           <div className="tableHeaderCell">CATEGORY</div>
-          <div className="tableHeaderCell">CONTRIBUTIONS NEEDED</div>
-          <div className="tableHeaderCell table-header-cell-last">BENEFITS PROVIDED</div>
+          <div className="tableHeaderCell">CONTRIBUTIONS REQUIRED</div>
+          <div className="tableHeaderCell table-header-cell-last">BENEFITS OFFERED</div>
         </div>
 
         {categories.map((category, index) => (
@@ -79,25 +79,31 @@ export default function Page() {
     <div className='homepage-container'>
       <div>
         <div className='subtitle'>
-          The Dust Project is a proposed coalition for <strong>ending escapism by manifesting real universes that are enriching for humans to inhabit</strong>.
-          This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors that would otherwise be unattainable.
-          The coalition consists of five key efforts, each suited for various types of contributors:
+          The Dust Project is a proposed coalition for <strong>manifesting objectively real universes to end human escapism</strong>.
+          This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors that are otherwise unattainable.
+          The coalition consists of five key efforts, each suited for different kinds of contributors:
         </div>
         <ul className='subtitle' style={{marginTop: "12px", marginBottom: "0", lineHeight: "150%"}}>
           <li>
-            <strong>Premise:</strong> hiii
+            <strong>Premise:</strong>
+            {" "}
+            Conduct public discourse, debate, and analyses on the rise of human escapism and the potential of idealized mathematical objects to offer a return to realism. 
           </li>
-          <li>
-            <strong>Research:</strong> hiii
+          <li style={{marginTop: "8px"}}>
+            <strong>Research:</strong>
+            {" "}
+            Develop the idealized mathematical object, autonomously-operating immutable laws with objective independent existence, defining the universe's physics.
           </li>
-          <li>
-            <strong>Economics:</strong> hiii
+          <li style={{marginTop: "8px"}}>
+            <strong>Economics:</strong> Establish the universe's matter as a new system of value that grows in demand with population, since all actions within the universe require it. Design fair incentives using it for resources and upgrades the mathematical object requires.
           </li>
-          <li>
-            <strong>Products:</strong> hiii
+          <li style={{marginTop: "8px"}}>
+            <strong>Products:</strong> 
+            {" "}
+            Build commercial products for consumers to inhabit the universe, and tools to permissionlessly connect their actions inside of it with their broader lives.
           </li>
-          <li>
-            <strong>Projects:</strong> hiii
+          <li style={{marginTop: "8px"}}>
+            <strong>Projects:</strong> Create societies and lifeforms inside the universe that are connected to our broader lives.
           </li>
         </ul>
         <div style={{paddingTop: "24px"}}>
