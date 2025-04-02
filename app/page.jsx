@@ -2,29 +2,129 @@ import React from 'react';
 import "/styles/globals.css";
 import Link from "next/link";
 
-const exampleTrack = {
+const projectsTrack = {
   title: "Projects",
   categories: [
     {
-      title: "World Builders",
-      theirBenefit: "Opportunity to create novel autonomous worlds with unique properties; access to cutting-edge tools and frameworks; collaboration with interdisciplinary teams spanning theory and implementation in a pioneering field.",
-      ourBenefit: "Design and implementation of specific autonomous worlds; development of use cases that demonstrate key theoretical properties; creation of accessible examples showcasing our vision and its practical applications.",
+      title: "MMO Player Groups",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
       keyWorks: [
-        "Autonomous Digital Ecosystems",
-        "Self-Evolving Game Worlds",
-        "Cryptographic Art Systems",
-        "Decentralized Narrative Frameworks"
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
       ]
     },
     {
-      title: "Domain Specialists",
-      theirBenefit: "Opportunity to apply domain expertise to novel computational contexts; collaborate with technical teams to translate domain knowledge into autonomous worlds; pioneer new approaches in your field with mathematical guarantees.",
-      ourBenefit: "Domain-specific knowledge and requirements; validation of autonomous world applications in specific contexts; expertise ensuring projects address meaningful problems and create valuable experiences and interactions.",
+      title: "Smart Contract Coordination",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
       keyWorks: [
-        "Scientific Simulation Environments",
-        "Creative Arts Platforms",
-        "Financial Systems",
-        "Governance Experiments"
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "Embodied dApps",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+  ]
+};
+
+const researchTrack = {
+  title: "Research",
+  categories: [
+    {
+      title: "Applied Cryptography",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "World Models",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "Numerical Simulation",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "Sandbox Design",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    }
+  ]
+};
+
+const economicsTrack = {
+  title: "Economics",
+  categories: [
+    {
+      title: "Thermoeconomics",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "Cryptoeconomic Commons",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "Digital Value Advocacy",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
       ]
     }
   ]
@@ -37,7 +137,7 @@ const TrackSection = ({ track }) => {
     <div>
       <div className="track-header">
         <div className="columnHeading">{title}</div>
-        <Link href="/premise" className="contribute-link">
+        <Link href={`/${title.toLowerCase()}`}  className="contribute-link">
           CONTRIBUTE →
         </Link>
       </div>
@@ -80,7 +180,7 @@ export default function Page() {
       <div>
         <div className='subtitle'>
           The Dust Project is a proposed coalition for <strong>manifesting objectively real universes to end human escapism</strong>.
-          This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors that are otherwise unattainable.
+          This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors in return.
           The coalition consists of five key efforts, each suited for different kinds of contributors:
         </div>
         <ul className='subtitle' style={{marginTop: "12px", marginBottom: "0", lineHeight: "150%"}}>
@@ -92,22 +192,25 @@ export default function Page() {
           <li style={{marginTop: "8px"}}>
             <strong>Research:</strong>
             {" "}
-            Develop the idealized mathematical object, autonomously-operating immutable laws with objective independent existence, defining the universe's physics.
+            Develop the idealized mathematical object - autonomously operating laws with objective independent existence - defining the universe's physics.
           </li>
           <li style={{marginTop: "8px"}}>
-            <strong>Economics:</strong> Establish the universe's matter as a new system of value that grows in demand with population, since all actions within the universe require it. Design fair incentives using it for resources and upgrades the mathematical object requires.
+            <strong>Economics:</strong> Establish the universe's matter as a new system of value, which grows in demand with the universe's population. 
+            Use this value-accruing matter to design open incentives for the advancement of the mathematical object.
           </li>
           <li style={{marginTop: "8px"}}>
             <strong>Products:</strong> 
             {" "}
-            Build commercial products for consumers to inhabit the universe, and tools to permissionlessly connect their actions inside of it with their broader lives.
+            Build commercial products for consumers to inhabit the universe, and tools they can use to grow societies inside.
           </li>
           <li style={{marginTop: "8px"}}>
-            <strong>Projects:</strong> Create societies and lifeforms inside the universe that are connected to our broader lives.
+            <strong>Projects:</strong> Grow societies within the universe that outlive their creators and freely connect to our broader lives.
           </li>
         </ul>
-        <div style={{paddingTop: "24px"}}>
-          <TrackSection track={exampleTrack} />
+        <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
+          <TrackSection track={researchTrack} />
+          <TrackSection track={economicsTrack} />
+          <TrackSection track={projectsTrack} />
         </div>
       </div>
     </div>

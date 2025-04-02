@@ -168,7 +168,8 @@ const SingleImage = ({
   caption = "Default caption",
   captionTwo = null,
   href = null,
-  linkText = "Read more"
+  linkText = "Read more",
+  maxWidth = "50%"
 }) => {
   const isMobileWidth = typeof window !== 'undefined' && window.matchMedia("(max-width: 768px)").matches;
   
@@ -177,7 +178,7 @@ const SingleImage = ({
       <div 
         className="figuretitle"
         style={{ 
-          width: '90%',
+          width: '95%',
           display: 'block',
           textAlign: 'left',
         }}>
@@ -185,7 +186,7 @@ const SingleImage = ({
       </div>
   
       <div style={{ 
-        width: isMobileWidth ? '100%' : '50%',
+        width: isMobileWidth ? '100%' : maxWidth,
         margin: '0 auto',
         textAlign: 'center'
       }}>
@@ -203,7 +204,7 @@ const SingleImage = ({
       <div 
         className="captionText"
         style={{ 
-          width: '90%',
+          width: '95%',
           display: 'block',
           textAlign: 'left',
           marginTop: '10px',
@@ -265,7 +266,7 @@ const AcademicManifesto = () => {
 
 
             <div className='authorInfo'>
-              Written by Zuse. Foundational ideas from
+              Foundational ideas from
               {" "}
               <a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link"
                 target="_blank"
@@ -283,7 +284,7 @@ const AcademicManifesto = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 Mathematical Philosophy<sup>3</sup>
-              </a> (Max Tegmark, Eugene Wigner, David Lewis),
+              </a> (Max Tegmark, Roger Penrose, Eugene Wigner, David Lewis),
               {" "}
               <a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link"
                 target="_blank"
@@ -372,10 +373,30 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Mathematics has shown 'unreasonable effectiveness' in both representing and manifesting new aspects of reality. Taking this to its logical conclusion reveals a profound implication: all mathematically-consistent universes may objectively exist, with our physical spacetime merely being the particular structure we currently observe. We may eventually manifest the rest, and safely inhabit the ones of our choosing without requiring escapism
-            <sup><a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link" target="_blank" rel="noopener noreferrer">4</a></sup>
-            . However, the mathematical objects we can currently represent are too primitive for such complexity and scale.
+              Mathematics' "unreasonable effectiveness" in bridging the physical and mental worlds, as seen in Figure 5, both represents and manifests new aspects of reality.
+              Taking this to its logical conclusion reveals a profound implication: all mathematically-consistent universes may objectively exist, with our physical spacetime merely being the particular structure we currently observe. We may eventually manifest and truly inhabit, without any escapism, the ones of our choosing
+              <sup><a href="https://drive.google.com/drive/folders/165mHJ39s-WWyIhC0DA8FI97z68KpS0wb?usp=drive_link" target="_blank" rel="noopener noreferrer">4</a></sup>
+              . However, the mathematical objects we can currently represent are too primitive for such complexity and scale.
             </div>
+
+            <div style={{
+              width: "fit-content",
+              height: "fit-content",
+              marginTop: "1.5rem",
+              marginBottom: "2rem",
+              border: "1px solid #ddd",
+              backgroundColor: "#f9f9f6"
+            }}>
+              <SingleImage 
+                  title="Figure 5. The uninhabted platonic mathematical universe."
+                  imageSrc="/images/threeworlds.svg"
+                  caption="The objective physical world, the subjective mental world, and the Platonic mathematical world as a bridge between the two. Humanity has settled the physical world with industrial technology, and developed our mental world with information technology, but hasn't yet manifested the platonic mathematical world. Adapted from Roger Penrose's 2007 book, "
+                  href="https://www.amazon.com/gp/product/0679776311/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0679776311&linkCode=as2&tag=ribbonfarmcom-20&linkId=JUPGJZRFHS2ENNHC"
+                  linkText="The Road to Reality"
+                  maxWidth="35%"
+                />
+            </div>
+
       
             <SectionHeading 
               title="III. Idealized Mathematical Objects" 
@@ -388,7 +409,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Cryptographic techniques, as shown in Figure 5, applied to networked computing are now similarly evolving mathematical objects from static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to arbitrary complexity and scale
+            Cryptographic techniques, as shown in Figure 6, applied to networked computing are now similarly evolving mathematical objects from static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to unbounded complexity
             <sup><a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link" target="_blank" rel="noopener noreferrer">5</a></sup>.
             </div>
       
@@ -401,7 +422,7 @@ const AcademicManifesto = () => {
               backgroundColor: "#f9f9f6"
             }}>
               <SingleImage 
-                title="Figure 5. The cryptography development tree."
+                title="Figure 6. The cryptography development tree."
                 imageSrc="/images/cryptography.png"
                 caption="Fully-homomorphic encryption allows computation over a single source of private data without leaking the data or the output of the computation. Multi-party computation allows computation over multiple sources of private data without leaking the data but revealing the output of the computation. zkSNARKs prove correct execution of a computation on inputs kept private by the computer's owner. Witness encryption encrypts a message that can only be decrypted with a proof of a specific computation. Obfuscation allows a party to execute encrypted computation and produce correct outputs without seeing inputs or even the program. From gubsheep's 2024 essay, "
                 href="https://0xparc.org/blog/programmable-cryptography-1"
@@ -419,7 +440,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            As shown in Figure 6, idealized mathematical objects operate as immutable laws existing independently of authority. Users would collectively run, upgrade, and scale the resulting cyberspace themselves, with every action becoming a permanent, objectively verifiable record that permissionlessly connects with their broader lives
+            As shown in Figure 7, idealized mathematical objects operate as immutable laws existing independently of authority. Users would collectively run, upgrade, and scale the resulting cyberspace themselves, with every action becoming a permanent, objectively verifiable record that permissionlessly connects with their broader lives
             <sup><a href="https://drive.google.com/drive/folders/1DFpu3VzWIWiInuhke3_UcTIIAI_RtUN6?usp=drive_link" target="_blank" rel="noopener noreferrer">6</a></sup>
             . Cyberspaces would transition from escapist diversions to enriching expansions of reality.
             </div>
@@ -433,7 +454,7 @@ const AcademicManifesto = () => {
               backgroundColor: "#f9f9f6"
             }}>
                 <SingleImage 
-                  title="Figure 6. A mathematical cyberspace for a realist experience."
+                  title="Figure 7. A mathematical cyberspace for a realist experience."
                   imageSrc="/images/cyberspace.svg"
                   caption="Servers need administrative control, corporations have financial and legal constraints, and computation requires data visibility. Truly public or truly private computation is not possible. As a result, corporate servers can only implement malleable business logic. This malleability means digital symbols cannot objectively achieve the properties of physical matter: non-fungibility, scarcity, embodiment, and intrinsic value. Furthermore, only corporations can validate state and actions within a cyberspace - Twitter can assert your follower count, Bob cannot. As a result, only the corporation can implement upgrades or operate servers, and users cannot freely exchange data or assets beyond the system's boundaries without the corporation's permission."
                   captionTwo="(B) An idealized mathematical object operates as Digital Physics, man-made laws which are immutable, unbreakable, and contain unleakable secrets. They perform both truly public and truly private computation. This grants physical properties to digital symbols, and may culminate in creating Digital Matter itself: nonfungible, scarce, embodied, and intrinsically valuable within Digital Physics. 
