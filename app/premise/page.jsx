@@ -295,19 +295,13 @@ const AcademicManifesto = () => {
               <a href="https://drive.google.com/drive/folders/1bbDhb7SWNwlgPtgnnghKgZc-YKx6w4oH?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Programmable Cryptography<sup>5</sup>
-              </a> (Gubsheep, Nick Szabo, Timothy May),
-              {" "}
-              <a href="https://drive.google.com/drive/folders/1DFpu3VzWIWiInuhke3_UcTIIAI_RtUN6?usp=drive_link"
-                target="_blank"
-                rel="noopener noreferrer">
-                Cryptoeconomic Commons<sup>6</sup>
-              </a> (Ludens, Vitalik Buterin, Josh Stark), and
+                Cryptographic Automata<sup>5</sup>
+              </a> (Ludens, Gubsheep, Josh Stark, Nick Szabo, Timothy May), and
               {" "}
               <a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer">
-                Substrate Independence Futurism<sup>7</sup>
+                Substrate Independence Futurism<sup>6</sup>
               </a> (Robin Hanson, Hans Moravec, Greg Egan).
             </div>
 
@@ -440,9 +434,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            As shown in Figure 7, idealized mathematical objects operate as immutable laws existing independently of authority. Users would collectively run, upgrade, and scale the resulting cyberspace themselves, with every action becoming a permanent, objectively verifiable record that permissionlessly connects with their broader lives
-            <sup><a href="https://drive.google.com/drive/folders/1DFpu3VzWIWiInuhke3_UcTIIAI_RtUN6?usp=drive_link" target="_blank" rel="noopener noreferrer">6</a></sup>
-            . Cyberspaces would transition from escapist diversions to enriching expansions of reality.
+            As shown in Figure 7, idealized mathematical objects operate as immutable laws existing independently of authority. Users would collectively run, upgrade, and scale the resulting cyberspace themselves, with every action becoming a permanent, objectively verifiable record that permissionlessly connects with their broader lives. Cyberspaces would transition from escapist diversions to enriching expansions of reality.
             </div>
       
             <div style={{
@@ -466,7 +458,7 @@ const AcademicManifesto = () => {
       
             <div className="paragraph">
             As societies emerge in a mathematical cyberspace and enrich users' broader lives, Digital Matter - required for all user actions - accrues value. This value incentivizes stakeholders to contribute computational resources and implement upgrades. Through these collective improvements, the mathematical cyberspace evolves towards its idealized endstate of manifesting an entire universe. One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit
-            <sup><a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link" target="_blank" rel="noopener noreferrer">7</a></sup>.
+            <sup><a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link" target="_blank" rel="noopener noreferrer">6</a></sup>.
             </div>
       
       

@@ -17,7 +17,7 @@ const projectsTrack = {
       ]
     },
     {
-      title: "Smart Contract Coordination",
+      title: "Programmable Coordination",
       theirBenefit: "lorem ipsum.",
       ourBenefit: "lorem ipsum.",
       keyWorks: [
@@ -130,6 +130,62 @@ const economicsTrack = {
   ]
 };
 
+const productsTrack = {
+  title: "Products",
+  categories: [
+    {
+      title: "Web Apps",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "VR Apps",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    }
+  ]
+};
+
+const premiseTrack = {
+  title: "Premise",
+  categories: [
+    {
+      title: "Anthropology",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    },
+    {
+      title: "Metaphysics",
+      theirBenefit: "lorem ipsum.",
+      ourBenefit: "lorem ipsum.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ]
+    }
+  ]
+};
+
 const TrackSection = ({ track }) => {
   const { title, categories } = track;
 
@@ -179,7 +235,7 @@ export default function Page() {
     <div className='homepage-container'>
       <div>
         <div className='subtitle'>
-          The Dust Project is a proposed coalition for <strong>manifesting objectively real universes to end human escapism</strong>.
+          The Dust Project is a proposed coalition for <strong>manifesting objectively real universes that expand human life rather than provide escape from it</strong>.
           This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors in return.
           The coalition consists of five key efforts, each suited for different kinds of contributors:
         </div>
@@ -201,15 +257,17 @@ export default function Page() {
           <li style={{marginTop: "8px"}}>
             <strong>Products:</strong> 
             {" "}
-            Build commercial products for consumers to inhabit the universe, and tools they can use to grow societies inside.
+            Build commercial products that consumers can use to inhabit the universe and grow societies inside.
           </li>
           <li style={{marginTop: "8px"}}>
             <strong>Projects:</strong> Grow societies within the universe that outlive their creators and freely connect to our broader lives.
           </li>
         </ul>
         <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
+          <TrackSection track={premiseTrack} />
           <TrackSection track={researchTrack} />
           <TrackSection track={economicsTrack} />
+          <TrackSection track={productsTrack} />
           <TrackSection track={projectsTrack} />
         </div>
       </div>
