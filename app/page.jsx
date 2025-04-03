@@ -17,7 +17,7 @@ const projectsTrack = {
       ]
     },
     {
-      title: "Programmable Coordination",
+      title: "Future Coordination",
       theirBenefit: "lorem ipsum.",
       ourBenefit: "lorem ipsum.",
       keyWorks: [
