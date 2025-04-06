@@ -53,7 +53,7 @@ transition: all 0.3s ease;
     width: 100%;
     text-align: center;
     color: #F1E0CD;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 14px;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -347,7 +347,7 @@ transition: all 0.3s ease;
   
   .tableCell {
     padding: 0.75rem;
-    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
   }
 
   .tableCellTitle {
@@ -359,13 +359,14 @@ transition: all 0.3s ease;
   }
   
   .tableHeaderCell {
-    padding: 0.75rem;
-    color: rgba(0, 0, 0, 0.5);
-    background-color: #f9f9f6;
+    font-size: 18px;
     font-weight: bold;
-    border-right: 1px solid #ddd;
-    font-size: 10px;
+    padding: 0.75rem;
+    background-color: #f9f9f6;
     letter-spacing: 0.05em;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
   }
   
   .twoColumnLayout {
@@ -461,6 +462,16 @@ transition: all 0.3s ease;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     background-color: #f9f9f6;
+  }
+
+  .listBox {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    /* background-color: #f9f9f6; */
+    width: 90%;
+    justify-self: center;
   }
   
   .abstractHeading {
@@ -665,19 +676,16 @@ transition: all 0.3s ease;
 }
 
 .key-works-label {
-  padding: 0.75rem;
+  padding-bottom: 0.75rem;
   font-weight: bold;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0.05em;
-  border-right: 1px solid #ddd;
 }
 
 .key-works-list {
-  padding: 0.75rem;
   max-height: 128px;
   overflow-y: auto;
-  background-color: white;
 }
 
 .key-work-item {
@@ -696,4 +704,16 @@ transition: all 0.3s ease;
 
 .table-header-cell-last {
   border-right: none;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #000828;
+  border: 2px solid black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  margin-left: 8px;
+  vertical-align: middle;
 }

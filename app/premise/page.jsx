@@ -457,7 +457,9 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            As societies emerge in a mathematical cyberspace and enrich users' broader lives, Digital Matter - required for all user actions - accrues value. This value incentivizes stakeholders to contribute computational resources and implement upgrades. Through these collective improvements, the mathematical cyberspace evolves towards its idealized endstate of manifesting an entire universe. One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit
+            As societies emerge in a mathematical cyberspace and enrich users' broader lives, Digital Matter - required for all user actions - accrues value.
+            This incentivizes collective improvements from stakeholders to advance the mathematical cyberspace towards its idealized endstate of manifesting an entire universe.
+             One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit
             <sup><a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link" target="_blank" rel="noopener noreferrer">6</a></sup>.
             </div>
       
