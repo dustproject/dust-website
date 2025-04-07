@@ -7,7 +7,7 @@ const projectsTrack = {
   categories: [
     {
       title: "Player-Run Organizations",
-      ourBenefit: "In traditional virtual worlds, player-run organizations cannot surpass the studio's influence, regardless of their investment of time, money, and expertise. In an independently existing universe, no such ceilings exist - player organizations can even advance the universe themselves to suit their goals. Their every action becomes a permanent store of their effort, lasting as long as stone carvings, that freely connects with their broader lives.",
+      ourBenefit: "In traditional virtual worlds, player-run organizations cannot surpass the studio's influence, regardless of how much time, money, and expertise they invest. In an independently existing universe, no such ceilings exist - player organizations can even advance the universe themselves to suit their goals. Their actions become a permanent store of their effort, lasting as long as stone carvings, that freely connect with their broader lives. Player organizations become real organizations.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -18,8 +18,7 @@ const projectsTrack = {
     },
     {
       title: "Composable dApps",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Traditional dApps foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened with a token,\" and an \"RWA\" becomes an \"asset backed by a protected digital matter reserve.\"",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -30,8 +29,7 @@ const projectsTrack = {
     },
     {
       title: "Coordination Experiments",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Social contracts governing coordination are limited in their granularity and complexity because they require manual enforcement by trusted authorities and cannot  verify physical actions. Algorithmic social contracts, enforced by smart contracts, can achieve unbounded granularity and complexity when operating within a verifiable virtual environment.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -42,8 +40,7 @@ const projectsTrack = {
     },
     {
       title: "Artificial Life",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Artificial life experiments aim to create virtual lifeforms that self-organize, adapt, and evolve. By birthing such lifeforms inside an independently existing universe, they gain sovereign existence, trading the products of their labor for memory space and computing cycles, growing or shrinking accordingly.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -59,13 +56,13 @@ const researchTrack = {
   categories: [
     {
       title: "Applied Cryptography",
-      ourBenefit: "Retrofitting new cryptography into existing social systems requires stakeholder permission. On the other hand, an objective and independently existing universe cannot exist without cryptography and critically depends on advancements in autonomous encrypted compute.",
+      ourBenefit: "Retrofitting new cryptography into existing social systems requires stakeholder permission. On the other hand, an objective and independently existing universe cannot exist without cryptography and critically depends on applying advancements in autonomous encrypted compute.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
-      ]
+      ] 
     },
     {
       title: "Sandbox Design",
@@ -75,8 +72,7 @@ const researchTrack = {
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
-      ],
-      isNew: true
+      ] 
     },
     {
       title: "Numerical Simulation",
@@ -151,11 +147,11 @@ const productsTrack = {
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
-      ]
+      ] 
     },
     {
       title: "VR Apps",
-      ourBenefit: "VR apps currently create immersive but ephemeral experiences. When used to permissionlessly interface with an independently existing universe, user activities become permanent, verifiable records that connect to broader life and complement the sensory immersion.",
+      ourBenefit: "VR apps currently create immersive but ephemeral experiences. When used to permissionlessly interface with an independently existing universe, user activities become permanent, verifiable records with broad cultural consequences. Sensory immersion is complemented with consequential immersion.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -171,8 +167,7 @@ const premiseTrack = {
   categories: [
     {
       title: "Metaphysics",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Metaphysical reasoning on the ontological status of platonic mathematical objects and their potential to expand objective reality can be developed through cryptographic techniques that realize their idealized form.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -182,8 +177,7 @@ const premiseTrack = {
     },
     {
       title: "Anthropology",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Anthropological studies of human escapism driven by information technology can be supplemented with the social implications of a potential return to realism.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -235,7 +229,7 @@ const TrackSection = ({ track }) => {
           <React.Fragment key={index}>
             <div className="tableHeaderCell">
               {category.title}
-              {category.isNew && <span className="badge">CURRENT PRIORITY</span>}
+              {category.isNew && <span className="badge">URGENTLY SEEKING</span>}
             </div>
             <div className="tableCell">
                 {renderText(category.ourBenefit)}
@@ -295,12 +289,13 @@ export default function Page() {
             <strong>Projects:</strong> Grow societies and lifeforms within the universe that outlive their creators and freely connect to our broader lives.
           </li>
         </ul>
+        <hr style={{border: "2px solid black", marginTop: "24px"}}/>
         <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
-          <TrackSection track={premiseTrack} />
-          <TrackSection track={researchTrack} />
-          <TrackSection track={economicsTrack} />
-          <TrackSection track={productsTrack} />
           <TrackSection track={projectsTrack} />
+          <TrackSection track={economicsTrack} />
+          <TrackSection track={researchTrack} />
+          <TrackSection track={premiseTrack} />
+          <TrackSection track={productsTrack} />
         </div>
       </div>
     </div>
