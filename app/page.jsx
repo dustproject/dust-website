@@ -7,7 +7,7 @@ const projectsTrack = {
   categories: [
     {
       title: "Player-Run Organizations",
-      ourBenefit: "In traditional virtual worlds, player-run organizations cannot surpass the studio's influence, regardless of how much time, money, and expertise they invest. In an independently existing universe, no such ceilings exist - player organizations can even advance the universe themselves to suit their goals. Their actions become a permanent store of their effort, lasting as long as stone carvings, that freely connect with their broader lives. Player organizations become real organizations.",
+      ourBenefit: "In traditional virtual worlds, player-run organizations cannot surpass the studio's influence, regardless of how much time, money, and expertise they invest. In an independent cyberspace, no such ceilings exist - player organizations can even advance the universe themselves to suit their goals. Their actions become a permanent store of their effort, lasting as long as stone carvings, that freely connect with their broader lives. Player organizations become real organizations.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -18,7 +18,7 @@ const projectsTrack = {
     },
     {
       title: "Composable dApps",
-      ourBenefit: "Traditional dApps foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened with a token,\" and an \"RWA\" becomes an \"asset backed by a protected digital matter reserve.\"",
+      ourBenefit: "Traditional dApps foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on a verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened with a token,\" and an \"RWA\" becomes an \"asset backed by a protected digital matter reserve.\"",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -167,7 +167,7 @@ const premiseTrack = {
   categories: [
     {
       title: "Metaphysics",
-      ourBenefit: "Metaphysical reasoning on the ontological status of platonic mathematical objects and their potential to expand objective reality can be developed through cryptographic techniques that realize their idealized form.",
+      ourBenefit: "Metaphysical reasoning on the ontological status of platonic mathematical objects and their potential to expand objective reality can be further developed when cryptographic techniques realize mathematics' idealized form.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -177,7 +177,7 @@ const premiseTrack = {
     },
     {
       title: "Anthropology",
-      ourBenefit: "Anthropological studies of human escapism driven by information technology can be supplemented with the social implications of a potential return to realism.",
+      ourBenefit: "Anthropological studies of human escapism driven by information technology can be supplemented with the social implications of a potential return to realism driven by idealized mathematics.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -289,7 +289,7 @@ export default function Page() {
             <strong>Projects:</strong> Grow societies and lifeforms within the universe that outlive their creators and freely connect to our broader lives.
           </li>
         </ul>
-        <hr style={{border: "2px solid black", marginTop: "24px"}}/>
+        <hr style={{border: "0.5px solid black", marginTop: "24px"}}/>
         <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
           <TrackSection track={projectsTrack} />
           <TrackSection track={economicsTrack} />
