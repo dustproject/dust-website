@@ -6,10 +6,12 @@ body {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    font-family: palatino !important;
+    line-height: 180%;
 }
 
 .page-style {
-    background-color: #000828;
+    background-color: black;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -20,7 +22,7 @@ body {
 
 
 .buttonContainerStyle {
-    border: 1px solid #ddd;
+    border: 1px solid white;
     display: inline-block; 
     cursor: pointer; 
     transition: all 0.3s ease;
@@ -32,17 +34,17 @@ body {
   
 .buttonInnerStyle {
 padding: 1px 21px;
-background-color: #ddd;
-border: 2px solid #000828;
-color: #000828;
-font-family: 'EB Garamond', serif;
+background-color: white;
+border: 2px solid black;
+color: black;
+font-family: 'palatino', serif;
 font-size: 1rem;
 text-align: center;
 transition: all 0.3s ease;
 
 &:hover {
-    color: #ddd;
-    background-color: rgba(241, 224, 205, 0.1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 }
 
@@ -53,7 +55,7 @@ transition: all 0.3s ease;
     width: 100%;
     text-align: center;
     color: #F1E0CD;
-    font-family: 'EB Garamond', serif;
+    font-family: 'palatino', serif;
     font-size: 14px;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -106,11 +108,11 @@ transition: all 0.3s ease;
   }
 
   .container {
-    font-family: 'EB Garamond', Garamond, Georgia, serif;
+    font-family: 'palatino', Garamond, Georgia, serif;
     width: 95%;  /* Mobile width (95% of screen) */
     margin: 0 auto;
     padding: 1.5rem;
-    color: #000828;
+    color: black;
     line-height: 1.5;
   }
   
@@ -135,7 +137,7 @@ transition: all 0.3s ease;
     font-size: 13px;
     text-align: right;
     margin-bottom: 2rem;
-    color: #555;
+    color: black;
     letter-spacing: 0.5px;
     text-transform: uppercase;
   }
@@ -166,7 +168,7 @@ transition: all 0.3s ease;
   .subtitle {
     font-size: 18px;
     text-align: left;
-    color: #333;
+    color: black;
     font-weight: 500;
   }
   
@@ -186,7 +188,7 @@ transition: all 0.3s ease;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid black;
     padding-bottom: 0.25rem;
   }
   
@@ -245,7 +247,7 @@ transition: all 0.3s ease;
   .quote {
     margin: 1.5rem 1rem;
     padding-left: 1rem;
-    border-left: 2px solid #ddd;
+    border-left: 2px solid black;
     font-size: 16px;
   }
   
@@ -267,7 +269,7 @@ transition: all 0.3s ease;
     font-size: 14px;
     border-top: 1px solid #ccc;
     padding-top: 1.5rem;
-    color: #555;
+    color: black;
   }
   
   @media (min-width: 768px) {
@@ -281,8 +283,8 @@ transition: all 0.3s ease;
     height: fit-content;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-    border: 1px solid #ddd;
-    background-color: #f9f9f6;
+    border: 1px solid black;
+    background-color: #f3f3f3;
   }
   
   
@@ -320,8 +322,8 @@ transition: all 0.3s ease;
   
   .captionText {
     font-size: 14px;
-    line-height: 20px;
-    color: #666;
+    line-height: 150%;
+    color: black;
     text-align: center;
     margin-top: 0.25rem;
     margin-bottom: 1.5rem;
@@ -346,27 +348,28 @@ transition: all 0.3s ease;
   }
   
   .tableCell {
-    padding: 0.75rem;
-    border-bottom: 1px solid #ddd;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid black;
   }
 
   .tableCellTitle {
     font-weight: bold;
     padding: 0.75rem;
-    background-color: #000828;
+    background-color: black;
     color: white;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid black;
   }
   
   .tableHeaderCell {
     font-size: 18px;
     font-weight: bold;
     padding: 0.75rem;
-    background-color: #f9f9f6;
+    background-color: #f3f3f3;
     letter-spacing: 0.05em;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   
   .twoColumnLayout {
@@ -447,7 +450,7 @@ transition: all 0.3s ease;
   .institutionalInfo {
     text-align: right;
     font-size: 14px;
-    color: #555;
+    color: black;
   }
   
   .journalTitle {
@@ -457,19 +460,19 @@ transition: all 0.3s ease;
   }
   
   .abstractBox {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-    background-color: #f9f9f6;
+    background-color: #f3f3f3;
   }
 
   .listBox {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    /* background-color: #f9f9f6; */
+    /* background-color: #f3f3f3; */
     width: 90%;
     justify-self: center;
   }
@@ -489,7 +492,7 @@ transition: all 0.3s ease;
   
   .doi {
     font-size: 14px;
-    color: #555;
+    color: black;
     margin-top: 0.75rem;
     text-align: right;
   }
@@ -507,7 +510,7 @@ transition: all 0.3s ease;
 
   /* Navbar styles */
 .navbar {
-  background-color: #000828;
+  background-color: black;
   width: 100%;
   padding: 1rem 0;
 }
@@ -521,7 +524,7 @@ transition: all 0.3s ease;
 }
 
 .navbar-logo {
-  font-family: 'EB Garamond', serif;
+  font-family: 'palatino', serif;
   font-size: 1.8rem;
   letter-spacing: 0.3em;
   font-weight: 500;
@@ -530,10 +533,8 @@ transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-
-
 .logo-link {
-  color: #ddd;
+  color: white;
   text-decoration: none;
 }
 
@@ -544,7 +545,7 @@ transition: all 0.3s ease;
 }
 
 .nav-link {
-  color: #ddd;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   letter-spacing: 0.08em;
@@ -560,7 +561,7 @@ transition: all 0.3s ease;
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #ddd;
+  background-color: white;
   transition: width 0.6s ease;
 }
 
@@ -594,7 +595,7 @@ transition: all 0.3s ease;
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #ddd;
+  background-color: white;
   transition: width 0.6s ease;
 }
 
@@ -605,7 +606,7 @@ transition: all 0.3s ease;
 
 .track-container {
   margin-bottom: clamp(2rem, 5vw, 3.75rem);
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
   padding-bottom: clamp(1.5rem, 4vw, 2.5rem);
 }
 
@@ -641,7 +642,7 @@ transition: all 0.3s ease;
 
 /* Track Section Styles */
 .track-header {
-  background-color: #000828;
+  background-color: black;
   color: white;
   padding: 1rem;
   display: flex;
@@ -653,24 +654,24 @@ transition: all 0.3s ease;
 }
 
 .table-container {
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 .table-header {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
 }
 
 .table-row {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
 }
 
 .key-works-row {
-  background-color: #f9f9f6;
-  border-bottom: 1px solid #ddd;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
@@ -708,12 +709,11 @@ transition: all 0.3s ease;
 
 .badge {
   display: inline-block;
-  background-color: #000828;
-  border: 2px solid black;
+  background-color: black;
   color: white;
-  font-size: 1rem;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
   font-weight: bold;
-  padding: 2px 8px;
-  margin-left: 8px;
+  padding: 6px;
   vertical-align: middle;
 }

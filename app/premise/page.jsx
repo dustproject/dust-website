@@ -378,8 +378,8 @@ const AcademicManifesto = () => {
               height: "fit-content",
               marginTop: "1.5rem",
               marginBottom: "2rem",
-              border: "1px solid #ddd",
-              backgroundColor: "#f9f9f6"
+              border: "1px solid black",
+              backgroundColor: "#f3f3f3",
             }}>
               <SingleImage 
                   title="Figure 5. The uninhabted platonic mathematical universe."
@@ -412,8 +412,8 @@ const AcademicManifesto = () => {
               height: "fit-content",
               marginTop: "1.5rem",
               marginBottom: "2rem",
-              border: "1px solid #ddd",
-              backgroundColor: "#f9f9f6"
+              border: "1px solid black",
+              backgroundColor: "#f3f3f3",
             }}>
               <SingleImage 
                 title="Figure 6. The cryptography development tree."
@@ -442,8 +442,8 @@ const AcademicManifesto = () => {
               height: "fit-content",
               marginTop: "1.5rem",
               marginBottom: "2rem",
-              border: "1px solid #ddd",
-              backgroundColor: "#f9f9f6"
+              border: "1px solid black",
+              backgroundColor: "#f3f3f3",
             }}>
                 <SingleImage 
                   title="Figure 7. A mathematical cyberspace for a realist experience."

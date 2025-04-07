@@ -6,9 +6,8 @@ const projectsTrack = {
   title: "Projects",
   categories: [
     {
-      title: "Virtual World Power Use",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      title: "Player-Run Organizations",
+      ourBenefit: "In traditional virtual worlds, player-run organizations cannot surpass the studio's influence, regardless of their investment of time, money, and expertise. In an independently existing universe, no such ceilings exist - player organizations can even advance the universe themselves to suit their goals. Their every action becomes a permanent store of their effort, lasting as long as stone carvings, that freely connects with their broader lives.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -30,7 +29,7 @@ const projectsTrack = {
       isNew: true
     },
     {
-      title: "Future of Coordination",
+      title: "Coordination Experiments",
       theirBenefit: "lorem ipsum.",
       ourBenefit: "lorem ipsum.",
       keyWorks: [
@@ -108,7 +107,7 @@ const economicsTrack = {
   categories: [
     {
       title: "Cryptoeconomic Commons",
-      ourBenefit: "Cryptoeconomic commons have previously incentivized a collectively secured, open financial system based on tamper-proof IOUs and value-accruing assets. To go beyond finance, they can incentivize the collective operation, improvement, and scaling of an entire universe based on tamper-proof physics and value-accruing matter.",
+      ourBenefit: "Cryptoeconomic commons have previously incentivized a collectively secured, open financial system based on tamper-proof IOUs and value-accruing assets. To go beyond finance, they can incentivize the collective operation and improvement of an entire universe based on tamper-proof physics and value-accruing matter.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -130,8 +129,7 @@ const economicsTrack = {
     },
     {
       title: "Thermoeconomics",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Thermoeconomics, traditionally a heterodox school of economics with limited acceptance and practice, becomes fundamental to the design of digital matter as a system of value. A sound economic model based on matter and energy transformation rather than monetary exchange is critical for sustainable digital matter value accrual.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -147,8 +145,7 @@ const productsTrack = {
   categories: [
     {
       title: "Web Apps",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "Traditionally, new web apps cannot be permissionlessly created for existing platforms because their logic, data, and users are controlled by gatekeepers. In contrast, an independently existing universe has no gatekeepers. Hence, high-production web apps can be permissionlessly created and safely monetized.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -158,8 +155,7 @@ const productsTrack = {
     },
     {
       title: "VR Apps",
-      theirBenefit: "lorem ipsum.",
-      ourBenefit: "lorem ipsum.",
+      ourBenefit: "VR apps currently create immersive but ephemeral experiences. When used to permissionlessly interface with an independently existing universe, user activities become permanent, verifiable records that connect to broader life and complement the sensory immersion.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -239,22 +235,22 @@ const TrackSection = ({ track }) => {
           <React.Fragment key={index}>
             <div className="tableHeaderCell">
               {category.title}
-              {category.isNew && <span className="badge">Urgent Need</span>}
+              {category.isNew && <span className="badge">CURRENT PRIORITY</span>}
             </div>
             <div className="tableCell">
-            {renderText(category.ourBenefit)}
-              <div className='listBox'>
-                <div className='key-works-label'>
-                  ECOSYSTEM MAPPING
-                </div>
-                <div className="key-works-list">
-                  {category.keyWorks.map((work, workIndex) => (
-                    <div key={workIndex} className="key-work-item">
-                      <li className="abstractText">{work}</li>
-                    </div>
-                  ))}
-                </div>
-              </div>
+                {renderText(category.ourBenefit)}
+                {/* <div className='listBox'>
+                  <div className='key-works-label'>
+                    ECOSYSTEM MAPPING
+                  </div>
+                  <div className="key-works-list">
+                    {category.keyWorks.map((work, workIndex) => (
+                      <div key={workIndex} className="key-work-item">
+                        <li className="abstractText">{work}</li>
+                      </div>
+                    ))}
+                  </div>
+                </div> */}
             </div>
           </React.Fragment>
         ))}
