@@ -62,7 +62,7 @@ const researchTrack = {
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
-      ] 
+      ]
     },
     {
       title: "Sandbox Design",
@@ -114,7 +114,7 @@ const economicsTrack = {
     },
     {
       title: "Digital Value Advocacy",
-      ourBenefit: "Digital value in the form of scarce and nonfungible tokens, enforced by consensus and cryptography, have been broadly understood. Digital matter, the final form of digital value - with scarcity, nonfungibility, embodiment, and behavior - needs public advocacy to be understood.",
+      ourBenefit: "Digital value in the form of scarce and nonfungible tokens, enforced by consensus and cryptography, has been broadly understood. Digital matter, the final form of digital value - with scarcity, nonfungibility, embodiment, and behavior - needs public advocacy to be understood.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -219,11 +219,12 @@ const TrackSection = ({ track }) => {
     <div>
       <div className="track-header">
         <div className="columnHeading">{title}</div>
-        <Link href={`/${title.toLowerCase()}`}  className="contribute-link">
-          JOIN →
-        </Link>
+        {title !== "Products" && (
+          <Link href={`/${title.toLowerCase()}`} className="contribute-link">
+            JOIN →
+          </Link>
+        )}
       </div>
-
       <div className="table-container">
         {categories.map((category, index) => (
           <React.Fragment key={index}>
@@ -255,7 +256,7 @@ const TrackSection = ({ track }) => {
 
 export default function Page() {
   return (
-    <div className='homepage-container'>
+    <div className='container'>
       <div>
         <div className='subtitle'>
           The Dust Project is assembling a {" "}
@@ -281,20 +282,20 @@ export default function Page() {
             Design open incentives using this value-accruing matter for the advancement of the universe.
           </li>
           <li style={{marginTop: "8px"}}>
+            <strong>Projects:</strong> Grow societies and lifeforms within the universe that outlive their creators and freely connect to our broader lives.
+          </li>
+          <li style={{marginTop: "8px"}}>
             <strong>Products:</strong> 
             {" "}
             Build commercial products that consumers enjoy using to immersively inhabit the universe.
           </li>
-          <li style={{marginTop: "8px"}}>
-            <strong>Projects:</strong> Grow societies and lifeforms within the universe that outlive their creators and freely connect to our broader lives.
-          </li>
         </ul>
         <hr style={{border: "0.5px solid black", marginTop: "24px"}}/>
         <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
-          <TrackSection track={projectsTrack} />
-          <TrackSection track={economicsTrack} />
-          <TrackSection track={researchTrack} />
           <TrackSection track={premiseTrack} />
+          <TrackSection track={researchTrack} />
+          <TrackSection track={economicsTrack} />
+          <TrackSection track={projectsTrack} />
           <TrackSection track={productsTrack} />
         </div>
       </div>
