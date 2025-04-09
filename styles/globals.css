@@ -817,3 +817,7 @@ transition: all 0.3s ease;
   text-decoration: none;
   font-weight: 400;
 }
+
+.coalition-text:hover {
+  text-shadow: 0 0 24px rgb(255, 255, 255);
+}

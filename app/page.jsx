@@ -5,6 +5,7 @@ import "/styles/globals.css";
 import Link from "next/link";
 
 export default function Page() {
+
   return (
     <div className="dust-container">
       <div className="background-map">
