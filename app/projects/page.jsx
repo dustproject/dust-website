@@ -19,10 +19,10 @@ const ProjectsPage = () => {
             />
           </div>
 
-          <div className="sectionHeading">1. BUILD SOMETHING TRULY LASTING</div>
+          <div className="sectionHeading">1. Build Something Truly Lasting</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
-                <div>You get starting energy when you spawn. Use it to live and act in the world.</div>
+                <div>You get starting energy when you <a href="https://alpha.dustproject.org/">spawn</a>. Use it to live and act in the world.</div>
                 <div>Matter flows cyclically according to physics. Grow crops, eat them for energy, and return energy to the land with use. Mine ores, craft items with them, and ores respawn as items are used.</div>
                 <div>Claim territory using force fields, for as long as you keep them energized with crops. Protect and attack territory with crafted items.</div>
                 <div>Build inside your territory. It can last as long as a real stone carving, becoming a permanent store of your effort.</div>
@@ -33,7 +33,7 @@ const ProjectsPage = () => {
             />
           </div>
 
-          <div className="sectionHeading">2. CONNECT IT TO OUR BROADER LIVES</div>
+          <div className="sectionHeading">2. Connect It to Our Broader Lives</div>
           <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>The world's state, and every action inside, is publicly verifiable. Anyone can check what actually happened.</div>
                 <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's state:</div>
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
          </div>
 
 
-         <div className="sectionHeading">3. ADVANCE DUST ITSELF TO SUIT YOUR GOALS</div>
+         <div className="sectionHeading">3. Advance Dust Itself</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>After building something truly lasting and connecting it to our broader lives, your project will gain a life of its own. You will evolve from a user to a founder.</div>

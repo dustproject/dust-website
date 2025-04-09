@@ -6,6 +6,14 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const pathname = usePathname();
 
+  // Check if we're on the homepage
+  const isHomepage = pathname === "/";
+
+  // Don't render the navbar on homepage
+  if (isHomepage) {
+    return null;
+  }
+
   const isActive = path => {
     return pathname === path;
   };
