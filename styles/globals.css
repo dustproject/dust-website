@@ -717,3 +717,8 @@ transition: all 0.3s ease;
   padding: 6px;
   vertical-align: middle;
 }
+
+.exampleitalic {
+  font-style: italic;
+  padding-left: 1rem;
+}

@@ -19,6 +19,9 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="nav-links">
+          <Link href="/coalition" className={`nav-link ${isActive("/coalition") ? "active" : ""}`}>
+            Coalition
+          </Link>
           <Link href="/premise" className={`nav-link ${isActive("/premise") ? "active" : ""}`}>
             Premise
           </Link>
@@ -36,7 +39,7 @@ export default function Navbar() {
           </Link>
           {/* <Link href="https://alpha.dustproject.org/">
             <div className="buttonContainerStyle">
-              <div className="buttonInnerStyle">ENTER</div>
+              <div className="buttonInnerStyle">ENTER ALPHA</div>
             </div>
           </Link> */}
         </div>

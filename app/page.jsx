@@ -6,8 +6,8 @@ const projectsTrack = {
   title: "Projects",
   categories: [
     {
-      title: "Player-Run Organizations",
-      ourBenefit: "In traditional virtual worlds, player-run organizations cannot surpass the studio's influence, regardless of how much time, money, and expertise they invest. In an independent cyberspace, no such ceilings exist - player organizations can even advance the universe themselves to suit their goals. Their actions become a permanent store of their effort, lasting as long as stone carvings, that freely connect with their broader lives. Player organizations become real organizations.",
+      title: "Virtual World Power Use",
+      ourBenefit: "In traditional virtual worlds, users cannot surpass the studio's influence - regardless of how much effort they invest - and their actions remain ephemerally contained inside. No such ceilings exist here: users become founders and can advance the universe themselves to suit their goals, and their actions become a permanent store of their effort that freely connect with their broader lives.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -66,7 +66,7 @@ const researchTrack = {
     },
     {
       title: "Sandbox Design",
-      ourBenefit: "Sandbox design applied to traditional virtual worlds, operating on corporate servers, is limited in its impact. The world's independence and longevity are limited by the server's administrative controls and the corporation's financial constraints. Sandbox design applied to an independently existing universe is limitless in its impact as the universe outlives the designer. It's critical for ensuring the universe remains a sustainable place for users to inhabit, and robust to extreme activity.",
+      ourBenefit: "Sound sandbox design is critical for ensuring the universe remains sustainable to inhabit and robust to extreme activity. Unlike traditional virtual worlds operating on corporate servers - constrained by administrative controls and financial limitations - independently existing universes can outlive their designers.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -120,8 +120,7 @@ const economicsTrack = {
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
-      ],
-      isNew: true
+      ]
     },
     {
       title: "Thermoeconomics",
@@ -230,7 +229,7 @@ const TrackSection = ({ track }) => {
           <React.Fragment key={index}>
             <div className="tableHeaderCell">
               {category.title}
-              {category.isNew && <span className="badge">URGENTLY SEEKING</span>}
+              {category.isNew && <span className="badge">CURRENTLY SEEKING</span>}
             </div>
             <div className="tableCell">
                 {renderText(category.ourBenefit)}
