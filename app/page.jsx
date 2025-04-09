@@ -1,18 +1,26 @@
+'use client';
+
 import React from 'react';
 import "/styles/globals.css";
 import Link from "next/link";
-import Image from "next/image";
-
 
 export default function Page() {
   return (
-
     <div className="dust-container">
-      <div className="background-image"></div>
+      <div className="background-map">
+        <iframe 
+          src="https://alpha.dustproject.org/map" 
+          className="map-iframe"
+          title="DUST Project Map"
+          loading="lazy"
+        />
+      </div>
       
       <div className="content-wrapper">
         <div className="top-section">
-          <h2 className="coalition-text">JOIN COALITION</h2>
+          <Link href="/coalition" className="coalition-text">
+            JOIN COALITION
+          </Link>
         </div>
         
         <div className="middle-section">
@@ -20,10 +28,11 @@ export default function Page() {
         </div>
         
         <div className="bottom-section">
-          <h2 className="coalition-text">ENTER ALPHA</h2>
+          <Link href="https://alpha.dustproject.org/" className="coalition-text">
+            ENTER ALPHA
+          </Link>
         </div>
       </div>
     </div>
-
   );
 }

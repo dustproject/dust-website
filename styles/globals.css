@@ -739,18 +739,21 @@ transition: all 0.3s ease;
   color: #FFFFFF;
 }
 
-.background-image {
+
+.background-map {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/dustbackground.svg');
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
   z-index: -1;
-  filter: contrast(1.1) brightness(0.8);
+  overflow: hidden;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .content-wrapper {
@@ -763,6 +766,18 @@ transition: all 0.3s ease;
   align-items: center;
   padding: 5vh 0;
 }
+
+.content-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: -1;
+}
+
 
 .top-section {
   width: 100%;
@@ -798,5 +813,7 @@ transition: all 0.3s ease;
   font-size: 36px;
   font-family: 'Rubik One', sans-serif;
   text-align: center;
+  color: inherit; 
+  text-decoration: none;
   font-weight: 400;
 }
