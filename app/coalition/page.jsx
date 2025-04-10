@@ -6,8 +6,8 @@ const projectsTrack = {
   title: "Projects",
   categories: [
     {
-      title: "Virtual World Power Use",
-      ourBenefit: "In traditional virtual worlds, users cannot surpass the studio's influence - regardless of how much effort they invest - and their actions remain ephemerally contained inside. No such ceilings exist here: users become founders and can advance the universe themselves to suit their goals, and their actions become a permanent store of their effort that freely connect with their broader lives.",
+      title: "MMO Systems",
+      ourBenefit: "In traditional MMOs, users cannot surpass the studio - regardless of how much effort they invest - to create its primary social and economic systems. They can only create untrusted, secondary systems. Their actions remain ephemeral logged within the MMO, disconnected from their broader life. No such ceilings exist here: users become founders and their actions become permanent records, connected to their broader lives.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -17,8 +17,8 @@ const projectsTrack = {
       isNew: true
     },
     {
-      title: "Composable dApps",
-      ourBenefit: "Traditional dApps foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on a verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened with a token,\" and an \"RWA\" becomes an \"asset backed by a protected digital matter reserve.\"",
+      title: "Decentralized Applications",
+      ourBenefit: "Traditional dApps foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on a verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened with a token,\" and an \"RWA\" becomes an \"asset backed by a protected digital ores reserve.\"",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
@@ -187,42 +187,39 @@ const premiseTrack = {
   ]
 };
 
-const TrackSection = ({ track }) => {
+const TrackSection = ({ track, linkType = "join" }) => {
   const { title, categories } = track;
 
-  const renderText = (text) => {
-    if (!text) return null;
-    
-    // If the text includes our special marker
-    if (text.includes("{{JENSEN_HUANG_LINK}}")) {
-      const parts = text.split("{{JENSEN_HUANG_LINK}}");
-      return (
-        <>
-          {parts[0]}
-          <a 
-            href="https://drive.google.com/file/d/1yhnHCOl4nvKLGf8UkpZvNpw1qi5m5BLP/view?usp=drive_link" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            Jensen Huang
-          </a>
-          {parts[1]}
-        </>
-      );
+  const renderLink = () => {
+    switch (linkType) {
+      case "join":
+        return (
+          <Link href={`/${title.toLowerCase()}`} className="contribute-link">
+            JOIN →
+          </Link>
+        );
+      case "alpha":
+        return (
+          <Link href="https://alpha.dustproject.org/" className="contribute-link">
+            ENTER →
+          </Link>
+        );
+      case "development":
+        return (
+          <span className="contribute-link disabled-link">
+            IN DEVELOPMENT
+          </span>
+        );
+      default:
+        return null;
     }
-    
-    return text;
   };
 
   return (
     <div>
       <div className="track-header">
         <div className="columnHeading">{title}</div>
-        {title !== "Products" && (
-          <Link href={`/${title.toLowerCase()}`} className="contribute-link">
-            JOIN →
-          </Link>
-        )}
+        {renderLink()}
       </div>
       <div className="table-container">
         {categories.map((category, index) => (
@@ -232,19 +229,7 @@ const TrackSection = ({ track }) => {
               {category.isNew && <span className="badge">CURRENTLY SEEKING</span>}
             </div>
             <div className="tableCell">
-                {renderText(category.ourBenefit)}
-                {/* <div className='listBox'>
-                  <div className='key-works-label'>
-                    ECOSYSTEM MAPPING
-                  </div>
-                  <div className="key-works-list">
-                    {category.keyWorks.map((work, workIndex) => (
-                      <div key={workIndex} className="key-work-item">
-                        <li className="abstractText">{work}</li>
-                      </div>
-                    ))}
-                  </div>
-                </div> */}
+                {category.ourBenefit}
             </div>
           </React.Fragment>
         ))}
@@ -286,16 +271,16 @@ export default function Page() {
           <li style={{marginTop: "8px"}}>
             <strong>Products:</strong> 
             {" "}
-            Build commercial products that consumers enjoy using to immersively inhabit the universe.
+            Build commercial products that people enjoy using to inhabit the universe.
           </li>
         </ul>
         <hr style={{border: "0.5px solid black", marginTop: "24px"}}/>
         <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
           <TrackSection track={premiseTrack} />
-          <TrackSection track={researchTrack} />
-          <TrackSection track={economicsTrack} />
+          <TrackSection track={researchTrack} linkType='development'/>
+          <TrackSection track={economicsTrack} linkType='development'/>
           <TrackSection track={projectsTrack} />
-          <TrackSection track={productsTrack} />
+          <TrackSection track={productsTrack} linkType='alpha'/>
         </div>
       </div>
     </div>

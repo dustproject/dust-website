@@ -33,23 +33,18 @@ export default function Navbar() {
           <Link href="/premise" className={`nav-link ${isActive("/premise") ? "active" : ""}`}>
             Premise
           </Link>
-          <Link href="/research" className={`nav-link ${isActive("/research") ? "active" : ""}`}>
+          {/* <Link href="/research" className={`nav-link ${isActive("/research") ? "active" : ""}`}>
             Research
-          </Link>
-          <Link href="/economics" className={`nav-link ${isActive("/economics") ? "active" : ""}`}>
+          </Link> */}
+          {/* <Link href="/economics" className={`nav-link ${isActive("/economics") ? "active" : ""}`}>
             Economics
-          </Link>
+          </Link> */}
           {/* <Link href="/products" className={`nav-link ${isActive("/products") ? "active" : ""}`}>
             Products
           </Link> */}
           <Link href="/projects" className={`nav-link ${isActive("/projects") ? "active" : ""}`}>
             Projects
           </Link>
-          {/* <Link href="https://alpha.dustproject.org/">
-            <div className="buttonContainerStyle">
-              <div className="buttonInnerStyle">ENTER ALPHA</div>
-            </div>
-          </Link> */}
         </div>
       </div>
     </nav>

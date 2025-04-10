@@ -4,7 +4,7 @@ import "/styles/globals.css";
 const ResearchPage = () => {
     return (
         <div>
-            lorem ipsum
+            Coming Soon...
         </div>
     );
 };

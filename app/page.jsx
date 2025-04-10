@@ -3,11 +3,13 @@
 import React from 'react';
 import "/styles/globals.css";
 import Link from "next/link";
+import ProjectsPage from './projects/page';
 
 export default function Page() {
 
   return (
-    <div className="dust-container">
+    <div>
+      <div className="dust-container">
       <div className="background-map">
         <iframe 
           src="https://alpha.dustproject.org/map" 
@@ -34,6 +36,9 @@ export default function Page() {
           </Link>
         </div>
       </div>
+      </div>
+      <ProjectsPage fontFamily="Helvetica" />
+
     </div>
   );
 }

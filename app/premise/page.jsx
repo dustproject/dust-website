@@ -462,21 +462,18 @@ const AcademicManifesto = () => {
              One that is objectively real, sensorially equivalent, infinitely imaginable, and enriching for humans to inhabit
             <sup><a href="https://drive.google.com/drive/folders/1-7u_O8Z9jhaGhRBuAf0jG23s4NI7iRI6?usp=drive_link" target="_blank" rel="noopener noreferrer">6</a></sup>.
             </div>
-      
-      
-            {/* <div className="footer">
-              Join 
-              {' '}
+
+            <div className="footer">
               <a 
-                href={"https://discord.gg/J75hkmtmM4"}
+                href={"mailto:dhrumil@dustproject.org"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Discord
+                <strong>Send an email</strong>
               </a>
               {' '}
-               for further discussion.
-            </div> */}
+               to collaborate on developing the anthropological and metaphysical premise of Dust.
+            </div>
           </div>
         </div>
       );

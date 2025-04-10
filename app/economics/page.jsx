@@ -4,7 +4,7 @@ import "/styles/globals.css";
 const EconomicsPage = () => {
     return (
         <div>
-            lorem ipsum
+            Coming Soon...
         </div>
     );
 };
