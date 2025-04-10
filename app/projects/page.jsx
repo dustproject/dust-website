@@ -81,15 +81,21 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
 
           <div className="sectionHeading">2. Connect It to Your Broader Life</div>
-          <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
-                <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
-                <div className='exampleitalic'>Write a kill tracker that ranks players based on their kills.</div>
-                <div>2. Control your machines in the world - like force fields, chests, doors, and beds - through your programs:</div>
-                <div className='exampleitalic'>Build an arena with a door gating access to top killers from the kill tracker, and chests that give them each a weapon. Write an arena tracker that lists wins.</div>
-                <div>3. Write frontends for your programs so others can use them:</div>
-                <div className='exampleitalic'>Players check the arena winners list, get directions to reach it, and interact with its doors and chests.</div>
-                <div>4. Use assets and proofs in your programs to connect what you build with your broader life:</div>
-                <div className='exampleitalic'>Issue "ColCoins" to arena winners. These can instantly be traded for other assets, including US Dollars. Create a governance program where proof-holders of posting on r/ancientrome propose arena improvements, and ColCoin-holders vote on implementation.</div>
+          <div style={{ display: "flex", gap: "2rem"}}>
+            <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
+                  <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
+                  <div className='exampleitalic'>Write a kill tracker that ranks players based on their kills.</div>
+                  <div>2. Control your machines in the world - like force fields, chests, doors, and beds - through your programs:</div>
+                  <div className='exampleitalic'>Build an arena with a door gating access to top killers from the kill tracker, and chests that give them each a weapon. Write an arena tracker that lists wins.</div>
+                  <div>3. Write frontends for your programs so others can use them:</div>
+                  <div className='exampleitalic'>Players check the arena winners list, get directions to reach it, and interact with its doors and chests.</div>
+                  <div>4. Use assets and proofs in your programs to connect what you build with your broader life:</div>
+                  <div className='exampleitalic'>Issue "ColCoins" to arena winners. These can instantly be traded for other assets, including US Dollars. Create a governance program where proof-holders of posting on r/ancientrome propose arena improvements, and ColCoin-holders vote on implementation.</div>
+          </div>
+          <img
+                src="/connectlife.svg"
+                style={{ maxWidth: '20%', border: "1px solid black", padding: "0.5rem" }}
+            />
          </div>
 
 
