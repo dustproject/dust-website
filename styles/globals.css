@@ -772,7 +772,7 @@ transition: all 0.3s ease;
 }
 
 .coalition-text:hover {
-  text-shadow: 0 0 24px rgb(255, 255, 255);
+  opacity: 1;
 }
 
 
@@ -795,7 +795,7 @@ transition: all 0.3s ease;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -833,7 +833,7 @@ transition: all 0.3s ease;
 }
 
 .coalition-text {
-  font-size: clamp(16px, 4vw, 80px); /* Minimum and maximum size limits */
+  font-size: clamp(16px, 4vw, 50px); /* Minimum and maximum size limits */
   font-family: 'IBM Plex Sans';
   text-align: center;
   color: inherit; 
@@ -841,6 +841,8 @@ transition: all 0.3s ease;
   font-weight: 700;
   padding: 8px; /* Better touch target for mobile */
   display: inline-block;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
 }
 
 /* Media queries for specific adjustments */
@@ -871,6 +873,22 @@ transition: all 0.3s ease;
   .coalition-text {
     font-size: clamp(12px, 2.5vw, 40px);
   }
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.coalition-text span {
+  display: inline-block; /* Necessary for individual transforms/animations if needed */
+  opacity: 0.6; /* Base opacity */
+  animation-name: shimmer;
+  animation-duration: 2.5s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* animation-delay should be set dynamically via JS for staggering */
 }
 
 .ctaBox {
