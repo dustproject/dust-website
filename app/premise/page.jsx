@@ -430,7 +430,7 @@ const AcademicManifesto = () => {
             />
       
             <div className="paragraph">
-            Today, billions have escaped to cyberspaces - shared fictions dependent on corporate authorities. This dependence restricts cyberspaces to malleable business logic that only the corporation can upgrade or scale, where user actions remain temporary event logs that cannot connect to their broader lives without corporate permission. Removal of this dependence, and thus requirement for escapism, would make cyberspaces enriching to reality rather than separate from it.
+            Today, billions have escaped to cyberspaces - shared fictions dependent on corporate authorities. This dependence restricts cyberspaces to malleable business logic that only the corporation can upgrade or scale, where user actions remain temporary event logs that cannot connect to their broader lives without corporate permission. Removal of this dependence would remove the requirement for escapism and make cyberspaces enriching to reality rather than separate from it.
             </div>
       
             <div className="paragraph">

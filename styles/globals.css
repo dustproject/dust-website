@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 body {
     border: 0;
@@ -829,7 +830,7 @@ transition: all 0.3s ease;
 
 .coalition-text {
   font-size: clamp(16px, 3vw, 80px); /* Minimum and maximum size limits */
-  font-family: 'Rubik One', sans-serif;
+  font-family: 'Rubik Mono One';
   text-align: center;
   color: inherit; 
   text-decoration: none;

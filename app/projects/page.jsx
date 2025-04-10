@@ -33,9 +33,9 @@ const ProjectsPage = ({ fontFamily }) => {
             </div>
             <strong>Create what you always wanted to but didn't know you could.</strong>
             <div>
-              <strong>Build First-Party Trusted Features That Even Studios Can't:</strong>
+              <strong>Build Trusted First-Party Features Only Studios Could Before:</strong>
               {" "}
-              You're not limited to building untrusted third-party widgets. Build the primary trusted socio-economic systems of the world, taking inspiration from the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer. To go even further, break the 4th wall and create consequences beyond the world.
+              You're not limited to building untrusted third-party widgets. Build the primary trusted socio-economic systems of the world, taking inspiration from the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
             </div>
             <div>
               <strong>Give a Tangible Twist to Abstract dApps:</strong>
@@ -49,9 +49,9 @@ const ProjectsPage = ({ fontFamily }) => {
               Create algorithmic social contracts with unlimited granularity and complexity that are automatically enforced. Experiment with coordination structures not yet possible in the physical world, since physical actions can't be trustlessly verified.
             </div>
             <div>
-              <strong>Grow Truly Alive Digital Life:</strong>
+              <strong>Grow Sovereign Artificial Life:</strong>
               {" "}
-              Cultivate lifeforms that exist independently, make their own decisions, and create value in the world to acquire compute to sustain and develop themselves - evolving beyond your control.
+              Cultivate lifeforms that exist independently, make their own decisions, and create value in the world to earn the computational resources needed to develop themselves - evolving beyond your control.
             </div>
           </div>
 
