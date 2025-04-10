@@ -18,40 +18,39 @@ const ProjectsPage = ({ fontFamily }) => {
   return (
         <div className="wrapper">
           <div className="container" style={fontStyle}>
-          <div className="sectionHeading" style={{marginTop: "0"}}>What is Dust?</div>
+          <div className="sectionHeading" style={{marginTop: "0"}}>The first real place that you visit with a computer</div>
 
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
-                <strong>This is the first real place that you visit with a computer.</strong>
-                <div>It's a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
+                <div><strong>Dust</strong> is a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
                 <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened. Whatever you build is a real store of your effort that truly lasts and connects with your broader life.</div>
             </div>
-            <img
+            {/* <img
                 src="/digitalphysics.svg"
                 style={{ maxWidth: '40%', border: "1px solid black", height: 'fit-content' }}
-            />
+            /> */}
           </div>
 
-          <div className="sectionHeading" >Create What You Couldn't Before</div>
+          <div className="sectionHeading" >Create what you couldn't before</div>
           <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
             <div>
-              <strong>Build Core Trusted MMO Systems Once Reserved for Studios:</strong>
+              <strong>Build core trusted MMO systems once reserved for studios:</strong>
               {" "}
               You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
             </div>
             <div>
-              <strong>Give a Tangible Twist to Abstract dApps:</strong>
+              <strong>Give a tangible twist to abstract dApps:</strong>
               {" "}
               Build physical versions of dApps where doors become "token gates", chests function as "liquidity pools" and "lending protocols", 
               force fields provide "staking rewards" for securing it, and ore reserves back "RWAs".
             </div>
             <div>
-              <strong>Design Social Contracts Beyond Physical Limitations:</strong>
+              <strong>Design social contracts beyond physical limitations:</strong>
               {" "}
               Create algorithmic social contracts with unlimited granularity and complexity that are automatically enforced. Experiment with coordination structures not yet possible in the physical world, since physical actions can't be trustlessly verified.
             </div>
             <div>
-              <strong>Grow Sovereign Artificial Life:</strong>
+              <strong>Grow sovereign artificial life:</strong>
               {" "}
               Cultivate lifeforms that exist independently, make their own decisions, and create value in the world to earn the computational resources needed to develop themselves - evolving beyond your control.
             </div>
@@ -59,16 +58,16 @@ const ProjectsPage = ({ fontFamily }) => {
 
           <div className='ctaBox abstractHeading' style={{fontWeight: "normal"}}>
             <a href="https://discord.gg/J75hkmtmM4" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold"}}>
-              JOIN DISCORD
+             Join Discord 
             </a>{" "}
             for support with what you're building. {" "}
             <a href="mailto:dhrumil@dustproject.org" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold"}}>
-              SEND EMAIL
+              Send email
             </a>{" "}
             for broader inquiries.
           </div>
 
-          <div className="sectionHeading">1. Build Something Truly Lasting</div>
+          <div className="sectionHeading">Build something truly lasting</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>You get starting energy when you <a href="https://alpha.dustproject.org/">spawn</a>. Use it to live and act in the world.</div>
@@ -78,11 +77,11 @@ const ProjectsPage = ({ fontFamily }) => {
             </div>
             <img
                 src="/stonecarvings.png"
-                style={{ maxWidth: '40%', border: "1px solid black" }}
+                style={{ maxWidth: '40%', border: "1px solid #e2e2e2" }}
             />
           </div>
 
-          <div className="sectionHeading">2. Connect It to Your Broader Life</div>
+          <div className="sectionHeading">Connect it to your broader life</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                   <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
@@ -96,12 +95,12 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
           <img
                 src="/connectlife.svg"
-                style={{ maxWidth: '25%', border: "1px solid black", padding: "0.5rem" }}
+                style={{ maxWidth: '25%', border: "1px solid #e2e2e2", padding: "0.5rem" }}
             />
          </div>
 
 
-         <div className="sectionHeading">3. Advance Dust Itself</div>
+         <div className="sectionHeading">Advance Dust itself</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust.</div>
@@ -110,11 +109,11 @@ const ProjectsPage = ({ fontFamily }) => {
             </div>
             <img
                 src="/usersfounders.png"
-                style={{ maxWidth: '40%', border: "1px solid black" }}
+                style={{ maxWidth: '40%', border: "1px solid #e2e2e2" }}
             />
           </div>
 
-          <div className="sectionHeading">Projects Building On Dust</div>
+          <div className="sectionHeading">Projects building on Dust</div>
 
           <div style={{ 
             display: "grid", 

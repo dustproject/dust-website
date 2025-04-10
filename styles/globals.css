@@ -119,7 +119,8 @@ transition: all 0.3s ease;
     width: 95%;  /* Mobile width (95% of screen) */
     margin: 0 auto;
     padding: 1.5rem;
-    color: black;
+    color: #2a2a2a;
+    background-color: #fffdfb;
     line-height: 1.5;
   }
   
@@ -195,7 +196,7 @@ transition: all 0.3s ease;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e2e2e2;
     padding-bottom: 0.25rem;
   }
   
