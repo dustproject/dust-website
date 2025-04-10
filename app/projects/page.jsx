@@ -18,12 +18,12 @@ const ProjectsPage = ({ fontFamily }) => {
   return (
         <div className="wrapper">
           <div className="container" style={fontStyle}>
-          <div className="sectionHeading" style={{marginTop: "0"}}>WHAT IS DUST?</div>
+          <div className="sectionHeading" style={{marginTop: "0"}}>What is Dust?</div>
           <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
             <div style={{ display: "flex", gap: "2rem"}}>
               <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                   <strong>This is the first real place that you visit with a computer.</strong>
-                  <div>It's a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can create or delete its matter, and everyone can freely participate and benefit.</div>
+                  <div>It's a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
                   <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened. Whatever you build is a real store of your effort that truly lasts and connects with your broader life.</div>
               </div>
               <img
@@ -31,7 +31,9 @@ const ProjectsPage = ({ fontFamily }) => {
                   style={{ maxWidth: '40%', border: "1px solid black", height: 'fit-content' }}
               />
             </div>
-            <strong>Create what you always wanted to but didn't know you could.</strong>
+
+            <div className="sectionHeading" style={{marginTop: "0"}}>Create What You Couldn't Before</div>
+
             <div>
               <strong>Build Trusted First-Party Features Only Studios Could Before:</strong>
               {" "}
@@ -112,7 +114,7 @@ const ProjectsPage = ({ fontFamily }) => {
             />
           </div>
 
-          <div className="sectionHeading">Projects Using Dust</div>
+          <div className="sectionHeading">Projects Building On Dust</div>
 
           <div style={{ 
             display: "grid", 

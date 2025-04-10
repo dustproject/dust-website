@@ -7,7 +7,7 @@ const projectsTrack = {
   categories: [
     {
       title: "MMO Systems",
-      ourBenefit: "In traditional MMOs, users cannot surpass the studio - regardless of how much effort they invest - to create its primary social and economic systems. They can only create untrusted, secondary systems. Their actions remain ephemeral logged within the MMO, disconnected from their broader life. No such ceilings exist here: users become founders and their actions become permanent records, connected to their broader lives.",
+      ourBenefit: "In traditional MMOs, users cannot surpass the studio - regardless of how much effort they invest - to create its primary trusted social and economic systems. They can only create untrusted, secondary systems. Their actions remain ephemeral logs within the studio's server, disconnected from their broader life. No such ceilings exist here: users become founders and their actions become permanent records, connected to their broader lives.",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
