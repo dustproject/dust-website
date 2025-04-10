@@ -119,7 +119,6 @@ transition: all 0.3s ease;
     margin: 0 auto;
     padding: 1.5rem;
     color: #2a2a2a;
-    background-color: #fffdfb;
     line-height: 1.5;
   }
   
@@ -137,6 +136,7 @@ transition: all 0.3s ease;
     overflow-x: hidden;
     display: flex;
     justify-content: center;
+    background-color: #fffdfb;
   }
   
   .header {
@@ -159,16 +159,23 @@ transition: all 0.3s ease;
   .title {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 1rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+  }
+
+  .title:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin: 70px auto;
+    background-color: #e2e2e2;
   }
   
   @media (min-width: 768px) {
     .title {
       font-size: 32px;
-      margin-bottom: 1.25rem;
     }
   }
   
@@ -191,12 +198,13 @@ transition: all 0.3s ease;
     margin-bottom: 1rem;
     border-bottom: 1px solid #e2e2e2;
     padding-bottom: 0.25rem;
+    text-transform: uppercase;
   }
   
   @media (min-width: 768px) {
     .sectionHeading {
       font-size: 24px;
-      margin-top: 2.5rem;
+      margin-top: 70px;
     }
   }
   
@@ -519,7 +527,7 @@ transition: all 0.3s ease;
 }
 
 .navbar-spacer {
-  height: 70px;
+  height: 100px;
 }
 
 .navbar-container {
@@ -599,10 +607,9 @@ transition: all 0.3s ease;
   }
 
   .navbar-spacer {
-    height: 120px;
+    height: 140px;
   }
 }
-
 
 .navbar-logo::after {
   content: '';

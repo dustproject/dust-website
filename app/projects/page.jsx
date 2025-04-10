@@ -18,7 +18,7 @@ const ProjectsPage = ({ fontFamily }) => {
   return (
         <div className="wrapper">
           <div className="container" style={fontStyle}>
-          <div className="sectionHeading" style={{marginTop: "0"}}>The first real place that you visit with a computer</div>
+          <div className="title">The first real place you visit with a computer</div>
 
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>

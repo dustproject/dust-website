@@ -34,33 +34,36 @@ export default function Page() {
   return (
     <div>
       <div className="dust-container">
-      <div className="background-map">
-        <iframe 
-          src="https://alpha.dustproject.org/map" 
-          className="map-iframe"
-          title="DUST Project Map"
-          loading="lazy"
-        />
-      </div>
-      
-      <div className="content-wrapper">
-        <div className="top-section">
-          <Link href="/coalition" className="coalition-text" ref={joinCoalitionRef}>
-            JOIN COALITION
-          </Link>
+        <div className="background-map">
+          <iframe 
+            src="https://alpha.dustproject.org/map" 
+            className="map-iframe"
+            title="DUST Project Map"
+            loading="lazy"
+          />
         </div>
         
-        <div className="middle-section">
-          <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
-        </div>
-        
-        <div className="bottom-section">
-          <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
-            ENTER ALPHA
-          </Link>
+        <div className="content-wrapper">
+          <div className="top-section">
+            <Link href="/coalition" className="coalition-text" ref={joinCoalitionRef}>
+              JOIN COALITION
+            </Link>
+          </div>
+          
+          <div className="middle-section">
+            <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
+          </div>
+          
+          <div className="bottom-section">
+            <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
+              ENTER ALPHA
+            </Link>
+          </div>
         </div>
       </div>
-      </div>
+
+      <div className='wrapper' style={{ height: "70px" }}></div>
+
       <ProjectsPage fontFamily="IBM Plex Sans" />
 
     </div>
