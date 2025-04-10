@@ -37,7 +37,7 @@ export default function Page() {
         </div>
       </div>
       </div>
-      <ProjectsPage fontFamily="Helvetica" />
+      <ProjectsPage fontFamily="IBM Plex Sans" />
 
     </div>
   );
