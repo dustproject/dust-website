@@ -105,7 +105,7 @@ const ProjectsPage = ({ fontFamily }) => {
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust.</div>
-                <div>Dust is a public good, meaning it is not owned by anybody, that everyone can shape and benefit from.</div>
+                <div>Dust is a public good, meaning it is not owned by anybody, and everyone can shape and benefit from it.</div>
                 <div><a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and possibly you - that will collectively build and maintain Dust. </div>
             </div>
             <img
