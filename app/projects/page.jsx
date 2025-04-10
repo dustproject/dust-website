@@ -35,9 +35,9 @@ const ProjectsPage = ({ fontFamily }) => {
           <div className="sectionHeading" >Create What You Couldn't Before</div>
           <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
             <div>
-              <strong>Build Trusted First-Party Features Only Studios Could Before:</strong>
+              <strong>Build Core Trusted MMO Systems Once Reserved for Studios:</strong>
               {" "}
-              You're not limited to building untrusted third-party widgets. Build the primary trusted socio-economic systems of the world, taking inspiration from the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
+              You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
             </div>
             <div>
               <strong>Give a Tangible Twist to Abstract dApps:</strong>
