@@ -23,10 +23,12 @@ const applyShimmerEffect = (element) => {
 export default function Page() {
   const joinCoalitionRef = useRef(null); // Create ref for the first link
   const enterAlphaRef = useRef(null);   // Create ref for the second link
+  const dustTextRef = useRef(null);
 
   useEffect(() => {
     applyShimmerEffect(joinCoalitionRef.current);
     applyShimmerEffect(enterAlphaRef.current);
+    applyShimmerEffect(dustTextRef.current);
   }, []); // Empty dependency array ensures this runs only once on mount
 
   return (
@@ -49,7 +51,7 @@ export default function Page() {
         </div>
         
         <div className="middle-section">
-          <h1 className="dust-text">DUST</h1>
+          <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
         </div>
         
         <div className="bottom-section">
