@@ -116,11 +116,11 @@ transition: all 0.3s ease;
 
   .container {
     font-family: 'IBM Plex Sans', Garamond, Georgia, serif;
-    width: 95%;  /* Mobile width (95% of screen) */
     margin: 0 auto;
     padding: 1.5rem;
-    color: black;
+    color: #2a2a2a;
     line-height: 1.5;
+    width: 95%; 
   }
   
   /* Desktop version - this will apply at 768px and above */
@@ -137,6 +137,7 @@ transition: all 0.3s ease;
     overflow-x: hidden;
     display: flex;
     justify-content: center;
+    background-color: #fffdfb;
   }
   
   .header {
@@ -159,16 +160,23 @@ transition: all 0.3s ease;
   .title {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 1rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+  }
+
+  .title:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin: 70px auto;
+    background-color: #e2e2e2;
   }
   
   @media (min-width: 768px) {
     .title {
       font-size: 32px;
-      margin-bottom: 1.25rem;
     }
   }
   
@@ -176,13 +184,7 @@ transition: all 0.3s ease;
     font-size: 18px;
     text-align: left;
     color: black;
-    font-weight: 500;
-  }
-  
-  @media (min-width: 768px) {
-    .subtitle {
-      font-size: 20px;
-    }
+    font-weight: 400;
   }
 
   .columnHeading {
@@ -195,14 +197,15 @@ transition: all 0.3s ease;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e2e2e2;
     padding-bottom: 0.25rem;
+    text-transform: uppercase;
   }
   
   @media (min-width: 768px) {
     .sectionHeading {
       font-size: 24px;
-      margin-top: 2.5rem;
+      margin-top: 70px;
     }
   }
   
@@ -517,9 +520,15 @@ transition: all 0.3s ease;
 
   /* Navbar styles */
 .navbar {
-  background-color: black;
+  background-color: rgb(0 0 0 / 90%);
+  backdrop-filter: blur(10px);
+  position: fixed;
   width: 100%;
   padding: 1rem 0;
+}
+
+.navbar-spacer {
+  height: 100px;
 }
 
 .navbar-container {
@@ -543,6 +552,11 @@ transition: all 0.3s ease;
 .logo-link {
   color: white;
   text-decoration: none;
+  font-family: 'Rubik Pixels', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 0.9;
+
 }
 
 .nav-links {
@@ -592,8 +606,11 @@ transition: all 0.3s ease;
     justify-content: center;
     gap: 1rem;
   }
-}
 
+  .navbar-spacer {
+    height: 140px;
+  }
+}
 
 .navbar-logo::after {
   content: '';
@@ -772,7 +789,7 @@ transition: all 0.3s ease;
 }
 
 .coalition-text:hover {
-  text-shadow: 0 0 24px rgb(255, 255, 255);
+  opacity: 1;
 }
 
 
@@ -795,7 +812,7 @@ transition: all 0.3s ease;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -817,12 +834,20 @@ transition: all 0.3s ease;
 
 .dust-text {
   text-align: center;
-  font-weight: 400;
   position: relative;
   font-size: clamp(60px, 23vw, 500px); /* Minimum and maximum size limits */
   line-height: 0.9;
   font-family: 'Rubik Pixels', sans-serif;
+  font-weight: 400;
   margin: 0; /* Remove default margin */
+}
+
+.dust-text span {
+  opacity: 0.8; /* Base opacity */
+  animation-name: lightshimmer;
+  animation-duration: 2.5s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .bottom-section {
@@ -833,7 +858,7 @@ transition: all 0.3s ease;
 }
 
 .coalition-text {
-  font-size: clamp(16px, 4vw, 80px); /* Minimum and maximum size limits */
+  font-size: clamp(16px, 4vw, 50px); /* Minimum and maximum size limits */
   font-family: 'IBM Plex Sans';
   text-align: center;
   color: inherit; 
@@ -841,6 +866,8 @@ transition: all 0.3s ease;
   font-weight: 700;
   padding: 8px; /* Better touch target for mobile */
   display: inline-block;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
 }
 
 /* Media queries for specific adjustments */
@@ -873,10 +900,89 @@ transition: all 0.3s ease;
   }
 }
 
+/* Shimmer Animation */
+@keyframes shimmer {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes lightshimmer {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.coalition-text span {
+  display: inline-block; /* Necessary for individual transforms/animations if needed */
+  opacity: 0.6; /* Base opacity */
+  animation-name: shimmer;
+  animation-duration: 2.5s; /* Adjust duration as needed */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* animation-delay should be set dynamically via JS for staggering */
+}
+
 .ctaBox {
   padding: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   background-color: black;
   color: white;
+}
+
+
+.content-section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-column {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image-column {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.section-image {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+}
+
+/* Mobile layout - stack instead of side-by-side */
+@media (max-width: 768px) {
+  .content-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .image-column {
+    width: 100%;
+    margin-top: 1rem;
+    order: 2; /* This makes the image appear below the text */
+  }
+  
+  .text-column {
+    order: 1; /* This ensures text appears first */
+  }
+}
+
+/* For the smaller connect-life image */
+.small-image-column {
+  width: 25%;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .small-image-column {
+    width: 60%;
+    margin: 0 auto;
+  }
 }

@@ -19,6 +19,7 @@ export default function Navbar() {
   };
 
   return (
+    <>
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
@@ -48,5 +49,7 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    <div className="navbar-spacer"></div>
+    </>
   );
 }
