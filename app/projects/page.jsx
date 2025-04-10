@@ -25,10 +25,10 @@ const ProjectsPage = ({ fontFamily }) => {
                 <div><strong>Dust</strong> is a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
                 <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened. Whatever you build is a real store of your effort that truly lasts and connects with your broader life.</div>
             </div>
-            {/* <img
+            <img
                 src="/digitalphysics.svg"
-                style={{ maxWidth: '40%', border: "1px solid black", height: 'fit-content' }}
-            /> */}
+                style={{ maxWidth: '40%', border: "1px solid #e2e2e2" }}
+            />
           </div>
 
           <div className="sectionHeading" >Create what you couldn't before</div>
@@ -67,7 +67,7 @@ const ProjectsPage = ({ fontFamily }) => {
             for broader inquiries.
           </div>
 
-          <div className="sectionHeading">Build something truly lasting</div>
+          <div className="sectionHeading">1. Build something truly lasting</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>You get starting energy when you <a href="https://alpha.dustproject.org/">spawn</a>. Use it to live and act in the world.</div>
@@ -81,7 +81,7 @@ const ProjectsPage = ({ fontFamily }) => {
             />
           </div>
 
-          <div className="sectionHeading">Connect it to your broader life</div>
+          <div className="sectionHeading">2. Connect it to your broader life</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                   <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
@@ -100,7 +100,7 @@ const ProjectsPage = ({ fontFamily }) => {
          </div>
 
 
-         <div className="sectionHeading">Advance Dust itself</div>
+         <div className="sectionHeading">3. Advance Dust itself</div>
           <div style={{ display: "flex", gap: "2rem"}}>
             <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
                 <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust.</div>

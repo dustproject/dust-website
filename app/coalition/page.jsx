@@ -35,8 +35,7 @@ const projectsTrack = {
         "lorem ipsum",
         "lorem ipsum",
         "lorem ipsum",
-      ],
-      isNew: true
+      ]
     },
     {
       title: "Artificial Life",
