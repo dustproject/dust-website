@@ -19,21 +19,21 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className="wrapper">
           <div className="container" style={fontStyle}>
           <div className="sectionHeading" style={{marginTop: "0"}}>What is Dust?</div>
-          <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
-            <div style={{ display: "flex", gap: "2rem"}}>
-              <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
-                  <strong>This is the first real place that you visit with a computer.</strong>
-                  <div>It's a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
-                  <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened. Whatever you build is a real store of your effort that truly lasts and connects with your broader life.</div>
-              </div>
-              <img
-                  src="/digitalphysics.svg"
-                  style={{ maxWidth: '40%', border: "1px solid black", height: 'fit-content' }}
-              />
+
+          <div style={{ display: "flex", gap: "2rem"}}>
+            <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
+                <strong>This is the first real place that you visit with a computer.</strong>
+                <div>It's a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
+                <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened. Whatever you build is a real store of your effort that truly lasts and connects with your broader life.</div>
             </div>
+            <img
+                src="/digitalphysics.svg"
+                style={{ maxWidth: '40%', border: "1px solid black", height: 'fit-content' }}
+            />
+          </div>
 
-            <div className="sectionHeading" style={{marginTop: "0"}}>Create What You Couldn't Before</div>
-
+          <div className="sectionHeading" >Create What You Couldn't Before</div>
+          <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
             <div>
               <strong>Build Trusted First-Party Features Only Studios Could Before:</strong>
               {" "}
@@ -55,7 +55,7 @@ const ProjectsPage = ({ fontFamily }) => {
               {" "}
               Cultivate lifeforms that exist independently, make their own decisions, and create value in the world to earn the computational resources needed to develop themselves - evolving beyond your control.
             </div>
-          </div>
+            </div>
 
           <div className='ctaBox abstractHeading' style={{fontWeight: "normal"}}>
             <a href="https://discord.gg/J75hkmtmM4" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold"}}>
