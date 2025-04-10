@@ -31,27 +31,27 @@ const ProjectsPage = ({ fontFamily }) => {
                   style={{ maxWidth: '40%', border: "1px solid black", height: 'fit-content' }}
               />
             </div>
-            <strong> Build what you always wanted to but didn't know you could.</strong>
+            <strong>Create what you always wanted to but didn't know you could.</strong>
             <div>
-              <strong>Real MMO Systems:</strong>
+              <strong>Build First-Party Trusted Features That Even Studios Can't:</strong>
               {" "}
-              World of Warcraft Auction House, EVE Investment Bank and Corporations, Runescape Grand Exchange, Star Wars Galaxies Player Cities, Final Fantasy XIV Gold Saucer, and the Black Desert Online Ticketed Transport. 
-              Build all of them inside - not just as games, but as real socio-economic systems that break the 4th wall.
+              You're not limited to building untrusted third-party widgets. Build the primary trusted socio-economic systems of the world, taking inspiration from the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer. To go even further, break the 4th wall and create consequences beyond the world.
             </div>
             <div>
-              <strong>Tangible dApps:</strong>
+              <strong>Give a Tangible Twist to Abstract dApps:</strong>
               {" "}
-              "token gating" using doors, "liquidity pools" and "yield-bearing lending" using chests, "staking rewards" for securing force fields, and "RWAs" backed by ore reserves.
+              Build physical versions of dApps where doors become "token gates", chests function as "liquidity pools" and "lending protocols", 
+              force fields provide "staking rewards" for securing it, and ore reserves back "RWAs".
             </div>
             <div>
-              <strong>Unbounded Social Contracts:</strong>
+              <strong>Design Social Contracts Beyond Physical Limitations:</strong>
               {" "}
-              Algorithmic social contracts that are arbitrarily granular, complex, and automatically enforced. Experiment with coordination structures not yet possible in the physical world.
+              Create algorithmic social contracts with unlimited granularity and complexity that are automatically enforced. Experiment with coordination structures not yet possible in the physical world, since physical actions can't be trustlessly verified.
             </div>
             <div>
-              <strong>Artificial Life:</strong>
+              <strong>Grow Truly Alive Digital Life:</strong>
               {" "}
-              Lifeforms that exist by themselves, make their own decisions, and create value in the world to acquire memory and compute.
+              Cultivate lifeforms that exist independently, make their own decisions, and create value in the world to acquire compute to sustain and develop themselves - evolving beyond your control.
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
           <img
                 src="/connectlife.svg"
-                style={{ maxWidth: '20%', border: "1px solid black", padding: "0.5rem" }}
+                style={{ maxWidth: '25%', border: "1px solid black", padding: "0.5rem" }}
             />
          </div>
 
