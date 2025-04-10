@@ -928,3 +928,61 @@ transition: all 0.3s ease;
   background-color: black;
   color: white;
 }
+
+
+.content-section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-column {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image-column {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.section-image {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+}
+
+/* Mobile layout - stack instead of side-by-side */
+@media (max-width: 768px) {
+  .content-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .image-column {
+    width: 100%;
+    margin-top: 1rem;
+    order: 2; /* This makes the image appear below the text */
+  }
+  
+  .text-column {
+    order: 1; /* This ensures text appears first */
+  }
+}
+
+/* For the smaller connect-life image */
+.small-image-column {
+  width: 25%;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .small-image-column {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
