@@ -28,7 +28,7 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className='cardsContainer'>
           <div className='createCard'>
             <div className='cardSubheading'>MMO PLAYERS</div>
-            <div className='cardHeading'>Build First-Party Features Once Reserved For Big Studios</div>
+            <div className='cardHeading'>Build Core Features Only Big Studios Could</div>
             <div className='cardContent'>
               You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
             </div>
