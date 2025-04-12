@@ -18,40 +18,34 @@ const ProjectsPage = ({ fontFamily }) => {
   return (
     <div className="wrapper">
       <div className="container" style={fontStyle}>
-        <div className="title">The first real place you visit with a computer</div>
+        <div className="title">Create what you couldn't before</div>
 
         <div className="content-section">
           <div className="text-column">
-            <div><strong>Dust</strong> is a world that truly exists. Nobody owns or controls it, it can never go down or stop, nobody can break or change its physics, nobody can inflate or delete its matter, and everyone can freely participate and benefit.</div>
-            <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened. Whatever you build is a real store of your effort that truly lasts and connects with your broader life.</div>
-          </div>
-          <div className="image-column">
-            <img src="/digitalphysics.svg" className="section-image" alt="Digital Physics" />
+            <div><strong>Dust</strong> is a world that truly exists. Everyone can agree that it's real and nobody's making it up. Nobody owns or controls it, nobody can break its physics or delete its matter, and nobody can stop it. What you build inside can outlive you and benefit your broader life.</div>
           </div>
         </div>
-
-        <div className="sectionHeading">Create what you couldn't before</div>
-        <div style={{ display: "flex", gap: "1rem", flexDirection: "column"}}>
-          <div>
-            <strong>Build core trusted MMO systems once reserved for studios:</strong>
-            {" "}
-            You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
+        <div className='cardsContainer'>
+          <div className='createCard'>
+            <div className='cardSubheading'>MMO PLAYERS</div>
+            <div className='cardHeading'>Build First-Party Features Once Reserved For Studios</div>
+            <div className='cardContent'>
+              You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
+            </div>
           </div>
-          <div>
-            <strong>Give a tangible twist to abstract dApps:</strong>
-            {" "}
-            Build physical versions of dApps where doors become "token gates", chests function as "liquidity pools" and "lending protocols", 
-            force fields provide "staking rewards" for securing it, and ore reserves back "RWAs".
+          <div className='createCard'>
+            <div className='cardSubheading'>DAPP BUILDERS</div>
+            <div className='cardHeading'>Make dApps Tangible & Intuitive</div>
+            <div className='cardContent'>
+              Build physical versions of dApps where doors become "token gates", chests function as "liquidity pools" and "lending protocols", force fields provide "staking rewards" for securing it, and ore reserves back "RWAs".
+            </div>
           </div>
-          <div>
-            <strong>Design social contracts beyond physical limitations:</strong>
-            {" "}
-            Create algorithmic social contracts with unlimited granularity and complexity that are automatically enforced. Experiment with coordination structures not yet possible in the physical world, since physical actions can't be trustlessly verified.
-          </div>
-          <div>
-            <strong>Grow sovereign artificial life:</strong>
-            {" "}
-            Cultivate lifeforms that exist independently, make their own decisions, and create value in the world to earn the computational resources needed to develop themselves - evolving beyond your control.
+          <div className='createCard'>
+            <div className='cardSubheading'>TECH FUTURISTS</div>
+            <div className='cardHeading'>Grow Real Societies & Lifeforms</div>
+            <div className='cardContent'>
+            Explore coordination beyond physical limitations by writing algorithmic social contracts with unbounded complexity and autonomous enforcement. Grow lifeforms that independently exist, act, and create value to earn the computational resources needed to sustain themselves.
+            </div>
           </div>
         </div>
 
@@ -66,11 +60,23 @@ const ProjectsPage = ({ fontFamily }) => {
           for broader inquiries.
         </div>
 
-        <div className="sectionHeading">1. Build something truly lasting</div>
+
+        <div className="sectionHeading">1. Get digital matter</div>
         <div className="content-section">
           <div className="text-column">
+            <div>The world is made of digital matter and energy. Nobody can change their supply or the physics they follow.</div>
             <div>You get starting energy when you <a href="https://alpha.dustproject.org/">spawn</a>. Use it to live and act in the world.</div>
-            <div>Matter flows cyclically according to physics. Grow crops, eat them for energy, and return energy to the land with use. Mine ores, craft items with them, and ores respawn as items are used.</div>
+            <div>Everything flows cyclically according to unbreakable physics. Grow and eat crops for energy, and your usage returns it to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
+          </div>
+          <div className="image-column">
+            <img src="/digitalphysics.svg" className="section-image" alt="Stone Carvings" />
+          </div>
+        </div>
+
+        <div className="sectionHeading">2. Build something truly lasting</div>
+        <div className="content-section">
+          <div className="text-column">
+            <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened.</div>
             <div>Claim territory using force fields, for as long as you keep them energized with crops. Protect and attack territory with crafted items.</div>
             <div>Build inside your territory. It can last as long as a real stone carving, becoming a permanent store of your effort.</div>
           </div>
@@ -79,7 +85,7 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
         </div>
 
-        <div className="sectionHeading">2. Connect it to your broader life</div>
+        <div className="sectionHeading">3. Connect it to your broader life</div>
         <div className="content-section">
           <div className="text-column">
             <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
@@ -92,15 +98,15 @@ const ProjectsPage = ({ fontFamily }) => {
             <div className='exampleitalic'>Issue "ColCoins" to arena winners. These can instantly be traded for other assets, including US Dollars. Create a governance program where proof-holders of posting on r/ancientrome propose arena improvements, and ColCoin-holders vote on implementation.</div>
           </div>
           <div className="small-image-column">
-            <img src="/connectlife.svg" className="section-image" alt="Connect Life" />
+            <img src="/connectlife.svg" className="section-image" alt="Connect Life"/>
           </div>
         </div>
 
-        <div className="sectionHeading">3. Advance Dust itself</div>
+        <div className="sectionHeading">4. Advance Dust itself</div>
         <div className="content-section">
           <div className="text-column">
             <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust.</div>
-            <div>Dust is a public good, meaning it is not owned by anybody, and everyone can shape and benefit from it.</div>
+            <div>Dust is a public good that everyone can shape and benefit from .</div>
             <div><a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and possibly you - that will collectively build and maintain Dust. </div>
           </div>
           <div className="image-column">
@@ -108,27 +114,31 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
         </div>
 
-        <div className="sectionHeading">Projects building on Dust</div>
-        <div style={{ 
-          display: "grid", 
-          gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", 
-          gap: "1rem",
-          marginBottom: "2rem"
-        }}>
-          {projects.map((project, index) => (
-            <a 
-              key={index} 
-              href={project.link} 
-              style={{
-                padding: "1rem",
-                textAlign: "center",
-                display: "block"
-              }}
-            >
-              {project.name}
-            </a>
-          ))}
-        </div>
+        {fontFamily !== "IBM Plex Sans" && (
+          <>
+          <div className="sectionHeading">Projects building on Dust</div>
+          <div style={{ 
+            display: "grid", 
+            gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", 
+            gap: "1rem",
+            marginBottom: "2rem"
+          }}>
+            {projects.map((project, index) => (
+              <a 
+                key={index} 
+                href={project.link} 
+                style={{
+                  padding: "1rem",
+                  textAlign: "center",
+                  display: "block"
+                }}
+              >
+                {project.name}
+              </a>
+            ))}
+          </div>
+        </>
+        )}
       </div>
     </div>
   );
