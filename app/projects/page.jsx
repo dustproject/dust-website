@@ -105,8 +105,8 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className="sectionHeading">4. Advance Dust itself</div>
         <div className="content-section">
           <div className="text-column">
-            <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust.</div>
-            <div>Dust is a public good that everyone can shape and benefit from .</div>
+            <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust - a public good that everyone can shape and benefit from.</div>
+            <div>Dust is a public good that everyone can shape and benefit from.</div>
             <div><a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and possibly you - that will collectively build and maintain Dust. </div>
           </div>
           <div className="image-column">
