@@ -28,7 +28,7 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className='cardsContainer'>
           <div className='createCard'>
             <div className='cardSubheading'>MMO PLAYERS</div>
-            <div className='cardHeading'>Build First-Party Features Once Reserved For Studios</div>
+            <div className='cardHeading'>Build First-Party Features Once Reserved For Big Studios</div>
             <div className='cardContent'>
               You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
             </div>
@@ -78,7 +78,7 @@ const ProjectsPage = ({ fontFamily }) => {
           <div className="text-column">
             <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened.</div>
             <div>Claim territory using force fields, for as long as you keep them energized with crops. Protect and attack territory with crafted items.</div>
-            <div>Build inside your territory. It can last as long as a real stone carving, becoming a permanent store of your effort.</div>
+            <div>Build inside your territory. It can last as long as a real stone carving, outliving you, and becoming a permanent store of your effort.</div>
           </div>
           <div className="image-column">
             <img src="/stonecarvings.png" className="section-image" alt="Stone Carvings" />
