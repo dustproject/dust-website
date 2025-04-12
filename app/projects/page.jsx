@@ -66,7 +66,7 @@ const ProjectsPage = ({ fontFamily }) => {
           <div className="text-column">
             <div>The world is made of digital matter and energy. Nobody can change their supply or the physics they follow.</div>
             <div>You get starting energy when you <a href="https://alpha.dustproject.org/">spawn</a>. Use it to live and act in the world.</div>
-            <div>Everything flows cyclically according to unbreakable physics. Grow and eat crops for energy, and your usage returns it to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
+            <div>Everything flows cyclically according to unbreakable physics. Grow and eat crops for energy, and your usage returns energy to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
           </div>
           <div className="image-column">
             <img src="/digitalphysics.svg" className="section-image" alt="Stone Carvings" />
