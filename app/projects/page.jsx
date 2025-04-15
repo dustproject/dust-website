@@ -94,7 +94,7 @@ const ProjectsPage = ({ fontFamily }) => {
             <div className='exampleitalic'>Build an arena with a door gating access to top killers from the kill tracker, and chests that give them each a weapon. Write an arena tracker that lists wins.</div>
             <div>3. Write frontends for your programs so others can use them:</div>
             <div className='exampleitalic'>Players check the arena winners list, get directions to reach it, and interact with its doors and chests.</div>
-            <div>4. Use assets and proofs in your programs to integrate with any asset or data online:</div>
+            <div>4. Use standards and proofs in your programs to integrate with any asset or data online:</div>
             <div className='exampleitalic'>Issue "ColCoins" to arena winners. These can instantly be traded for other assets, including US Dollars. Create a governance program where proof-holders of posting on r/ancientrome propose arena improvements, and ColCoin-holders vote on implementation.</div>
           </div>
           <div className="small-image-column">
