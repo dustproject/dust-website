@@ -37,7 +37,7 @@ const ProjectsPage = ({ fontFamily }) => {
             <div className='cardSubheading'>DAPP BUILDERS</div>
             <div className='cardHeading'>Design Real Financial & Social Mechanisms</div>
             <div className='cardContent'>
-            Build real financial & social mechanisms into the world, imagine doors become "token gates", chests function as "liquidity pools" and "lending protocols", force fields provide "staking rewards" for securing it, ore reserves back "RWAs", and "DAOs" govern pooled resources.
+            Build real financial & social mechanisms that take tangible & intuitive forms in the world, where doors become "token gates", chests function as "liquidity pools" and "lending protocols", force fields provide "staking rewards" for securing it, ore reserves back "RWAs", and "DAOs" govern territory.
             </div>
           </div>
           <div className='createCard'>
