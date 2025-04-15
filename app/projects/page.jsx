@@ -30,19 +30,19 @@ const ProjectsPage = ({ fontFamily }) => {
             <div className='cardSubheading'>MMO PLAYERS</div>
             <div className='cardHeading'>Build Core Features Only Big Studios Could</div>
             <div className='cardContent'>
-              You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, and Final Fantasy XIV Gold Saucer.
+              You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, Final Fantasy XIV Gold Saucer, and Black Desert Online Transport Network.
             </div>
           </div>
           <div className='createCard'>
             <div className='cardSubheading'>DAPP BUILDERS</div>
-            <div className='cardHeading'>Make dApps Tangible & Intuitive</div>
+            <div className='cardHeading'>Design Real Financial & Social Mechanisms</div>
             <div className='cardContent'>
-              Build physical versions of dApps where doors become "token gates", chests function as "liquidity pools" and "lending protocols", force fields provide "staking rewards" for securing it, and ore reserves back "RWAs".
+            Build real financial & social mechanisms into the world, imagine doors become "token gates", chests function as "liquidity pools" and "lending protocols", force fields provide "staking rewards" for securing it, ore reserves back "RWAs", and "DAOs" govern pooled resources.
             </div>
           </div>
           <div className='createCard'>
             <div className='cardSubheading'>TECH FUTURISTS</div>
-            <div className='cardHeading'>Grow Real Societies & Lifeforms</div>
+            <div className='cardHeading'>Grow The Societies & Lifeforms of Tomorrow</div>
             <div className='cardContent'>
             Explore coordination beyond physical limitations by writing algorithmic social contracts with unbounded complexity and autonomous enforcement. Grow lifeforms that independently exist, act, and create value to earn the computational resources needed to sustain themselves.
             </div>
@@ -85,7 +85,7 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
         </div>
 
-        <div className="sectionHeading">3. Connect it to your broader life</div>
+        <div className="sectionHeading">3. Enrich Dust and Your Life Beyond</div>
         <div className="content-section">
           <div className="text-column">
             <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
@@ -94,7 +94,7 @@ const ProjectsPage = ({ fontFamily }) => {
             <div className='exampleitalic'>Build an arena with a door gating access to top killers from the kill tracker, and chests that give them each a weapon. Write an arena tracker that lists wins.</div>
             <div>3. Write frontends for your programs so others can use them:</div>
             <div className='exampleitalic'>Players check the arena winners list, get directions to reach it, and interact with its doors and chests.</div>
-            <div>4. Use assets and proofs in your programs to connect what you build with your broader life:</div>
+            <div>4. Use assets and proofs in your programs to integrate with any asset or data online:</div>
             <div className='exampleitalic'>Issue "ColCoins" to arena winners. These can instantly be traded for other assets, including US Dollars. Create a governance program where proof-holders of posting on r/ancientrome propose arena improvements, and ColCoin-holders vote on implementation.</div>
           </div>
           <div className="small-image-column">
@@ -105,8 +105,7 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className="sectionHeading">4. Advance Dust itself</div>
         <div className="content-section">
           <div className="text-column">
-            <div>After building something truly lasting and connecting it to your broader life, your project will come of age. You will evolve from a user to a founder, ready to rise within Dust.</div>
-            <div>Dust is a public good that everyone can shape and benefit from.</div>
+            <div>After your project comes of age, you will evolve from a user to a founder, ready to rise within Dust - a public good that everyone can shape and benefit from.</div>
             <div><a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and possibly you - that will collectively build and maintain Dust. </div>
           </div>
           <div className="image-column">
