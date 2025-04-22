@@ -85,7 +85,7 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
         </div>
 
-        <div className="sectionHeading">3. Enrich Dust and Your Life Beyond</div>
+        <div className="sectionHeading">3. Enrich Both Dust and Your Broader Life</div>
         <div className="content-section">
           <div className="text-column">
             <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
