@@ -58,13 +58,13 @@ const MinecraftEndgamePage = () => {
           <div className="container">
             <div className="endgame-body">
              Billions of Builds, Millions of Players, and Thousands of Mods Have All Led to This… {" "}
-             <span style={{fontFamily: "Rubik Pixels"}}>MINECRAFT ENDGAME</span>. Where the Training Wheels Come Off.
+             <span style={{fontFamily: "Rubik Pixels"}}>MINECRAFT ENDGAME</span>.
             </div>
             <div className="endgame-body">
-            Unlimited Players Will Live on One Shared Forever Map That Nobody Owns, Controls, or Can Shut Down. Unbreakable Physics Will Present Serious Consequences. Players Will Build Real Societies and Economies Inside That Outlive Them.
+            Unlimited Players Will Live on One Shared Forever Map That Nobody Can Own, Control, or Shutdown. Unbreakable Physics Will Present Serious Consequences and Players Will Build Real Societies That Outlive Them.
             </div>
             <div className="endgame-body">
-            Looking To Closely Collaborate With a Few Founding Creators During Development that Get First Access & Support on Launch.
+            Closely Collaborating With a Few Founding Creators During Development that Get First Access & Support on Launch.
             </div>
             <Link href="https://discord.gg/J75hkmtmM4" className="join-button">
               JOIN CREATOR DISCORD
@@ -135,7 +135,7 @@ const MinecraftEndgamePage = () => {
         <div className="content-section">
             <div className="text-column">
                 <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client, and integrate anything - reddit, discord, your own custom currency, or even real dollars.</div>
-                <div>For example, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} programmed chests in their territory into shops that use their own custom currency and built a UI directing players how to trade.</div>
+                <div>In the example shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} programmed chests in their territory into shops that use their own custom currency and built a UI directing players how to trade.</div>
 
                 <iframe 
                     src="https://trading-app-client-psi.vercel.app/news" 
