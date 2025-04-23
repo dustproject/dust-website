@@ -18,7 +18,7 @@ const MinecraftEndgamePage = () => {
         </div>
 
 
-        <div className="content-wrapper" style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+        <div className="content-wrapper" style={{backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "0px"}}>
           <div className="container">
             <div className="endgame-body">
              Billions of Builds, Millions of Players, Thousands of Mods Have All Led to This… Minecraft Endgame. Where the Training Wheels Come Off.
@@ -35,9 +35,9 @@ const MinecraftEndgamePage = () => {
 
 
             <div className="endgame-subbody footer">
-                This Is Impossible for Any Studio or Server To Do. So We’re Building a {" "}
+                This Is Impossible for Any Studio or Server To Do. So We’re Building {" "}
                 <Link href="https://dustproject.org/" style={{color: "cyan"}}>
-                    Public Protocol – Like the Internet, but for the World’s Physics
+                    Dust, a Public Protocol Like the Internet, but for the World’s Physics
                 </Link>. Everything That Happens Inside the World Is Mathematically Guaranteed To Follow Its Physics and Permanently Recorded for Anyone To Verify.	
             </div>
             <div className='endgame-subbody'>
