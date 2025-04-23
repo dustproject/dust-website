@@ -7,7 +7,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   // Check if we're on the homepage
-  const isHomepage = pathname === "/";
+  const isHomepage = pathname === "/" || "/minecraftendgame";
 
   // Don't render the navbar on homepage
   if (isHomepage) {
@@ -20,36 +20,36 @@ export default function Navbar() {
 
   return (
     <>
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-logo">
-          <Link href="/" className="logo-link">
-            DUST
-          </Link>
-        </div>
-        <div className="nav-links">
-          <Link href="/coalition" className={`nav-link ${isActive("/coalition") ? "active" : ""}`}>
-            Coalition
-          </Link>
-          <Link href="/premise" className={`nav-link ${isActive("/premise") ? "active" : ""}`}>
-            Premise
-          </Link>
-          {/* <Link href="/research" className={`nav-link ${isActive("/research") ? "active" : ""}`}>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div className="navbar-logo">
+            <Link href="/" className="logo-link">
+              DUST
+            </Link>
+          </div>
+          <div className="nav-links">
+            <Link href="/coalition" className={`nav-link ${isActive("/coalition") ? "active" : ""}`}>
+              Coalition
+            </Link>
+            <Link href="/premise" className={`nav-link ${isActive("/premise") ? "active" : ""}`}>
+              Premise
+            </Link>
+            {/* <Link href="/research" className={`nav-link ${isActive("/research") ? "active" : ""}`}>
             Research
           </Link> */}
-          {/* <Link href="/economics" className={`nav-link ${isActive("/economics") ? "active" : ""}`}>
+            {/* <Link href="/economics" className={`nav-link ${isActive("/economics") ? "active" : ""}`}>
             Economics
           </Link> */}
-          {/* <Link href="/products" className={`nav-link ${isActive("/products") ? "active" : ""}`}>
+            {/* <Link href="/products" className={`nav-link ${isActive("/products") ? "active" : ""}`}>
             Products
           </Link> */}
-          <Link href="/projects" className={`nav-link ${isActive("/projects") ? "active" : ""}`}>
-            Projects
-          </Link>
+            <Link href="/projects" className={`nav-link ${isActive("/projects") ? "active" : ""}`}>
+              Projects
+            </Link>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div className="navbar-spacer"></div>
+      </nav>
+      <div className="navbar-spacer" />
     </>
   );
 }
