@@ -28,7 +28,7 @@ const MinecraftEndgamePage = () => {
             Unlimited Players Will Live on One Shared Forever Map That Nobody Owns, Controls, or Can Shut Down. The Physics Will Be Impossible To Break and Players Will Build Real Societies and Economies Inside That Outlive Them.
             </div>
             <div className="endgame-body">
-            Looking To Closely Collaborate With a Few Select Creators During Development that Get First Access & Support on Launch.
+            Looking To Closely Collaborate With a Few Founding Creators During Development that Get First Access & Support on Launch.
             </div>
             <Link href="https://discord.gg/J75hkmtmM4" className="join-button">
               JOIN CREATOR DISCORD
