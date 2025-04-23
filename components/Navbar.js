@@ -7,7 +7,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   // Check if we're on the homepage
-  const isHomepage = pathname === "/" || "/minecraftendgame";
+  const isHomepage = pathname === "/" || pathname === "/minecraftendgame";
 
   // Don't render the navbar on homepage
   if (isHomepage) {
