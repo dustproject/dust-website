@@ -24,7 +24,7 @@ const MinecraftEndgamePage = () => {
              Billions of Builds, Millions of Players, Thousands of Mods Have All Led to This… Minecraft Endgame. Where the Training Wheels Come Off.
             </div>
             <div className="endgame-body">
-            Unlimited Players Will Live on 1 Shared Forever Map That Nobody Owns, Controls, or Can Shut Down. The Physics Will Be Impossible To Break and Players Will Build Real Societies and Economies Inside That Outlive Them.
+            Unlimited Players Will Live on One Shared Forever Map That Nobody Owns, Controls, or Can Shut Down. The Physics Will Be Impossible To Break and Players Will Build Real Societies and Economies Inside That Outlive Them.
             </div>
             <div className="endgame-body">
             Looking To Collaborate With a Few Select Creators During Development.
@@ -35,16 +35,19 @@ const MinecraftEndgamePage = () => {
 
 
             <div className="endgame-subbody footer">
-                This Is Impossible for Any Studio or Server To Do. So We’re Building a Public Protocol – Like the Internet, but for the World’s Physics. Everything That Happens Inside the World Is Mathematically Guaranteed To Follow Its Physics and Permanently Recorded for Anyone To Verify.	
+                This Is Impossible for Any Studio or Server To Do. So We’re Building a {" "}
+                <Link href="https://dustproject.org/" style={{color: "cyan"}}>
+                    Public Protocol – Like the Internet, but for the World’s Physics
+                </Link>. Everything That Happens Inside the World Is Mathematically Guaranteed To Follow Its Physics and Permanently Recorded for Anyone To Verify.	
             </div>
             <div className='endgame-subbody'>
-            Browser Client Developed By {" "}
-                <Link href="https://ill.inc/">
+                Browser Client Developed By {" "}
+                <Link href="https://ill.inc/" style={{color: "cyan"}}>
                     Senior Facebook, Google Engineers
                 </Link>. Public Protocol Technology Used By {" "}
-                <Link href="https://lattice.xyz/">CCP Games</Link>.
+                <Link href="https://lattice.xyz/" style={{color: "cyan"}}>CCP Games</Link>.
                 Mathematical Guarantee Advancements By {" "}
-                <Link href="https://0xparc.org/blog/programmable-cryptography-1">MIT Researchers</Link>.
+                <Link href="https://0xparc.org/blog/programmable-cryptography-1" style={{color: "cyan"}}>MIT Researchers</Link>.
             </div>
 
           </div>
