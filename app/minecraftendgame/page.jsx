@@ -18,10 +18,10 @@ const MinecraftEndgamePage = () => {
         </div>
 
 
-        <div className="content-wrapper" style={{backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "0px"}}>
+        <div className="content-wrapper" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", padding: "0px", justifyContent: "center"}}>
           <div className="container">
             <div className="endgame-body">
-             Billions of Builds, Millions of Players, Thousands of Mods Have All Led to This… {" "}
+             Billions of Builds, Millions of Players, and Thousands of Mods Have All Led to This… {" "}
              <span style={{fontFamily: "Rubik Pixels"}}>MINECRAFT ENDGAME</span>. Where the Training Wheels Come Off.
             </div>
             <div className="endgame-body">
@@ -45,7 +45,7 @@ const MinecraftEndgamePage = () => {
                 Browser Client Developed By {" "}
                 <Link href="https://ill.inc/" style={{color: "cyan"}}>
                     Senior Facebook, Google Engineers
-                </Link>. Public Protocol Technology Used By {" "}
+                </Link>. Public Protocol Technology Adopted By {" "}
                 <Link href="https://lattice.xyz/" style={{color: "cyan"}}>CCP Games (EVE Online)</Link>.
                 Mathematical Guarantee Advancements By {" "}
                 <Link href="https://0xparc.org/blog/programmable-cryptography-1" style={{color: "cyan"}}>MIT Researchers</Link>.

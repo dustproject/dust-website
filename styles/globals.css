@@ -1043,7 +1043,7 @@ transition: all 0.3s ease;
 }
 
 .endgame-body {
-  font-size: clamp(12px, 2.5vw, 36px);
+  font-size: clamp(12px, 2vw, 36px);
   font-family: 'IBM Plex Sans';
   text-align: left;
   color: white; 
@@ -1057,7 +1057,7 @@ transition: all 0.3s ease;
 
 
 .endgame-subbody {
-  font-size: clamp(8px, 1.25vw, 24px);
+  font-size: clamp(8px, 1vw, 24px);
   font-family: 'IBM Plex Sans';
   text-align: left;
   color: white; 
@@ -1071,7 +1071,7 @@ transition: all 0.3s ease;
 
 .join-button {
   margin-top: 3rem;
-  font-size: clamp(12px, 2.5vw, 36px);
+  font-size: clamp(10px, 1.5vw, 30px);
   font-family: 'IBM Plex Sans';
   text-align: center;
   color: black; 
