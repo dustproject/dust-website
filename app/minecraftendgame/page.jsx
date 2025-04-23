@@ -42,7 +42,7 @@ const MinecraftEndgamePage = () => {
                 </Link>. Everything That Happens Inside the World Is Mathematically Guaranteed To Follow Its Physics and Permanently Recorded for Anyone To Verify.	
             </div>
             <div className='endgame-subbody'>
-                Browser Client Developed By {" "}
+                Free Browser Client Developed By {" "}
                 <Link href="https://ill.inc/" style={{color: "cyan"}}>
                     Senior Facebook, Google Engineers
                 </Link>. Public Protocol Technology Adopted By {" "}
