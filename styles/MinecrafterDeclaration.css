@@ -1,0 +1,105 @@
+/* Container styles */
+.declaration-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+/* Book styles */
+.book-container {
+width: 100%;
+background-color: #fffcdb;
+border: 8px solid #5c2e2e;
+border-radius: 4px;
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+overflow: hidden;
+position: relative;
+}
+
+/* Book content */
+.book-content {
+padding: 24px;
+min-height: 400px;
+background-image: linear-gradient(to bottom right, rgba(254, 252, 232, 0.9), rgba(254, 243, 199, 0.9));
+position: relative;
+}
+
+/* Title */
+.book-title {
+margin-bottom: 24px;
+margin-top: 0px;
+
+text-align: center;
+font-family: 'VT323';
+font-size: 44px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+/* Introduction text */
+.intro-text {
+margin-bottom: 24px;
+color: #000;
+font-weight: normal;
+}
+
+/* Table styles */
+.signers-table {
+width: 100%;
+border-collapse: collapse;
+color: #000;
+overflow-x: auto;
+}
+
+.signers-table th {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #333;
+}
+
+.signers-table td {
+padding: 8px;
+border-bottom: 1px solid #666;
+}
+
+.signers-table .rank-cell {
+font-family: monospace;
+}
+
+.signers-table .your-name-row {
+font-style: italic;
+text-align: center;
+}
+
+/* Quill icon */
+.quill-icon {
+position: absolute;
+bottom: 16px;
+right: 16px;
+opacity: 0.3;
+}
+
+/* Button container */
+.button-container {
+display: flex;
+justify-content: center;
+margin-top: 24px;
+}
+
+/* Minecraft-style buttons */
+.minecraft-button {
+background-color: #999999;
+color: #000;
+font-weight: bold;
+padding: 8px 64px;
+border-top: 2px solid #cccccc;
+border-bottom: 4px solid #666666;
+border-left: 2px solid #aaaaaa;
+border-right: 2px solid #aaaaaa;
+cursor: pointer;
+}
+
+.minecraft-button:hover {
+background-color: #a0a0a0;
+}

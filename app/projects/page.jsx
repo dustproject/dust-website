@@ -59,7 +59,7 @@ const ProjectsPage = ({ fontFamily }) => {
           <Link href="/mcendgame" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
               <div className='ctaBox abstractHeading mcBox' style={{display: "flex", justifyContent: "space-between", fontFamily: "Rubik Pixels"}}>
                 <div>
-                  GRASSROOTS FAN MOVEMENT BUILDING THE MINECRAFT ENDGAME
+                  GRASSROOTS MINECRAFT FAN MOVEMENT BUILDING THE ENDGAME
                 </div>
                 <div>
                   ›

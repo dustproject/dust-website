@@ -3,19 +3,18 @@
 import React, { useEffect, useRef, useState } from 'react';
 import "/styles/globals.css";
 import Link from "next/link";
+import MinecrafterDeclaration from './MinecrafterDeclaration';
 
 const AlphaOverlay = () => {
     const containerStyle = {
       position: 'relative',
       width: '100%'
     };
-    
     const imgStyle = {
       width: '100%',
       height: 'auto',
       display: 'block'
     };
-    
     const overlayStyle = {
       position: 'absolute',
       top: '5px',
@@ -26,7 +25,6 @@ const AlphaOverlay = () => {
       padding: '4px 8px',
       backgroundColor: 'black',
     };
-  
     return (
       <div style={containerStyle}>
         <img 
@@ -59,10 +57,9 @@ const MinecraftEndgamePage = () => {
             <div className="endgame-body">
               Solving the biggest problem in Minecraft history.
             </div>
-
             <div className="endgame-body">
              Billions of builds, millions of players, and thousands of mods have all led to this… {" "}
-             <span style={{fontFamily: "Rubik Pixels"}}>GRASSROOTS FAN MOVEMENT TO BUILD THE MINECRAFT ENDGAME</span>.
+             <span style={{fontFamily: "Rubik Pixels"}}>GRASSROOTS FAN MOVEMENT TO BUILD THE ENDGAME</span>.
             </div>
             <div className="endgame-body">
               One shared forever map with unlimited players that nobody can own, control, or shutdown. Unbreakable physics with serious consequences where players build real societies that outlive them.
@@ -93,8 +90,6 @@ const MinecraftEndgamePage = () => {
           </div>
         </div>
       </div>
-
-
       <div className="wrapper">
       <div className="container">
         <div className="sectionHeading">Free Browser Client for Everyone</div>
@@ -111,11 +106,6 @@ const MinecraftEndgamePage = () => {
             <AlphaOverlay/>
           </div>
         </div>
-
-
- 
-
-
         <div className="sectionHeading">Public Physics Protocol</div>
         <div className="content-section">
         <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
@@ -134,9 +124,6 @@ const MinecraftEndgamePage = () => {
           />
           </div>
         </div>
-
-
-
         <div className="sectionHeading">Redstone on Steroids</div>
         <div className="content-section">
             <div className="text-column">
@@ -151,7 +138,8 @@ const MinecraftEndgamePage = () => {
                 <img src="/connectlife.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
             </div>
         </div>
-        
+        <div className='wrapper' style={{ height: "70px" }}></div>
+        <MinecrafterDeclaration />
       </div>
     </div>
     </div>
