@@ -105,10 +105,12 @@ const ProjectsPage = ({ fontFamily }) => {
             </div>
         </div>
 
-        {/* <div className="sectionHeading">Advance Dust itself</div> */}
-        <div className='wrapper' style={{ height: "70px" }}></div>
 
-        <div className="content-section">
+        {fontFamily !== "IBM Plex Sans" && (
+          <>
+                  <div className='wrapper' style={{ height: "70px" }}></div>
+
+                  <div className="content-section">
           <div className="text-column">
 
           <div>After your project comes of age, you will evolve from a user to a founder, ready to rise within Dust - a public good that everyone can shape and benefit from. <a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and creators that will collectively build and maintain Dust. </div>
@@ -116,9 +118,6 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
         </div>
 
-
-        {fontFamily !== "IBM Plex Sans" && (
-          <>
           <div className="sectionHeading">Projects building on Dust</div>
           <div style={{ 
             display: "grid", 

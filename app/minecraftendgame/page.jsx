@@ -71,7 +71,7 @@ const MinecraftEndgamePage = () => {
             </Link>
             <div className="endgame-subbody footer" style={{paddingTop: "16px"}}>
                 This Is Impossible for Any Studio or Server To Do. So We’re Building {" "}
-                <Link href="https://dustproject.org/" style={{color: "cyan"}}>
+                <Link href="https://dustproject.org/coalition" style={{color: "cyan"}}>
                     Dust, a Public Protocol Like the Internet, but for the World’s Physics
                 </Link>. Everything That Happens Inside the World Is Mathematically Guaranteed To Follow Its Physics and Permanently Recorded for Anyone To Verify.	
             </div>
