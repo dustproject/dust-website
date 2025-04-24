@@ -1,5 +1,7 @@
 import React from 'react';
 import "/styles/globals.css";
+import Link from "next/link";
+
 
 const ProjectsPage = ({ fontFamily }) => {
   const fontStyle = fontFamily ? { fontFamily } : {};
@@ -22,7 +24,9 @@ const ProjectsPage = ({ fontFamily }) => {
 
         <div className="content-section">
           <div className="text-column">
-            <div><strong>Dust</strong> is a world that truly exists. Everyone can agree that it's real and nobody's making it up. Nobody owns or controls it, nobody can break its physics or delete its matter, and nobody can stop it. What you build inside can outlive you and benefit your broader life.</div>
+            <div><strong>Dust</strong> {" "}
+            is a world that truly exists. Everybody can agree that it's real and nobody's making it up. Nobody can own, control, or stop it. Nobody can break its physics or delete its matter, and everybody can fit. What you build inside can outlive you and benefit your broader life.
+            </div>
           </div>
         </div>
         <div className='cardsContainer'>
@@ -61,57 +65,57 @@ const ProjectsPage = ({ fontFamily }) => {
         </div>
 
 
-        <div className="sectionHeading">1. Get digital matter</div>
+        <div className="sectionHeading">Build Something Truly Lasting</div>
         <div className="content-section">
-          <div className="text-column">
-            <div>The world is made of digital matter and energy. Nobody can change their supply or the physics they follow.</div>
-            <div>You get starting energy when you <a href="https://alpha.dustproject.org/">spawn</a>. Use it to live and act in the world.</div>
-            <div>Everything flows cyclically according to unbreakable physics. Grow and eat crops for energy, and your usage returns energy to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
+          <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
+            <div>The matter and energy of the world flow cyclically according to an unbreakable Public Physics Protocol.</div>
+            <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
+            <div>Grow and eat crops for energy, and your usage returns energy to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
+            <div>Claim territory using force fields, for as long as you keep them energized. Territories can be attacked and must be protected.</div>
+            <div>Whatever you build inside your territory can outlive you as a permanent store of your effort.</div>          
           </div>
-          <div className="image-column">
-            <img src="/digitalphysics.svg" className="section-image" alt="Stone Carvings" />
+          <div className="text-column">
+            {/* <div style={{height: "100%", display: "flex", flexDirection: "column", gap: "1rem", alignItems: "center"}}> */}
+              {/* <strong>A Public Protocol, Like The Internet, But For The World's Physics</strong> */}
+              <iframe 
+                src="https://explorer.mud.dev/pyrope/worlds/0xaa544E5e0D1C45cC43Ac8D5512a5081aA6Ca9EFE/explore?tableId=0x74620000000000000000000000000000506f736974696f6e0000000000000000&query=SELECT%2520%2522entityId%2522%252C%2520%2522x%2522%252C%2520%2522y%2522%252C%2520%2522z%2522%2520FROM%2520%2522Position%2522%2520LIMIT%252010%2520OFFSET%25200%253B&page=0&pageSize=10" 
+                className="map-iframe"
+                title="DUST Project Map"
+                loading="lazy"
+              />
+          {/* </div> */}
           </div>
         </div>
 
-        <div className="sectionHeading">2. Build something truly lasting</div>
+        <div className="sectionHeading">Enrich Both Dust and Your Broader Life</div>
+
+        <div className="content-section">
+            <div className="text-column">
+                <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client, and integrate anything - reddit, discord, your own custom currency, or even real dollars.</div>
+                <div>As shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} programmed chests in their territory as shops using their own custom currency, and built a UI to guide players where to trade.</div>
+                <iframe 
+                    src="https://trading-app-client-psi.vercel.app/news" 
+                    className="map-iframe"
+                    title="DUST Project Map"
+                    loading="lazy"
+                />
+            </div>
+            <div className="small-image-column">
+                <img src="/connectlife.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
+            </div>
+        </div>
+
+        {/* <div className="sectionHeading">Advance Dust itself</div> */}
+        <div className='wrapper' style={{ height: "70px" }}></div>
+
         <div className="content-section">
           <div className="text-column">
-            <div>Everything you do inside is permanently and publicly recorded. Anyone can verify what actually happened.</div>
-            <div>Claim territory using force fields, for as long as you keep them energized with crops. Protect and attack territory with crafted items.</div>
-            <div>Build inside your territory. It can last as long as a real stone carving, outliving you, and becoming a permanent store of your effort.</div>
-          </div>
-          <div className="image-column">
-            <img src="/stonecarvings.png" className="section-image" alt="Stone Carvings" />
+
+          <div>After your project comes of age, you will evolve from a user to a founder, ready to rise within Dust - a public good that everyone can shape and benefit from. <a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and creators that will collectively build and maintain Dust. </div>
+
           </div>
         </div>
 
-        <div className="sectionHeading">3. Enrich Both Dust and Your Broader Life</div>
-        <div className="content-section">
-          <div className="text-column">
-            <div>1. Create <a href='https://github.com/dustproject/dust/tree/main/packages/dustkit'>verifiable programs</a> that read and build upon the world's publicly record state:</div>
-            <div className='exampleitalic'>Write a kill tracker that ranks players based on their kills.</div>
-            <div>2. Control your machines in the world - like force fields, chests, doors, and beds - through your programs:</div>
-            <div className='exampleitalic'>Build an arena with a door gating access to top killers from the kill tracker, and chests that give them each a weapon. Write an arena tracker that lists wins.</div>
-            <div>3. Write frontends for your programs - with their own custom quests, waypoints, and HUDs - so others can use them:</div>
-            <div className='exampleitalic'>Players check the arena winners list, get waypoint directions to reach it, and interact with its doors and chests.</div>
-            <div>4. Use standards and proofs in your programs to integrate with any asset or data online:</div>
-            <div className='exampleitalic'>Issue "ColCoins" to arena winners. These can instantly be traded for other assets, including US Dollars. Create a governance program where proof-holders of posting on r/ancientrome propose arena improvements, and ColCoin-holders vote on implementation.</div>
-          </div>
-          <div className="small-image-column">
-            <img src="/connectlife.svg" className="section-image" style={{border: "none"}} alt="Connect Life"/>
-          </div>
-        </div>
-
-        <div className="sectionHeading">4. Advance Dust itself</div>
-        <div className="content-section">
-          <div className="text-column">
-            <div>After your project comes of age, you will evolve from a user to a founder, ready to rise within Dust - a public good that everyone can shape and benefit from.</div>
-            <div><a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and possibly you - that will collectively build and maintain Dust. </div>
-          </div>
-          <div className="image-column">
-            <img src="/usersfounders.png" className="section-image" alt="Users Founders" />
-          </div>
-        </div>
 
         {fontFamily !== "IBM Plex Sans" && (
           <>

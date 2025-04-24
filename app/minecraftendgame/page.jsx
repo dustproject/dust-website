@@ -58,7 +58,7 @@ const MinecraftEndgamePage = () => {
           <div className="container">
             <div className="endgame-body">
              Billions of Builds, Millions of Players, and Thousands of Mods Have All Led to This… {" "}
-             <span style={{fontFamily: "Rubik Pixels"}}>MINECRAFT ENDGAME</span>.
+             <span style={{fontFamily: "Rubik Pixels"}}>THE ENDGAME FOR MINECRAFTERS</span>.
             </div>
             <div className="endgame-body">
             Unlimited Players Will Live on One Shared Forever Map That Nobody Can Own, Control, or Shutdown. Unbreakable Physics Will Present Serious Consequences and Players Will Build Real Societies That Outlive Them.
@@ -83,6 +83,7 @@ const MinecraftEndgamePage = () => {
                 <Link href="https://lattice.xyz/" style={{color: "cyan"}}>CCP Games (EVE Online)</Link>.
                 Mathematical Guarantee Advancements By {" "}
                 <Link href="https://0xparc.org/blog/programmable-cryptography-1" style={{color: "cyan"}}>MIT Researchers</Link>.
+                {/* Not affiliated with Mojang or Microsoft. */}
             </div>
 
           </div>
@@ -113,11 +114,12 @@ const MinecraftEndgamePage = () => {
 
         <div className="sectionHeading">Public Physics Protocol</div>
         <div className="content-section">
-          <div className="image-column" style={{flexDirection: "column", gap: "1rem"}}>
-            <div>The matter and energy of the world flows cyclically according to unbreakable physics.</div>
+        <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
+            <div>The matter and energy of the world flow cyclically according to an unbreakable Public Physics Protocol.</div>
+            <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
             <div>Grow and eat crops for energy, and your usage returns energy to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
-            <div>Claim territory using force fields, for as long as you keep them energized with your crops. Protect and attack territory with your crafted items.</div>
-            <div>Everything that happens in the world is permanently recorded for anyone to verify. So whatever you build inside your territory can truly outlive you.</div>
+            <div>Claim territory using force fields, for as long as you keep them energized. Territories can be attacked and must be protected.</div>
+            <div>Whatever you build inside your territory can outlive you as a permanent store of your effort.</div>          
           </div>
           <div className="text-column">
             <iframe 
@@ -131,11 +133,11 @@ const MinecraftEndgamePage = () => {
 
 
 
-        <div className="sectionHeading">Command Blocks on Steroids</div>
+        <div className="sectionHeading">Redstone on Steroids</div>
         <div className="content-section">
             <div className="text-column">
                 <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client, and integrate anything - reddit, discord, your own custom currency, or even real dollars.</div>
-                <div>In the example shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} programmed chests in their territory into shops that use their own custom currency and built a UI directing players how to trade.</div>
+                <div>As shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} programmed chests in their territory as shops using their own custom currency, and built a UI to guide players where to trade.</div>
 
                 <iframe 
                     src="https://trading-app-client-psi.vercel.app/news" 
