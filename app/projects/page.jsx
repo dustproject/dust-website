@@ -15,6 +15,7 @@ const ProjectsPage = ({ fontFamily }) => {
     { name: "Yeomen Automation Tools", link: "https://yeomen.ai/" },
     { name: "Sprank Builders", link: "https://x.com/AnotherSprankle" },
     { name: "FunBlocks Guild", link: "https://linktr.ee/funblocks" },
+    { name: "Minecraft Endgame", link: "https://www.dustproject.org/mcendgame" },
   ];
 
   return (
@@ -31,17 +32,17 @@ const ProjectsPage = ({ fontFamily }) => {
         </div>
         <div className='cardsContainer'>
           <div className='createCard'>
-            <div className='cardSubheading'>MMO PLAYERS</div>
+            <div className='cardSubheading'>MMO CREATORS</div>
             <div className='cardHeading'>Build Core Features Only Big Studios Could</div>
             <div className='cardContent'>
               You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, Final Fantasy XIV Gold Saucer, and Black Desert Online Transport Network.
             </div>
           </div>
           <div className='createCard'>
-            <div className='cardSubheading'>DAPP BUILDERS</div>
+            <div className='cardSubheading'>MECHANISM DESIGNERS</div>
             <div className='cardHeading'>Design Real Financial & Social Mechanisms</div>
             <div className='cardContent'>
-            Build real financial & social mechanisms that take tangible & intuitive forms in the world. Imagine doors become "token gates", chests function as "liquidity pools" and "lending protocols", force fields provide "staking rewards" for securing it, ore reserves back "RWAs", and "DAOs" govern territory.
+            Build real financial & social mechanisms into the world. Imagine doors opening for pass holders; chests enabling trade, auctions, and lending; force fields providing rewards for protecting it; ore reserves backing custom currencies; futarchy governing territory; and, insurance compensating for mobs.
             </div>
           </div>
           <div className='createCard'>
@@ -53,12 +54,29 @@ const ProjectsPage = ({ fontFamily }) => {
           </div>
         </div>
 
+
+        {fontFamily === "IBM Plex Sans" && (
+          <Link href="/mcendgame" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
+              <div className='ctaBox abstractHeading mcBox' style={{display: "flex", justifyContent: "space-between", fontFamily: "Rubik Pixels"}}>
+                <div>
+                  GRASSROOTS FAN MOVEMENT BUILDING THE MINECRAFT ENDGAME
+                </div>
+                <div>
+                  ›
+                </div>
+              </div>
+          </Link>
+        )}
+
+
+
+
         <div className='ctaBox abstractHeading' style={{fontWeight: "normal"}}>
-          <a href="https://discord.gg/J75hkmtmM4" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold"}}>
+          <a href="https://discord.gg/J75hkmtmM4" target="_blank" rel="noopener noreferrer" className='hovercta' style={{color: "white", fontWeight: "bold"}}>
             Join Discord 
           </a>{" "}
           for support with what you're building. {" "}
-          <a href="mailto:dhrumil@dustproject.org" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold"}}>
+          <a href="mailto:dhrumil@dustproject.org" target="_blank" rel="noopener noreferrer" className='hovercta' style={{color: "white", fontWeight: "bold"}}>
             Send email
           </a>{" "}
           for broader inquiries.
@@ -68,7 +86,7 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className="sectionHeading">Build Something Truly Lasting</div>
         <div className="content-section">
           <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
-            <div>The matter and energy of the world flow cyclically according to an unbreakable Public Physics Protocol.</div>
+            <div>The matter and energy of the world flow cyclically according to a mathematically-unbreakable Public Physics Protocol.</div>
             <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
             <div>Grow and eat crops for energy, and your usage returns energy to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
             <div>Claim territory using force fields, for as long as you keep them energized. Territories can be attacked and must be protected.</div>
@@ -89,21 +107,22 @@ const ProjectsPage = ({ fontFamily }) => {
 
         <div className="sectionHeading">Enrich Both Dust and Your Broader Life</div>
 
+
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client, and integrate anything - reddit, discord, your own custom currency, or even real dollars.</div>
-                <div>As shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} programmed chests in their territory as shops using their own custom currency, and built a UI to guide players where to trade.</div>
-                <iframe 
-                    src="https://trading-app-client-psi.vercel.app/news" 
-                    className="map-iframe"
-                    title="DUST Project Map"
-                    loading="lazy"
-                />
+                <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client by anyone, and integrate anything - reddit, discord, custom currencies, or even real dollars.</div>
+                <div>As shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
+                is demonstrating its power. Their passport holders spawn directly inside their territory via their website. Inside, they programmed force fields and chests to rent land plots and enable trade in their currency, all accessed through custom in-client UIs for trading, real estate, and governance.
+                </div>
+
+                <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
             </div>
             <div className="small-image-column">
                 <img src="/connectlife.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
             </div>
         </div>
+
+
 
 
         {fontFamily !== "IBM Plex Sans" && (

@@ -929,6 +929,17 @@ transition: all 0.3s ease;
   color: white;
 }
 
+.mcBox {
+  background-color: black;
+}
+.mcBox:hover {
+  opacity: 0.7;
+}
+
+.hovercta:hover {
+  opacity: 0.7;
+}
+
 
 .content-section {
   display: flex;
@@ -1066,7 +1077,7 @@ transition: all 0.3s ease;
   opacity: 0.6;
   padding: 8px; /* Better touch target for mobile */
   display: inline-block;
-  line-height: 120%;
+  line-height: 140%;
 }
 
 .join-button {

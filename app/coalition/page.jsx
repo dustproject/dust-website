@@ -17,8 +17,8 @@ const projectsTrack = {
       isNew: true
     },
     {
-      title: "Decentralized Applications",
-      ourBenefit: "Traditional dApps foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on a verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened with a token,\" and an \"RWA\" becomes an \"asset backed by a protected digital ores reserve.\"",
+      title: "Mechanism Design",
+      ourBenefit: "Mechanisms defined by smart contracts foster economic emergence by issuing financial assets and composing with each other, but they lack tangibility. Building them on a verifiable virtual environment makes them tangible and intuitive - \"token gating\" becomes a \"digital door opened by a pass holder,\" and an \"RWA\" becomes an \"asset backed by a protected digital ores reserve.\"",
       keyWorks: [
         "lorem ipsum",
         "lorem ipsum",
