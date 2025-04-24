@@ -58,7 +58,7 @@ const MinecraftEndgamePage = () => {
           <div className="container">
             <div className="endgame-body">
              Billions of Builds, Millions of Players, and Thousands of Mods Have All Led to This… {" "}
-             <span style={{fontFamily: "Rubik Pixels"}}>A GRASSROOTS MINECRAFT FAN MOVEMENT BUILDING THE ENDGAME</span>.
+             <span style={{fontFamily: "Rubik Pixels"}}>A GRASSROOTS MINECRAFT FAN MOVEMENT TO BUILD THE ENDGAME</span>.
             </div>
             <div className="endgame-body">
             One Shared Forever Map With Unlimited Players That Nobody Can Own, Control, or Shutdown. Unbreakable Physics Present Serious Consequences and Players Build Real Societies That Outlive Them.
