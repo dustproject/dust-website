@@ -64,7 +64,7 @@ const MinecrafterDeclaration = () => {
           To commence our independence, we have made three foundational contributions.
           The most advanced voxel client ever built, free in anyone's browser.
           The most powerful modding tools ever created, capable of integrating with anything, without asking permission.
-          The first implementation of the Public Physics Protocol, with cryptographically guaranteed rules.
+          The first implementation of the Public Physics Protocol, with mathematically guaranteed rules.
           </div>
 
           <div className="intro-text">

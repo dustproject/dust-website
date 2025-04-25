@@ -84,7 +84,7 @@ const MinecraftEndgamePage = () => {
                 This is impossible for any individual studio or server to do. So together we're building {" "}
                 <Link href="https://dustproject.org/coalition" style={{color: "cyan"}}>
                     Dust, a public protocol for the physics of this world.
-                </Link>. Everything that happens inside the world is cryptographically guaranteed to follow the physics of the world, and permanently recorded for the public to verify.	
+                </Link>. Everything that happens inside the world is mathematically verifiable to follow the physics of the world, and permanently recorded for the public to verify.	
             </div>
             <div className='endgame-subbody'>
                 Browser client tools developed by {" "}
@@ -119,7 +119,7 @@ const MinecraftEndgamePage = () => {
         <div className="sectionHeading">Public Physics Protocol</div>
         <div className="content-section">
         <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
-            <div>The matter and energy of the world flow cyclically according to a cryptographically guaranteed Public Physics Protocol.</div>
+            <div>The matter and energy of the world flow cyclically according to a mathematically guaranteed Public Physics Protocol.</div>
             <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
             <div>Grow and eat plants for energy, and your usage returns energy to the land. Mine ores to craft tools, and ores regenerate as tools deplete.</div>
             <div>Claim territory using force fields, for as long as you keep them charged. Territories can be attacked and must be protected.</div>
