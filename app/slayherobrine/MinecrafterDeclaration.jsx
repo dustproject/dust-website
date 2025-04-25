@@ -43,7 +43,7 @@ const parseMarkdownLinks = (text) => {
 
 const MinecrafterDeclaration = () => {
   const initialSigners = [
-    { rank: 1, name: "[Permutation City](http://permutationcity.org/)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
+    { rank: 1, name: "[Permutation City](http://permutationcity.org/)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), developer of [over 40 mods](https://github.com/minecarts), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
   ];
 
   return (
@@ -51,29 +51,20 @@ const MinecrafterDeclaration = () => {
       <div className="book-container">
         
         <div className="book-content">
-          <h2 className="book-title">THE MINECRAFTER DECLARATION OF INDEPENDENCE</h2>
+          <h2 className="book-title">The Minecrafter Declaration&nbsp;of&nbsp;Independence</h2>
           
           <div className="intro-text">
-          We, the Minecrafters, mark the culmination of 15 years of creation, collaboration, and chaos by building the Endgame World - one that finally gives us independence.
-          A world where our greatest works, stories, and societies can outlast us.
-          A world where every action holds weight and real consequences.
-          A world no one can own, control, or shut down - and everybody can benefit from.
+          We, the Minecrafters, mark the culmination of 15 years of Minecraft by building The One World with independence. One world where our greatest works, stories, and societies live beyond us. One world where our actions hold weight and have real consequences. One world that nobody can take away and everybody benefits from.
           </div>
 
           <div className="intro-text">
-          To commence our independence, we have made three foundational contributions.
-          The most advanced voxel client ever built, free in anyone's browser.
-          The most powerful modding tools ever created, capable of integrating with anything, without asking permission.
-          The first implementation of the Public Physics Protocol, with mathematically guaranteed rules.
+          To commence our independence, we have made three foundational contributions. The most advanced voxel client ever built, free in anyone's browser. The most powerful modding tools ever created, capable of integrating with anything, permissionlessly. The first implementation of the Public Physics Protocol, eliminating the tyranny of servers. 
           </div>
 
           <div className="intro-text">
-          Together, we join the{" "}<Link href="/coalition">coalition</Link>{" "}to free our world from gatekeepers, shutdowns, and special permissions.
-          Those who sign this declaration become the founding Bedrock of a new era - the ones who finally, once and for all, Slay Herobrine.
+          Together, we establish our commitment to advancing the {" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}that will liberate our world from owners, admins, servers, and shutdowns. Those who sign this declaration become the founding Bedrock of a new era - the ones who finally, once and for all, Slay Herobrine.
           </div>
 
-
-          
           <div style={{overflowX: "scroll"}}>
             <table className="signers-table">
               <thead>
