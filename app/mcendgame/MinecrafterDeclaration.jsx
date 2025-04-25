@@ -1,5 +1,7 @@
 import React from 'react';
 import "/styles/MinecrafterDeclaration.css";
+import Link from "next/link";
+
 
 const MinecrafterDeclaration = () => {
   const initialSigners = [
@@ -13,11 +15,28 @@ const MinecrafterDeclaration = () => {
       <div className="book-container">
         
         <div className="book-content">
-          <h2 className="book-title">MINECRAFTER DECLARATION OF INDEPENDENCE</h2>
+          <h2 className="book-title">THE MINECRAFTER DECLARATION OF INDEPENDENCE</h2>
           
           <div className="intro-text">
-            We, the builders of worlds, declare our independence from temporary servers, resets, and lost creations. Together, we establish this permanent record of our commitment to build the Endgame - a world without end.
+          We, the Minecrafters, culminate the past 15 years of Minecraft by building its Endgame - a world with independence.
+          A world where our greatest works, stories, and societies outlive us. A world where our actions hold weight and have real consequences.
+          A world that nobody can take away and everybody can benefit from. 
           </div>
+
+          <div className="intro-text">
+          To demonstrate our dedication, we have made three foundational contributions. The highest-production, arbitrarily-scalable voxel client ever built, free in anyone's browser. The most powerful modding tools ever created, capable of permissionlessly integrating with anything that exists. The first implementation of the Public Physics Protocol, with robust interaction and verification systems.
+          </div>
+
+          <div className="intro-text">
+
+          Together, we establish our commitment to building the mathematically-unbreakable
+          {" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}
+           that will liberate our world from admins, owners, and servers.
+
+          Those who sign this declaration become the founding community of what will be the Minecrafters' dent on the universe.
+          </div>
+
+
           
           <div>
             <table className="signers-table">
@@ -44,8 +63,12 @@ const MinecrafterDeclaration = () => {
 
           <div className="button-container">
         <button className="minecraft-button">            
-          SIGN
+          Sign Founding Declaration
         </button>
+        
+
+
+
       </div>
       
         </div>

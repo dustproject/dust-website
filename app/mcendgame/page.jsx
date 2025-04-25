@@ -135,10 +135,10 @@ const MinecraftEndgamePage = () => {
         <div className="sectionHeading">Redstone on Steroids</div>
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
+                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
                 <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
                 is demonstrating what's possible with the most powerful modding tools ever created. 
-                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory and use Permutation Pesos to rent land and trade in shops. All of this will be accessed through their custom UIs for trading, real estate, and governance.  
+                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. All of this will be accessed through their custom UIs for trading, real estate, and governance.  
                 </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>

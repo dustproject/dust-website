@@ -32,7 +32,7 @@ const ProjectsPage = ({ fontFamily }) => {
         </div>
         <div className='cardsContainer'>
           <div className='createCard'>
-            <div className='cardSubheading'>MMO CREATORS</div>
+            <div className='cardSubheading'>MMO PLAYERS</div>
             <div className='cardHeading'>Build Core Features Only Big Studios Could</div>
             <div className='cardContent'>
               You're not limited to building untrusted third-party widgets. Build the trusted first-party socio-economic systems of the world, imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, Final Fantasy XIV Gold Saucer, and Black Desert Online Transport Network.
@@ -59,7 +59,7 @@ const ProjectsPage = ({ fontFamily }) => {
           <Link href="/mcendgame" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
               <div className='ctaBox abstractHeading mcBox' style={{display: "flex", justifyContent: "space-between", fontFamily: "Rubik Pixels"}}>
                 <div>
-                  GRASSROOTS MINECRAFT FAN MOVEMENT BUILDING THE ENDGAME
+                  JOIN THE GRASSROOTS MINECRAFT FAN MOVEMENT
                 </div>
                 <div>
                   ›
@@ -110,10 +110,10 @@ const ProjectsPage = ({ fontFamily }) => {
 
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
+                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
                 <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
                 is demonstrating what's possible with the most powerful modding tools ever created. 
-                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory and use Permutation Pesos to rent land and trade in shops. All of this will be accessed through their custom UIs for trading, real estate, and governance.  
+                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. All of this will be accessed through their custom UIs for trading, real estate, and governance.  
                 </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>

@@ -135,7 +135,7 @@ const economicsTrack = {
 };
 
 const productsTrack = {
-  title: "Products",
+  title: "Clients",
   categories: [
     {
       title: "Web Apps",
@@ -269,9 +269,9 @@ export default function Page() {
               <strong>Projects:</strong> Grow societies and lifeforms within the universe that outlive their creators and freely connect to our broader lives.
             </li>
             <li style={{marginTop: "8px"}}>
-              <strong>Products:</strong> 
+              <strong>Clients:</strong> 
               {" "}
-              Build commercial products that people enjoy using to inhabit the universe.
+              Build commercial clients that people enjoy using to inhabit the universe.
             </li>
           </ul>
           <hr style={{border: "0.5px solid #e2e2e2", marginTop: "24px"}}/>
