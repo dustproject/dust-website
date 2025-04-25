@@ -41,6 +41,11 @@ const AlphaOverlay = () => {
 
 
 const MinecraftEndgamePage = () => {
+  const declarationRef = useRef(null);
+  
+  const scrollToDeclaration = () => {
+    declarationRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div>
       <div className="dust-container">
@@ -59,7 +64,7 @@ const MinecraftEndgamePage = () => {
             </div>
             <div className="endgame-body">
              Billions of builds, millions of players, and thousands of mods have all led to this… {" "}
-             <span style={{fontFamily: "Rubik Pixels"}}>GRASSROOTS FAN MOVEMENT TO BUILD THE ENDGAME</span>.
+             <span style={{fontFamily: "Rubik Pixels"}}>A GRASSROOTS FAN MOVEMENT TO BUILD THE ENDGAME</span>.
             </div>
             <div className="endgame-body">
               One shared forever map with unlimited players that nobody can own, control, or shutdown. Unbreakable physics with serious consequences where players build real societies that outlive them.
@@ -67,11 +72,14 @@ const MinecraftEndgamePage = () => {
             {/* <div className="endgame-body">
             Collaborate as a Founding Creator for First Access & Support on Launch.
             </div> */}
-            <Link href="https://discord.gg/J75hkmtmM4" className="join-button">
+            <Link href="#" onClick={(e) => {
+              e.preventDefault();
+              scrollToDeclaration();
+            }} className="join-button">
               SIGN FOUNDING DECLARATION
             </Link>
             <div className="endgame-subbody footer" style={{paddingTop: "16px"}}>
-                This is impossible for any studio or server to do. So we're building {" "}
+                This is impossible for any studio or server to do. So together we're building {" "}
                 <Link href="https://dustproject.org/coalition" style={{color: "cyan"}}>
                     Dust, a public protocol like the Internet, but for the world’s physics
                 </Link>. Everything that happens inside the world is mathematically guaranteed to follow its physics and permanently recorded for anyone to verify.	
@@ -81,7 +89,7 @@ const MinecraftEndgamePage = () => {
                 <Link href="https://ill.inc/" style={{color: "cyan"}}>
                     senior Facebook, Google engineers
                 </Link>. Public protocol technology adopted by {" "}
-                <Link href="https://lattice.xyz/" style={{color: "cyan"}}>CCP Games (EVE Online)</Link>.
+                <Link href="https://lattice.xyz/blog/working-with-ccp" style={{color: "cyan"}}>CCP Games (EVE Online)</Link>.
                 Mathematical guarantee advancements by {" "}
                 <Link href="https://0xparc.org/blog/programmable-cryptography-1" style={{color: "cyan"}}>MIT researchers</Link>.
                 Not affiliated with or endorsed by Mojang/Microsoft.
@@ -127,9 +135,10 @@ const MinecraftEndgamePage = () => {
         <div className="sectionHeading">Redstone on Steroids</div>
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client by anyone, and integrate anything - reddit, discord, custom currencies, or even real dollars.</div>
-                <div>As shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
-                is demonstrating its power. Their passport holders spawn directly inside their territory via their website. Inside, they programmed force fields and chests to rent land plots and enable trade in their currency, all accessed through custom in-client UIs for trading, real estate, and governance.
+                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
+                <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
+                is demonstrating what's possible with the most powerful modding tools ever created. 
+                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory and use Permutation Pesos to rent land and trade in shops. All of this will be accessed through their custom UIs for trading, real estate, and governance.  
                 </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
@@ -139,7 +148,9 @@ const MinecraftEndgamePage = () => {
             </div>
         </div>
         <div className='wrapper' style={{ height: "70px" }}></div>
-        <MinecrafterDeclaration />
+        <div ref={declarationRef}>
+          <MinecrafterDeclaration />
+        </div>
       </div>
     </div>
     </div>

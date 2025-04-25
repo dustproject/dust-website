@@ -110,9 +110,10 @@ const ProjectsPage = ({ fontFamily }) => {
 
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, hook it up to a custom UI that can be used directly in-client by anyone, and integrate anything - reddit, discord, custom currencies, or even real dollars.</div>
-                <div>As shown below, {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
-                is demonstrating its power. Their passport holders spawn directly inside their territory via their website. Inside, they programmed force fields and chests to rent land plots and enable trade in their currency, all accessed through custom in-client UIs for trading, real estate, and governance.
+                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
+                <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
+                is demonstrating what's possible with the most powerful modding tools ever created. 
+                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory and use Permutation Pesos to rent land and trade in shops. All of this will be accessed through their custom UIs for trading, real estate, and governance.  
                 </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
