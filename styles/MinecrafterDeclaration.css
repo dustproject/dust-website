@@ -114,7 +114,7 @@
   .signers-table {
     width: 100%;
     border-collapse: collapse;
-    color: #000;
+    color: rgba(51,51,51,1);
     margin-top: 30px;
     border: 1px solid #966F33;
   }
@@ -143,20 +143,6 @@
     text-align: center;
   }
 
-  
-  /* Decorative elements */
-  .book-content::after {
-    content: "";
-    position: absolute;
-    bottom: 20px;
-    right: 40px;
-    width: 60px;
-    height: 60px;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="rgba(92, 46, 46, 0.2)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 2H4C2.9 2 2 2.9 2 4v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/><path d="M2 20l20-20"/><path d="M2 4l20 20"/></svg>');
-    background-repeat: no-repeat;
-    opacity: 0.3;
-    z-index: 0;
-  }
   
   /* Button container */
   .button-container {

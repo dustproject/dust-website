@@ -24,7 +24,7 @@ const MinecrafterDeclaration = () => {
           </div>
 
           <div className="intro-text">
-          To demonstrate our dedication, we have made three foundational contributions. The highest-production, arbitrarily-scalable voxel client ever built, free in anyone's browser. The most powerful modding tools ever created, capable of permissionlessly integrating with anything that exists. The first implementation of the Public Physics Protocol, with robust interaction and verification systems.
+          To commence our independence, we have made three foundational contributions. The highest-production, arbitrarily-scalable voxel client ever built, free in anyone's browser. The most powerful modding tools ever created, capable of permissionlessly integrating with anything that exists. The first implementation of the Public Physics Protocol, with robust interaction and verification systems.
           </div>
 
           <div className="intro-text">
@@ -32,8 +32,8 @@ const MinecrafterDeclaration = () => {
           Together, we establish our commitment to building the mathematically-unbreakable
           {" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}
            that will liberate our world from admins, owners, and servers.
+           Those who sign this declaration become the founding Bedrock of Minecrafters that definitively slay Herobrine.
 
-          Those who sign this declaration become the founding community of what will be the Minecrafters' dent on the universe.
           </div>
 
 
@@ -42,10 +42,10 @@ const MinecrafterDeclaration = () => {
             <table className="signers-table">
               <thead>
                 <tr>
-                  <th>Sign Rank</th>
-                  <th>Name</th>
-                  <th>Minecraft Legacy</th>
-                  <th>Founding Act</th>
+                <th style={{ width: '9%' }}>Sign #</th>
+                <th style={{ width: '18%' }}>Name</th>
+                <th style={{ width: '36.5%' }}>Minecraft Legacy</th>
+                <th style={{ width: '36.5%' }}>Founding Act</th>
                 </tr>
               </thead>
               <tbody>
