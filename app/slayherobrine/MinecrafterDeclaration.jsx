@@ -2,12 +2,48 @@ import React from 'react';
 import "/styles/MinecrafterDeclaration.css";
 import Link from "next/link";
 
+const parseMarkdownLinks = (text) => {
+    if (!text || text === "—") return "—";
+    
+    // Regular expression to match markdown links [text](url)
+    const markdownLinkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+    
+    // Split the text into parts: text before link, link itself, text after link
+    const parts = [];
+    let lastIndex = 0;
+    let match;
+    
+    while ((match = markdownLinkRegex.exec(text)) !== null) {
+      // Add text before the link
+      if (match.index > lastIndex) {
+        parts.push(text.substring(lastIndex, match.index));
+      }
+      
+      // Add the link as a React element
+      const linkText = match[1];
+      const linkUrl = match[2];
+      parts.push(
+        <a key={match.index} href={linkUrl} target="_blank" rel="noopener noreferrer">
+          {linkText}
+        </a>
+      );
+      
+      lastIndex = match.index + match[0].length;
+    }
+    
+    // Add any remaining text after the last link
+    if (lastIndex < text.length) {
+      parts.push(text.substring(lastIndex));
+    }
+    
+    return parts;
+  };
+  
+
 
 const MinecrafterDeclaration = () => {
   const initialSigners = [
-    { rank: 1, name: "", minecraftLegacy: "", foundingAct: "", lineage: "" },
-    { rank: 2, name: "", minecraftLegacy: "", foundingAct: "", lineage: "" },
-    { rank: 3, name: "", minecraftLegacy: "", foundingAct: "", lineage: "" }
+    { rank: 1, name: "[Permutation City](http://permutationcity.org/)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
   ];
 
   return (
@@ -31,14 +67,15 @@ const MinecrafterDeclaration = () => {
 
           Together, we establish our commitment to building the mathematically-unbreakable
           {" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}
-           that will liberate our world from admins, owners, and servers.
-           Those who sign this declaration become the founding Bedrock of Minecrafters that definitively slay Herobrine.
+           that will liberate our world from admins, owners, studios, and servers.
+           Those who sign this declaration become the founding Bedrock of Minecrafters that definitively {" "}
+           Slay Herobrine.
 
           </div>
 
 
           
-          <div>
+          <div style={{overflowX: "scroll"}}>
             <table className="signers-table">
               <thead>
                 <tr>
@@ -52,9 +89,9 @@ const MinecrafterDeclaration = () => {
                 {initialSigners.map((signer, index) => (
                   <tr key={index}>
                     <td className="rank-cell">{signer.rank}</td>
-                    <td>{signer.name || "—"}</td>
-                    <td>{signer.minecraftLegacy || "—"}</td>
-                    <td>{signer.foundingAct || "—"}</td>
+                    <td>{parseMarkdownLinks(signer.name)}</td>
+                    <td>{parseMarkdownLinks(signer.minecraftLegacy)}</td>
+                    <td>{parseMarkdownLinks(signer.foundingAct)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -62,7 +99,8 @@ const MinecrafterDeclaration = () => {
           </div>
 
           <div className="button-container">
-        <button className="minecraft-button">            
+        <button className="minecraft-button"
+          onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSeToPi77SS3Z4_dBVnAIZOXJvcuA6MfGGK89U7nQRJOaoZMrg/viewform?usp=sharing", "_blank")}>            
           Sign Founding Declaration
         </button>
         

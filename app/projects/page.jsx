@@ -15,7 +15,7 @@ const ProjectsPage = ({ fontFamily }) => {
     { name: "Yeomen Automation Tools", link: "https://yeomen.ai/" },
     { name: "Sprank Builders", link: "https://x.com/AnotherSprankle" },
     { name: "FunBlocks Guild", link: "https://linktr.ee/funblocks" },
-    { name: "Minecraft Endgame", link: "https://www.dustproject.org/mcendgame" },
+    { name: "Slay Herobrine", link: "https://www.dustproject.org/slayherobrine" },
   ];
 
   return (
@@ -56,7 +56,7 @@ const ProjectsPage = ({ fontFamily }) => {
 
 
         {fontFamily === "IBM Plex Sans" && (
-          <Link href="/mcendgame" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
+          <Link href="/slayherobrine" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
               <div className='ctaBox abstractHeading mcBox' style={{display: "flex", justifyContent: "space-between", fontFamily: "Rubik Pixels"}}>
                 <div>
                   JOIN THE GRASSROOTS MINECRAFT FAN MOVEMENT

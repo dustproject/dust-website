@@ -64,7 +64,7 @@ const MinecraftEndgamePage = () => {
             </div>
             <div className="endgame-body">
              Billions of builds, millions of players, and thousands of mods have all led to this… {" "}
-             <span style={{fontFamily: "Rubik Pixels"}}>A GRASSROOTS FAN MOVEMENT TO BUILD THE ENDGAME</span>.
+             <span style={{fontFamily: "Rubik Pixels"}}>A GRASSROOTS MOVEMENT TO SLAY HEROBRINE</span>.
             </div>
             <div className="endgame-body">
               One shared forever map with unlimited players that nobody can own, control, or shutdown. Unbreakable physics with serious consequences where players build real societies that outlive them.
@@ -90,7 +90,7 @@ const MinecraftEndgamePage = () => {
                     senior Facebook, Google engineers
                 </Link>. Public protocol technology adopted by {" "}
                 <Link href="https://lattice.xyz/blog/working-with-ccp" style={{color: "cyan"}}>CCP Games (EVE Online)</Link>.
-                Mathematical guarantee advancements by {" "}
+                Mathematical guarantee techniques being advanced by {" "}
                 <Link href="https://0xparc.org/blog/programmable-cryptography-1" style={{color: "cyan"}}>MIT researchers</Link>.
                 Not affiliated with or endorsed by Mojang/Microsoft.
             </div>

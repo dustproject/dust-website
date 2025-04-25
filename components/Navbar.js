@@ -7,7 +7,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   // Check if we're on the homepage
-  const isHomepage = pathname === "/" || pathname === "/mcendgame";
+  const isHomepage = pathname === "/" || pathname === "/slayherobrine";
 
   // Don't render the navbar on homepage
   if (isHomepage) {
