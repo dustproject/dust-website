@@ -60,7 +60,7 @@ const MinecraftEndgamePage = () => {
         <div className="content-wrapper" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", padding: "0px", justifyContent: "center"}}>
           <div className="container" style={{maxWidth: "90%"}}>
             <div className="endgame-body">
-              Billions of builds, millions of players, and thousands of mods... yet all at the whims of server owners.
+              Billions of builds, millions of players, and thousands of mods... all at the whims of server owners.
             </div>
             <div className="endgame-body">
               It's time to solve the biggest problem in Minecraft history. It's time to {" "}
@@ -130,7 +130,7 @@ const MinecraftEndgamePage = () => {
             <div>The matter and energy of the world flow cyclically according to a mathematically enforced Public Physics Protocol.</div>
             <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
             <div>Grow and eat plants for energy, and your usage returns energy to the land. Mine ores to craft tools, and ores regenerate as tools deplete.</div>
-            <div>Claim territory using force fields, for as long as you keep them charged. Territories can be attacked and must be protected.</div>
+            <div>Claim territory using force fields, for as long as you keep them energized. Territories can be attacked and must be protected.</div>
             <div>What you build inside your territory can outlive you as a permanent store of your effort.</div>          
           </div>
           <div className="text-column">
@@ -145,10 +145,11 @@ const MinecraftEndgamePage = () => {
         <div className="sectionHeading">Redstone on Steroids</div>
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything - from Reddit and Discord to custom currencies or even real dollars.</div>
+                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything - from Reddit and Discord to your own custom currencies or even real dollars.</div>
                 <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
                 is demonstrating what's possible with the most powerful modding tools ever created. 
-                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. Citizens have access to custom in-client UIs for trading, real estate, and governance.  
+                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. 
+                Permutation citizens use their custom in-client UIs for trading, real estate, and governance.  
                 </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
