@@ -113,7 +113,7 @@ const ProjectsPage = ({ fontFamily }) => {
                 <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything - from Reddit and Discord to your own custom currencies or even real dollars.</div>
                 <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
                 is demonstrating what's possible with the most powerful modding tools ever created. 
-                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. Permutation citizens use their custom in-client UIs for trading, real estate, and governance.
+                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. Permutation citizens use their custom in-client UIs for trading, real estate, and governance within their city.
                 </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
