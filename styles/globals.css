@@ -1055,7 +1055,7 @@ transition: all 0.3s ease;
 }
 
 .endgame-body {
-  font-size: clamp(12px, 2vw, 36px);
+  font-size: clamp(20px, 2vw, 40px);
   font-family: 'IBM Plex Sans';
   text-align: left;
   color: white; 
@@ -1069,7 +1069,7 @@ transition: all 0.3s ease;
 
 
 .endgame-subbody {
-  font-size: clamp(8px, 1.25vw, 24px);
+  font-size: clamp(12px, 1.25vw, 24px);
   font-family: 'IBM Plex Sans';
   text-align: left;
   color: white; 

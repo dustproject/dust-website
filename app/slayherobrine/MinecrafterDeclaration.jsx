@@ -51,7 +51,7 @@ const MinecrafterDeclaration = () => {
       <div className="book-container">
         
         <div className="book-content">
-          <h2 className="book-title">The Minecrafter Declaration&nbsp;of&nbsp;Independence</h2>
+          <h2 className="book-title">The Minecrafter Declaration of Independence</h2>
           
           <div className="intro-text">
           We, the Minecrafters, mark the culmination of 15 years of Minecraft by building The One World with independence. One world where our greatest works, stories, and societies live beyond us. One world where our actions hold weight and have real consequences. One world that nobody can take away and everybody benefits from.

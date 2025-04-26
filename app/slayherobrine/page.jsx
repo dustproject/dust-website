@@ -58,7 +58,7 @@ const MinecraftEndgamePage = () => {
           />
         </div>
         <div className="content-wrapper" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", padding: "0px", justifyContent: "center"}}>
-          <div className="container">
+          <div className="container" style={{maxWidth: "90%"}}>
             <div className="endgame-body">
               Billions of builds, millions of players, and thousands of mods... yet all at the whims of server owners.
             </div>
