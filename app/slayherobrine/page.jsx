@@ -63,19 +63,20 @@ const MinecraftEndgamePage = () => {
               Billions of builds, millions of players, and thousands of mods... all at the whims of server owners.
             </div>
             <div className="endgame-body">
-              It's time to solve the biggest problem in Minecraft history. It's time to {" "}
+              It's time to end the tyranny.
+               It's time to {" "}
               <span style={{fontFamily: "Rubik Pixels"}}>SLAY HEROBRINE</span>.
              </div>
             <div className="endgame-body">
-              One world that nobody can take away. No owners, no servers, no shutdowns.
+              One World nobody can take away. No owners, no servers, no shutdowns, ever.
             </div>
 
             <div className="endgame-body">
-            One world that everybody benefits from. Unlimited players on one canonical map, forever.
+              One World everybody can join. Unlimited players on one canonical map, forever.
             </div>
 
             <div className="endgame-body">
-            One world where physics are unbreakable, consequences are real, and our works live beyond us.
+            One World that matters. Consequences are real and what we do outlives us.
             </div>
 
 
@@ -91,14 +92,14 @@ const MinecraftEndgamePage = () => {
             <div className="endgame-subbody footer" style={{paddingTop: "16px"}}>
                 This is impossible for any studio or server to do. So together we're building {" "}
                 <Link href="https://dustproject.org/coalition" style={{color: "cyan"}}>
-                    Dust, a public protocol like the Internet, but for the world’s physics
+                  Dust, a public protocol like the Internet, but for the world's physics
                 </Link>. Everything that happens inside the world is mathematically enforced to follow its physics, and permanently recorded for anyone to verify.	
             </div>
             <div className='endgame-subbody'>
                 Browser client tools developed by {" "}
                 <Link href="https://ill.inc/" style={{color: "cyan"}}>
                     senior Facebook, Google engineers
-                </Link>. Public protocol technology adopted by {" "}
+                </Link>. Protocol technology adopted by {" "}
                 <Link href="https://lattice.xyz/blog/working-with-ccp" style={{color: "cyan"}}>CCP Games (EVE Online)</Link>.
                 Mathematical enforcement techniques advanced by {" "}
                 <Link href="https://0xparc.org/blog/programmable-cryptography-1" style={{color: "cyan"}}>MIT researchers</Link>.
