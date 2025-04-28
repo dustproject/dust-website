@@ -86,10 +86,10 @@ const ProjectsPage = ({ fontFamily }) => {
         <div className="sectionHeading">Build Something Truly Lasting</div>
         <div className="content-section">
           <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
-            <div>The matter and energy of the world flow cyclically according to a mathematically-unbreakable Public Physics Protocol.</div>
-            <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
+          <div>The matter and energy of the world flow cyclically by the mathematically-enforced Public Physics Protocol.</div>
+          <div>Every action is permanently recorded for anyone to verify, visible in the Protocol Explorer.</div>
             <div>Grow and eat plants for energy, and return energy to the land as you act. Mine ores to craft tools, and ores regenerate as tools deplete.</div>
-            <div>Claim territory by energizing force fields. Territories can be attacked and protected.</div>
+            <div>Claim territory by energizing force fields. Territories can be attacked and defended.</div>
             <div>What you build inside your territory becomes a permanent store of your effort.</div>          
           </div>
           <div className="text-column">
