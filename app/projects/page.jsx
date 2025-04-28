@@ -89,8 +89,8 @@ const ProjectsPage = ({ fontFamily }) => {
             <div>The matter and energy of the world flow cyclically according to a mathematically-unbreakable Public Physics Protocol.</div>
             <div>Everything that happens inside is permanently recorded for anyone to verify, as shown in the Protocol Explorer.</div>
             <div>Grow and eat crops for energy, and your usage returns energy to the land. Mine ores to craft items, and ores regenerate as items deplete.</div>
-            <div>Claim territory using force fields, for as long as you keep them energized. Territories can be attacked and must be protected.</div>
-            <div>Whatever you build inside your territory can outlive you as a permanent store of your effort.</div>          
+            <div>Claim territory by energizing force fields. Territories can be attacked and must be protected.</div>
+            <div>What you build inside your territory outlives you as a permanent store of your effort.</div>               
           </div>
           <div className="text-column">
             {/* <div style={{height: "100%", display: "flex", flexDirection: "column", gap: "1rem", alignItems: "center"}}> */}
@@ -110,11 +110,10 @@ const ProjectsPage = ({ fontFamily }) => {
 
         <div className="content-section">
             <div className="text-column">
-                <div>Program any machine in this world, render it with custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything - from Reddit and Discord to your own custom currencies or even real dollars.</div>
-                <div><Link href="https://permutationcity.org/">Permutation City</Link> {" "} 
-                is demonstrating what's possible with the most powerful modding tools ever created. 
-                They're programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn directly inside their protected territory, and use Permutation Pesos to rent land and trade in shops. Permutation citizens use their custom in-client UIs for trading, real estate, and governance within their city.
-                </div>
+              <div>The most powerful modding tools ever created. Program any machine in this world, design custom UIs that anyone can use directly in-client, and permissionlessly integrate with anything that exists - from Reddit and Discord to your own custom currencies or even real dollars.</div>
+              <div>See what's possible: {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "}
+              is programming machines - like spawn tiles, force fields, and chests - to let Permutation Passport holders spawn inside their territory, and use their custom in-client UIs to rent their land and trade in their shops with Permutation Pesos.
+              </div>
 
                 <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
             </div>

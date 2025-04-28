@@ -58,7 +58,7 @@ const MinecrafterDeclaration = () => {
           </div>
 
           <div className="intro-text">
-          To commence our independence, we have made three foundational contributions. The most advanced voxel client ever built, free in anyone's browser. The most powerful modding tools ever created, capable of integrating with anything, permissionlessly. The first implementation of the Public Physics Protocol, eliminating the tyranny of servers. 
+          To commence our independence, we have made three foundational contributions. The most advanced voxel client ever built, free in anyone's browser. The most powerful modding tools ever created, capable of integrating with anything, permissionlessly. The first implementation of the Public Physics Protocol, eliminating the tyranny of servers and their owners. 
           </div>
 
           <div className="intro-text">
