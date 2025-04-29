@@ -62,7 +62,7 @@ const MinecrafterDeclaration = () => {
           </div>
 
           <div className="intro-text">
-          Together, we establish our commitment to advancing the {" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}that will liberate our world from owners, admins, servers, and shutdowns. Those who sign this declaration become the founding Bedrock of a new era - the ones who finally, once and for all, Slay Herobrine.
+          Together, we establish our commitment to advancing the{" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}that will liberate our world from owners, admins, servers, and shutdowns. Those who sign this declaration become the founding Bedrock of a new era - the ones who finally, once and for all, Slay Herobrine.
           </div>
 
           <div style={{overflowX: "scroll"}}>
