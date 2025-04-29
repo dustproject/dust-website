@@ -151,9 +151,9 @@ const MinecraftEndgamePage = () => {
                 </div>
                 
                 <div>See what's possible: {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "}
-                is programming spawn tiles, force fields, and chests to let custom "Permutation Passport" holders spawn directly in their territory, rent their land, and trade in their shops using custom UIs and "Permutation Pesos".
+                is programming spawn tiles, force fields, and chests to let custom "Permutation Passport" holders spawn directly in their territory, rent their land, trade in their shops, and govern their city using custom UIs and "Permutation Pesos".
                 </div>
-                <img src="/permcity.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
+                <img src="/permcity.svg" className="section-image" style={{border: "none", width: "80%", alignSelf: "center"}} alt="Command Blocks"/>
             </div>
             <div className="small-image-column">
                 <img src="/connectlife.svg" className="section-image" style={{border: "none"}} alt="Command Blocks"/>
