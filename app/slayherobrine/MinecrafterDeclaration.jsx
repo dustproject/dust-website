@@ -44,6 +44,8 @@ const parseMarkdownLinks = (text) => {
 const MinecrafterDeclaration = () => {
   const initialSigners = [
     { rank: 1, name: "[Permutation City](http://permutationcity.org/)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), developer of [over 40 mods](https://github.com/minecarts), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
+    // { rank: 2, name: "[Orden](https://orden.gg/) - [classicj](https://x.com/ClassicJordon) & [thattonton](https://x.com/thattonton1)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), developer of [over 40 mods](https://github.com/minecarts), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
+
   ];
 
   return (
