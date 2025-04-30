@@ -64,7 +64,7 @@ export default function Page() {
 
       <div className='wrapper' style={{ height: "70px" }}></div>
 
-      <ProjectsPage fontFamily="IBM Plex Sans" />
+      <ProjectsPage />
 
     </div>
   );

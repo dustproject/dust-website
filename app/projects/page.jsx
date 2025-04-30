@@ -56,7 +56,6 @@ const ProjectsPage = ({ fontFamily }) => {
         </div>
 
 
-        {fontFamily === "IBM Plex Sans" && (
           <Link href="/slayherobrine" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
               <div className='ctaBox abstractHeading mcBox' style={{display: "flex", justifyContent: "space-between", fontFamily: "Rubik Pixels"}}>
                 <div>
@@ -67,7 +66,7 @@ const ProjectsPage = ({ fontFamily }) => {
                 </div>
               </div>
           </Link>
-        )}
+      
 
 
 
@@ -128,41 +127,37 @@ const ProjectsPage = ({ fontFamily }) => {
 
 
 
-        {fontFamily !== "IBM Plex Sans" && (
-          <>
-                  <div className='wrapper' style={{ height: "70px" }}></div>
+      <div className='wrapper' style={{ height: "70px" }}></div>
 
-                  <div className="content-section">
+        <div className="content-section">
           <div className="text-column">
 
           <div>After your project comes of age, you will evolve from a user to a founder, ready to rise within Dust - a public good that everyone can shape and benefit from. <a href='/coalition'>Join the open coalition</a> of philosophers, researchers, economists, engineers, and creators that will collectively build and maintain Dust. </div>
 
           </div>
         </div>
-
-          <div className="sectionHeading">Projects building on Dust</div>
-          <div style={{ 
-            display: "grid", 
-            gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", 
-            gap: "1rem",
-            marginBottom: "2rem"
-          }}>
-            {projects.map((project, index) => (
-              <a 
-                key={index} 
-                href={project.link} 
-                style={{
-                  padding: "1rem",
-                  textAlign: "center",
-                  display: "block"
-                }}
-              >
-                {project.name}
-              </a>
-            ))}
-          </div>
-        </>
-        )}
+        <div className="sectionHeading">Projects building on Dust</div>
+        <div style={{ 
+          display: "grid", 
+          gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", 
+          gap: "1rem",
+          marginBottom: "2rem"
+        }}>
+          {projects.map((project, index) => (
+            <a 
+              key={index} 
+              href={project.link} 
+              style={{
+                padding: "1rem",
+                textAlign: "center",
+                display: "block"
+              }}
+            >
+              {project.name}
+            </a>
+          ))}
+        </div>
+  
       </div>
     </div>
   );
