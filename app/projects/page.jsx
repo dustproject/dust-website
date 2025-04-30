@@ -16,8 +16,7 @@ const ProjectsPage = ({ fontFamily }) => {
     { name: "Sprank Builders", link: "https://x.com/AnotherSprankle" },
     { name: "FunBlocks Guild", link: "https://linktr.ee/funblocks" },
     { name: "Slay Herobrine", link: "https://www.dustproject.org/slayherobrine" },
-    { name: "DAG City", link: "https://dagcity.polysensus.io/" },
-
+    { name: "DAG City", link: "https://dagcity.polysensus.io/" }
   ];
 
   return (
