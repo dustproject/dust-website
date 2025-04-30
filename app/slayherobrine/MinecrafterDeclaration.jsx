@@ -1,6 +1,8 @@
 import React from 'react';
 import "/styles/MinecrafterDeclaration.css";
 import Link from "next/link";
+import initialSigners from './initialSigners';
+import playersList from './playersList';
 
 const parseMarkdownLinks = (text) => {
     if (!text || text === "—") return "—";
@@ -42,12 +44,6 @@ const parseMarkdownLinks = (text) => {
 
 
 const MinecrafterDeclaration = () => {
-  const initialSigners = [
-    { rank: 1, name: "[Permutation City](http://permutationcity.org/)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), developer of [over 40 mods](https://github.com/minecarts), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
-    // { rank: 2, name: "[Orden](https://orden.gg/) - [classicj](https://x.com/ClassicJordon) & [thattonton](https://x.com/thattonton1)", minecraftLegacy: "The creators of [OP Craft](https://opcraft.mud.dev/), maintainer of [Minecraft List](https://minecraftlist.com), developer of [over 40 mods](https://github.com/minecarts), and staff moderator of [Conspiracy Craft](https://www.facebook.com/ConspiracyCraft/).", foundingAct: "A city that offers structure, shelter, and a shared mission: to explore the future of human coordination, governance, and economy.", lineage: "" },
-
-  ];
-
   return (
     <div className="declaration-container">
       <div className="book-container">
@@ -67,7 +63,7 @@ const MinecrafterDeclaration = () => {
           Together, we establish our commitment to advancing the{" "}<Link href="/coalition">Public Physics Protocol</Link>{" "}that will liberate our world from owners, admins, servers, and shutdowns. Those who sign this declaration become the founding Bedrock of a new era - the ones who finally, once and for all, Slay Herobrine.
           </div>
 
-          <div style={{overflowX: "scroll"}}>
+          <div>
             <table className="signers-table">
               <thead>
                 <tr>
@@ -86,6 +82,19 @@ const MinecrafterDeclaration = () => {
                     <td>{parseMarkdownLinks(signer.foundingAct)}</td>
                   </tr>
                 ))}
+                  <tr key="players" style={{background: "rgba(255, 252, 220, 0.5)"}}>
+                    <td className="rank-cell">Players: </td>
+                    <td colSpan={3}>
+                      <div className="player-grid">
+                        {playersList.map((player, index) => (
+                          <div key={index} className="player-card">
+                            <div className="player-name">{parseMarkdownLinks(player.name)}</div>
+                            <div className="player-statement">{parseMarkdownLinks(player.statement)}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </td>
+                  </tr>
               </tbody>
             </table>
           </div>

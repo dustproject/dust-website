@@ -133,10 +133,6 @@
     font-family: 'EB Garamond', serif;
   }
   
-  .signers-table tr:nth-child(even) {
-    background-color: rgba(255, 252, 220, 0.5);
-  }
-  
   .signers-table .rank-cell {
     font-family: 'Minecraftia', monospace;
     text-align: center;
@@ -149,4 +145,49 @@
     justify-content: center;
     margin-top: 32px;
     margin-bottom: 16px;
+  }
+
+  
+  .player-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .player-card {
+    position: relative;
+    width: auto;
+    min-width: 100px;
+    padding: 4px 12px;
+    background-color: rgba(255, 252, 220, 0.5);
+    border: 1px solid #966F33;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .player-card:hover {
+    background-color: rgba(92, 46, 46, 0.1);
+  }
+
+  .player-statement {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    width: 250px;
+    padding: 8px;
+    background-color: #5c2e2e;
+    color: #f9f7eb;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    pointer-events: none; 
+    bottom: 100%;  /* Position above the player card */
+    left: 50%;     /* Center horizontally */
+    transform: translateX(-50%); /* Ensure it's centered */
+    margin-bottom: 8px; /* Add some space between card and tooltip */
+  }
+
+  .player-card:hover .player-statement {
+    visibility: visible;
+    opacity: 1;
   }
