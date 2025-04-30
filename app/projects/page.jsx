@@ -3,8 +3,7 @@ import "/styles/globals.css";
 import Link from "next/link";
 
 
-const ProjectsPage = ({ fontFamily }) => {
-  const fontStyle = fontFamily ? { fontFamily } : {};
+const ProjectsPage = () => {
 
   const projects = [
     { name: "Permutation City", link: "https://permutationcity.org/" },
