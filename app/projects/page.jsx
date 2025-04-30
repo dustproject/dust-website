@@ -20,7 +20,7 @@ const ProjectsPage = () => {
 
   return (
     <div className="wrapper">
-      <div className="container" style={fontStyle}>
+      <div className="container">
         <div className="title">Create what you couldn't before</div>
 
         <div className="content-section">
