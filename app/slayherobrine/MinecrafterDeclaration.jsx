@@ -83,8 +83,7 @@ const MinecrafterDeclaration = () => {
                   </tr>
                 ))}
                   <tr key="players">
-                    <td>Players:</td>
-                    <td colSpan={3}>
+                    <td colSpan={4}>
                       <div className="player-grid">
                         {playersList.map((player, index) => (
                           <div key={index} className="player-card">
