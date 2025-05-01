@@ -82,8 +82,8 @@ const MinecrafterDeclaration = () => {
                     <td>{parseMarkdownLinks(signer.foundingAct)}</td>
                   </tr>
                 ))}
-                  <tr key="players" style={{background: "rgba(255, 252, 220, 0.5)"}}>
-                    <td className="rank-cell">Players: </td>
+                  <tr key="players">
+                    <td>Players:</td>
                     <td colSpan={3}>
                       <div className="player-grid">
                         {playersList.map((player, index) => (
