@@ -104,9 +104,6 @@ const MinecrafterDeclaration = () => {
           Sign Founding Declaration
         </button>
         
-
-
-
       </div>
       
         </div>

@@ -111,7 +111,7 @@ const MinecraftEndgamePage = () => {
       </div>
       <div className="wrapper">
       <div className="container">
-        <div className="sectionHeading">Free browser client for everyone</div>
+        <div className="sectionHeading">Free "Hytale-Grade" browser client for everyone</div>
         <div className="content-section">
           <div className="image-column">
           <iframe 
