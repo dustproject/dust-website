@@ -62,9 +62,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* <div className='wrapper' style={{ height: "70px" }}></div>
+      <div className='wrapper' style={{ height: "70px" }}></div>
 
-      <ProjectsPage /> */}
+      <ProjectsPage />
 
     </div>
   );
