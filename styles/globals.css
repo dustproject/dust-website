@@ -1098,3 +1098,16 @@ transition: all 0.3s ease;
   color: white;
   background-color: black;
 }
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  margin: 4rem 0;
+}
+
+@media (min-width: 768px) {
+  .responsive-image {
+    width: 50%;
+  }
+}

@@ -64,16 +64,6 @@ const researchTrack = {
       ]
     },
     {
-      title: "Sandbox Design",
-      ourBenefit: "Sound sandbox design is critical for ensuring the universe remains sustainable to inhabit and robust to extreme activity. Unlike traditional virtual worlds operating on corporate servers - constrained by administrative controls and financial limitations - independently existing universes can outlive their designers.",
-      keyWorks: [
-        "lorem ipsum",
-        "lorem ipsum",
-        "lorem ipsum",
-        "lorem ipsum",
-      ] 
-    },
-    {
       title: "Numerical Simulation",
       ourBenefit: `Numerical simulation is traditionally a research tool. When applied to a universe, it becomes a lasting space inhabited by real societies with broad cultural consequences. Natural mathematical rules that process efficiently across networked computers, with relativistic effects between nodes, are critical for expressive, multiplayer, distributed simulations.`,
       // ourBenefit: `"The markets for climate simulation or molecular dynamics are so small, they can't afford very large investments. That's why you don't see large companies founded to do them. The video games market is extremely rare because it is simultaneously large and technologically demanding" - {{JENSEN_HUANG_LINK}}. Numerical simulation is traditionally a research tool. When applied to a universe, it becomes a lasting space inhabited by real societies with broad cultural consequences. Natural mathematical rules that process efficiently across networked computers, with relativistic effects between nodes, are critical for expressive, multiplayer, distributed simulations.`,
@@ -130,6 +120,16 @@ const economicsTrack = {
         "lorem ipsum",
         "lorem ipsum",
       ]
+    },
+    {
+      title: "Sandbox Design",
+      ourBenefit: "Sound sandbox design is critical for ensuring the universe remains sustainable to inhabit and robust to extreme activity. Unlike traditional virtual worlds operating on corporate servers - constrained by administrative controls and financial limitations - independently existing universes can outlive their designers.",
+      keyWorks: [
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+        "lorem ipsum",
+      ] 
     }
   ]
 };

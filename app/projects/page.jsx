@@ -24,11 +24,11 @@ const ProjectsPage = () => {
         <div className="title">Create what you couldn't before</div>
 
         <div className="content-section">
-          <div className="text-column">
+          {/* <div className="text-column">
             <div><strong>Dust</strong> {" "}
             is a world that truly exists. Everybody can agree that it's real and nobody's making it up. Nobody can own, control, or stop it. Nobody can break its physics or delete its matter, and everybody can fit. What you build inside can outlive you and benefit your broader life.
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='cardsContainer'>
           <div className='createCard'>

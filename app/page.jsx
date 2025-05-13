@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import "/styles/globals.css";
+import Image from 'next/image';
 import Link from "next/link";
 import ProjectsPage from './projects/page';
 
@@ -62,9 +63,16 @@ export default function Page() {
         </div>
       </div>
 
-      {/* <div className='wrapper' style={{ height: "70px" }}></div>
-
-      <ProjectsPage /> */}
+      <div className='wrapper'>
+        <Image 
+          src="/onepager.svg" 
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="responsive-image"
+          alt="dust project"
+        />
+      </div>
 
     </div>
   );
