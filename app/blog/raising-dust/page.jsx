@@ -117,31 +117,31 @@ const RaisingDust = () => {
             />
             <div className='subheading'>Dark Forest</div>
             <div className="paragraph">
-              Blockchains combined with cryptography, which can be interpreted as secret peer-to-peer state machines, create digital systems with extremely radical properties.
+              Blockchains and cryptography create secret-bearing peer-to-peer state machines, which may result in digital systems with extremely radical properties.
             </div>
             <div className="paragraph">
-              When introduced to the world through <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin</a> as digital money and later expanded through <a href="https://ethereum.org/en/whitepaper/#applications">Ethereum</a> as programmable money, it planted itself in the minds of most as something with primarily financial consequences. The initial purpose-assignment of the technology effectively obscured its deeper properties, of which the financial consequences are one of many.
+              When <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin</a> introduced these technologies for the purpose of digital money,
+               they got planted in the minds of most as something with primarily financial consequences.
+               Their initial purpose effectively obscured their deeper properties, of which the financial consequences are only one of many.
             </div>
             <div className="paragraph">
-              <a href="https://blog.zkga.me/announcing-darkforest">Dark Forest</a>, announced in 2020, departed from common understandings to instead explore the consequences of using a semi-secret peer-to-peer state machine to create <strong>Digital Physics</strong>, MMO-like rules that are as immutable and "<a href="https://stark.mirror.xyz/A9csRsDaAJHJCCWa2Vv16bmxl0BgDqiLdupASxBT2r4">hard</a>" as physical laws.
+              <a href="https://blog.zkga.me/announcing-darkforest">Dark Forest</a> (2020) broke new ground by exploring how these technologies create <strong>Digital Physics</strong>, MMO-like rules that are as immutable and "<a href="https://stark.mirror.xyz/A9csRsDaAJHJCCWa2Vv16bmxl0BgDqiLdupASxBT2r4">hard</a>" as physical laws.
+              Movement, mining, crafting, and combat were all enforced using smart contracts. This hinted at a digital world that could be impossible to shutdown, reset, tamper, or forcefully update. One that is uniquely and maximally robust for people to settle and invest in.
             </div>
             <div className="paragraph">
-              Movement, crafting, combat, and all the rules of an MMO were enforced using smart contracts. This hinted at a digital world that would be impossible to shutdown, reset, tamper, or forcefully update. And consequentially, a world that would be maximally robust for people to settle and invest in.
-            </div>
-            <div className="paragraph">
-              While it's common for large MMOs to see a lot of player-driven emergence, Dark Forest saw it with a miniscule community of only hundreds of members. The emergence was driven by the credible commitment made by Digital Physics, rather than by the presence of a large social graph.
+              While large MMOs tend to see player-driven emergence, Dark Forest saw it with a miniscule community of a couple hundred members. This emergence was driven by the credible commitment made by Digital Physics, rather than by the presence of a large social graph.
             </div>
             <div className="paragraph">
               Countless <strong>Player Extensions</strong> created social mechanisms on top of Dark Forest's physics.
-              Such as, <a href="https://astralcolossus.xyz/">The Astral Colossus</a>: 50 strangers pooled their resources within 24 hours to a shared spaceship, governed by a player-created smart contract, to gain unfair advantages.
+              With <a href="https://astralcolossus.xyz/">The Astral Colossus</a>, 50 strangers pooled their resources within 24 hours to a shared spaceship, governed by a player-created smart contract, to gain strategic advantages.
             </div>
             <SingleMedia imageSrc="/darkforest.svg" />
             <div className='subheading'>MUD</div>
             <div className="paragraph">
-              MUD, developed in 2022, and its surrounding services progressed Digital Physics from demonstration to production. It became faster to ship complex Digital Physics, build clients for players to interact with it, and safely but intimately interface with Player Extensions.
+              <a href="https://mud.dev/">MUD</a> (2022) and its services progressed Digital Physics from demonstration to production. It became faster to ship complex Digital Physics, build clients for players to interact with it, and powerfully interface with Player Extensions.
             </div>
             <div className="paragraph">
-              Lattice demonstrated these claims by building <a href="https://opcraft.mud.dev/">OPCraft</a> within weeks, and social mechanism extensions like the <a href="https://x.com/SupremeLeaderOP">Supreme Leader</a> emerged within days of launch. Many took notice, and a vibrant scene of hackers exploring Digital Physics and its consequences <a href="https://aw.network/">formed</a>.
+              Lattice demonstrated these claims by building <a href="https://opcraft.mud.dev/">OPCraft</a> within weeks, and social mechanism extensions like the <a href="https://x.com/SupremeLeaderOP">Supreme Leader</a> emerging within days of launch. Many took notice, and a vibrant scene of hackers exploring Digital Physics was <a href="https://aw.network/">formed</a>.
             </div>
             <div className="paragraph">
               Beyond taking Dark Forest's discoveries into production, Lattice has begun leveraging MUD to enable new properties like <strong>Open Scalability</strong>. Instead of requiring a centralized server owner to run and scale a world, players can contribute compute and do so themselves - limitlessly.
@@ -152,13 +152,13 @@ const RaisingDust = () => {
             />
             <div className='subheading'>Biomes</div>
             <div className="paragraph">
-              <a href="https://biome1.biomes.aw/map">Biomes</a>, developed in 2024 using MUD, built on the notions of Digital Physics and Player Extensions introduced by Dark Forest.
+              <a href="https://biome1.biomes.aw/map">Biomes</a> (2024) was developed with MUD and advanced the notions of Digital Physics and Player Extensions introduced by Dark Forest.
             </div>
             <div className="paragraph">
               When there is Digital Physics, there is also <strong>Digital Matter</strong>. The supply of ores, crops, fluids, energy, and other resources that circulate according to immutable simulation rules.
             </div>
             <div className="paragraph">
-              Bitcoin was an anon-created currency that used cryptography to enforce supply and transfer rules, which allowed it to accrue {">"}$2T in value. This wouldn't have happened if Bitcoin was managed by Satoshi's server. Similarly, Biomes hinted that Digital Matter may accrue far more value far faster than "monopoly resources" managed on a studio's server.
+              Bitcoin was an anon-created currency that used cryptography to enforce supply and transfer rules, which allowed it to accrue {">"}$2T in value. This wouldn't have happened if Bitcoin was managed by the anon's server. Similarly, Biomes hinted that Digital Matter may accrue far more value far faster than "monopoly resources" managed by a studio's server.
             </div>
             <div className="paragraph">
               While large MMOs foster economic activity, Biomes saw thousands of dollars spent in gas fees mining resources with {"<"}100 DAUs. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.
@@ -172,7 +172,7 @@ const RaisingDust = () => {
             <div className="paragraph">
             </div>
             <div className="paragraph">
-              Observing Dark Forest, MUD, and Biomes presents many lessons. Digital Physics & Digital Matter make credible commitments to support investment & effort which is disproportionally larger than the size of the player base. Player Extensions & Player Integrations create high levels of emergence that aren't confined to the world, but rather interface with the broader internet and economy. Open Scalability enables surpassing server architecture limitations and may eventually create shared worlds capable of accommodating everyone that wants to join. 
+              Observing Dark Forest, MUD, and Biomes presents many lessons. Digital Physics & Digital Matter make credible commitments to support investment & effort which is disproportionally larger than the size of the player base. Player Extensions & Player Integrations create high levels of emergence that aren't confined to the world, but rather interface with the broader internet and economy. Open Scalability enables surpassing server architecture limitations and may create shared worlds which accommodate everyone who wants to join. 
             </div>
           </div>
         </div>
