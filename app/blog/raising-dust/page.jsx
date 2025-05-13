@@ -137,10 +137,19 @@ const RaisingDust = () => {
             </div>
             <SingleMedia imageSrc="/darkforest.svg" />
             <div className='subheading'>MUD</div>
+            <div className="paragraph">
+              MUD, developed in 2022, and its surrounding services progressed Digital Physics from demonstration to production. It became faster to ship complex Digital Physics, build clients for players to interact with it, and safely but intimately interface with Player Extensions.
+            </div>
+            <div className="paragraph">
+              Lattice demonstrated these claims by building <a href="https://opcraft.mud.dev/">OPCraft</a> within weeks, and social mechanism extensions like the <a href="https://x.com/SupremeLeaderOP">Supreme Leader</a> emerged within days of launch. Many took notice, and a vibrant scene of hackers exploring Digital Physics and its consequences <a href="https://aw.network/">formed</a>.
+            </div>
+            <div className="paragraph">
+              Beyond taking Dark Forest's discoveries into production, Lattice has begun leveraging MUD to enable new properties like <strong>Open Scalability</strong>. Instead of requiring a centralized server owner to run and scale a world, players can contribute compute and do so themselves - limitlessly.
+            </div>
+
             <SingleMedia 
               videoSrc="/quarry.mp4"
             />
-
             <div className='subheading'>Biomes</div>
             <div className="paragraph">
               <a href="https://biome1.biomes.aw/map">Biomes</a>, developed in 2024 using MUD, built on the notions of Digital Physics and Player Extensions introduced by Dark Forest.
@@ -160,28 +169,11 @@ const RaisingDust = () => {
 
             <SingleMedia imageSrc="/biomes.svg" />
 
-
-
-
-
-
-
-
-            
-
-      
             <div className="paragraph">
-            Unlike immutable physical laws, shared fictions are customizable to our choosing. As shown in Figures 1 and 2, as information technologies have expanded our capacity to construct shared fictions, we have increasingly escaped the "state of nature" to inhabit them
-            <sup><a href="https://drive.google.com/drive/folders/1Qron4DBr7xfq3iM3YpaLEmdSwhDNPvJf?usp=drive_link" target="_blank" rel="noopener noreferrer">1</a></sup>.
             </div>
-      
-            <div>
-              Defiance through persistence o7,
+            <div className="paragraph">
+              Observing Dark Forest, MUD, and Biomes presents many lessons. Digital Physics & Digital Matter make credible commitments to support investment & effort which is disproportionally larger than the size of the player base. Player Extensions & Player Integrations create high levels of emergence that aren't confined to the world, but rather interface with the broader internet and economy. Open Scalability enables surpassing server architecture limitations and may eventually create shared worlds capable of accommodating everyone that wants to join. 
             </div>
-            <div>
-              Zuse
-            </div>
-
           </div>
         </div>
       );
