@@ -5,7 +5,7 @@ import Link from "next/link";
 const BlogPage = () => {
   const blogPosts = [
     {
-      date: "May 13, 2025",
+      date: "May 19, 2025",
       title: "Raising Dust: Learning From Dark Forest, MUD, Biomes, and Beyond",
       url: "/blog/raising-dust"
     }
