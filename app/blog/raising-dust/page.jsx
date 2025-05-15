@@ -241,13 +241,13 @@ const RaisingDust = () => {
                 <li>Native apps for maps, digital matter supply circulation, and player guidance.</li>
                 <li>Player-built apps and territories that create fun things to do in this open world.</li>
                 <li>UIs for basic territory configuration and documentation for custom territory programming.</li>
-                <li>Increasingly fewer bugs, better UX, and balanced mechanics.</li>
+                <li>Increasingly fewer bugs, better UX, and deeper mechanics.</li>
               </ul>
             </div>
 
             <div className='subheading'>2. Eden Configuration</div>
             <div className="paragraph">During the second stage, the protocol upgrade process will become formalized and hardened. Digital Physics & Matter will make a highly credible commitment to support emergence & value accrual.</div>
-            <div className="paragraph">The upgrade process will allow Dust to approach increasingly <a href="https://maxhodak.com/downloads/gamephysics.pdf">natural rules</a>, and foster increasingly sophisticated societies and lifeforms as a result, while maintaining all existing player investments.</div>
+            <div className="paragraph">The upgrade process will allow evolution towards increasingly <a href="https://maxhodak.com/downloads/gamephysics.pdf">natural rules</a>, fostering increasingly sophisticated societies and lifeforms as a result, while maintaining all existing player investments.</div>
 
             <div className='subheading'>3. TVC Automaton</div>
             <div className="paragraph">
