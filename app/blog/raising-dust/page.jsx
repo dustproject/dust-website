@@ -231,7 +231,7 @@ const RaisingDust = () => {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/VOJpXo8Yr6I?si=nJizs2g4DcKcQgDA"></iframe>
 
             <div className="paragraph">
-              Those who survive, get a head start. Build something uniquely yours in your territory and program it completely. This requires using command-line interfaces and there's few examples to learn from, but the Discord community will help.
+              Those who survive, get a head start. Build something uniquely yours in your territory and program it however you want. This requires using command-line interfaces and there's few examples to learn from, but the Discord community will help.
             </div>
 
             <div className="paragraph">
