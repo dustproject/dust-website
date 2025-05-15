@@ -1,5 +1,7 @@
 import React from 'react';
 import "/styles/globals.css";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const SingleMedia = ({ 
   title = " ", 
@@ -117,16 +119,16 @@ const RaisingDust = () => {
             />
             <div className='subheading'>Dark Forest</div>
             <div className="paragraph">
-              Blockchains and cryptography create secret-bearing peer-to-peer state machines, which result in digital systems with extremely radical properties.
+              Blockchains and cryptography create secret-bearing peer-to-peer state machines, which result in digital systems with radical properties.
             </div>
             <div className="paragraph">
               When <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin</a> introduced these technologies for the purpose of digital money,
                they got planted in the minds of most as something with primarily financial consequences.
-               Their initial purpose effectively obscured their deeper properties, of which the financial consequences are important, but one of many.
+               Their initial purpose effectively obscured their deeper properties, of which the financial consequences are important, but only one of many.
             </div>
             <div className="paragraph">
               <a href="https://blog.zkga.me/announcing-darkforest">Dark Forest</a> (2020) broke new ground by exploring how these technologies create <strong>Digital Physics</strong>, MMO-like rules that are as immutable and "<a href="https://stark.mirror.xyz/A9csRsDaAJHJCCWa2Vv16bmxl0BgDqiLdupASxBT2r4">hard</a>" as physical laws.
-              Movement, mining, crafting, and combat were all enforced using smart contracts. This hinted at a digital world that could be impossible to shutdown, reset, tamper, or forcefully update. One that is uniquely and maximally robust for people to settle and invest in.
+              Movement, mining, crafting, and combat were all enforced using smart contracts. This hinted at a digital world that would be impossible to shutdown, reset, tamper, or forcefully update. One that is uniquely and maximally robust for people to settle and invest in.
             </div>
             <div className="paragraph">
               While large MMOs tend to see player-driven emergence, Dark Forest saw it with a miniscule community of a couple hundred members. This emergence was driven by the credible commitment made by Digital Physics, rather than by the presence of a large social graph.
@@ -144,7 +146,7 @@ const RaisingDust = () => {
               Lattice, the developers of MUD, demonstrated these claims by building <a href="https://opcraft.mud.dev/">OPCraft</a> within weeks, and social extensions like the <a href="https://x.com/SupremeLeaderOP">Supreme Leader</a> emerging within days of launch. Many took notice, and a vibrant community of developers and designers exploring Digital Physics was <a href="https://aw.network/">formed</a>.
             </div>
             <div className="paragraph">
-              Beyond taking Dark Forest's discoveries into production, MUD has begun enabling new properties like <strong>Open Scalability</strong>. Instead of requiring a single server owner to run and scale a world, players can contribute compute and do so themselves, limitlessly.
+              Beyond taking Dark Forest's discoveries into production, MUD has begun enabling new properties like <strong>Open Scalability</strong>. Instead of depending on a single server owner to run and scale a world, individual players and organizations can contribute compute and do so themselves, limitlessly.
             </div>
             <SingleMedia 
               videoSrc="/quarry.mp4"
@@ -154,13 +156,13 @@ const RaisingDust = () => {
               <a href="https://biome1.biomes.aw/map">Biomes</a> (2024) was developed with MUD and advanced the notions of Digital Physics and Player Extensions introduced by Dark Forest.
             </div>
             <div className="paragraph">
-              When there is Digital Physics, there is also <strong>Digital Matter</strong>. The supply of ores, crops, fluids, energy, and other resources that circulate according to immutable simulation rules.
+              When there is Digital Physics, there is also <strong>Digital Matter</strong>. The supply of ores, crops, fluids, energy, and other resources that circulate according to the Digital Physics simulation rules.
             </div>
             <div className="paragraph">
               Bitcoin was an anon-created currency that used cryptography to enforce supply and transfer rules, which allowed it to accrue {">"}$2T in value. This wouldn't have happened if Bitcoin was managed by the anon's server. Similarly, Biomes hinted that Digital Matter may accrue far more value far faster than "monopoly resources" managed by a studio's server.
             </div>
             <div className="paragraph">
-              While large MMOs foster economic activity, Biomes saw thousands of dollars spent in gas fees mining resources with {"<"}100 daily active users. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.
+              While large MMOs foster economic activity, Biomes saw thousands of dollars spent by players in gas fees mining resources with {"<"}100 daily active users. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.
             </div>
             <div className="paragraph">
               Countless <strong>Player Integrations</strong> built social mechanisms directly into the world by programming the behavior of objects like chests, force fields, and doors. <a href="https://x.com/0xwasdcorp/status/1849907628031324405">WasdSwap</a> programmed chests into shops to generate real money revenue for their guild.
@@ -169,13 +171,52 @@ const RaisingDust = () => {
             <div className="paragraph">
             </div>
             <div className="paragraph">
-              Observing Dark Forest, MUD, and Biomes reveals many non-obvious consequences. Digital Physics & Digital Matter make credible commitments to support investment & effort which is disproportionally larger than the size of the player base. Player Extensions & Player Integrations create high levels of emergence that aren't confined to the virtual world, but rather interface with the broader internet and economy. Open Scalability enables surpassing server architecture limitations and may create shared worlds which accommodate everyone who wants to join. 
+              Observing Dark Forest, MUD, and Biomes reveals many non-obvious consequences. Digital Physics & Digital Matter make credible commitments to support emergence & value accrual which is disproportionally larger than the size of the player base. Player Extensions & Player Integrations allow player creations that aren't confined to the virtual world, but rather interface with the broader internet and economy. Open Scalability enables surpassing server architecture limitations to create shared worlds which can accommodate everyone. 
             </div>
-
 
             <SectionHeading 
               title="Our Big Question" 
             />
+            <div className="paragraph">
+              Virtual worlds have been around for a while, it's pretty clear that they will play an increasingly larger role heading into the future, and at some point may consume almost the entirety of where humans spend their time.
+            </div>
+            <div className="paragraph">
+              Our observations from Dark Forest, MUD, and Biomes have led us to formulate a question worth asking: <strong>what happens if a virtual world takes itself maximally seriously?</strong>
+              {" "}
+              The Dust Project is an <Link href="/coalition">open coalition</Link> for collectively asking this question and tangibly filling out its answer to the greatest capacity possible.
+            </div>
+            <div style={{textAlign: "center"}}>
+              <Image 
+                src="/onepager.svg" 
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="responsive-image"
+                style={{margin: "0px"}}
+                alt="dust project"
+              />
+            </div>
+
+            <div className="paragraph">By building an infinite autonomous world with provably scarce resources, immutable PvP & PvE rules, diverse clients, and real player societies, the Dust Project will ask what happens when a virtual world takes itself maximally seriously.</div>
+
+            <ul>
+              <li className="paragraph">The size of today's virtual worlds are bottlenecked by <a href="https://2b2t.miraheze.org/wiki/Queue">dependence on their server owner</a> to run and scale them. For example, Minecraft and Fortnite exist as fragmented server owner-hosted "islands" with &lt;100s of players each. With Open Scalability, Dust may eventually exist as a single continuous space with unlimited player capacity.</li>
+              <li className="paragraph">Today's <a href="https://www.planetminecraft.com/servers/tag/anarchy/">anarchy virtual worlds</a>, in particular, foster <a href="https://2b2t.miraheze.org/wiki/Front_Page">massive social emergence</a> by aspiring to run indefinitely without resets or moderation. However, their server owner eventually stops hosting or forces updates and undermines the anarchy - causing player <a href="https://www.2b2t.org/2023-08-24/">outrage</a>. With Digital Physics, Dust will be ownerless - impossible to shutdown, reset, or force update - and may foster much more emergence much faster as a result.</li>
+              <li className="paragraph"> Similarly, the resulting Digital Matter - Dust's resources with provably scarce supply and circulation - may accrue much more value much faster than they would otherwise. This creates natural incentives for early adoption, as late adopters have to compete instead of simply mining & farming for &lt;$0.01 in gas fees. But resources can't be absolutely owned and require effort to keep against <a href="https://rust.facepunch.com/">Rust</a>-like PvP and PvE rules, so Dust remains fair for late adopters.</li>
+              <li className="paragraph">Dust's initial design uses voxel physics (most performant) and interfaces with Minecraft-like clients (most familiar UX). We're contributing a high production browser client ourselves, and encouraging others to make more - especially for different platforms like mobile, console, and VR.</li>
+              <li className="paragraph">Inside Dust, players will establish territories and program them with Extensions & Integrations. This will let their creations freely interface with the entire internet and economy, instead of remaining isolated as they do in today's virtual worlds due to regulation and gatekeeping. Envision it feeling like Earth - countless places each with their own social rules but sharing the same spacetime, matter, and physics - which billion inhabit together.</li>
+            </ul>
+
+
+
+
+
+
+            <div className="paragraph">The answer to Bitcoin's question of true digital scarcity evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. Similarly, the answer that emerges to Dust's question promises to surprise.</div>
+
+            <div className="paragraph">As players establish and program territories, societies emerge and break out, organizations contribute compute and clients, resources accrue value starting rushes and wars... Dust becomes increasingly consequential. At what point is Dust no longer virtual but rather an expansion of the real? Will it always be a game? Or will it eventually become a parallel universe with a fully fledged civilization of its own?</div>
+
+
 
             <SectionHeading 
               title="Stages of Deployment" 

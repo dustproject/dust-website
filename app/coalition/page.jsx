@@ -246,7 +246,7 @@ export default function Page() {
             The Dust Project is assembling a {" "}
             <a href='https://drive.google.com/file/d/1KafnnzZYxU9o4sf3e8q6uk-2ekjESlAZ/view?usp=sharing'>credibly neutral</a>
             {" "}
-            coalition for <strong>manifesting universes that expand objective reality, and the scope of human life, rather than perpetuating escape from it</strong>.
+            coalition for <strong>manifesting a universe that expands objective reality, and the scope of human life, rather than perpetuating escape from it</strong>.
             This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors in return.
             The coalition consists of five key efforts, each suited for different kinds of contributors:
           </div>
