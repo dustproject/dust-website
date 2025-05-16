@@ -222,9 +222,10 @@ const RaisingDust = () => {
             <div className='subheading'>1. Transmigration Tools</div>
             <div className="paragraph">
               The first stage of Dust begins today, May 19 2025. During this stage, we will iteratively deploy a client and creator tools for territory programming.
-              Initially, it requires motivation to thrive in Dust. Onboard by bridging funds and figure out survival.
+              Initially, it requires motivation to thrive in Dust.
             </div>
             <div className="paragraph">
+            Onboard by bridging funds and figure out survival.
               The world is early and unsettled, so survive by: mining and crafting tools, farming crops, energizing a force field to establish territory, and placing a bed inside. Watch the video below and join the Discord community for help.
             </div>
 
