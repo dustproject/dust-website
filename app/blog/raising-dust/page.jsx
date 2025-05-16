@@ -143,7 +143,7 @@ const RaisingDust = () => {
               <a href="https://mud.dev/">MUD</a> (2022) and its services progressed Digital Physics from demonstration to production. It became faster to ship complex Digital Physics, build clients for players to interact with it, and interface with Player Extensions.
             </div>
             <div className="paragraph">
-              Lattice, the developers of MUD, demonstrated these claims by building <a href="https://opcraft.mud.dev/">OPCraft</a> within weeks, and social extensions like the <a href="https://x.com/SupremeLeaderOP">Supreme Leader</a> emerging within days of launch. Many took notice, and a vibrant community of developers and designers exploring Digital Physics was <a href="https://aw.network/">formed</a>.
+              Lattice, the developers of MUD, demonstrated these claims by building <a href="https://opcraft.mud.dev/">OPCraft</a> within weeks, and social extensions like the <a href="https://x.com/SupremeLeaderOP">Supreme Leader</a> emerged within days of launch. Many took notice, and a vibrant community of developers and designers exploring Digital Physics was <a href="https://aw.network/">formed</a>.
             </div>
             <div className="paragraph">
               Beyond taking Dark Forest's discoveries into production, MUD has begun enabling new properties like <strong>Open Scalability</strong>. Instead of depending on a single server owner to run and scale a world, individual players and organizations can contribute compute and do so themselves, limitlessly.
