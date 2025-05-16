@@ -162,7 +162,7 @@ const RaisingDust = () => {
               Bitcoin was an anon-created currency that used cryptography to enforce supply and transfer rules, which allowed it to accrue {">"}$2T in value. This wouldn't have happened if Bitcoin was managed by the anon's server. Similarly, Biomes hinted that Digital Matter may accrue far more value far faster than "monopoly resources" managed by a studio's server.
             </div>
             <div className="paragraph">
-              While large MMOs foster economic activity, Biomes saw thousands of dollars spent by players in transaction fees mining resources with {"<"}100 daily active users. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.
+              While large MMOs foster economic activity, Biomes saw thousands of dollars spent by players in computation fees mining resources with {"<"}100 daily active users. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.
             </div>
             <div className="paragraph">
               Countless <strong>Player Integrations</strong> built social mechanisms directly into the world by programming the behavior of objects like chests, force fields, and doors. <a href="https://x.com/0xwasdcorp/status/1849907628031324405">WasdSwap</a> programmed chests into shops to generate real money revenue for their guild.
@@ -205,7 +205,7 @@ const RaisingDust = () => {
             <ul>
               <li className="paragraph">The size of today's virtual worlds are bottlenecked by <a href="https://2b2t.miraheze.org/wiki/Queue">dependence on their server owner</a> to run and scale them. For example, Minecraft and Fortnite exist as fragmented server owner-hosted "islands" with &lt;100s of players each. With Open Scalability, Dust may eventually exist as a single continuous space with unlimited player capacity.</li>
               <li className="paragraph">Today's <a href="https://www.planetminecraft.com/servers/tag/anarchy/">anarchy virtual worlds</a>, in particular, foster <a href="https://2b2t.miraheze.org/wiki/Front_Page">massive social emergence</a> by aspiring to run indefinitely without resets or moderation. However, their server owner eventually stops hosting or forces updates and undermines the anarchy - causing player <a href="https://www.2b2t.org/2023-08-24/">outrage</a>. With Digital Physics, Dust will be ownerless - impossible to shutdown, reset, or force update - and may foster much more emergence much faster as a result.</li>
-              <li className="paragraph"> Similarly, the resulting Digital Matter - Dust's resources with provably scarce supply and circulation - may accrue much more value much faster than they would otherwise. This creates natural incentives for early adoption, as late adopters have to compete instead of simply mining & farming for &lt;$0.0001 in transaction fees. But resources can't be absolutely owned and require effort to keep against <a href="https://rust.facepunch.com/">Rust</a>-like PvP and PvE rules, so Dust remains fair for late adopters.</li>
+              <li className="paragraph"> Similarly, the resulting Digital Matter - Dust's resources with provably scarce supply and circulation - may accrue much more value much faster than they would otherwise. This creates natural incentives for early adoption, as late adopters have to compete instead of simply mining & farming for &lt;$0.0001 in computation fees. But resources can't be absolutely owned and require effort to keep against <a href="https://rust.facepunch.com/">Rust</a>-like PvP and PvE rules, so Dust remains fair for late adopters.</li>
               <li className="paragraph">Dust's initial design uses voxel physics (most performant) and interfaces with Minecraft-like clients (most familiar UX). We're contributing a high production browser client ourselves, and encouraging others to make more - especially for different platforms like mobile, console, and VR.</li>
               <li className="paragraph">Inside Dust, players will establish territories and program them with Extensions & Integrations. This will let their creations freely interface with the entire internet and economy, instead of remaining isolated as they are today due to regulation and gatekeeping. Envision it feeling like Earth - countless places each with their own social rules but sharing the same spacetime, matter, and physics - which billions inhabit together.</li>
             </ul>
@@ -225,7 +225,7 @@ const RaisingDust = () => {
               Initially, it requires motivation to thrive in Dust.
             </div>
             <div className="paragraph">
-            Onboard by bridging funds and figure out survival.
+            Onboard by bridging funds for computation fees, and figure out survival.
               The world is early and unsettled, so survive by: mining and crafting tools, farming crops, energizing a force field to establish territory, and placing a bed inside. Watch the video below and join the Discord community for help.
             </div>
 
