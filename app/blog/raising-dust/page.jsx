@@ -228,7 +228,9 @@ const RaisingDust = () => {
               The world is early and unsettled, so survive by: mining and crafting tools, farming crops, energizing a force field to establish territory, and placing a bed inside. Watch the video below and join the Discord community for help.
             </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VOJpXo8Yr6I?si=nJizs2g4DcKcQgDA"></iframe>
+            <SingleMedia 
+              videoSrc="https://www.youtube.com/embed/VOJpXo8Yr6I?si=nJizs2g4DcKcQgDA"
+            />
 
             <div className="paragraph">
               Those who survive, get a head start. Build something uniquely yours in your territory and program it however you want. This requires using command-line interfaces and there's few examples to learn from, but the Discord community will help.
@@ -251,7 +253,10 @@ const RaisingDust = () => {
 
             <div className='subheading'>3. TVC Automaton</div>
             <div className="paragraph">
-              During the third stage of Dust, Open Scalability challenges will be solved so Dust expands infinitely to accommodate everyone that wants to join. 
+              During the third stage of Dust, Open Scalability challenges will be solved so Dust can expand infinitely and accommodate everyone that wants to join.
+              For those aware of <a href="https://docs.optimism.io/superchain/superchain-explainer">Optimism's Superchain</a>, imagine something like a Supergrid with chunks run by various organizations.
+            </div>
+            <div className="paragraph">
               At this point, Dust will have a great client, great creator tools, a protocol upgrade process everyone can believe in, and open infrastructure that can limitlessly scale.
             </div>
 
