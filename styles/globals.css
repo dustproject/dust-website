@@ -1103,10 +1103,28 @@ transition: all 0.3s ease;
   height: auto;
   align-self: center;
   margin: 4rem 0;
+  border: 1.5px solid black;
 }
 
 @media (min-width: 768px) {
   .responsive-image {
-    width: 50%;
+    width: 60%;
+  }
+}
+
+
+.responsive-image-two {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  margin: 4rem 0;
+  border: 1.5px solid black;
+  padding: 8px;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .responsive-image-two {
+    width: 90%;
   }
 }
