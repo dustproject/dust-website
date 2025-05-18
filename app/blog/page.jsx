@@ -6,8 +6,8 @@ const BlogPage = () => {
   const blogPosts = [
     {
       date: "May 19, 2025",
-      title: "Raising Dust: Learning From Dark Forest, MUD, Biomes, and Beyond",
-      url: "/blog/raising-dust"
+      title: "Rising Dust: Learning From Dark Forest, MUD, and Biomes to Realize Virtual Worlds",
+      url: "/blog/rising-dust"
     }
   ];
 

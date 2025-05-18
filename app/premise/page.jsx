@@ -1,5 +1,6 @@
 import React from 'react';
 import "/styles/globals.css";
+import PapersGallery from "./papergallery";
 
 const ImageGallery = ({ imageSet = 'images' }) => {
     const images = [
@@ -260,10 +261,7 @@ const AcademicManifesto = () => {
     return (
         <div className="wrapper">
           <div className="container">
-            
-            {/* <div className="title">Foundations for DUST</div> */}
-            <div className="title">From Escapism to Realism: Manifesting Universes with Idealized Mathematical Objects</div>
-
+            <div className="title">From Escapism to Realism with Idealized Mathematical Objects</div>
 
             <div className='authorInfo'>
               Foundational ideas from
