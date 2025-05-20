@@ -39,18 +39,18 @@ const LandingGrid = () => {
 
           </div>
           <div className="col col-1-2" style={{textAlign: "center"}}>
-            <div className="video-container">
+            {/* <div className="video-container" style={{ marginBottom: "2rem"}}>
               <iframe 
                 src="https://www.youtube.com/embed/5mhTp3RWUts?si=Tzfv1WmpsViZM2ai"
               ></iframe>
-            </div>
+            </div> */}
             <div>
               <Image 
                 src="/survival.svg" 
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{width: "100%", marginTop: "2rem"}}
+                style={{width: "100%"}}
                 className="responsive-image-three"
                 alt="survival"
               />

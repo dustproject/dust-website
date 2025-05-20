@@ -207,11 +207,11 @@ const RaisingDust = () => {
             Use the survival guide, watch the walkthrough video, and <a href="https://discord.gg/J75hkmtmM4">join the Discord community</a> for help.
             </div>
 
-            <div className="video-container" style={{justifySelf: "center", width: "80%"}}>
+            {/* <div className="video-container" style={{justifySelf: "center", width: "80%", marginBottom: "2rem"}}>
               <iframe 
                 src="https://www.youtube.com/embed/5mhTp3RWUts?si=Tzfv1WmpsViZM2ai"
               ></iframe>
-            </div>
+            </div> */}
 
             <div style={{textAlign: "center"}}>
               <Image 
@@ -219,7 +219,7 @@ const RaisingDust = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{width: "80%", marginTop: "2rem"}}
+                style={{width: "80%"}}
                 className="responsive-image-three"
                 alt="survival"
               />
