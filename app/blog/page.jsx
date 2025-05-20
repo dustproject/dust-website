@@ -5,7 +5,7 @@ import Link from "next/link";
 const BlogPage = () => {
   const blogPosts = [
     {
-      date: "May 19, 2025",
+      date: "May 26, 2025",
       title: "Rising Dust: Learning From Dark Forest, MUD, and Biomes to Realize Virtual Worlds",
       url: "/blog/rising-dust"
     }

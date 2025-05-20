@@ -670,7 +670,6 @@ transition: all 0.3s ease;
   background-color: black;
   color: white;
   padding: 1rem;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid black;
@@ -1112,7 +1111,7 @@ transition: all 0.3s ease;
 
 @media (min-width: 768px) {
   .responsive-image {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -1123,7 +1122,7 @@ transition: all 0.3s ease;
 }
 
 .responsive-image-two {
-  width: 80%;
+  width: 90%;
   height: auto;
   align-self: center;
   margin: 4rem 0;

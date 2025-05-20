@@ -23,6 +23,12 @@ const ProjectsPage = () => {
       <div className="container">
         <div className="title">Create what you couldn't before</div>
 
+        <div className="abstractBox" style={{margin: "0"}}>
+          <div className='abstractHeading'>Start Real Governments, Religions, Companies, Lifeforms, and More</div>
+          <img src="/projects.svg" className="section-image" style={{border: "none", width: "100%", alignSelf: "center"}} alt="projects"/>
+          Program your controlled territory, design custom UIs that run in-client, and integrate with anything on the web, or even real dollars. What you create may truly live beyond you.
+        </div>
+
         <div className="content-section">
           {/* <div className="text-column">
             <div><strong>Dust</strong> {" "}
@@ -87,7 +93,7 @@ const ProjectsPage = () => {
           <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
           <div>The matter and energy of the world flow cyclically by the mathematically-enforced Public Physics Protocol.</div>
           <div>Every action is permanently recorded for anyone to verify, visible in the Protocol Explorer.</div>
-            <div>Grow and eat plants for energy, and return energy to the land as you act. Mine ores to craft tools, and ores regenerate as tools deplete.</div>
+            <div>Grow and eat crops for energy, and return energy to the land as you act. Mine ores to craft tools, and ores regenerate as tools deplete.</div>
             <div>Claim territory by energizing force fields. Territories can be attacked and defended.</div>
             <div>What you build inside your territory becomes a permanent store of your effort.</div>          
           </div>
@@ -110,7 +116,7 @@ const ProjectsPage = () => {
         <div className="content-section">
             <div className="text-column">
             <div>
-              The most powerful modding tools ever created. Program any machine in the world. Design custom UIs that run directly in-client. And for the first time ever, integrate with absolutely anything - from Reddit and Discord to your own custom currencies or even real dollars - without needing their approval.
+              The most powerful modding tools ever created. Program any machine in your territory. Design custom UIs that run directly in-client. And for the first time ever, integrate with absolutely anything on the internet or economy - from Reddit and Discord to your own custom currencies or even real dollars - without needing their approval.
             </div>
             <div>See what's possible: {" "} <Link href="https://permutationcity.org/">Permutation City</Link> {" "}
             is programming spawn tiles, force fields, and chests to let custom "Permutation Passport" holders spawn directly in their territory, rent their land, trade in their shops, and govern their city using custom UIs and "Permutation Pesos".

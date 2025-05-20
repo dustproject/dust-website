@@ -194,11 +194,17 @@ const RaisingDust = () => {
             
             <div className='subheading'>1. Transmigration Tools</div>
             <div className="paragraph">
-              The first stage of Dust begins today, May 19 2025. During this stage, we will iteratively deploy a client and creator tools for territory programming.
+              The first stage of Dust begins today, May 26 2025. During this stage, we will iteratively deploy a client and creator tools for territory programming.
             </div>
+
             <div className="paragraph">
-            First, onboard by bridging funds for computation fees and try to survive. 
-            Use the survival guide, watch the walkthrough video below, and <a href="https://discord.gg/J75hkmtmM4">join the Discord community</a> for help.
+              The project is in heavy development. The world is harsh and unsettled.
+              This presents an opportunity for the motivated to get a head start.
+            </div>
+
+            <div className="paragraph">
+            Onboard by bridging funds for computation fees and try to survive. 
+            Use the survival guide, watch the walkthrough video, and <a href="https://discord.gg/J75hkmtmM4">join the Discord community</a> for help.
             </div>
 
             <div className="video-container" style={{justifySelf: "center", width: "80%"}}>
@@ -222,8 +228,9 @@ const RaisingDust = () => {
 
 
             <div className="paragraph" style={{marginTop: "1rem"}}>
-              Initially, it requires agency and motivation to survive and thrive in Dust.
-              But those who survive, get a head start. Build something uniquely yours in your territory and program it however you want. This requires using command-line interfaces and there's few existing examples to learn from, but the <a href="https://discord.gg/J75hkmtmM4">Discord community</a> will help.
+              Those who survive, get a head start.
+              Establish and program your territory into something uniquely yours.
+              This requires using command-line interfaces and there's few existing examples to learn from, but the <a href="https://discord.gg/J75hkmtmM4">Discord community</a> will help.
             </div>
 
             <div className="paragraph">

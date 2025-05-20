@@ -60,8 +60,8 @@ const LandingGrid = () => {
 
         <div className="row row-2">
           <div className="col col-2-1">
-            <h2>Virtual worlds will play an increasingly larger role heading into the future.</h2>
-            <h2>What happens if a virtual world takes itself as seriously as possible?</h2>
+            <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual worlds will play an increasingly larger role heading into the future.</div>
+            <div className='homeHeading'>What happens if a virtual world takes itself as seriously as possible?</div>
             <button 
               className="read-dust-button" 
               onClick={() => window.location.href = '/coalition'}
@@ -84,7 +84,7 @@ const LandingGrid = () => {
 
         <div className="row row-3">
           <div className="col col-3-1">
-            <h2>Dust emerges from years of experiments advancing our understanding of digital objects that are taken as seriously as physical ones.</h2>
+            <div className='homeHeading'>Dust emerges from years of experiments in developing digital objects that are taken as seriously as physical ones.</div>
             <button 
               className="read-dust-button" 
               onClick={() => window.location.href = '/blog/rising-dust'}
@@ -94,7 +94,7 @@ const LandingGrid = () => {
           </div>
           <div className="col col-3-2">
             <Image 
-              src="/homepagetwo.svg" 
+              src="/evolution.svg" 
               width={0}
               height={0}
               sizes="100vw"

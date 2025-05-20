@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const projectsTrack = {
   title: "Projects",
+  subTitle: "Grow societies and lifeforms within the world that outlive their creators and connect to our broader lives.",
   categories: [
     {
       title: "MMO Systems",
@@ -52,6 +53,7 @@ const projectsTrack = {
 
 const researchTrack = {
   title: "Research",
+  subTitle: " Develop the idealized mathematical object - autonomously operating laws with an objective independent existence - defining the world's physics.",
   categories: [
     {
       title: "Applied Cryptography",
@@ -89,6 +91,7 @@ const researchTrack = {
 
 const economicsTrack = {
   title: "Economics",
+  subTitle: "Establish the world's matter as a system of value, which grows in demand with the world's population. Design open incentives using this for the world's advancement.",
   categories: [
     {
       title: "Cryptoeconomic Commons",
@@ -136,6 +139,7 @@ const economicsTrack = {
 
 const productsTrack = {
   title: "Clients",
+  subTitle: "Build commercial clients that people enjoy using to inhabit the world.",
   categories: [
     {
       title: "Web Apps",
@@ -162,6 +166,7 @@ const productsTrack = {
 
 const premiseTrack = {
   title: "Premise",
+  subTitle: "Conduct public discourse on the rise of human escapism and the potential of idealized mathematical objects to offer a return to realism.",
   categories: [
     {
       title: "Metaphysics",
@@ -187,7 +192,7 @@ const premiseTrack = {
 };
 
 const TrackSection = ({ track, linkType = "join" }) => {
-  const { title, categories } = track;
+  const { title, subTitle, categories } = track;
 
   const renderLink = () => {
     switch (linkType) {
@@ -206,7 +211,7 @@ const TrackSection = ({ track, linkType = "join" }) => {
       case "development":
         return (
           <span className="contribute-link disabled-link">
-            IN DEVELOPMENT
+            
           </span>
         );
       default:
@@ -216,9 +221,12 @@ const TrackSection = ({ track, linkType = "join" }) => {
 
   return (
     <div>
-      <div className="track-header">
-        <div className="columnHeading">{title}</div>
-        {renderLink()}
+      <div className="track-header" style={{ display: 'flex', flexDirection: 'column'}}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+          <div className="columnHeading">{title}</div>
+          {renderLink()}
+        </div>
+        <div style={{ width: '100%', marginTop: "0.5rem" }}>{subTitle}</div>
       </div>
       <div className="table-container">
         {categories.map((category, index) => (
@@ -242,39 +250,15 @@ export default function Page() {
     <div className='wrapper'>
       <div className='container'>
         <div>
-          <div className='subtitle'>
+          {/* <div className='subtitle'>
             The Dust Project is assembling a {" "}
             <a href='https://drive.google.com/file/d/1KafnnzZYxU9o4sf3e8q6uk-2ekjESlAZ/view?usp=sharing'>credibly neutral</a>
             {" "}
             coalition for <strong>manifesting a universe that expands objective reality, and the scope of human life, rather than perpetuating escape from it</strong>.
             This requires diverse contributions beyond what any single entity can provide, and offers substantial benefits to contributors in return.
             The coalition consists of five key efforts, each suited for different kinds of contributors:
-          </div>
-          <ul className='subtitle' style={{marginTop: "12px", marginBottom: "0", lineHeight: "150%"}}>
-            <li>
-              <strong>Premise:</strong>
-              {" "}
-              Conduct public discourse on the rise of human escapism and the potential of idealized mathematical objects to offer a return to realism. 
-            </li>
-            <li style={{marginTop: "8px"}}>
-              <strong>Research:</strong>
-              {" "}
-              Develop the idealized mathematical object - autonomously operating laws with an objective independent existence - defining the universe's physics.
-            </li>
-            <li style={{marginTop: "8px"}}>
-              <strong>Economics:</strong> Establish the universe's matter as a system of value, which grows in demand with the universe's population. 
-              Design open incentives using this value-accruing matter for the advancement of the universe.
-            </li>
-            <li style={{marginTop: "8px"}}>
-              <strong>Projects:</strong> Grow societies and lifeforms within the universe that outlive their creators and freely connect to our broader lives.
-            </li>
-            <li style={{marginTop: "8px"}}>
-              <strong>Clients:</strong> 
-              {" "}
-              Build commercial clients that people enjoy using to inhabit the universe.
-            </li>
-          </ul>
-          <hr style={{border: "0.5px solid #e2e2e2", marginTop: "24px"}}/>
+          </div> */}
+          {/* <hr style={{border: "0.5px solid #e2e2e2", marginTop: "24px"}}/> */}
           <div style={{paddingTop: "24px", display: "flex", flexDirection: "column", gap: "2em"}}>
             <TrackSection track={premiseTrack} />
             <TrackSection track={researchTrack} linkType='development'/>
