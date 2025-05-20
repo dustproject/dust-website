@@ -169,7 +169,7 @@ const RaisingDust = () => {
               />
             </div>
 
-            <div className="paragraph">To answer our big question, Dust Project is building an infinite autonomous world with a tamper-proof resource supply, immutable PvP & PvE rules, diverse clients, and real player-driven societies.</div>
+            <div className="paragraph" style={{marginTop: "1rem"}}>To answer our big question, Dust Project is building an infinite autonomous world with a tamper-proof resource supply, immutable PvP & PvE rules, diverse clients, and real player-driven societies.</div>
 
             <ul>
               <li className="paragraph">The size of today's virtual worlds are bottlenecked by <a href="https://2b2t.miraheze.org/wiki/Queue">dependence on their server owner</a> to run and scale them. For example, Minecraft and Fortnite exist as fragmented server owner-hosted "islands" with &lt;100s of players each. With Open Scalability, Dust may eventually exist as a single continuous space with unlimited player capacity.</li>
@@ -201,11 +201,27 @@ const RaisingDust = () => {
             Use the survival guide, watch the walkthrough video below, and <a href="https://discord.gg/J75hkmtmM4">join the Discord community</a> for help.
             </div>
 
-            <SingleMedia 
-              videoSrc="https://www.youtube.com/embed/VOJpXo8Yr6I?si=nJizs2g4DcKcQgDA"
-            />
+            <div className="video-container" style={{justifySelf: "center", width: "80%"}}>
+              <iframe 
+                src="https://www.youtube.com/embed/5mhTp3RWUts?si=Tzfv1WmpsViZM2ai"
+              ></iframe>
+            </div>
 
-            <div className="paragraph">
+            <div style={{textAlign: "center"}}>
+              <Image 
+                src="/survival.svg" 
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{width: "80%", marginTop: "2rem"}}
+                className="responsive-image-three"
+                alt="survival"
+              />
+            </div>
+
+
+
+            <div className="paragraph" style={{marginTop: "1rem"}}>
               Initially, it requires agency and motivation to survive and thrive in Dust.
               But those who survive, get a head start. Build something uniquely yours in your territory and program it however you want. This requires using command-line interfaces and there's few existing examples to learn from, but the <a href="https://discord.gg/J75hkmtmM4">Discord community</a> will help.
             </div>

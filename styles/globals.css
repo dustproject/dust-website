@@ -525,6 +525,7 @@ transition: all 0.3s ease;
   position: fixed;
   width: 100%;
   padding: 1rem 0;
+  z-index: 50;
 }
 
 .navbar-spacer {
@@ -1115,35 +1116,14 @@ transition: all 0.3s ease;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .responsive-image-three {
   width: 100%;
   height: auto;
   align-self: center;
-  margin: 4rem 0;
-  border: 1.5px solid black;
-  padding: 12px;
-  background-color: white;
-}
-
-@media (min-width: 768px) {
-  .responsive-image-three {
-    width: 50%;
-  }
 }
 
 .responsive-image-two {
-  width: 100%;
+  width: 80%;
   height: auto;
   align-self: center;
   margin: 4rem 0;
@@ -1152,23 +1132,50 @@ transition: all 0.3s ease;
   background-color: white;
 }
 
-@media (min-width: 768px) {
-  .responsive-image-two {
-    width: 80%;
-  }
-}
-
-
-
 .homeHeading {
   font-size: 22px;
   font-weight: bold;
+}
+
+.feature-text {
+  font-size: 18px;
+  line-height: 2.4;
+}
+
+.read-dust-button {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #f9f9f9;
+  border: 2px dotted #ddd;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
   margin-top: 2rem;
 }
 
-@media (min-width: 768px) {
-  .homeHeading {
-    font-size: 24px;
-    margin-top: 70px;
-  }
+.read-dust-button:hover {
+  background-color: #ddd;
+  border-color: #ccc;
+  color: #333;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625 or 56.25%) */
+  height: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

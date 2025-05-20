@@ -6,7 +6,231 @@ import Image from 'next/image';
 import Link from "next/link";
 import ProjectsPage from './projects/page';
 
-// Helper function to create shimmering text effect
+const LandingGrid = () => {
+  return (
+    <div className="landing-page">
+      <div className="grid-container">
+        <div className="row row-1">
+          <div className="col col-1-1">
+            <div className='homeHeading'>Get a Head Start</div>
+            <div className="feature-text" style={{marginTop: "1rem"}}>
+              The project is in heavy development. The world is harsh and unsettled.
+            </div>
+            <div className="feature-text">
+              This presents an opportunity for the motivated to get a head start.
+            </div>
+            <div className="feature-text">Onboard by bridging funds for computation fees and try to survive.</div>
+            <div className="feature-text">
+              Establish and program your territory into something uniquely yours.
+            </div>
+            <button 
+              className="read-dust-button" 
+              onClick={() => window.location.href = 'https://discord.gg/J75hkmtmM4'}
+            >
+              JOIN DISCORD
+            </button>
+
+            <button 
+              className="read-dust-button" 
+              onClick={() => window.location.href = 'https://alpha.dustproject.org/'}
+            >
+              ENTER ALPHA
+            </button>
+
+          </div>
+          <div className="col col-1-2" style={{textAlign: "center"}}>
+            <div className="video-container">
+              <iframe 
+                src="https://www.youtube.com/embed/5mhTp3RWUts?si=Tzfv1WmpsViZM2ai"
+              ></iframe>
+            </div>
+            <div>
+              <Image 
+                src="/survival.svg" 
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{width: "100%", marginTop: "2rem"}}
+                className="responsive-image-three"
+                alt="survival"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="row row-2">
+          <div className="col col-2-1">
+            <h2>Virtual worlds will play an increasingly larger role heading into the future.</h2>
+            <h2>What happens if a virtual world takes itself as seriously as possible?</h2>
+            <button 
+              className="read-dust-button" 
+              onClick={() => window.location.href = '/coalition'}
+            >
+              JOIN COALITION
+            </button>
+          </div>
+          <div className="col col-2-2" style={{textAlign: "center"}}>
+            <Image 
+              src="/homepageone.svg" 
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="responsive-image-three"
+              style={{width: "70%"}}
+              alt="dust project world visualization"
+            />
+          </div>
+        </div>
+
+        <div className="row row-3">
+          <div className="col col-3-1">
+            <h2>Dust emerges from years of experiments advancing our understanding of digital objects that are taken as seriously as physical ones.</h2>
+            <button 
+              className="read-dust-button" 
+              onClick={() => window.location.href = '/blog/rising-dust'}
+            >
+              READ RISING DUST
+            </button>
+          </div>
+          <div className="col col-3-2">
+            <Image 
+              src="/homepagetwo.svg" 
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="responsive-image-three"
+              alt="dust project systems diagram"
+            />
+          </div>
+        </div>
+      </div>
+
+      <style jsx>{`
+        /* Global styles */
+
+  
+        /* Grid layout */
+        .grid-container {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .row {
+          display: flex;
+          width: 100%;
+          border-bottom: 2px dotted #ddd;
+        }
+
+        /* Row 1: 50:50 */
+        .col-1-1, .col-1-2 {
+          width: 50%;
+        }
+        
+        .col-1-2, .col-2-2, .col-3-2 {
+          background: #f9f9f9;
+        }
+
+        /* Row 2: 37.5:62.5 */
+        .col-2-1 {
+          width: 37.5%;
+        }
+        .col-2-2 {
+          width: 62.5%;
+        }
+
+        /* Row 3: 25:75 */
+        .col-3-1 {
+          width: 25%;
+        }
+        .col-3-2 {
+          width: 75%;
+        }
+
+        .col {
+          border-right: 2px dotted #ddd;
+          padding: 3rem;
+        }
+
+        .col:last-child {
+          border-right: none;
+        }
+
+        /* Section styles */
+        .cell {
+          padding: 20px;
+        }
+
+        .section-title {
+          margin-bottom: 15px;
+          font-weight: normal;
+          font-size: 1.4em;
+        }
+
+        .info-list p {
+          margin-bottom: 5px;
+        }
+
+        /* Production items */
+        .production-list {
+          margin-top: 15px;
+        }
+
+        .production-item {
+          margin: 20px 0;
+        }
+
+        .year {
+          font-size: 0.9em;
+          color: #666;
+          margin-right: 10px;
+          display: inline-block;
+          width: 40px;
+        }
+
+        .title {
+          font-size: 1.3em;
+          font-weight: normal;
+        }
+
+        .status {
+          font-size: 0.8em;
+          color: #666;
+          font-style: italic;
+          margin-right: 10px;
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+          .row {
+            flex-direction: column;
+            border-bottom: none;
+          }
+
+          .col {
+            width: auto;
+            border-right: none;
+            border-bottom: 2px dotted #ddd;
+          }
+
+          .cell {
+            padding: 15px;
+          }
+
+          .production-item {
+            margin: 15px 0;
+          }
+          
+          .header {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+          }
+        }
+      `}</style>
+    </div>
+  );
+};
+
 const applyShimmerEffect = (element) => {
   if (!element || !element.textContent) return;
 
@@ -33,102 +257,36 @@ export default function Page() {
   }, []); // Empty dependency array ensures this runs only once on mount
 
   return (
-    <div>
-      <div className="dust-container">
-        <div className="background-map">
-          <iframe 
-            src="https://alpha.dustproject.org/map" 
-            className="map-iframe"
-            title="DUST Project Map"
-            loading="lazy"
-          />
-        </div>
-        
-        <div className="content-wrapper">
-          <div className="top-section">
-            <Link href="/blog/rising-dust" className="coalition-text" ref={joinCoalitionRef}>
-              JOIN COALITION
-            </Link>
-          </div>
-          
-          <div className="middle-section">
-            <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
-          </div>
-          
-          <div className="bottom-section">
-            <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
-              ENTER ALPHA
-            </Link>
-          </div>
-        </div>
+<div>
+  <div className="dust-container">
+    <div className="background-map">
+      <iframe 
+        src="https://alpha.dustproject.org/map" 
+        className="map-iframe"
+        title="DUST Project Map"
+        loading="lazy"
+      />
+    </div>
+    
+    <div className="content-wrapper">
+      <div className="top-section">
+        <Link href="/blog/rising-dust" className="coalition-text" ref={joinCoalitionRef}>
+          JOIN COALITION
+        </Link>
       </div>
-
-      <div className='wrapper'>
-
-        <div style={{display: "flex", flexDirection: "column", width: "80%", justifySelf: "center"}}>
-
-        <div className="homeHeading">
-          Virtual worlds will play an increasingly larger role heading into the future and may consume where we spend our time.
-          Dust is asking what happens if a virtual world takes itself maximally seriously?
-        </div>
-
-        <Image 
-          src="/homepageone.svg" 
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="responsive-image-three"
-          alt="dust project"
-        />
-
-        <div className="homeHeading" style={{marginTop: "0px"}}>
-          Dust is born from years of experiments advancing our understanding of digital systems that people take seriously.
-        </div>
-
-        <Image 
-          src="/homepagetwo.svg" 
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="responsive-image-two"
-          alt="dust project"
-        />
-
-        <div className="homeHeading" style={{marginTop: "0px", marginBottom: "16px"}}>
-         Get a Head Start
-        </div>
-
-        <div className="paragraph" style={{fontSize: "18px"}}>
-          First, onboard by bridging funds for computation fees and try to survive. Use the survival guide & watch the walkthrough video below.
-        </div>
-
-        <video
-          controls
-          autoPlay
-          loop={true}
-          style={{ 
-            maxWidth: '80%', 
-            maxHeight: '100%',
-            objectFit: 'contain',
-            alignSelf: 'center',
-            marginBottom: "16px"
-          }}
-        >
-          <source src="https://www.youtube.com/embed/VOJpXo8Yr6I?si=nJizs2g4DcKcQgDA" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-
-        <div className="paragraph" style={{fontSize: "18px"}}>
-          Build something uniquely yours in your territory and program it however you want.{" "} 
-          <a href="https://discord.gg/J75hkmtmM4">Join the Discord</a> for inspiration and help.
-        </div>
-        <div className="paragraph" style={{fontSize: "18px", marginBottom: "70px"}}>
-          Over the coming months, Dust will become inviting for all. But those with motivation can get a head start today.
-        </div>
-
-        </div>
+      
+      <div className="middle-section">
+        <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
+      </div>
+      
+      <div className="bottom-section">
+        <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
+          ENTER ALPHA
+        </Link>
       </div>
     </div>
-  );
+  </div>
+  <LandingGrid/>
+</div>
+);
 }
