@@ -12,7 +12,7 @@ const LandingGrid = () => {
       <div className="grid-container">
         <div className="row row-1">
           <div className="col col-1-1">
-            <div className='homeHeading'>Get a Head Start</div>
+            <div className='homeHeading'>Get a head start.</div>
             <div className="feature-text" style={{marginTop: "1rem"}}>
               The project is in heavy development. The world is harsh and unsettled.
             </div>
