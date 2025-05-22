@@ -433,7 +433,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            In contrast, idealized mathematical objects operate as immutable laws existing independently of authority. If used to construct a cyberspace, users would collectively run, upgrade, and scale it themselves. All user actions would become permanent, objectively verifiable records that permissionlessly connects with their broader lives. As a mathematical cyberspaces advance towards manifesting objectively real, sensorially equivalent, and infinitely imaginable universes... they evolve from escapist diversions to enriching expansions of reality.
+            In contrast, idealized mathematical objects operate as immutable laws existing independently of authority. If used to construct a cyberspace, users would collectively run, upgrade, and scale it themselves. All user actions become permanent, objectively verifiable records that permissionlessly connect with their broader lives. As mathematical cyberspaces advance towards manifesting objectively real, sensorially equivalent, and infinitely imaginable universes... cyberspaces evolve from escapist diversions to enriching expansions of reality.
             </div>
       
             {/* <div style={{

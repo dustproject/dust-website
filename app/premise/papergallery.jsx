@@ -436,7 +436,6 @@ const PapersGallery = ({ category = 'one' }) => {
         .gallery-container {
           margin: 1rem auto;
           padding: 2rem 24px;
-          background: black;
         }
         
         .gallery-title {
@@ -469,7 +468,7 @@ const PapersGallery = ({ category = 'one' }) => {
           flex-shrink: 0;
           width: 256px;
           background-color: #f3f3f3;
-          border: 1px solid white;
+          border: 2px solid black;
           overflow: hidden;
           cursor: pointer;
           transition: transform 0.2s, box-shadow 0.2s;

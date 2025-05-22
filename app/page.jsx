@@ -14,7 +14,10 @@ const LandingGrid = () => {
           <div className="col col-1-1">
             <div className='homeHeading'>Get a head start.</div>
             <div className="feature-text" style={{marginTop: "1rem"}}>
-              The project is in heavy development. The world is harsh and unsettled.
+              The project is in heavy development.
+            </div>
+            <div className="feature-text">
+              The world is harsh and unsettled.
             </div>
             <div className="feature-text">
               This presents an opportunity for the motivated to get a head start.
@@ -58,10 +61,33 @@ const LandingGrid = () => {
           </div>
         </div>
 
+        <div className="row row-3">
+          <div className="col col-3-1">
+            <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Have Been Lived In for Decades.</div>
+            <div className='homeHeading'>But They've Remained Theme Parks.</div>
+            <button 
+              className="read-dust-button" 
+              onClick={() => window.location.href = 'https://slayherobrine.com/'}
+            >
+             READ: SLAY HEROBRINE
+            </button>
+          </div>
+          <div className="col col-3-2" style={{padding: "2rem"}}>
+            <Image 
+              src="/themeparks.svg" 
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="responsive-image-three"
+              alt="dust project systems diagram"
+            />
+          </div>
+        </div>
+
         <div className="row row-2">
           <div className="col col-2-1">
-            <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual worlds will play an increasingly larger role heading into the future.</div>
-            <div className='homeHeading'>What happens if a virtual world takes itself as seriously as possible?</div>
+            <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Will Matter More With Each Passing Year.</div>
+            <div className='homeHeading' style={{marginBottom: "1rem"}}>Dust Asks: What Happens When One Takes Itself Maximally Seriously?</div>
             <button 
               className="read-dust-button" 
               onClick={() => window.location.href = '/coalition'}
@@ -84,12 +110,12 @@ const LandingGrid = () => {
 
         <div className="row row-3">
           <div className="col col-3-1">
-            <div className='homeHeading'>Dust emerges from years of experiments in developing digital objects that are taken as seriously as physical ones.</div>
+            <div className='homeHeading'>Dust Emerges From Years of Advancing Digital Objects That Are Taken As Seriously As Physical Ones.</div>
             <button 
               className="read-dust-button" 
               onClick={() => window.location.href = '/blog/rising-dust'}
             >
-              READ RISING DUST
+              READ: RISING DUST
             </button>
           </div>
           <div className="col col-3-2">
@@ -121,21 +147,15 @@ const LandingGrid = () => {
           border-bottom: 2px dotted #ddd;
         }
 
-        /* Row 1: 50:50 */
-        .col-1-1, .col-1-2 {
-          width: 50%;
+        .col-1-1, .col-2-1 {
+          width: 37.5%;
+        }
+        .col-1-2, .col-2-2 {
+          width: 62.5%;
         }
         
         .col-1-2, .col-2-2, .col-3-2 {
           background: #f9f9f9;
-        }
-
-        /* Row 2: 37.5:62.5 */
-        .col-2-1 {
-          width: 37.5%;
-        }
-        .col-2-2 {
-          width: 62.5%;
         }
 
         /* Row 3: 25:75 */
