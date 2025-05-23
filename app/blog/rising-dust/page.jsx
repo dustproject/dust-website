@@ -151,30 +151,31 @@ const RaisingDust = () => {
               title="Our Big Question" 
             />
             <div className="paragraph">
-            Primitive virtual worlds have been around for a while. It's pretty clear that they will grow in sophistication and play an increasingly larger role heading into the future, and at some point may consume almost the entirety of where humans spend their time.            </div>
-            <div className="paragraph">
-              Our observations from Dark Forest, MUD, and Biomes have led us to formulate a question worth asking: <strong>what happens if a virtual world takes itself maximally seriously?</strong>
-              {" "}
-              The Dust Project is an <Link href="/coalition">open coalition</Link> for collectively asking this question and tangibly filling out its answer to the greatest capacity possible.
+              Primitive virtual worlds have been around for a while.
+              It's pretty clear that they will play an increasingly larger role heading into the future and may eventually consume the entirety of where humans spend their time.
+            
+              But they're fundamentally capped by today's client-server paradigm and it's impossible for them to grow beyond "theme parks" into becoming fully-fledged virtual worlds as a result.
             </div>
             <div style={{textAlign: "center"}}>
               <Image 
-                src="/onepager.svg" 
+                src="/themeparks.svg" 
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="responsive-image"
+                className="responsive-image-two"
                 style={{margin: "0px"}}
                 alt="dust project"
               />
             </div>
-
-            <div className="paragraph" style={{marginTop: "1rem"}}>To answer our big question, Dust Project is building an infinite autonomous world with a tamper-proof resource supply, immutable PvP & PvE rules, diverse clients, and real player-driven societies.</div>
+            <div className="paragraph">
+              Our observations from Dark Forest, MUD, and Biomes have led us to formulate a question worth asking: <strong>what happens if a virtual world takes itself maximally seriously and goes beyond being a theme park?</strong>
+            </div>
+            <div className="paragraph" style={{marginTop: "1rem"}}>To answer our question, The Dust Project is building an infinite permanent world with tamper-proof resources, immutable PvP & PvE rules, diverse clients, and real player-driven societies.</div>
 
             <ul>
-              <li className="paragraph">The size of today's virtual worlds are bottlenecked by <a href="https://2b2t.miraheze.org/wiki/Queue">dependence on their server owner</a> to run and scale them. For example, Minecraft and Fortnite exist as fragmented server owner-hosted "islands" with &lt;100s of players each. With Open Scalability, Dust may eventually exist as a single continuous space with unlimited player capacity.</li>
+              <li className="paragraph">The size of today's virtual worlds are bottlenecked by <a href="https://2b2t.miraheze.org/wiki/Queue">dependence on their server owner</a> to run and scale them. For example, Minecraft and Fortnite exist as fragmented server owner-hosted "islands" with &lt;100s of players each. With Open Scalability, Dust may eventually exist as one continuous space with unlimited player capacity.</li>
               <li className="paragraph">Today's <a href="https://www.planetminecraft.com/servers/tag/anarchy/">anarchy virtual worlds</a>, in particular, foster <a href="https://2b2t.miraheze.org/wiki/Front_Page">massive social emergence</a> by aspiring to run indefinitely without resets or moderation. However, their server owner eventually stops hosting or forces updates and undermines the anarchy - causing player <a href="https://www.2b2t.org/2023-08-24/">outrage</a>. With Digital Physics, Dust will be ownerless and autonomous - impossible to shutdown, reset, or force update - and may foster much more emergence much faster as a result.</li>
-              <li className="paragraph"> Similarly, the resulting Digital Matter - Dust's resources with provably scarce supply and circulation - may accrue much more value much faster than they would otherwise. This creates natural incentives for early adoption, as late adopters have to compete instead of simply mining & farming for &lt;$0.0001 in computation fees. But resources can't be absolutely owned and require effort to keep against <a href="https://rust.facepunch.com/">Rust</a>-like PvP and PvE rules, so Dust remains fair for late adopters.</li>
+              <li className="paragraph"> Similarly, the resulting Digital Matter - Dust's resources with provably scarce supply and circulation - may accrue much more value much faster than they would otherwise. This creates natural incentives for early adoption, as late adopters have to compete instead of simply mining & farming for &lt;$0.0001 in computation fees. Resources can't be absolutely owned and require effort to keep against <a href="https://rust.facepunch.com/">Rust</a>-like PvP and PvE rules, so Dust remains fair for late adopters.</li>
               <li className="paragraph">Dust's initial design uses voxel physics (most performant) and interfaces with Minecraft-like clients (most familiar UX). We're contributing a high production browser client ourselves, and encouraging others to make more - especially for different platforms like mobile, console, and VR.</li>
               <li className="paragraph">Inside Dust, players will establish territories and program them with Extensions & Integrations. This will let their creations freely interface with the entire internet and economy, instead of remaining isolated as they are today due to regulation and gatekeeping. Envision it feeling like Earth - countless places each with their own social rules but sharing the same spacetime, matter, and physics - which billions inhabit together.</li>
             </ul>
@@ -185,7 +186,23 @@ const RaisingDust = () => {
               </strong>
             </div>
 
+            <div className='paragraph'>
+            The Dust Project is an <Link href="/coalition">open coalition</Link> for collectively asking this question and tangibly filling out its answer to the greatest capacity possible.
+            </div>
+
             <div className="paragraph">The answer to Bitcoin's question of true digital scarcity evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. Similarly, the answer that emerges to Dust's question promises to surprise.</div>
+
+            <div style={{textAlign: "center"}}>
+              <Image 
+                src="/homepageone.svg" 
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="responsive-image-two"
+                style={{margin: "0px", width: "60%"}}
+                alt="dust project"
+              />
+            </div>
 
 
             <SectionHeading 
@@ -224,8 +241,6 @@ const RaisingDust = () => {
                 alt="survival"
               />
             </div>
-
-
 
             <div className="paragraph" style={{marginTop: "1rem"}}>
               Those who survive, get a head start.

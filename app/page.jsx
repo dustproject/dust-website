@@ -12,19 +12,16 @@ const LandingGrid = () => {
       <div className="grid-container">
         <div className="row row-1">
           <div className="col col-1-1">
-            <div className='homeHeading'>Get a head start.</div>
-            <div className="feature-text" style={{marginTop: "1rem"}}>
-              The project is in heavy development.
-            </div>
-            <div className="feature-text">
-              The world is harsh and unsettled.
+            <div className='homeHeading'>Get A Head Start.</div>
+            <div className="feature-text" style={{marginTop: "1rem"}}>              
+              The world is harsh, in early development, and unsettled.
             </div>
             <div className="feature-text">
               This presents an opportunity for the motivated to get a head start.
             </div>
-            <div className="feature-text">Onboard by bridging funds for computation fees and try to survive.</div>
+            <div className="feature-text">First, bridge funds for computation fees and try to survive.</div>
             <div className="feature-text">
-              Establish and program your territory into something uniquely yours.
+              Then, establish territory and program it into something uniquely yours.
             </div>
             <button 
               className="read-dust-button" 
@@ -53,7 +50,7 @@ const LandingGrid = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{width: "100%"}}
+                style={{width: "80%"}}
                 className="responsive-image-three"
                 alt="survival"
               />
@@ -63,8 +60,8 @@ const LandingGrid = () => {
 
         <div className="row row-3">
           <div className="col col-3-1">
-            <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Have Been Lived In for Decades.</div>
-            <div className='homeHeading'>But They've Remained Theme Parks.</div>
+            <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Have Been Lived In For Decades.</div>
+            <div className='homeHeading'>But They’ve Remained Unserious Theme Parks.</div>
             <button 
               className="read-dust-button" 
               onClick={() => window.location.href = 'https://slayherobrine.com/'}
@@ -72,7 +69,7 @@ const LandingGrid = () => {
              READ: SLAY HEROBRINE
             </button>
           </div>
-          <div className="col col-3-2" style={{padding: "2rem"}}>
+          <div className="col col-3-2">
             <Image 
               src="/themeparks.svg" 
               width={0}
@@ -84,10 +81,33 @@ const LandingGrid = () => {
           </div>
         </div>
 
+        <div className="row row-3">
+          <div className="col col-3-1">
+            <div className='homeHeading'>Secretly... Virtual Objects That Can Be Taken As Seriously As Real Ones Have Been Forming.</div>
+            <button 
+              className="read-dust-button" 
+              onClick={() => window.location.href = '/blog/rising-dust'}
+            >
+              READ: RISING DUST
+            </button>
+          </div>
+          <div className="col col-3-2">
+            <Image 
+              src="/evolution.svg" 
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="responsive-image-three"
+              alt="dust project systems diagram"
+            />
+          </div>
+        </div>
+
+
         <div className="row row-2">
           <div className="col col-2-1">
             <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Will Matter More With Each Passing Year.</div>
-            <div className='homeHeading' style={{marginBottom: "1rem"}}>Dust Asks: What Happens When One Takes Itself Maximally Seriously?</div>
+            <div className='homeHeading' style={{marginBottom: "1rem"}}>What Happens When One Takes Itself Maximally Seriously?</div>
             <button 
               className="read-dust-button" 
               onClick={() => window.location.href = '/coalition'}
@@ -108,27 +128,7 @@ const LandingGrid = () => {
           </div>
         </div>
 
-        <div className="row row-3">
-          <div className="col col-3-1">
-            <div className='homeHeading'>Dust Emerges From Years of Advancing Digital Objects That Are Taken As Seriously As Physical Ones.</div>
-            <button 
-              className="read-dust-button" 
-              onClick={() => window.location.href = '/blog/rising-dust'}
-            >
-              READ: RISING DUST
-            </button>
-          </div>
-          <div className="col col-3-2">
-            <Image 
-              src="/evolution.svg" 
-              width={0}
-              height={0}
-              sizes="100vw"
-              className="responsive-image-three"
-              alt="dust project systems diagram"
-            />
-          </div>
-        </div>
+
       </div>
 
       <style jsx>{`
@@ -168,7 +168,7 @@ const LandingGrid = () => {
 
         .col {
           border-right: 2px dotted #ddd;
-          padding: 3rem;
+          padding: 2rem;
         }
 
         .col:last-child {
