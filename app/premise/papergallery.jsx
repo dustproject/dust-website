@@ -35,6 +35,12 @@ const PapersGallery = ({ category = 'one' }) => {
         author: 'Timothy May',
         pdfPath: '/pdfs/Cryptographic Automata/True Nyms and Crypto Anarchy - Timothy May.pdf',
       },
+      {
+        title: 'Blockchains Response to The Sweep of History',
+        field: "Cryptographic Automata",
+        author: 'GuiltyGyoza',
+        pdfPath: '/pdfs/Cryptographic Automata/Blockchains Response to The Sweep of History - Guiltygyoza.pdf',
+      }
     ],
     
     one: [

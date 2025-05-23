@@ -59,7 +59,7 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-
+{/* 
           <Link href="/slayherobrine" target="_blank" rel="noopener noreferrer" style={{color: "white", fontWeight: "bold", textDecoration: "none"}}>
               <div className='ctaBox abstractHeading mcBox' style={{display: "flex", justifyContent: "space-between", fontFamily: "Rubik Pixels"}}>
                 <div>
@@ -70,7 +70,7 @@ const ProjectsPage = () => {
                 </div>
               </div>
           </Link>
-      
+       */}
 
 
 
@@ -90,7 +90,7 @@ const ProjectsPage = () => {
         <div className="sectionHeading">Build Something Truly Lasting</div>
         <div className="content-section">
           <div className="image-column" style={{flexDirection: "column", gap: "0.5rem"}}>
-          <div>The matter and energy of the world flow cyclically by the mathematically-enforced Public Physics Protocol.</div>
+          <div>The matter and energy of the world flow cyclically according to the Public Physics Protocol.</div>
           <div>Every action is permanently recorded for anyone to verify, visible in the Protocol Explorer.</div>
             <div>Grow and eat crops for energy, and return energy to the land as you act. Mine ores to craft tools, and ores regenerate as tools deplete.</div>
             <div>Claim territory by energizing force fields. Territories can be attacked and defended.</div>
@@ -109,7 +109,7 @@ const ProjectsPage = () => {
           </div>
         </div>
 
-        <div className="sectionHeading">Enrich Both Dust and Your Broader Life</div>
+        <div className="sectionHeading">Redstone on Steroids</div>
 
 
         <div className="content-section">

@@ -34,7 +34,7 @@ const LandingGrid = () => {
               className="read-dust-button" 
               onClick={() => window.location.href = 'https://alpha.dustproject.org/'}
             >
-              ENTER ALPHA
+              ENTER WORLD
             </button>
 
           </div>
@@ -289,11 +289,6 @@ export default function Page() {
     </div>
     
     <div className="content-wrapper">
-      <div className="top-section">
-        <Link href="/blog/rising-dust" className="coalition-text" ref={joinCoalitionRef}>
-          JOIN COALITION
-        </Link>
-      </div>
       
       <div className="middle-section">
         <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
@@ -301,7 +296,7 @@ export default function Page() {
       
       <div className="bottom-section">
         <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
-          ENTER ALPHA
+          ENTER WORLD
         </Link>
       </div>
     </div>
