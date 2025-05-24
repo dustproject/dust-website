@@ -261,11 +261,11 @@ const AcademicManifesto = () => {
     return (
         <div className="wrapper">
           <div className="container">
-            <div className="title">From Escapism to Realism: Manifesting Universes with Idealized Mathematical Objects</div>
+            <div className="title">From Escapism to Realism: Manifesting Universes with Mathematical Objects</div>
 
             <div className="abstractBox">
               <div className="abstractText">
-                With progressing information technology, humans increasingly escape into shared fictions that, unlike physical reality, depend on belief to exist. Idealized mathematical objects, if achieved through cryptographic techniques, offer an alternative due to their objective independent existence. These objects would autonomously-operate, maintain their own secrets, and grow unbounded in complexity. They may transform shared fictions into objectively real universes that are enriching for humans to inhabit rather than escapist.
+                With progressing information technology, humans increasingly escape into shared fictions that, unlike physical reality, depend on belief to exist. Instantiated mathematical objects, if achieved through cryptographic techniques, offer an alternative due to their objective independent existence. These objects would autonomously-operate, maintain their own secrets, and grow unbounded in complexity. They may transform shared fictions into objectively real universes that are enriching for humans to inhabit rather than escapist.
               </div>
             </div>
 
@@ -311,7 +311,7 @@ const AcademicManifesto = () => {
             </div> */}
       
             <SectionHeading 
-              title="Escapist Fictions" 
+              title="I. Escapist Fictions" 
               href="https://drive.google.com/drive/folders/13CbR5pur5xuAbMAJM3wiu58uhZ_eQ10K?usp=sharing" 
             />
             
@@ -391,7 +391,7 @@ const AcademicManifesto = () => {
             <PapersGallery category='two'/>
       
             <SectionHeading 
-              title="III. Idealized Mathematical Objects" 
+              title="III. Instantiating Mathematical Objects" 
               href="https://drive.google.com/drive/folders/1ikr4Rylvk-nMFxJxdFb89lUwUlllMffY?usp=sharing" 
             />
       
@@ -401,7 +401,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            Cryptographic techniques, as shown in Figure 6, applied to networked computing are now similarly evolving mathematical objects from static forms to their dynamic, idealized endstate. These idealized mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to unbounded complexity.
+            Cryptographic techniques, as shown in Figure 6, applied to networked computing are now similarly evolving mathematical objects from static forms to their dynamic, idealized endstate. These instantiated mathematical objects, if achieved, would autonomously self-operate, maintain their own secrets, serve everyone neutrally, and grow to unbounded complexity.
             </div>
       
             <div style={{
@@ -433,7 +433,7 @@ const AcademicManifesto = () => {
             </div>
       
             <div className="paragraph">
-            In contrast, idealized mathematical objects operate as immutable laws existing independently of authority. If used to construct a cyberspace, users would collectively run, upgrade, and scale it themselves. All user actions become permanent, objectively verifiable records that permissionlessly connect with their broader lives. As mathematical cyberspaces advance towards manifesting objectively real, sensorially equivalent, and infinitely imaginable universes... cyberspaces evolve from escapist diversions to enriching expansions of reality.
+            In contrast, instantiated mathematical objects operate as immutable laws existing independently of authority. If used to construct a cyberspace, users would collectively run, upgrade, and scale it themselves. All user actions become permanent, objectively verifiable records that permissionlessly connect with their broader lives. As mathematical cyberspaces advance towards manifesting objectively real, sensorially equivalent, and infinitely imaginable universes... cyberspaces evolve from escapist diversions to enriching expansions of reality.
             </div>
       
             {/* <div style={{
@@ -448,7 +448,7 @@ const AcademicManifesto = () => {
                   title="Figure 7. A mathematical cyberspace for a realist experience."
                   imageSrc="/images/cyberspace.svg"
                   caption="Servers need administrative control, corporations have financial and legal constraints, and computation requires data visibility. Truly public or truly private computation is not possible. As a result, corporate servers can only implement malleable business logic. This malleability means digital symbols cannot objectively achieve the properties of physical matter: non-fungibility, scarcity, embodiment, and intrinsic value. Furthermore, only corporations can validate state and actions within a cyberspace - Twitter can assert your follower count, Bob cannot. As a result, only the corporation can implement upgrades or operate servers, and users cannot freely exchange data or assets beyond the system's boundaries without the corporation's permission."
-                  captionTwo="(B) An idealized mathematical object operates as Digital Physics, man-made laws which are immutable, unbreakable, and contain unleakable secrets. They perform both truly public and truly private computation. This grants physical properties to digital symbols, and may culminate in creating Digital Matter itself: nonfungible, scarce, embodied, and intrinsically valuable within Digital Physics. 
+                  captionTwo="(B) An instantiated mathematical object operates as Digital Physics, man-made laws which are immutable, unbreakable, and contain unleakable secrets. They perform both truly public and truly private computation. This grants physical properties to digital symbols, and may culminate in creating Digital Matter itself: nonfungible, scarce, embodied, and intrinsically valuable within Digital Physics. 
                   (C) (D) Digital Physics and Matter create credibly neutral rules and systems of value inside of which user actions become permanent, objectively verifiable records that permissionlessly connect to their broader lives.
                   For example, users within the cyberspace can: configure a building door to only open for proof-holders of posting on a subreddit, or secure a real loan using an emerald ore chest as collateral.
                   (A) Beyond participation, users can even contribute resources and propose upgrades to the cyberspace itself."

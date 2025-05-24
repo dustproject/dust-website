@@ -387,7 +387,7 @@ export default function TopographicMapBackground() {
 
     function draw() {
       // Clear with black background
-      ctx.fillStyle = '#000000';
+      ctx.fillStyle = '#171717';
       ctx.fillRect(0, 0, container.clientWidth, container.clientHeight);
       
       updateHeightField();

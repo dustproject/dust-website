@@ -208,7 +208,7 @@ const LandingGridTwo = () => {
         <div className="action-card-grid" >
           <div className="action-card">
             <img src="https://staticg.sportskeeda.com/editor/2022/03/422aa-16480454294357-1920.jpg" className="card-image"/>
-            <div className='columnSubheading'>TRY TO SURVIVE</div>
+            <div className='columnSubheading'>SURVIVE IN ACTUAL ANARCHY</div>
             <div className='columnParagraph'>The world drains your energy. Eat or sleep—or die.</div>
           </div>
           <div className="action-card">
@@ -297,8 +297,8 @@ export default function Page() {
       </div>
     </div>
     <LandingGridTwo/>
-    <div style={{background: "#0a0a0a", borderTop: "1px dashed hsla(60, 68%, 94%, 0.1)", borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
-      <div style={{position: 'relative', lineHeight: '0'}}>
+    <div style={{background: "#212121", borderTop: "1px dashed hsla(60, 68%, 94%, 0.1)", borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
+      <div style={{position: 'relative', lineHeight: '0', padding: "2rem"}}>
         <img src="/dusttexture.svg" className="full-image" />
         <Link href="/coalition" className="coalition-text" style={{position: 'absolute', top: '25%', left: '10%', transform: 'translate(-10%, -25%)', color: "white"}} ref={joinCoalitionRef}>
           FROM COSMIC TO CYBER DUST
@@ -308,7 +308,7 @@ export default function Page() {
     <div className="dust-protocol">
       <section className="dust-row">
         <div className='columnSubheading dust-headline'>
-          We’ve Been Trying to Live in Virtual Worlds for Decades. But They Can't Grow Beyond Theme Parks.
+          We’ve Been Trying to Live in Virtual Worlds for Decades. But They're Stuck As Theme Parks.
         </div>
       </section>
       <section className="dust-grid theme-vs-world">
@@ -318,96 +318,72 @@ export default function Page() {
         <div className="grid-image">
           <img src="/lastonline.svg" className='grid-image'/>
         </div>
-
         <div className="grid-cell">
-          <div className="grid-title">Temporary Admission</div>
+          <div className="grid-title" style={{color: "#ff6060"}}>Temporary Admission</div>
           <div className="grid-body">Owner eventually shuts down server. All creations & achievements are inevitably lost.</div>
         </div>
         <div className="grid-cell">
-          <div className="grid-title">Permanent Existence</div>
+          <div className="grid-title" style={{color: "#66b966"}}>Permanent Existence</div>
           <div className="grid-body">Nobody can shut it down. Creations & achievements outlive players.</div>
         </div>
         <div className="grid-image">
           <img src="/capsize.svg" className="grid-image" />
         </div>
         <div className="grid-cell">
-          <div className="grid-title">PLAYER LIMITS</div>
+          <div className="grid-title" style={{color: "#ff6060"}}>PLAYER LIMITS</div>
           <div className="grid-body">Has a max player cap based on how much its owner can afford to scale.</div>
         </div>
         <div className="grid-cell">
-          <div className="grid-title">INFINITE CAPACITY</div>
+          <div className="grid-title" style={{color: "#66b966"}}>INFINITE CAPACITY</div>
           <div className="grid-body">One continuous space that infinitely grows as players do.</div>
         </div>
         <div className="grid-image">
           <img src="/malleable.svg" className="grid-image" />
         </div>
         <div className="grid-cell">
-          <div className="grid-title">MALLEABLE LOGIC</div>
+          <div className="grid-title" style={{color: "#ff6060"}}>MALLEABLE LOGIC</div>
           <div className="grid-body">Owner can reset the world or arbitrarily rewrite its rules anytime.</div>
         </div>
         <div className="grid-cell">
-          <div className="grid-title">IMMUTABLE LAWS</div>
+          <div className="grid-title" style={{color: "#66b966"}}>IMMUTABLE LAWS</div>
           <div className="grid-body">Nobody can reset or force changes to the world’s rules.</div>
         </div>
         <div className="grid-image">
           <img src="/monopoly.svg" className="grid-image" />
         </div>
         <div className="grid-cell">
-          <div className="grid-title">MONOPOLY RESOURCES</div>
+          <div className="grid-title" style={{color: "#ff6060"}}>MONOPOLY RESOURCES</div>
           <div className="grid-body">Owner can infinitely spawn, arbitrarily wipe, or nerf resources anytime.</div>
         </div>
         <div className="grid-cell">
-          <div className="grid-title">REAL RESOURCES</div>
+          <div className="grid-title" style={{color: "#66b966"}}>REAL RESOURCES</div>
           <div className="grid-body">Nobody can spawn, delete, or nerf resources. Supply and behavior are provably fixed.</div>
         </div>
         <div className="grid-image">
           <img src="/illegal.svg" className="grid-image" />
         </div>
         <div className="grid-cell">
-          <div className="grid-title">Gatekept Agency</div>
+          <div className="grid-title" style={{color: "#ff6060"}}>Gatekept Agency</div>
           <div className="grid-body">
             Studios build trusted first-party features. Players can't due to gatekeeping or regulation.
           </div>
         </div>
         <div className="grid-cell">
-          <div className="grid-title">CREATIVE FREEDOM</div>
+          <div className="grid-title" style={{color: "#66b966"}}>CREATIVE FREEDOM</div>
           <div className="grid-body">
             Player creations are trusted, first-party, and integrate with the whole internet & economy. Redstone on steroids.
           </div>
         </div>
       </section>
-      <section className="dust-grid-sub theme-vs-world-sub">
-        <div className="grid-image">
-            <img src="/serverowner.png" className='grid-image'/>
+      <div style={{borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
+        <div className='grid-cell-sub'>
+          <div className="grid-title" style={{color: "#ff6060"}}>ROOT CAUSE:</div>
+          <div>
+              <div className="grid-title">Theme Parks Are the Most That Servers Can Do</div>
+              <div className="grid-body">Only the owner really knows what’s happening inside. They can change anything at anytime, then unplug it when they leave or run out of money.</div>
+            </div>
         </div>
-        <div className='grid-cell'>
-          <div className="grid-title">Theme Parks Are All We Get With What We Have - Servers</div>
-          <div className="grid-body">
-          Only the owner really knows what’s happening inside. They can change anything at anytime, then unplug it when they leave or run out of money.
-          </div>
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
 
 
 
@@ -435,7 +411,7 @@ export default function Page() {
 
 
 
-
+{/* 
       <section className="dust-grid timeline">
         <div className="timeline-block">Bitcoin<br/><span>Scarcity via Proof of Work</span></div>
         <div className="timeline-block">Ethereum<br/><span>Smart Contracts</span></div>
@@ -445,7 +421,7 @@ export default function Page() {
       <section className="dust-vision">
         <h4>One Map. One History. No Resets.</h4>
         <p>[Insert: Dome diagram, territory logic, PvP laws, peer-to-peer infra, etc.]</p>
-      </section>
+      </section> */}
 
     </div>
   </div>
