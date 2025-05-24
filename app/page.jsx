@@ -5,59 +5,12 @@ import "/styles/globals.css";
 import Image from 'next/image';
 import Link from "next/link";
 import ProjectsPage from './projects/page';
+import TopographicMapBackground from '/components/TopoBackground';
 
 const LandingGrid = () => {
   return (
     <div className="landing-page">
       <div className="grid-container">
-        <div className="row row-1">
-          <div className="col col-1-1">
-            <div className='homeHeading'>Get A Head Start.</div>
-            <div className="feature-text" style={{marginTop: "1rem"}}>              
-              The world is harsh, in early development, and unsettled.
-            </div>
-            <div className="feature-text">
-              This presents an opportunity for the motivated to get a head start.
-            </div>
-            <div className="feature-text">First, bridge funds for computation fees and try to survive.</div>
-            <div className="feature-text">
-              Then, establish territory and program it into something uniquely yours.
-            </div>
-            <button 
-              className="read-dust-button" 
-              onClick={() => window.location.href = 'https://discord.gg/J75hkmtmM4'}
-            >
-              JOIN DISCORD
-            </button>
-
-            <button 
-              className="read-dust-button" 
-              onClick={() => window.location.href = 'https://alpha.dustproject.org/'}
-            >
-              ENTER WORLD
-            </button>
-
-          </div>
-          <div className="col col-1-2" style={{textAlign: "center"}}>
-            {/* <div className="video-container" style={{ marginBottom: "2rem"}}>
-              <iframe 
-                src="https://www.youtube.com/embed/5mhTp3RWUts?si=Tzfv1WmpsViZM2ai"
-              ></iframe>
-            </div> */}
-            <div>
-              <Image 
-                src="/survival.svg" 
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{width: "80%"}}
-                className="responsive-image-three"
-                alt="survival"
-              />
-            </div>
-          </div>
-        </div>
-
         <div className="row row-3">
           <div className="col col-3-1">
             <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Have Been Lived In For Decades.</div>
@@ -80,7 +33,6 @@ const LandingGrid = () => {
             />
           </div>
         </div>
-
         <div className="row row-3">
           <div className="col col-3-1">
             <div className='homeHeading'>Secretly... Virtual Objects That Can Be Taken As Seriously As Real Ones Have Been Forming.</div>
@@ -102,8 +54,6 @@ const LandingGrid = () => {
             />
           </div>
         </div>
-
-
         <div className="row row-2">
           <div className="col col-2-1">
             <div className='homeHeading' style={{marginBottom: "1rem"}}>Virtual Worlds Will Matter More With Each Passing Year.</div>
@@ -127,8 +77,6 @@ const LandingGrid = () => {
             />
           </div>
         </div>
-
-
       </div>
 
       <style jsx>{`
@@ -251,6 +199,35 @@ const LandingGrid = () => {
   );
 };
 
+
+const LandingGridTwo = () => {   
+  return (    
+    <div className="home-container">
+      <TopographicMapBackground />
+      <div style={{ position: 'relative', zIndex: 1, paddingTop: "8rem", paddingBottom: "8rem" }}>
+        <div className='homeHeading'>GET A HEAD START</div>
+        <div className="action-card-grid" >
+          <div className="action-card">
+            <img src="https://files.facepunch.com/Alistair/128/04/2025/7j63/jungleUpdate_biome_16%20%281%29.jpg" className="card-image"/>
+            <div className='columnSubheading'>TRY TO SURVIVE</div>
+            <div className='columnParagraph'>The world drains your energy. Eat or sleep—or die.</div>
+          </div>
+          <div className="action-card">
+            <img src="https://ccdn.g-portal.com/Gallery_MC_lushcave_0009_0d34f8ce09.png" className="card-image"/>
+            <div className='columnSubheading'>MINE & FARM RESOURCES</div>
+            <div className='columnParagraph'>Extract, craft, harvest. Every block counts. Matter is scarce.</div>
+          </div>
+          <div className="action-card">
+            <img src="https://www.minecraft.net/content/dam/minecraftnet/archive/5b57dff89d5450b6cfcedb65ca2992be-VideoHeader.jpg" className="card-image"/>
+            <div className='columnSubheading'>PROTECT & PROGRAM TERRITORY</div>
+            <div className='columnParagraph'>Claim land, set its rules, and make it run code. Your domain, your laws.</div>
+          </div>
+        </div>
+      </div>        
+    </div>
+  ); 
+};
+
 const applyShimmerEffect = (element) => {
   if (!element || !element.textContent) return;
 
@@ -277,31 +254,36 @@ export default function Page() {
   }, []); // Empty dependency array ensures this runs only once on mount
 
   return (
-<div>
-  <div className="dust-container">
-    <div className="background-map">
-      <iframe 
-        src="https://alpha.dustproject.org/map" 
-        className="map-iframe"
-        title="DUST Project Map"
-        loading="lazy"
-      />
-    </div>
-    
-    <div className="content-wrapper">
-      
-      <div className="middle-section">
-        <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
+  <div>
+    <div className="dust-container">
+      <div className="background-map">
+        <iframe 
+          src="https://alpha.dustproject.org/map" 
+          className="map-iframe"
+          title="DUST Project Map"
+          loading="lazy"
+        />
       </div>
-      
-      <div className="bottom-section">
-        <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
-          ENTER WORLD
-        </Link>
+      <div className="content-wrapper">
+        <div className="middle-section">
+          <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
+        </div>
+        <div className="bottom-section">
+          <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
+            ENTER WORLD
+          </Link>
+        </div>
+      </div>
+    </div>
+    <LandingGridTwo/>
+    <div style={{padding: "2rem", background: "#0a0a0a", borderTop: "1px dashed hsla(60, 68%, 94%, 0.1)", borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
+      <div style={{position: 'relative'}}>
+        <img src="/dusttexture.svg" className="full-image" />
+        <Link href="/coalition" className="coalition-text" style={{position: 'absolute', top: '25%', left: '10%', transform: 'translate(-10%, -25%)', color: "white"}} ref={enterAlphaRef}>
+          FROM COSMIC TO CYBER DUST
+          </Link>
       </div>
     </div>
   </div>
-  <LandingGrid/>
-</div>
 );
 }
