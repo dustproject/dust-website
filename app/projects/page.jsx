@@ -11,7 +11,7 @@ const ProjectsPage = () => {
     { name: "WASD Guild", link: "https://bento.me/wasd" },
     { name: "Sakura Religion", link: "https://x.com/Megashi333" },
     { name: "Protonaut Characters", link: "https://www.protonauts.io/" },
-    { name: "Yeomen Automation Tools", link: "https://yeomen.ai/" },
+    { name: "Yeomen Automation", link: "https://yeomen.ai/" },
     { name: "Sprank Builders", link: "https://x.com/AnotherSprankle" },
     { name: "FunBlocks Guild", link: "https://linktr.ee/funblocks" },
     { name: "DAG City", link: "https://dagcity.polysensus.io/" }

@@ -14,9 +14,8 @@ body {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
-    font-family: IBM Plex Sans !important;
+    font-family: IBM Plex Mono !important;
     line-height: 180%;
-    background-color: black;
 }
 
 .page-style {
@@ -46,7 +45,7 @@ padding: 1px 21px;
 background-color: white;
 border: 2px solid black;
 color: black;
-font-family: 'IBM Plex Sans', serif;
+font-family: 'IBM Plex Mono', serif;
 font-size: 1rem;
 text-align: center;
 transition: all 0.3s ease;
@@ -64,7 +63,7 @@ transition: all 0.3s ease;
     width: 100%;
     text-align: center;
     color: #F1E0CD;
-    font-family: 'IBM Plex Sans', serif;
+    font-family: 'IBM Plex Mono', serif;
     font-size: 14px;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -117,7 +116,7 @@ transition: all 0.3s ease;
   }
 
   .container {
-    font-family: 'IBM Plex Sans', Garamond, Georgia, serif;
+    font-family: 'IBM Plex Mono', Garamond, Georgia, serif;
     margin: 0 auto;
     padding: 1.5rem;
     color: #2a2a2a;
@@ -222,6 +221,7 @@ transition: all 0.3s ease;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 1rem;
+    line-height: 2;
   }
   
   .paragraph {
@@ -543,7 +543,7 @@ transition: all 0.3s ease;
 }
 
 .navbar-logo {
-  font-family: 'IBM Plex Sans', serif;
+  font-family: 'IBM Plex Mono', serif;
   font-size: 1.8rem;
   letter-spacing: 0.3em;
   font-weight: 500;
@@ -762,6 +762,7 @@ transition: all 0.3s ease;
 
 
 .dust-container {
+  font-family: 'IBM Plex Mono' !important;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -857,11 +858,50 @@ transition: all 0.3s ease;
   display: flex;
   justify-content: center;
   padding-bottom: clamp(10px, 3vh, 30px);
+  transition: all 0.5s ease-in-out;
+}
+
+.bottom-section.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.arrow-down {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+.arrow-down svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentColor;
+  stroke-width: 1;
+  fill: none;
+}
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40%, 43% {
+      transform: translateY(-8px);
+  }
+  70% {
+      transform: translateY(-4px);
+  }
+  90% {
+      transform: translateY(-2px);
+  }
 }
 
 .coalition-text {
-  font-size: clamp(16px, 4vw, 50px); /* Minimum and maximum size limits */
-  font-family: 'IBM Plex Sans';
+  font-size: clamp(20px, 5vw, 60px); /* Minimum and maximum size limits */
+  font-family: 'IBM Plex Mono';
   text-align: center;
   color: inherit; 
   text-decoration: none;
@@ -1057,7 +1097,7 @@ transition: all 0.3s ease;
 
 .endgame-body {
   font-size: clamp(20px, 2vw, 40px);
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Mono';
   text-align: left;
   color: white; 
   text-decoration: none;
@@ -1071,7 +1111,7 @@ transition: all 0.3s ease;
 
 .endgame-subbody {
   font-size: clamp(12px, 1.25vw, 24px);
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Mono';
   text-align: left;
   color: white; 
   text-decoration: none;
@@ -1253,4 +1293,102 @@ transition: all 0.3s ease;
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.dust-protocol {
+  color: #eaeaea;
+  background: #0a0a0a;
+}
+
+.dust-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed hsla(60, 68%, 94%, 0.1);
+  padding: 1.5rem 0;
+}
+
+.dust-headline {
+  margin: 0rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dust-banner h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  border-top: 1px dashed #444;
+  border-bottom: 1px dashed #444;
+  padding: 1rem 0;
+  margin: 2rem 0;
+}
+
+.dust-cta {
+  background: none;
+  color: #e33;
+  border: 1px solid #e33;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.dust-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-top: 1px dashed #444;
+  border-bottom: 1px dashed #444;
+}
+
+.theme-vs-world {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.grid-image {
+  background: #222;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 0.8rem;
+  border: 1px dashed #333;
+}
+
+.grid-text {
+  padding: 0.5rem;
+  border: 1px dashed #333;
+  background: #111;
+}
+
+.timeline {
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.timeline-block {
+  border: 1px dashed #333;
+  padding: 1rem;
+}
+
+.dust-vision {
+  padding: 3rem 1rem;
+  border-top: 1px dashed #444;
+  border-bottom: 1px dashed #444;
+  text-align: center;
 }

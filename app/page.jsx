@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import "/styles/globals.css";
 import Image from 'next/image';
 import Link from "next/link";
@@ -246,12 +246,29 @@ export default function Page() {
   const joinCoalitionRef = useRef(null); // Create ref for the first link
   const enterAlphaRef = useRef(null);   // Create ref for the second link
   const dustTextRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     applyShimmerEffect(joinCoalitionRef.current);
     applyShimmerEffect(enterAlphaRef.current);
     applyShimmerEffect(dustTextRef.current);
   }, []); // Empty dependency array ensures this runs only once on mount
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      if (currentScrollY > 50 && isVisible) {
+        setIsVisible(false);
+      } else if (currentScrollY <= 50 && !isVisible) {
+        setIsVisible(true);
+      }
+    };
+  
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isVisible]);
 
   return (
   <div>
@@ -265,13 +282,18 @@ export default function Page() {
         />
       </div>
       <div className="content-wrapper">
+        <div className="top-section">
+          <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
+            ENTER
+          </Link>
+        </div>
         <div className="middle-section">
           <h1 className="dust-text" ref={dustTextRef}>DUST</h1>
         </div>
-        <div className="bottom-section">
-          <Link href="https://alpha.dustproject.org/" className="coalition-text" ref={enterAlphaRef}>
-            ENTER WORLD
-          </Link>
+        <div 
+          className={`bottom-section ${!isVisible ? 'hidden' : ''}`}
+        >
+            <div style={{fontWeight: "bold"}}>EXPLORE ↓</div>
         </div>
       </div>
     </div>
@@ -279,10 +301,63 @@ export default function Page() {
     <div style={{padding: "2rem", background: "#0a0a0a", borderTop: "1px dashed hsla(60, 68%, 94%, 0.1)", borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
       <div style={{position: 'relative'}}>
         <img src="/dusttexture.svg" className="full-image" />
-        <Link href="/coalition" className="coalition-text" style={{position: 'absolute', top: '25%', left: '10%', transform: 'translate(-10%, -25%)', color: "white"}} ref={enterAlphaRef}>
+        <Link href="/coalition" className="coalition-text" style={{position: 'absolute', top: '25%', left: '10%', transform: 'translate(-10%, -25%)', color: "white"}} ref={joinCoalitionRef}>
           FROM COSMIC TO CYBER DUST
           </Link>
       </div>
+    </div>
+    <div className="dust-protocol">
+      <section className="dust-row">
+        <div className='columnSubheading dust-headline'>
+          Virtual Worlds Will Matter More With Each Passing Year. We’ve Been Trying to Live in Them for Decades - But They Could Not Grow Beyond Theme Parks.
+        </div>
+      </section>
+
+      <section className="dust-row">
+        <div className='columnSubheading dust-headline'>
+          We've Secretly Been Forming Virtual Objects That Grow As Real As Physical Ones.
+        </div>
+      </section>
+
+      <section className="dust-row">
+        <div className='columnSubheading dust-headline'>
+          As Players Program Territories, Societies Emerge and Break Into the Internet and Economy, Organizations Contribute Compute and Clients, Resources Accrue Value and Spark Rushes and Wars... How Far Does Dust Go?
+        </div>
+      </section>
+
+
+
+
+
+
+      {/* <section className="dust-grid theme-vs-world">
+        <div className="grid-label">Image</div>
+        <div className="grid-label">Theme Park</div>
+        <div className="grid-label">World</div>
+
+        <div className="grid-image">[Image1]</div>
+        <div className="grid-text">Admins can change anything</div>
+        <div className="grid-text">Laws are immutable</div>
+
+        <div className="grid-image">[Image2]</div>
+        <div className="grid-text">Resources are spawned</div>
+        <div className="grid-text">Resources are scarce and fixed</div>
+
+        <div className="grid-image">[Image3]</div>
+        <div className="grid-text">Servers shut down</div>
+        <div className="grid-text">World runs peer-to-peer, forever</div>
+      </section>
+      <section className="dust-grid timeline">
+        <div className="timeline-block">Bitcoin<br/><span>Scarcity via Proof of Work</span></div>
+        <div className="timeline-block">Ethereum<br/><span>Smart Contracts</span></div>
+        <div className="timeline-block">Autonomous Worlds<br/><span>Trustless Execution</span></div>
+        <div className="timeline-block">Dust<br/><span>Programmable Matter</span></div>
+      </section>
+      <section className="dust-vision">
+        <h4>One Map. One History. No Resets.</h4>
+        <p>[Insert: Dome diagram, territory logic, PvP laws, peer-to-peer infra, etc.]</p>
+      </section> */}
+
     </div>
   </div>
 );
