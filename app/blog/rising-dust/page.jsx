@@ -151,10 +151,10 @@ const RaisingDust = () => {
               title="Our Big Question" 
             />
             <div className="paragraph">
-              Primitive virtual worlds have been around for a while.
+              We've been engaging with "virtual worlds" for a while.
               It's pretty clear that they will play an increasingly larger role heading into the future and may eventually consume the entirety of where humans spend their time.
             
-              But they're fundamentally capped by today's client-server paradigm and it's impossible for them to grow beyond "theme parks" into becoming fully-fledged virtual worlds as a result.
+              But they're fundamentally capped by today's client-server paradigm and it's impossible to grow them beyond "theme parks" as a result.
             </div>
             <div style={{textAlign: "center"}}>
               <Image 
@@ -192,18 +192,6 @@ const RaisingDust = () => {
 
             <div className="paragraph">The answer to Bitcoin's question of true digital scarcity evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. Similarly, the answer that emerges to Dust's question promises to surprise.</div>
 
-            <div style={{textAlign: "center"}}>
-              <Image 
-                src="/homepageone.svg" 
-                width={0}
-                height={0}
-                sizes="100vw"
-                className="responsive-image-two"
-                style={{margin: "0px", width: "60%"}}
-                alt="dust project"
-              />
-            </div>
-
 
             <SectionHeading 
               title="Stages of Deployment" 
@@ -236,7 +224,7 @@ const RaisingDust = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{width: "80%"}}
+                style={{width: "60%"}}
                 className="responsive-image-three"
                 alt="survival"
               />
@@ -269,6 +257,20 @@ const RaisingDust = () => {
             </div>
             <div className="paragraph">
               At this point, Dust will have a great client, great creator tools, a protocol upgrade process everyone can believe in, and open infrastructure that can limitlessly scale.
+            </div>
+
+
+
+            <div style={{textAlign: "center"}}>
+              <Image 
+                src="/homepageone.svg" 
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="responsive-image-two"
+                style={{margin: "0px", width: "60%"}}
+                alt="dust project"
+              />
             </div>
 
 

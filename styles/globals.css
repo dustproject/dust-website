@@ -822,8 +822,11 @@ transition: all 0.3s ease;
 .top-section {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-top: clamp(10px, 3vh, 30px);
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .middle-section {
@@ -1335,6 +1338,11 @@ transition: all 0.3s ease;
 }
 
 
+.virtual-money-vs-world {
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+
 .grid-image {
   width: 100%;
   height: 100%;
@@ -1403,6 +1411,11 @@ transition: all 0.3s ease;
   font-weight: bold;
 }
 
+.grid-title-sub {
+  margin-bottom: 0.25rem;
+  color: #eaeaea;
+}
+
 .grid-body {
   font-size: 0.85rem;
   opacity: 0.8;
@@ -1425,3 +1438,20 @@ transition: all 0.3s ease;
   border-bottom: 1px dashed #444;
   text-align: center;
 }
+
+
+.scroll-hop {
+  animation: hop 1.5s infinite ease-in-out;
+  display: inline-block;
+}
+
+@keyframes hop {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+
