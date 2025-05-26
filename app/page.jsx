@@ -165,7 +165,7 @@ export default function Page() {
             <img src="/capsize.svg" className="grid-image" />
           </div>
           <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>PLAYER LIMITS</div>
+            <div className="grid-title" style={{color: "#ff6060"}}>PLAYER CAPS</div>
             <div className="grid-body">Has a max player cap based on how much its owner can afford to scale.</div>
           </div>
           <div className="grid-cell">
@@ -176,22 +176,22 @@ export default function Page() {
             <img src="/malleable.svg" className="grid-image" />
           </div>
           <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>MALLEABLE RULES</div>
-            <div className="grid-body">Owner can reset the world or arbitrarily rewrite its rules anytime.</div>
+            <div className="grid-title" style={{color: "#ff6060"}}>ADMIN ABUSE</div>
+            <div className="grid-body">Owner can reset the world and arbitrarily override or change its rules at will.</div>
           </div>
           <div className="grid-cell">
             <div className="grid-title" style={{color: "#66b966"}}>IMMUTABLE LAWS</div>
-            <div className="grid-body">Nobody can reset or force changes to the world’s rules.</div>
+            <div className="grid-body">Nobody can reset, override, or force changes to the world’s rules.</div>
           </div>
           <div className="grid-image">
             <img src="/monopoly.svg" className="grid-image" />
           </div>
           <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>MONOPOLY RESOURCES</div>
-            <div className="grid-body">Owner can infinitely spawn, arbitrarily wipe, or nerf resources anytime.</div>
+            <div className="grid-title" style={{color: "#ff6060"}}>ADMIN SPAWNING</div>
+            <div className="grid-body">Owner can infinitely spawn, arbitrarily wipe, or nerf resources at will.</div>
           </div>
           <div className="grid-cell">
-            <div className="grid-title" style={{color: "#66b966"}}>REAL MATTER</div>
+            <div className="grid-title" style={{color: "#66b966"}}>LEGIT MATTER</div>
             <div className="grid-body">Nobody can change the supply and behavior of resources.</div>
           </div>
           <div className="grid-image">
@@ -223,7 +223,7 @@ export default function Page() {
         <section className="dust-row">
           <div className='columnSubheading dust-headline'>
             Misunderstood Breakthroughs Are Making Virtual Objects Real.
-            Applied Differently, They Grow Virtual Worlds.
+            Applied Differently, They Can Grow Virtual Worlds.
           </div>
         </section>
         <div className='grid-cell-sub'>
@@ -309,7 +309,7 @@ export default function Page() {
         <section className="dust-row">
           <div className='columnSubheading dust-headline'>
             Virtual Worlds Will Matter More With Every Passing Year.
-            As Players Program Territories, Emergent Societies Break Into the Broader Internet and Economy, Organizations Contribute Compute and Clients, Resources Accrue Value and Spark Rushes and Wars... How Far Will Dust Go?
+            As Players Program Territories, Their Societies Break Into the Internet and Economy, Organizations Contribute Compute and Clients, Resources Accrue Value and Spark Rushes and Wars... How Far Will Dust Go?
           </div>
         </section>
 
