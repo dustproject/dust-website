@@ -143,7 +143,7 @@ export default function Page() {
       <div className="dust-protocol">
         <section className="dust-row">
           <div className='columnSubheading dust-headline'>
-          We’ve Been Trying To Live in Virtual Worlds for Decades. But We Can Only Build Theme Parks.
+          We’ve Been Trying To Live in Virtual Worlds for Decades. But All We Can Build Are Theme Parks.
           </div>
         </section>
         <section className="dust-grid theme-vs-world">
@@ -215,7 +215,7 @@ export default function Page() {
             <div className="grid-title" style={{color: "#ff6060"}}>ROOT CAUSE:</div>
             <div>
                 <div className="grid-title-sub">Theme parks are the most we can build with what we have - servers.</div>
-                <div className="grid-title-sub">A server is a black box - only its owner knows what’s happening inside - everyone else just believes its outputs.</div>
+                <div className="grid-title-sub">A server is a black box - only its owner knows what’s happening inside - everyone else just has to believe it.</div>
                 <div className="grid-title-sub">The owner can change anything at anytime, then unplug it when they eventually leave or run out of money.</div>
               </div>
           </div>
@@ -244,21 +244,21 @@ export default function Page() {
           <div className="grid-label" style={{color: "#66b966"}}>Virtual World</div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
-              <div className="grid-title" style={{color: "#B8A898"}}>Contracts & DeFi</div>
+              <div className="grid-title" style={{color: "#B8A898"}}>Smart Contracts & Finance</div>
               <div className="grid-body">Program Ether and integrate with the internet & economy.</div>
             </div>
-            <img src="/smartcontracts.svg" className="grid-image" style={{background: "white", alignSelf: "center"}}/>
+            <img src="/smartcontracts.svg" className="grid-image" style={{background: "white", alignSelf: "center", width: "50%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
             <div className="grid-title" style={{opacity: "0.8"}}>MUD (2022)</div>
             <div className="grid-body">Player-Built Integrations</div>
             </div>
-            <img src="/mud.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "40%"}}/>
+            <img src="/mud.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "30%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
-              <div className="grid-title" style={{color: "#66b966"}}>Machines & Societies</div>
+              <div className="grid-title" style={{color: "#66b966"}}>Smart Machines & Societies</div>
               <div className="grid-body">Program machines and integrate with the internet & economy.</div>
             </div>
             <img src="/machinesocieties.svg" className="grid-image" style={{background: "white", alignSelf: "center", width: "50%", height: "auto"}}/>
@@ -268,42 +268,42 @@ export default function Page() {
             <div className="grid-title" style={{color: "#B8A898"}}>Own Scarce Tokens</div>
             <div className="grid-body">Mine tokens by validating and burn them by computing. Nobody can steal your tokens. Instantly receive/send tokens to anyone anywhere.</div>
             </div>
-            <img src="/tokens.svg" className="grid-image" style={{background: "white", alignSelf: "center"}}/>
+            <img src="/tokens.svg" className="grid-image" style={{background: "white", alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
             <div className="grid-title" style={{opacity: "0.8"}}>Dark Forest (2020) & Biomes (2024)</div>
-            <div className="grid-body">Digital Physics & Matter</div>
+            <div className="grid-body">Digital Physics & Digital Matter</div>
             </div>
-            <img src="/dfbiomes.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "40%"}}/>
+            <img src="/dfbiomes.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "30%", height: "auto"}}/>
           </div>
-          <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
+          <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "1rem", justifyContent: "space-between"}}>
             <div>
             <div className="grid-title" style={{color: "#66b966"}}>PvP & PvE For Scarce Matter</div>
-            <div className="grid-body">Mine matter from nature and burn it by crafting perishable items. Matter can be stolen by combat or reclaimed by nature. Matter is embodied and must be moved.</div>
+            <div className="grid-body">Mine matter from nature and burn it by crafting perishable items. Matter can be stolen by combat or reclaimed by nature. Matter can't teleport.</div>
             </div>
-            <img src="/matter.svg" className="grid-image" style={{background: "white", alignSelf: "center"}} />
+            <img src="/matter.svg" className="grid-image" style={{background: "white", alignSelf: "center", objectFit: "fill", width: "auto"}} />
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
               <div className="grid-title" style={{color: "#B8A898"}}>Superchain of Chains</div>
               <div className="grid-body">Anyone can provably run new chains to expand the ledger.</div>
             </div>
-            <img src="/superchain.svg" className="grid-image" />
+            <img src="/superchain.svg" className="grid-image" style={{alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
             <div className="grid-title" style={{opacity: "0.8"}}>Quarry (2025)</div>
             <div className="grid-body">Player-Driven Scaling</div>
             </div>
-            <img src="/quarryy.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "40%", height: "auto"}}/>
+            <img src="/quarryy.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "30%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
               <div className="grid-title" style={{color: "#66b966"}}>Supergrid of Chunks</div>
               <div className="grid-body">Anyone can provably run new chunks to expand the map.</div>
             </div>
-            <img src="/supergrid.svg" className="grid-image" />
+            <img src="/supergrid.svg" className="grid-image" style={{alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
         </section>
         <section className="dust-row">
