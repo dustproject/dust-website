@@ -151,63 +151,43 @@ export default function Page() {
           <div className="grid-label" style={{color: "#ff6060"}}>We Have Theme Parks</div>
           <div className="grid-label" style={{color: "#66b966"}}>We Need Worlds</div>
           <div className="grid-image">
-            <img src="/lastonline.svg" className='grid-image'/>
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>Temporary Admission</div>
-            <div className="grid-body">Owner eventually shuts down server. All creations & achievements are inevitably lost.</div>
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#66b966"}}>Permanent Existence</div>
-            <div className="grid-body">Nobody can shut it down. Creations & achievements outlive players.</div>
-          </div>
-          <div className="grid-image">
-            <img src="/capsize.svg" className="grid-image" />
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>PLAYER CAPS</div>
-            <div className="grid-body">Has a max player cap based on how much its owner can afford to scale.</div>
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#66b966"}}>INFINITE CAPACITY</div>
-            <div className="grid-body">One continuous space that infinitely grows as players do.</div>
-          </div>
-          <div className="grid-image">
-            <img src="/malleable.svg" className="grid-image" />
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>ADMIN ABUSE</div>
-            <div className="grid-body">Owner can reset the world and arbitrarily override or change its rules at will.</div>
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#66b966"}}>IMMUTABLE LAWS</div>
-            <div className="grid-body">Nobody can reset, override, or force changes to the world’s rules.</div>
-          </div>
-          <div className="grid-image">
-            <img src="/monopoly.svg" className="grid-image" />
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#ff6060"}}>ADMIN SPAWNING</div>
-            <div className="grid-body">Owner can infinitely spawn, arbitrarily wipe, or nerf resources at will.</div>
-          </div>
-          <div className="grid-cell">
-            <div className="grid-title" style={{color: "#66b966"}}>LEGIT MATTER</div>
-            <div className="grid-body">Nobody can change the supply and behavior of resources.</div>
-          </div>
-          <div className="grid-image">
             <img src="/illegal.svg" className="grid-image" />
           </div>
           <div className="grid-cell">
             <div className="grid-title" style={{color: "#ff6060"}}>Restricted Agency</div>
             <div className="grid-body">
-              Big studios build trusted first-party features. Players build untrusted third-party workarounds.
+              Big studios build trusted first-party features & can negotiate integrations. Players build untrusted third-party workarounds.
             </div>
           </div>
           <div className="grid-cell">
             <div className="grid-title" style={{color: "#66b966"}}>COMPLETE FREEDOM</div>
             <div className="grid-body">
-              Player creations are trusted, first-party, and integrate with the whole internet & economy. Redstone on steroids.
+              Player creations are trusted, first-party, and freely integrate with the entire internet & economy. Redstone on steroids.
             </div>
+          </div>
+          <div className="grid-image">
+            <img src="/malleable.svg" className="grid-image" />
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#ff6060"}}>ADMIN ABUSE & SPAWNING</div>
+            <div className="grid-body">Owner can reset the world, override its rules, and infinitely spawn, wipe, or nerf resources at will.</div>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#66b966"}}>IMMUTABLE LAWS & LEGIT RESOURCES</div>
+            <div className="grid-body">
+              Nobody can reset the world, override its rules, or change the supply and behavior of resources.
+              </div>
+          </div>
+          <div className="grid-image">
+            <img src="/lastonline.svg" className='grid-image'/>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#ff6060"}}>Capped Temporary Admission</div>
+            <div className="grid-body">Server eventually shuts down, and all creations & achievements are lost. Player cap only increases if owner can afford to scale.</div>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#66b966"}}>Infinite Permanent Existence</div>
+            <div className="grid-body">One continuous space that infinitely grows as players do. Nobody can shut it down. Creations & achievements outlive players.</div>
           </div>
         </section>
         <div style={{borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
@@ -247,7 +227,7 @@ export default function Page() {
               <div className="grid-title" style={{color: "#B8A898"}}>Smart Contracts & Finance</div>
               <div className="grid-body">Program Ether and integrate with the internet & economy.</div>
             </div>
-            <img src="/smartcontracts.svg" className="grid-image" style={{background: "white", alignSelf: "center", width: "50%", height: "auto"}}/>
+            <img src="/smartcontracts.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", width: "50%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
@@ -261,14 +241,14 @@ export default function Page() {
               <div className="grid-title" style={{color: "#66b966"}}>Smart Machines & Societies</div>
               <div className="grid-body">Program machines and integrate with the internet & economy.</div>
             </div>
-            <img src="/machinesocieties.svg" className="grid-image" style={{background: "white", alignSelf: "center", width: "50%", height: "auto"}}/>
+            <img src="/machinesocieties.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", width: "50%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
-            <div className="grid-title" style={{color: "#B8A898"}}>Own Scarce Tokens</div>
+            <div className="grid-title" style={{color: "#B8A898"}}>Ownership Laws For Scarce Tokens</div>
             <div className="grid-body">Mine tokens by validating and burn them by computing. Nobody can steal your tokens. Instantly receive/send tokens to anyone anywhere.</div>
             </div>
-            <img src="/tokens.svg" className="grid-image" style={{background: "white", alignSelf: "center", objectFit: "fill", width: "auto"}}/>
+            <img src="/tokens.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
@@ -279,10 +259,10 @@ export default function Page() {
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "1rem", justifyContent: "space-between"}}>
             <div>
-            <div className="grid-title" style={{color: "#66b966"}}>PvP & PvE For Scarce Matter</div>
+            <div className="grid-title" style={{color: "#66b966"}}>PvP & PvE Laws For Scarce Matter</div>
             <div className="grid-body">Mine matter from nature and burn it by crafting perishable items. Matter can be stolen by combat or reclaimed by nature. Matter can't teleport.</div>
             </div>
-            <img src="/matter.svg" className="grid-image" style={{background: "white", alignSelf: "center", objectFit: "fill", width: "auto"}} />
+            <img src="/matter.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", objectFit: "fill", width: "auto"}} />
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
