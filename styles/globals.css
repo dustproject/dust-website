@@ -1345,7 +1345,7 @@ transition: all 0.3s ease;
 
 
 .grid-image {
-  object-fit: cover;
+  object-fit: contain;
   display: flex;
   filter: grayscale(60%) brightness(0.9);
   opacity: 0.8;
@@ -1551,4 +1551,100 @@ transition: all 0.3s ease;
     width: 100%;
     padding: 0;
   }
+}
+
+
+
+
+/* ===== grid shell ===== */
+.vmw-grid{
+  display:grid;
+  gap:1rem;
+  grid-template-columns: 2fr 1fr 2fr;
+  padding: 2rem;
+  padding-top: 1rem;
+  border-bottom: 1px dashed hsla(60, 68%, 94%, 0.1);
+}
+
+/* ===== labels ===== */
+.vmw-label{
+  font:700 clamp(0.9rem,3vw,1.1rem)/1 monospace;
+}
+.vmw-money{color:#B8A898}
+.vmw-world{color:#66b966}
+.vmw-mid{opacity:.8}
+
+/* ===== content rows ===== */
+/* desktop row */
+.vmw-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px dashed hsla(60, 68%, 94%, 0.1);
+  backdrop-filter: blur(2px);
+  background-color: hsla(60, 68%, 94%, 0.017);
+}
+
+.vmw-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.vmw-content .vmw-solo {
+  display: block;
+}
+
+
+/* image sizing */
+.vmw-img{
+  width:80%;
+  height:auto;
+  object-fit:contain;
+  align-self:center;
+  max-height:220px;       /* tames tall svgs */
+  filter: grayscale(80%) brightness(0.9);
+  opacity: 0.8;
+  justify-self: end;
+}
+
+.vmw-solo .vmw-content {
+  display: block;
+  align-self: center;
+}
+
+.vmw-solo .vmw-title{padding:0.25rem 0}
+.vmw-solo .vmw-title{opacity: 0.8}
+.vmw-solo .vmw-img{
+  width:4rem;          /* ≈96 px  */
+  max-height:4rem;
+}
+/* mobile stacks */
+@media(max-width:768px){
+  .vmw-cell{grid-template-columns:1fr}
+  .vmw-img{display:none}
+  .vmw-content{display: block}
+}
+
+.vmw-copy{flex:1;min-width:0}
+.vmw-title{
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  color: #eaeaea;
+  font-weight: bold;
+}
+
+.vmw-body{
+  font-size: 0.85rem;
+  opacity: 0.8;
+  color: #eaeaea;
+}
+
+
+/* ===== mobile ===== */
+@media(max-width:768px){
+  .vmw-grid{grid-template-columns:1fr}       /* labels & rows stack */
+  .vmw-label{margin-bottom:.25rem}           /* mimic row spacing   */
 }
