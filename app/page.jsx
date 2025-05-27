@@ -173,7 +173,7 @@ export default function Page() {
             <div className="grid-body">Owner can reset the world, override its rules, and infinitely spawn, wipe, or nerf resources at will.</div>
           </div>
           <div className="grid-cell">
-            <div className="grid-title" style={{color: "#66b966"}}>IMMUTABLE LAWS & LEGIT RESOURCES</div>
+            <div className="grid-title" style={{color: "#66b966"}}>IMMUTABLE LAWS & RESOURCES</div>
             <div className="grid-body">
               Nobody can reset the world, override its rules, or change the supply and behavior of resources.
               </div>
@@ -229,11 +229,8 @@ export default function Page() {
             </div>
             <img src="/smartcontracts.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", width: "50%", height: "auto"}}/>
           </div>
-          <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
-            <div>
-            <div className="grid-title" style={{opacity: "0.8"}}>MUD (2022)</div>
-            <div className="grid-body">Player-Built Integrations</div>
-            </div>
+          <div className="grid-cell"  style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
+            <div className="grid-title" style={{opacity: "0.8", alignSelf: "center"}}>MUD (2022)</div>
             <img src="/mud.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "30%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
@@ -245,21 +242,18 @@ export default function Page() {
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
-            <div className="grid-title" style={{color: "#B8A898"}}>Ownership Laws For Scarce Tokens</div>
+            <div className="grid-title" style={{color: "#B8A898"}}>Own Scarce Tokens</div>
             <div className="grid-body">Mine tokens by validating and burn them by computing. Nobody can steal your tokens. Instantly receive/send tokens to anyone anywhere.</div>
             </div>
             <img src="/tokens.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
-          <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
-            <div>
-            <div className="grid-title" style={{opacity: "0.8"}}>Dark Forest (2020) & Biomes (2024)</div>
-            <div className="grid-body">Digital Physics & Digital Matter</div>
-            </div>
+          <div className="grid-cell"  style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
+            <div className="grid-title" style={{opacity: "0.8", alignSelf: "center"}}>Dark Forest (2020) & Biomes (2024)</div>
             <img src="/dfbiomes.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "30%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "1rem", justifyContent: "space-between"}}>
             <div>
-            <div className="grid-title" style={{color: "#66b966"}}>PvP & PvE Laws For Scarce Matter</div>
+            <div className="grid-title" style={{color: "#66b966"}}>PvP & PvE For Scarce Matter</div>
             <div className="grid-body">Mine matter from nature and burn it by crafting perishable items. Matter can be stolen by combat or reclaimed by nature. Matter can't teleport.</div>
             </div>
             <img src="/matter.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", objectFit: "fill", width: "auto"}} />
@@ -271,12 +265,9 @@ export default function Page() {
             </div>
             <img src="/superchain.svg" className="grid-image" style={{alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
-          <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
-            <div>
-            <div className="grid-title" style={{opacity: "0.8"}}>Quarry (2025)</div>
-            <div className="grid-body">Player-Driven Scaling</div>
-            </div>
-            <img src="/quarryy.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", width: "30%", height: "auto"}}/>
+          <div className="grid-cell"  style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
+            <div className="grid-title" style={{opacity: "0.8", alignSelf: "center"}}>Quarry (2025)</div>
+            <img src="/quarryy.svg" className="grid-image" style={{objectFit: "contain", border: "none", alignSelf: "center", justifySelf: "center", width: "30%", height: "auto"}}/>
           </div>
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
@@ -293,25 +284,17 @@ export default function Page() {
           </div>
         </section>
 
+        <div className="home-container">
+        <TopographicMapBackground />
+          <div style={{textAlign: "center", position: 'relative', zIndex: 1, lineHeight: '0'}}>
+            <img src="/fullstack.svg" style={{width: "60%", backdropFilter: "blur(4px)", padding: "2rem"}}/>
+          </div>
+        </div>
 
 
 
 
 
-
-
-
-{/* 
-      <section className="dust-grid timeline">
-        <div className="timeline-block">Bitcoin<br/><span>Scarcity via Proof of Work</span></div>
-        <div className="timeline-block">Ethereum<br/><span>Smart Contracts</span></div>
-        <div className="timeline-block">Autonomous Worlds<br/><span>Trustless Execution</span></div>
-        <div className="timeline-block">Dust<br/><span>Programmable Matter</span></div>
-      </section>
-      <section className="dust-vision">
-        <h4>One Map. One History. No Resets.</h4>
-        <p>[Insert: Dome diagram, territory logic, PvP laws, peer-to-peer infra, etc.]</p>
-      </section> */}
 
     </div>
   </div>
