@@ -11,7 +11,7 @@ const LandingGridTwo = () => {
   return (    
     <div className="home-container">
       <TopographicMapBackground />
-      <div style={{ position: 'relative', zIndex: 1, paddingTop: "8rem", paddingBottom: "12rem", lineHeight: '0' }}>
+      <div style={{ position: 'relative', zIndex: 1, paddingTop: "8rem", paddingBottom: "8rem", lineHeight: '0' }}>
         <div className='homeHeading'>GET A HEAD START</div>
         <div className="action-card-grid" >
           <div className="action-card">
@@ -243,7 +243,7 @@ export default function Page() {
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "0.5rem", justifyContent: "space-between"}}>
             <div>
             <div className="grid-title" style={{color: "#B8A898"}}>Own Scarce Tokens</div>
-            <div className="grid-body">Mine tokens by validating and burn them by computing. Nobody can steal your tokens. Instantly receive/send tokens to anyone anywhere.</div>
+            <div className="grid-body">Mine by validating, burn by computing; they can't be stolen and transfer anywhere instantly.</div>
             </div>
             <img src="/tokens.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", objectFit: "fill", width: "auto"}}/>
           </div>
@@ -254,7 +254,7 @@ export default function Page() {
           <div className="grid-cell" style={{display: "flex", flexDirection: "row", gap: "1rem", justifyContent: "space-between"}}>
             <div>
             <div className="grid-title" style={{color: "#66b966"}}>PvP & PvE For Scarce Matter</div>
-            <div className="grid-body">Mine matter from nature and burn it by crafting perishable items. Matter can be stolen by combat or reclaimed by nature. Matter can't teleport.</div>
+            <div className="grid-body">Mine from nature, burn by crafting and using; can be taken in combat, reclaimed by nature, and must be physically moved.</div>
             </div>
             <img src="/matter.svg" className="grid-image" style={{background: "#ffffffb0", alignSelf: "center", objectFit: "fill", width: "auto"}} />
           </div>
