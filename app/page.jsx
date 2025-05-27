@@ -135,7 +135,7 @@ export default function Page() {
           <div style={{position: 'relative', lineHeight: '0', padding: "2rem"}}>
             <img src="/dusttexture.svg" className="full-image" />
             <div className="coalition-text" style={{position: 'absolute', top: '25%', left: '10%', transform: 'translate(-10%, -25%)', color: "white"}} ref={joinCoalitionRef}>
-              FROM COSMIC TO CYBER DUST
+              JOIN DUST
             </div>
           </div>
         </Link>
@@ -283,19 +283,12 @@ export default function Page() {
             As Players Program Territories, Their Societies Break Into the Internet and Economy, Organizations Contribute Compute and Clients, Resources Accrue Value and Spark Rushes and Wars... How Far Will Dust Go?
           </div>
         </section>
-
         <div className="home-container">
         <TopographicMapBackground />
           <div style={{textAlign: "center", position: 'relative', zIndex: 1, lineHeight: '0'}}>
             <img src="/fullstack.svg" style={{width: "60%", backdropFilter: "blur(4px)", padding: "2rem"}}/>
           </div>
         </div>
-
-
-
-
-
-
     </div>
   </div>
 );
