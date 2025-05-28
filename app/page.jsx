@@ -6,13 +6,17 @@ import Image from 'next/image';
 import Link from "next/link";
 import ProjectsPage from './projects/page';
 import TopographicMapBackground from '/components/TopoBackground';
+import SmartButton from '../components/smartbutton';
 
 const LandingGridTwo = () => {   
   return (    
     <div className="home-container">
-      <TopographicMapBackground />
+      {/* <TopographicMapBackground /> */}
       <div style={{ position: 'relative', zIndex: 1, paddingTop: "8rem", paddingBottom: "8rem", lineHeight: '0' }}>
-        <div className='homeHeading'>GET A HEAD START</div>
+          <div className="header-row">
+            <div className="columnHeading" style={{color: "white"}}>GET A HEAD START</div>
+            <SmartButton href='https://discord.gg/J75hkmtmM4' variant="blue">Join Discord</SmartButton>
+          </div>
         <div className="action-card-grid" >
           <div className="action-card">
             <img src="https://staticg.sportskeeda.com/editor/2022/03/422aa-16480454294357-1920.jpg" className="card-image"/>
@@ -23,22 +27,37 @@ const LandingGridTwo = () => {
               Survival Guide
               Research
             </div>
+            <div className="button-container">
+              <SmartButton disabled>
+                View Activity
+              </SmartButton>
+              <SmartButton href='projects'>
+                Survival Guide
+              </SmartButton>
+            </div>
           </div>
           <div className="action-card">
             <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/08/minecraft-diamond-119.jpg" className="card-image"/>
             <div className='columnSubheading'>MINE & FARM MATTER</div>
-            <div className='columnParagraph'>Extract, craft, harvest. Every block counts. Matter is scarce.
-              Supply App
-              Economics
+            <div className='columnParagraph'>Extract, craft, harvest. Every block counts. Matter is scarce.</div>
+            <div className="button-container">
+              <SmartButton disabled>
+                View Supply
+              </SmartButton>
             </div>
           </div>
           <div className="action-card">
             <img src="https://preview.redd.it/x7uyp19l3ni51.jpg?width=1080&crop=smart&auto=webp&s=7c01112cccb8c1c7a0791f81cd055b06a0ea9bbd" className="card-image"/>
             <div className='columnSubheading'>EXPAND & PROGRAM TERRITORY</div>
             <div className='columnParagraph'>Claim land, set its rules, and make it run code. Your domain, your laws.
-              Map App
-              Programming Guide
-              Join Discord
+            </div>
+            <div className="button-container">
+              <SmartButton disabled>
+                View Map
+              </SmartButton>
+              <SmartButton href='projects'>
+                Programming Guide
+              </SmartButton>
             </div>
           </div>
         </div>
@@ -102,6 +121,25 @@ export default function Page() {
     
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isVisible]);
+  const iframeRef = useRef(null);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (iframeRef.current) {
+        iframeRef.current.src = "https://testnet.dustproject.org/map";
+      }
+    }, 2000); // fallback after 2s if not loaded
+
+    const handleLoad = () => clearTimeout(timeout);
+
+    const iframe = iframeRef.current;
+    if (iframe) iframe.addEventListener('load', handleLoad);
+
+    return () => {
+      clearTimeout(timeout);
+      if (iframe) iframe.removeEventListener('load', handleLoad);
+    };
+  }, []);
+
 
   return (
     <div> 
@@ -109,7 +147,8 @@ export default function Page() {
         <div className="dust-container">
           <div className="background-map">
             <iframe 
-              src="https://alpha.dustproject.org/map" 
+              ref={iframeRef}
+              src="https://alpha.dustproject.org/map"
               className="map-iframe"
               title="DUST Project Map"
               loading="lazy"
@@ -133,13 +172,14 @@ export default function Page() {
       <div style={{background: "#212121", borderTop: "1px dashed hsla(60, 68%, 94%, 0.1)", borderBottom: "1px dashed hsla(60, 68%, 94%, 0.1)"}}>
         <Link href="/coalition" className="coalition-banner">
           <img src="/dusttexture.svg" alt="" className="coalition-img" />
-          <span className="coalition-text coalition-title" ref={joinCoalitionRef}>JOIN&nbsp;DUST</span>
+          <span className="coalition-text coalition-title" ref={joinCoalitionRef}>JOIN&nbsp;COALITION</span>
         </Link>
       </div>
       <div className="dust-protocol">
         <section className="dust-row">
-          <div className='columnSubheading dust-headline'>
-          We’ve Been Trying To Live in Virtual Worlds for Decades. But All We Can Build Are Theme Parks.
+          <div className="header-row dust-headline">
+            <div className="columnSubheading " style={{color: "white"}}>We’ve Been Trying To Live in Virtual Worlds for Decades. But All We Can Build Are Theme Parks.</div>
+            <SmartButton href='https://slayherobrine.com/' variant="second">Slay Herobrine</SmartButton>
           </div>
         </section>
         <section className="dust-grid theme-vs-world responsive-grid">
@@ -197,9 +237,9 @@ export default function Page() {
           </div>
         </div>
         <section className="dust-row">
-          <div className='columnSubheading dust-headline'>
-            Misunderstood Breakthroughs Are Making Virtual Objects Real.
-            Applied Differently, They Can Grow Virtual Worlds.
+          <div className="header-row dust-headline">
+            <div className="columnSubheading " style={{color: "white"}}>Misunderstood Breakthroughs Are Making Virtual Objects Real. Applied Differently, They Can Grow Virtual Worlds.</div>
+            <SmartButton href='/blog/rising-dust' variant="second">Read Blog</SmartButton>
           </div>
         </section>
         <div className="root-cause">
@@ -265,26 +305,19 @@ export default function Page() {
             </div>
           ))}
         </section>
-
-
-
-
-
-
-
-
-
-
         <section className="dust-row">
-          <div className='columnSubheading dust-headline'>
-            Virtual Worlds Will Matter More With Every Passing Year.
-            As Players Program Territories, Their Societies Break Into the Internet and Economy, Organizations Contribute Compute and Clients, Resources Accrue Value and Spark Rushes and Wars... How Far Will Dust Go?
+          <div className="header-row dust-headline" style={{justifyContent: "normal"}}>
+            <div className="columnSubheading " style={{color: "white"}}>Virtual Worlds Will Matter More With Every Passing Year. As Players Program Territories, Their Societies Break Into the Internet and Economy, Organizations Contribute Compute and Clients, Resources Accrue Value and Spark Rushes and Wars... How Far Will Dust Go?</div>
+            <SmartButton href='/premise' variant="second">Premise</SmartButton>
+            <SmartButton href='/premise' disabled variant="second">Research</SmartButton>
+            <SmartButton href='/premise' disabled variant="second">Economics</SmartButton>
           </div>
         </section>
+        
         <div className="home-container">
-          <TopographicMapBackground />
+          {/* <TopographicMapBackground /> */}
           <div style={{textAlign: "center", position: 'relative', zIndex: 1, lineHeight: '0'}}>
-            <img src="/fullstack.svg" className='full-stack'/>
+            <img src="https://files.oaiusercontent.com/file-PxZKqz1A7FtJE1PhPpCbrn?se=2025-05-28T02%3A05%3A43Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D88f9f8fc-f9a4-484d-b51f-15337e27a284.png&sig=mGeJDqaWmyinChDMSRb%2Bw7YUb05B6rpMZWXFrs07ZIQ%3D" className='full-stack'/>
           </div>
         </div>
     </div>

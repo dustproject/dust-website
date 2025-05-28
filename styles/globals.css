@@ -218,9 +218,8 @@ transition: all 0.3s ease;
   }
 
   .columnSubheading {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 1rem;
     line-height: 2;
   }
   
@@ -238,6 +237,7 @@ transition: all 0.3s ease;
     font-size: 16px;
     margin-bottom: 1rem;
     line-height: 1.6;
+    flex-grow: 1;
   }
 
   .figuretitle {
@@ -665,6 +665,7 @@ transition: all 0.3s ease;
   max-width: 1200px;
   margin: 0 auto;
   padding: clamp(1rem, 5vw, 2.5rem) clamp(0.75rem, 2vw, 1.25rem);
+  background-color: #171717;
 }
 
 /* Track Section Styles */
@@ -1235,7 +1236,7 @@ transition: all 0.3s ease;
 
 .home-container {
   position: relative;
-  background-color: black;
+  background-color: #171717;
   padding: 3rem;
   min-height: 400px;
 }
@@ -1248,12 +1249,15 @@ transition: all 0.3s ease;
   object-fit: cover;
 }
 
+
+
 .action-card-grid {
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 2rem;
+  align-items: stretch; /* Makes all cards same height */
 }
 
 .action-card {
@@ -1264,6 +1268,8 @@ transition: all 0.3s ease;
   padding: 1.5rem;
   backdrop-filter: blur(4px);
   flex: 1 1 calc(33.333% - 2rem);
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
@@ -1286,7 +1292,9 @@ transition: all 0.3s ease;
   border-image-width: 8px;
   pointer-events: none;
   z-index: 1;
+  opacity: 0;
 }
+
 
 .full-card {
   width: 100%;
@@ -1310,6 +1318,8 @@ transition: all 0.3s ease;
   align-items: center;
   border-bottom: 1px dashed hsla(60, 68%, 94%, 0.1);
   padding: 1.5rem 0;
+  line-height: 1;
+  width: 100%;
 }
 
 .dust-headline {
@@ -1481,14 +1491,14 @@ transition: all 0.3s ease;
   position:relative;
   padding: 2rem;
   display:block;          /* keeps <Link> inline issues away   */
-  aspect-ratio:16/7;       /* keeps height predictable          */
   overflow:hidden;
+  height: fit-content;
 }
 
 /* background image */
 .coalition-img{
   width:100%;
-  height:100%;
+  height:auto;
   object-fit:cover;
   display:block;
 }
@@ -1522,23 +1532,7 @@ transition: all 0.3s ease;
 @media(max-width:768px){
   .root-cause{grid-template-columns:1fr}
   .root-cause .grid-title{margin-bottom:.75rem}
-}
-
-.root-cause::before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  width: calc(100% + 2px);
-  height: calc(100% + 2px);
-  border-style: solid;
-  border-width: 1px;
-  border-image-source: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='0.5' y='0.5' width='15' height='15' fill='transparent' stroke='%23fafae5' stroke-width='1' /></svg>");
-  border-image-slice: 50%;
-  border-image-width: 8px;
-  pointer-events: none;
-  z-index: 1;
-}
+} 
 
 .full-stack{
   width: 60%;
@@ -1647,4 +1641,110 @@ transition: all 0.3s ease;
 @media(max-width:768px){
   .vmw-grid{grid-template-columns:1fr}       /* labels & rows stack */
   .vmw-label{margin-bottom:.25rem}           /* mimic row spacing   */
+}
+
+
+.action-button {
+  width: fit-content;
+  line-height: 0;
+  color: white;
+  padding: 1.5rem 2rem; /* Added more horizontal padding */
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.135);
+  border-left: 1px solid hsla(60, 68%, 94%, 0.1);
+  border-right: 1px solid hsla(60, 68%, 94%, 0.1);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3px; /* Reduced from 1px */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  white-space: nowrap; /* Prevent wrapping */
+  font-stretch: normal; /* Ensure normal font width */
+  box-shadow: inset 0 0 0 4px #171717;
+}
+.action-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+.action-button--blue {
+  background-color: #002FA7; /* Blue with transparency */
+}
+
+.action-button--blue:hover {
+  background-color: rgba(255, 255, 255, 0.95); /* Darker blue on hover */
+  color: #002FA7; /* Keep text white on hover for blue variant */
+}
+
+.action-button--second {
+  box-shadow: inset 0 0 0 4px #212121;
+}
+
+
+.action-button::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: calc(100% + 0px);
+  height: calc(100% + 2px);
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='0.5' y='0.5' width='15' height='15' fill='transparent' stroke='%23fafae5' stroke-width='1' /></svg>");
+  border-image-slice: 50%;
+  border-image-width: 8px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 6px;
+  padding: 0.5rem;
+  background: black;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 999;
+}
+
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  align-self: flex-end;
+  justify-content: space-around;
+  margin-top: auto; /* This pushes the button container to the bottom */
+  width: 100%;
+  align-items: flex-start;
+}
+
+/* Mobile: Stack buttons vertically */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .header-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
