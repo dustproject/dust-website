@@ -1536,8 +1536,6 @@ transition: all 0.3s ease;
 
 .full-stack{
   width: 60%;
-  backdrop-filter: blur(4px);
-  padding: 2rem;
   animation: float 4s ease-in-out infinite;
 }
 
