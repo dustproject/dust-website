@@ -11,7 +11,26 @@ import SmartButton from '../components/smartbutton';
 const LandingGridTwo = () => {   
   return (    
     <div className="home-container">
-      {/* <TopographicMapBackground /> */}
+      <video 
+        autoPlay 
+        loop 
+        muted 
+        playsInline
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          zIndex: 0
+        }}
+      >
+        <source src="/topo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div style={{ position: 'relative', zIndex: 1, paddingTop: "8rem", paddingBottom: "8rem", lineHeight: '0' }}>
           <div className="header-row">
             <div className="columnHeading" style={{color: "white"}}>GET A HEAD START</div>
@@ -23,9 +42,6 @@ const LandingGridTwo = () => {
             <div className='columnSubheading'>SURVIVE HARDCORE ANARCHY</div>
             <div className='columnParagraph'>
               The world drains your energy. Eat or sleep—or die.
-              Activity App
-              Survival Guide
-              Research
             </div>
             <div className="button-container">
               <SmartButton disabled>
@@ -47,9 +63,9 @@ const LandingGridTwo = () => {
             </div>
           </div>
           <div className="action-card">
-            <img src="https://preview.redd.it/x7uyp19l3ni51.jpg?width=1080&crop=smart&auto=webp&s=7c01112cccb8c1c7a0791f81cd055b06a0ea9bbd" className="card-image"/>
+            <img src="https://www.dustproject.org/permcity.svg" className="card-image"/>
             <div className='columnSubheading'>EXPAND & PROGRAM TERRITORY</div>
-            <div className='columnParagraph'>Claim land, set its rules, and make it run code. Your domain, your laws.
+            <div className='columnParagraph'>Claim land and make it run your code. 
             </div>
             <div className="button-container">
               <SmartButton disabled>
@@ -239,7 +255,7 @@ export default function Page() {
         <section className="dust-row">
           <div className="header-row dust-headline">
             <div className="columnSubheading " style={{color: "white"}}>Misunderstood Breakthroughs Are Making Virtual Objects Real. Applied Differently, They Can Grow Virtual Worlds.</div>
-            <SmartButton href='/blog/rising-dust' variant="second">Read Blog</SmartButton>
+            <SmartButton href='/blog/rising-dust' variant="second">Our History</SmartButton>
           </div>
         </section>
         <div className="root-cause">
@@ -313,11 +329,29 @@ export default function Page() {
             <SmartButton href='/premise' disabled variant="second">Economics</SmartButton>
           </div>
         </section>
-        
         <div className="home-container">
-          {/* <TopographicMapBackground /> */}
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              zIndex: 0
+            }}
+          >
+            <source src="/topo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <div style={{textAlign: "center", position: 'relative', zIndex: 1, lineHeight: '0'}}>
-            <img src="https://files.oaiusercontent.com/file-PxZKqz1A7FtJE1PhPpCbrn?se=2025-05-28T02%3A05%3A43Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D88f9f8fc-f9a4-484d-b51f-15337e27a284.png&sig=mGeJDqaWmyinChDMSRb%2Bw7YUb05B6rpMZWXFrs07ZIQ%3D" className='full-stack'/>
+            <img src="fullstack.svg" className='full-stack'/>
           </div>
         </div>
     </div>

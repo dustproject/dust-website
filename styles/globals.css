@@ -1538,6 +1538,16 @@ transition: all 0.3s ease;
   width: 60%;
   backdrop-filter: blur(4px);
   padding: 2rem;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
 }
 
 @media(max-width:768px){
@@ -1546,8 +1556,6 @@ transition: all 0.3s ease;
     padding: 0;
   }
 }
-
-
 
 
 /* ===== grid shell ===== */
