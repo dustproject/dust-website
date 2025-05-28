@@ -34,7 +34,7 @@ const LandingGridTwo = () => {
       <div style={{ position: 'relative', zIndex: 1, paddingTop: "8rem", paddingBottom: "8rem", lineHeight: '0' }}>
           <div className="header-row">
             <div className="columnHeading" style={{color: "white"}}>GET A HEAD START</div>
-            <SmartButton href='https://discord.gg/J75hkmtmM4' variant="blue">Join Discord</SmartButton>
+            <SmartButton href='https://discord.gg/J75hkmtmM4'>Join Discord</SmartButton>
           </div>
         <div className="action-card-grid" >
           <div className="action-card">
@@ -262,7 +262,7 @@ export default function Page() {
           <div className="grid-title" style={{color: "#66b966"}}>KEY&nbsp;INSIGHT:</div>
           <div>
             <div className="grid-title-sub">Bitcoin is fully virtual money - not backed by physical commodities or militaries - yet treated as real (worth $2T).</div>
-            <div className="grid-title-sub">Its enabling breakthrough, peer-to-peer state machines, is use-case agnostic.</div>
+            <div className="grid-title-sub">Its enabling breakthrough, secret-bearing peer-to-peer state machines, is use-case agnostic.</div>
             <div className="grid-title-sub">If applied differently, it creates far more than money - it defines physics, spawns matter, and grows worlds.</div>
           </div>
         </div>
@@ -294,7 +294,7 @@ export default function Page() {
             { t:"Dark Forest (2020) & Biomes (2024)", solo:true, img:"/dfbiomes.svg" },
             {
               t:"PvP/PvE For Scarce Matter",
-              b:"Mine from nature, burn by crafting and using; can be stolen or reclaimed, must be moved.",
+              b:"Mine from nature, burn by crafting and using; can be stolen by PvP or reclaimed by PvE, must be moved.",
               c:"#66b966",
               img:"/matter.svg"
             },

@@ -1675,12 +1675,12 @@ transition: all 0.3s ease;
 }
 
 .action-button--blue {
-  background-color: #002FA7; /* Blue with transparency */
+  background-color: #079205; /* Blue with transparency */
 }
 
 .action-button--blue:hover {
   background-color: rgba(255, 255, 255, 0.95); /* Darker blue on hover */
-  color: #002FA7; /* Keep text white on hover for blue variant */
+  color: #079205; /* Keep text white on hover for blue variant */
 }
 
 .action-button--second {
