@@ -40,7 +40,7 @@ const LandingGridTwo = () => {
           <div className="action-card">
             <img src="https://media.forgecdn.net/attachments/332/97/4.png" className="card-image"/>
             <div className='columnSubheading'>SURVIVE FOREVER ANARCHY</div>
-            <div className='columnParagraph'>
+            <div className='columnParagraph' style={{marginTop: "1rem"}}>
             There are no owners, admins, resets, or shutdowns - forever anarchy.
             </div>
             <div className='columnParagraph'>
@@ -61,7 +61,7 @@ const LandingGridTwo = () => {
           <div className="action-card">
             <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/08/minecraft-diamond-119.jpg" className="card-image"/>
             <div className='columnSubheading'>MINE & KEEP SCARCE MATTER</div>
-            <div className='columnParagraph'>
+            <div className='columnParagraph' style={{marginTop: "1rem"}}>
             Nobody can spawn, wipe, or tamper physics of resources - scarce matter.
             </div>
             <div className='columnParagraph'>
@@ -79,7 +79,7 @@ const LandingGridTwo = () => {
           <div className="action-card">
             <img src="https://img2.9minecraft.net/minecraft/img/Modular-Force-Field-System-Mod-3.jpg" className="card-image"/>
             <div className='columnSubheading'>EXPAND & PROGRAM TERRITORY</div>
-            <div className='columnParagraph'>
+            <div className='columnParagraph' style={{marginTop: "1rem"}}>
             Use matter to secure, expand, and build your territory.
             </div>
             <div className='columnParagraph'>
