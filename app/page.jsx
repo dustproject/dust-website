@@ -41,7 +41,7 @@ const LandingGridTwo = () => {
             <img src="https://media.forgecdn.net/attachments/332/97/4.png" className="card-image"/>
             <div className='columnSubheading'>SURVIVE FOREVER ANARCHY</div>
             <div className='columnParagraph'>
-            There are no owners, admins, resets, or shutdowns - anarchy forever.
+            There are no owners, admins, resets, or shutdowns - forever anarchy.
             </div>
             <div className='columnParagraph'>
             Your energy constantly drains and resources are heavily contested.
@@ -62,7 +62,7 @@ const LandingGridTwo = () => {
             <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/08/minecraft-diamond-119.jpg" className="card-image"/>
             <div className='columnSubheading'>MINE & KEEP SCARCE MATTER</div>
             <div className='columnParagraph'>
-            Nobody can spawn, wipe, or nerf resources - scarce matter.
+            Nobody can spawn, wipe, or tamper physics of resources - scarce matter.
             </div>
             <div className='columnParagraph'>
             What you mine and farm can be truly yours... if you survive and protect it.
@@ -82,9 +82,11 @@ const LandingGridTwo = () => {
             <div className='columnParagraph'>
             Use matter to secure, expand, and build your territory.
             </div>
+            <div className='columnParagraph'>
+            Program it to be uniquely yours: who can enter, build, sleep, and how its chests behave.
+            </div>
             <div className='columnParagraph' style={{marginBottom: "2rem"}}>
-            Program its rules - who can build, sleep, open doors and how chests behave - and freely integrate with the internet & real economy.
-            A lasting digital artifact that's uniquely yours.
+            Freely integrate it with the internet & economy... create what only studios could.
             </div>
 
             <div className="button-container">
