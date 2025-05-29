@@ -68,7 +68,7 @@ const LandingGridTwo = () => {
             What you mine and farm is truly yours... as long as you can protect it.
             </div>
             <div className='columnParagraph' style={{marginBottom: "1.5rem"}}>
-            Build, craft, or trade at local shops.
+            Use to build, craft, or trade at local shops.
             </div>
             <div className="button-container">
               <SmartButton disabled>
@@ -80,7 +80,7 @@ const LandingGridTwo = () => {
             <img src="https://img2.9minecraft.net/minecraft/img/Modular-Force-Field-System-Mod-3.jpg" className="card-image"/>
             <div className='columnSubheading'>PROGRAM</div>
             <div className='columnParagraph' style={{marginTop: "1rem"}}>
-            No shutdowns or resets - secure and expand territory, what you build inside lasts.
+            Secure and expand territory. No shutdowns or resets - what you build inside lasts.
             </div>
             <div className='columnParagraph'>
             Program it completely: turn chests into shops, doors into toll gates, and more.         
