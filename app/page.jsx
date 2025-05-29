@@ -39,14 +39,14 @@ const LandingGridTwo = () => {
         <div className="action-card-grid" >
           <div className="action-card">
             <img src="https://media.forgecdn.net/attachments/332/97/4.png" className="card-image"/>
-            <div className='columnSubheading'>SURVIVE FOREVER ANARCHY</div>
+            <div className='columnSubheading'>SURVIVE</div>
             <div className='columnParagraph' style={{marginTop: "1rem"}}>
-            There are no owners, admins, resets, or shutdowns - forever anarchy.
+              No owners or admins - only physics is law.
             </div>
             <div className='columnParagraph'>
-            Your energy constantly drains and resources are heavily contested.
+            Your energy constantly drains. Resources are heavily contested.
             </div>
-            <div className='columnParagraph' style={{marginBottom: "2rem"}}>
+            <div className='columnParagraph' style={{marginBottom: "1.5rem"}}>
             Find food and build a safe base to sleep... or die and lose everything.
             </div>
             <div className="button-container">
@@ -60,15 +60,15 @@ const LandingGridTwo = () => {
           </div>
           <div className="action-card">
             <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/08/minecraft-diamond-119.jpg" className="card-image"/>
-            <div className='columnSubheading'>MINE & KEEP SCARCE MATTER</div>
+            <div className='columnSubheading'>MINE</div>
             <div className='columnParagraph' style={{marginTop: "1rem"}}>
-            Nobody can spawn, wipe, or tamper physics of resources - scarce matter.
+            No spawns, wipes, or nerfs - matter is scarce.
             </div>
             <div className='columnParagraph'>
-            What you mine and farm can be truly yours... if you survive and protect it.
+            What you mine and farm is truly yours... as long as you can protect it.
             </div>
-            <div className='columnParagraph' style={{marginBottom: "2rem"}}>
-            Use it to craft items or trade it at chest shops.
+            <div className='columnParagraph' style={{marginBottom: "1.5rem"}}>
+            Build, craft, or trade at local shops.
             </div>
             <div className="button-container">
               <SmartButton disabled>
@@ -78,15 +78,15 @@ const LandingGridTwo = () => {
           </div>
           <div className="action-card">
             <img src="https://img2.9minecraft.net/minecraft/img/Modular-Force-Field-System-Mod-3.jpg" className="card-image"/>
-            <div className='columnSubheading'>EXPAND & PROGRAM TERRITORY</div>
+            <div className='columnSubheading'>PROGRAM</div>
             <div className='columnParagraph' style={{marginTop: "1rem"}}>
-            Use matter to secure, expand, and build your territory.
+            No shutdowns or resets - secure and expand territory, what you build inside lasts.
             </div>
             <div className='columnParagraph'>
-            Program it to be uniquely yours: who can enter, build, sleep, and how its chests behave.
+            Program it completely: turn chests into shops, doors into toll gates, and more.         
             </div>
-            <div className='columnParagraph' style={{marginBottom: "2rem"}}>
-            Freely integrate it with the internet & economy... create what only studios could.
+            <div className='columnParagraph' style={{marginBottom: "1.5rem"}}>
+            Integrate with anything online or even real dollars - truly unrestricted.
             </div>
 
             <div className="button-container">
