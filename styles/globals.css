@@ -1362,7 +1362,7 @@ transition: all 0.3s ease;
   border: 1px dashed hsla(60, 68%, 94%, 0.1);
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.175);
   position: relative; /* Add this for absolute positioning context */
 }
 

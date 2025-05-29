@@ -39,13 +39,19 @@ const LandingGridTwo = () => {
         <div className="action-card-grid" >
           <div className="action-card">
             <img src="https://staticg.sportskeeda.com/editor/2022/03/422aa-16480454294357-1920.jpg" className="card-image"/>
-            <div className='columnSubheading'>SURVIVE HARDCORE ANARCHY</div>
+            <div className='columnSubheading'>SURVIVE FOREVER ANARCHY</div>
             <div className='columnParagraph'>
-              The world drains your energy. Eat or sleep—or die.
+            There are no owners, admins, resets, or shutdowns - anarchy forever.
+            </div>
+            <div className='columnParagraph'>
+            Your energy constantly drains and resources are heavily contested.
+            </div>
+            <div className='columnParagraph' style={{marginBottom: "2rem"}}>
+            Find food and build a safe base to sleep... or die and lose everything.
             </div>
             <div className="button-container">
               <SmartButton disabled>
-                View Activity
+                Activity
               </SmartButton>
               <SmartButton href='projects'>
                 Survival Guide
@@ -54,22 +60,41 @@ const LandingGridTwo = () => {
           </div>
           <div className="action-card">
             <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/08/minecraft-diamond-119.jpg" className="card-image"/>
-            <div className='columnSubheading'>MINE & FARM MATTER</div>
-            <div className='columnParagraph'>Extract, craft, harvest. Every block counts. Matter is scarce.</div>
+            <div className='columnSubheading'>MINE & KEEP SCARCE MATTER</div>
+            <div className='columnParagraph'>
+            Nobody can spawn, wipe, or nerf resources - scarce matter.
+            </div>
+            <div className='columnParagraph'>
+            What you mine and farm can be truly yours... if you survive and protect it.
+            </div>
+            <div className='columnParagraph' style={{marginBottom: "2rem"}}>
+            Use it to craft items or trade it at chest shops.
+            </div>
             <div className="button-container">
               <SmartButton disabled>
-                View Supply
+                Supply
               </SmartButton>
             </div>
           </div>
           <div className="action-card">
             <img src="https://www.dustproject.org/permcity.svg" className="card-image"/>
             <div className='columnSubheading'>EXPAND & PROGRAM TERRITORY</div>
-            <div className='columnParagraph'>Claim land and make it run your code. 
+
+
+            <div className='columnParagraph'>
+            Use matter to secure, expand, and build your territory.
             </div>
+            <div className='columnParagraph'>
+            Program its rules - who can build, sleep, open doors and how chests behave.
+            </div>
+            <div className='columnParagraph' style={{marginBottom: "2rem"}}>
+            Connect it to your broader online/economic life... as your lasting digital artifact.
+            </div>
+
+
             <div className="button-container">
               <SmartButton disabled>
-                View Map
+                Map
               </SmartButton>
               <SmartButton href='projects'>
                 Programming Guide
