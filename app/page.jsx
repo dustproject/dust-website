@@ -258,7 +258,7 @@ export default function Page() {
             <SmartButton href='/blog/rising-dust' variant="second">Our History</SmartButton>
           </div>
         </section>
-        <div className="root-cause">
+        <div className="root-cause" style={{border: "1px dashed #66b966"}}>
           <div className="grid-title" style={{color: "#66b966"}}>KEY&nbsp;INSIGHT:</div>
           <div>
             <div className="grid-title-sub">Bitcoin is fully virtual money - not backed by physical commodities or militaries - yet treated as real (worth $2T).</div>
@@ -267,59 +267,50 @@ export default function Page() {
           </div>
         </div>
 
-        <section className="vmw-grid">
-          <div className="grid-label vmw-money">Virtual Money</div>
-          <div className="grid-label vmw-mid">→ Applied Differently →</div>
-          <div className="grid-label vmw-world">Virtual World</div>
-          {[
-            {
-              t:"Smart Contracts & Finance",
-              b:"Program Ether and integrate with the internet & economy.",
-              c:"#B8A898",
-              img:"/smartcontracts.svg"
-            },
-            { t:"MUD (2022)", solo:true, img:"/mud.svg" },
-            {
-              t:"Smart Machines & Societies",
-              b:"Program machines and integrate with the internet & economy.",
-              c:"#66b966",
-              img:"/machinesocieties.svg"
-            },
-            {
-              t:"Own Scarce Tokens",
-              b:"Mine by validating, burn by computing; they can't be stolen and transfer anywhere instantly.",
-              c:"#B8A898",
-              img:"/tokens.svg"
-            },
-            { t:"Dark Forest (2020) & Biomes (2024)", solo:true, img:"/dfbiomes.svg" },
-            {
-              t:"PvP/PvE For Scarce Matter",
-              b:"Mine from nature, burn by crafting and using; can be stolen by PvP or reclaimed by PvE, must be moved.",
-              c:"#66b966",
-              img:"/matter.svg"
-            },
-            {
-              t:"Superchain of Chains",
-              b:"Anyone can provably run new chains to expand the ledger.",
-              c:"#B8A898",
-              img:"/superchain.svg"
-            },
-            { t:"Quarry (2025)", solo:true, img:"/quarryy.svg" },
-            {
-              t:"Supergrid of Chunks",
-              b:"Anyone can provably run new chunks to expand the map.",
-              c:"#66b966",
-              img:"/supergrid.svg"
-            }
-          ].map(({t,b,c,img,solo},i)=>(
-            <div className={`vmw-cell${solo ? ' vmw-solo' : ''}`} key={i}>
-            <div className="vmw-title" style={{ color: c || "inherit" }}>{t}</div>
-            <div className="vmw-content">
-              <div className="vmw-body">{b}</div>
-              <img src={img} alt="" className="vmw-img" />
+        <section className="dust-grid-sub virtual-money-vs-world responsive-grid">
+          <div className="grid-label" style={{color: "#B8A898"}}>Virtual Money</div>
+          <div className="grid-label" style={{opacity: "0.8"}}>→ Applied Differently →</div>
+          <div className="grid-label" style={{color: "#66b966"}}>Virtual World</div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#B8A898"}}>Smart Contracts & Finance</div>
+            <div className="grid-body">
+              Program Ether and integrate with the internet & economy.
             </div>
+          </div>
+          <div className="grid-image">
+            <img src="/contracts.svg" className='grid-image-kid'/>
+            <div className="grid-image-label">MUD (2022)</div>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#66b966"}}>Smart Machines & Societies</div>
+            <div className="grid-body">
+            Program machines (force fields, chests, doors, etc) and integrate with the internet & economy.
             </div>
-          ))}
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#B8A898"}}>Own Scarce Tokens</div>
+            <div className="grid-body">Mine by validating, burn by computing; they can't be stolen and transfer anywhere instantly.</div>
+          </div>
+          <div className="grid-image">
+            <img src="/tokens.svg" className='grid-image-kid'/>
+            <div className="grid-image-label">Dark Forest (2020) & Biomes (2024)</div>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#66b966"}}>PvP/PvE For Scarce Matter</div>
+            <div className="grid-body">Mine from nature, burn by crafting and using; can be stolen by PvP or reclaimed by PvE, must be moved - can't teleport.</div>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#B8A898"}}>Superchain of Chains</div>
+            <div className="grid-body">Anyone can provably run new chains to expand the ledger.</div>
+          </div>
+          <div className="grid-image">
+            <img src="/quarry.svg" className='grid-image-kid'/>
+            <div className="grid-image-label">Quarry (2025)</div>
+          </div>
+          <div className="grid-cell">
+            <div className="grid-title" style={{color: "#66b966"}}>Supergrid of Chunks</div>
+            <div className="grid-body">Anyone can provably run new chunks to expand the map.</div>
+          </div>
         </section>
         <section className="dust-row">
           <div className="header-row dust-headline" style={{justifyContent: "normal"}}>

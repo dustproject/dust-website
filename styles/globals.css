@@ -1350,7 +1350,7 @@ transition: all 0.3s ease;
 
 
 .virtual-money-vs-world {
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
 }
 
 
@@ -1362,11 +1362,31 @@ transition: all 0.3s ease;
   border: 1px dashed hsla(60, 68%, 94%, 0.1);
   align-items: center;
   justify-content: center;
+  background-color: white;
+  position: relative; /* Add this for absolute positioning context */
 }
 
 .grid-image-kid {
   width: 100%;
   height: auto;
+}
+
+.grid-image-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  /* Text styling */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  
+  /* Background for readability */
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0.2rem;  
+  /* Ensure it stays on top */
+  z-index: 2;
 }
 
 
@@ -1481,6 +1501,11 @@ transition: all 0.3s ease;
   .theme-vs-world{grid-template-columns:1fr}
   .theme-vs-world .grid-label{margin:0.5rem 0}
   .theme-vs-world .grid-image{display:none}
+
+  .virtual-money-vs-world{grid-template-columns:1fr}
+  .virtual-money-vs-world .grid-label{margin:0.5rem 0}
+  .virtual-money-vs-world .grid-image{display:none}
+
     
   /* text blocks */
   .dust-headline{font-size:clamp(1rem,4.5vw,1.25rem);line-height:1.4}
@@ -1518,7 +1543,7 @@ transition: all 0.3s ease;
   grid-template-columns: 1fr 4fr;
   gap:1rem;
   padding: 0.5rem 1rem;
-  border: 1px dashed hsla(60, 68%, 94%, 0.1);
+  border: 1px dashed #ff6060;
   backdrop-filter: blur(2px);
   background-color: hsla(60, 68%, 94%, 0.017);
   margin: 2rem;
