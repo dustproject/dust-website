@@ -38,7 +38,7 @@ const LandingGridTwo = () => {
           </div>
         <div className="action-card-grid" >
           <div className="action-card">
-            <img src="https://staticg.sportskeeda.com/editor/2022/03/422aa-16480454294357-1920.jpg" className="card-image"/>
+            <img src="https://media.forgecdn.net/attachments/332/97/4.png" className="card-image"/>
             <div className='columnSubheading'>SURVIVE FOREVER ANARCHY</div>
             <div className='columnParagraph'>
             There are no owners, admins, resets, or shutdowns - anarchy forever.
@@ -77,20 +77,15 @@ const LandingGridTwo = () => {
             </div>
           </div>
           <div className="action-card">
-            <img src="https://www.dustproject.org/permcity.svg" className="card-image"/>
+            <img src="https://img2.9minecraft.net/minecraft/img/Modular-Force-Field-System-Mod-3.jpg" className="card-image"/>
             <div className='columnSubheading'>EXPAND & PROGRAM TERRITORY</div>
-
-
             <div className='columnParagraph'>
             Use matter to secure, expand, and build your territory.
             </div>
-            <div className='columnParagraph'>
-            Program its rules - who can build, sleep, open doors and how chests behave.
-            </div>
             <div className='columnParagraph' style={{marginBottom: "2rem"}}>
-            Connect it to your broader online/economic life... as your lasting digital artifact.
+            Program its rules - who can build, sleep, open doors and how chests behave - and freely integrate with the internet & real economy.
+            A lasting digital artifact that's uniquely yours.
             </div>
-
 
             <div className="button-container">
               <SmartButton disabled>
