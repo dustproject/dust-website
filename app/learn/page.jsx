@@ -17,7 +17,7 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world runs on provable rules—programs anyone can inspect. If the proof fails, the world doesn't run. Impossible to interfere or override.
+        The world runs on provable rules—programs anyone can inspect. If you break them, the proof fails, and the world doesn't run. Impossible to interfere or override.
         </div>
         <div className='learn-body'>
           The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
