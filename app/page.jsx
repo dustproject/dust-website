@@ -315,7 +315,7 @@ export default function Page() {
               </div>
               <div className="section">
                 <div className='hero-header'>Code the world.</div>
-                <div className='hero-body'>You code its mechanics. They run live in-game. Shaping everyone’s world. Persisting even if you leave.</div>
+                <div className='hero-body'>You code its mechanics. They run live in-game, shape our civilization, and persist even if you leave.</div>
               </div>
               <div className="section">
                 <div className='hero-header'>Can’t wipe. Built by all.</div>
@@ -335,7 +335,7 @@ export default function Page() {
                   <Link href="/learn" style={{textDecoration: "none"}}>
                     <div className='text-button'>[{" "}LEARN{" "}]</div>
                   </Link>
-                  <div className="text-subtext">See how it works. Explore Dust's past and future.</div>
+                  <div className="text-subtext">Learn how it works. Explore Dust's past and future.</div>
                 </div>
               </div>
             </div>

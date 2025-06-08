@@ -17,16 +17,16 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-          The world only runs on its set rules. They're provable programs. So anyone can check they're being followed. Any attempt to interfere or override them simply fails.
+        The world runs on provable rules—programs anyone can inspect. If they're broken, the proof fails. Impossible to interfere or override.
         </div>
         <div className='learn-body'>
           The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
         </div>
         <div className='learn-body'>
-          Players and machines need energy. Farm and consume plants to gain it. It drains with time, action, and damage.
+          Energy fuels players and machines. Farm plants to gain it. Energy drains with time, action, and damage.
         </div>
         <div className='learn-body'>
-          Energize machines—like force fields, doors, and chests—to claim and control territory.
+          Machines—like force fields, doors, and chests—use energy to control territory.
         </div>
       </div>
       <div className="learn-description-right">
@@ -53,17 +53,17 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Code the world.</div>
         <div className='learn-body'>
-          The world sets physics and resources. You code civilization—reputation, currency, governments, markets, and more. 
+          The world sets physics. You code civilization—reputation, currency, governments, markets, and more. 
         </div>
         <div className='learn-body'>
-          Your code reads the world’s state and controls its machines—turning chests into shops, doors into toll gates.
-          It integrates freely with other players’ mechanics and anything on the internet—including the real economy.
+          Your code reads world state and controls machines—turning chests into shops, doors into toll gates.
+          It integrates with other players’ code—and the entire internet, including real-world economies.
         </div>
         <div className='learn-body'>
           Upload your code once. It runs live in-game, affects everyone, and persists without you.
         </div>
         <div className='learn-body'>
-        Other players treat it as a first-party mechanic and build on it with confidence.
+        Other players treat it as a native part of the world and build on it with confidence.
         </div>
       </div>
       <div className="learn-description-right">
@@ -90,10 +90,14 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Can’t wipe. Built by all.</div>
         <div className='learn-body'>
-          The world's rules and player-coded mechanics run together on a peer-to-peer network. No central server. The world lives as long as one person runs it.
+          The entire world—set rules and player code—runs together on a peer-to-peer network. No central server.
+          As long as one player runs it, it lives.
+        </div>
+        <div className="learn-body">
+        Start your greatest work. It can't wipe.
         </div>
         <div className='learn-body'>
-          Every action is publicly recorded. Anyone can verify the proofs that it ran correctly.
+          Every action is publicly recorded. Anyone can check the proofs that it ran correctly.
         </div>
       </div>
       <div className="learn-description-right">
