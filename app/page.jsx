@@ -314,8 +314,8 @@ export default function Page() {
                 <div className='hero-body'>Resources are scarce. Energy drains. Survival takes effort.</div>
               </div>
               <div className="section">
-                <div className='hero-header'>Code the world.</div>
-                <div className='hero-body'>You code its mechanics. They run live in-game, shape our civilization, and persist even if you leave.</div>
+                <div className='hero-header'>Program civilization.</div>
+                <div className='hero-body'>You code the world's mechanics. They run live in-game, shape everyone's play, and persist even if you leave.</div>
               </div>
               <div className="section">
                 <div className='hero-header'>Can’t wipe. Built by all.</div>

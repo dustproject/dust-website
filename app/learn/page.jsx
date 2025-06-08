@@ -17,7 +17,7 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world runs on provable rules—programs anyone can inspect. If they're broken, the proof fails. Impossible to interfere or override.
+        The world runs on provable rules—programs anyone can inspect. If the proof fails, the world doesn't run. Impossible to interfere or override.
         </div>
         <div className='learn-body'>
           The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
@@ -51,7 +51,7 @@ const LearnPage = () => {
 
       <div className="learn-grid-border"></div>
       <div className="learn-description-left">
-        <div className='learn-title'>Code the world.</div>
+        <div className='learn-title'>Program civilization.</div>
         <div className='learn-body'>
           The world sets physics. You code civilization—reputation, currency, governments, markets, and more. 
         </div>
@@ -63,7 +63,7 @@ const LearnPage = () => {
           Upload your code once. It runs live in-game, affects everyone, and persists without you.
         </div>
         <div className='learn-body'>
-        Other players treat it as a native part of the world and build on it with confidence.
+        Other players treat it as a trusted part of the world. They use and build on it with confidence.
         </div>
       </div>
       <div className="learn-description-right">
@@ -91,7 +91,7 @@ const LearnPage = () => {
         <div className='learn-title'>Can’t wipe. Built by all.</div>
         <div className='learn-body'>
           The entire world—set rules and player code—runs together on a peer-to-peer network. No central server.
-          As long as one player runs it, it lives.
+          As long as one player runs it, the world lives.
         </div>
         <div className="learn-body">
         Start your greatest work. It can't wipe.
