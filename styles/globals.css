@@ -799,10 +799,6 @@ transition: all 0.3s ease;
   object-fit: cover;
 }
 
-.map-image {
-  display: none;
-}
-
 @media (max-width: 768px) {
   .map-video {
     display: none;
