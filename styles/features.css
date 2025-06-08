@@ -1,0 +1,112 @@
+.noetic-layout {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    min-height: 100vh;
+    background: #141414;
+    font-family: "IBM Plex Sans" !important;
+    color: #fff;
+  }
+  .noetic-grid-border {
+    border: 0.5px solid rgba(255, 255, 255, .08);
+  }
+  .noetic-header {
+    grid-column: 2 / 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 0.5px solid rgba(255, 255, 255, .08);
+  }
+  .noetic-logo {
+    font-weight: 500;
+  }
+  .noetic-hero-left, .noetic-hero-right {
+    height: 24rem;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgba(255, 255, 255, .08);
+  }
+  .noetic-hero-logo {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+  }
+  .noetic-description-left {
+    padding: 2rem;
+    border: 0.5px solid rgba(255, 255, 255, .08);
+    display: flex;
+    flex-direction: column;
+  }
+  .noetic-description-right {
+    border: 0.5px solid rgba(255, 255, 255, .08);
+    display: flex;
+    flex-direction: column;
+  }
+  .noetic-highlight-left {
+    background: #6b21a8;
+    color: #e9d5ff;
+    padding: 1rem 2rem;
+    border: 0.5px solid rgba(255, 255, 255, .08);
+  }
+  .noetic-highlight-right {
+    background: #6b21a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgba(255, 255, 255, .08);
+  }
+  .noetic-read-button {
+    padding: 0.5rem 1rem;
+    border: 0.5px solid #e9d5ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: none;
+    color: #e9d5ff;
+  }
+  .noetic-footer-left, .noetic-footer-right {
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0.5px solid rgba(255, 255, 255, .08);
+  }
+  .noetic-footer-left {
+    background: rgb(255, 255, 255);
+    color: rgb(20, 20, 20);
+    border-right: none;
+  }
+  .noetic-footer-right {
+    background: rgba(255, 255, 255, .04);
+    color: rgb(153, 153, 153);
+  }
+  @media (max-width: 768px) {
+    .noetic-layout {
+      grid-template-columns: 1fr;
+    }
+    .noetic-header, .noetic-hero-left, .noetic-hero-right, .noetic-description-left, .noetic-description-right,
+    .noetic-highlight-left, .noetic-highlight-right, .noetic-footer-left, .noetic-footer-right {
+      grid-column: 1 / 2 !important;
+    }
+    .noetic-grid-border {
+      display: none;
+    }
+  }
+
+
+  .noetic-title {
+    font-size: 1.1rem;
+    color: #FFF;
+    font-weight: bold;
+    line-height: normal;
+  }
+  
+  .noetic-body {
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+  }
