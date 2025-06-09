@@ -17,7 +17,7 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world runs on provable rules—programs anyone can inspect. If you break them, the proof fails, and the world doesn't run. Impossible to interfere or override.
+        The world only runs on its set rules—written as provable code. Break them, the proof fails, and the world halts. No admins. No interference. No overrides.
         </div>
         <div className='learn-body'>
           The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
@@ -51,7 +51,7 @@ const LearnPage = () => {
 
       <div className="learn-grid-border"></div>
       <div className="learn-description-left">
-        <div className='learn-title'>Code the world.</div>
+        <div className='learn-title'>Code civilization.</div>
         <div className='learn-body'>
           The world sets physics. You code civilization—reputation, currency, governments, markets, and more. 
         </div>
@@ -60,10 +60,10 @@ const LearnPage = () => {
           It integrates with other players’ code—and the entire internet, including real-world economies.
         </div>
         <div className='learn-body'>
-          Upload your code once. It runs live in-game, affects everyone, and persists without you.
+          Upload your code once. It runs live in-game, affects everyone, and persists even if you leave.
         </div>
         <div className='learn-body'>
-        Other players treat it as a trusted part of the world. They use and build on it with confidence.
+        Other players treat it as native to the world. They use it. Build on it. Trust it.
         </div>
       </div>
       <div className="learn-description-right">
@@ -90,14 +90,14 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Can’t wipe. Built by all.</div>
         <div className='learn-body'>
-          The entire world, including player code, runs on a peer-to-peer network. No central server.
-          The world lives as long as one person runs it.
+          Everything runs on a peer-to-peer network. No central server.
+          The world lives as long as one person keeps running it.
         </div>
         <div className="learn-body">
-          Start your greatest work. It can't be wiped.
+        Every action inside is publicly recorded. Anyone can inspect proofs they ran correctly.
         </div>
         <div className='learn-body'>
-          Every action is publicly recorded. Anyone can check their proofs to verify they followed the world's rules.
+        Start your greatest work. It can't be wiped.
         </div>
       </div>
       <div className="learn-description-right">

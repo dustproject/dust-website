@@ -30,8 +30,20 @@
   .survive-header, .survive-main {
     grid-column: 1 !important;
   }
+
+  .mobile-image {
+    width: 90%;
+  }
 }
 
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;           /* remove default border */
+  height: 0.5px;            /* set thickness */
+  background-color: #262626;  /* your desired color */
+}
 
 
 
