@@ -21,10 +21,18 @@
   grid-row: 2;
   padding: 2rem;
 }
-.survive-footer {
-  grid-column: 2 / 3;
-  grid-row: 3;
+
+
+@media (max-width: 768px) {
+  .survive-layout {
+    grid-template-columns: 1fr;
+  }
+  .survive-header, .survive-main {
+    grid-column: 1 !important;
+  }
 }
+
+
 
 
 .learn-layout {
@@ -141,7 +149,8 @@
 
 .learn-body {
   font-size: 1rem;
-  color: rgb(153, 153, 153);
+  /* color: rgb(153, 153, 153); */
+  color: #ffffffd4;
   font-weight: normal;
   line-height: 1.5;
   margin-top: 0.5rem;

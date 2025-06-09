@@ -1,0 +1,53 @@
+'use client';
+
+import Link from "next/link";
+import Image from "next/image";
+import React from 'react';
+import "/styles/features.css";
+
+const ProgramPage = () => {
+  return (
+    <div className="survive-layout">
+      <div className="learn-grid-border"></div>
+        <header className="survive-header">
+          <div className="learn-logo">What's Possible</div>
+        </header>
+      <div className="learn-grid-border"></div>
+
+      <div className="learn-grid-border"></div>
+      <div className="survive-main">
+        <img src="/civlegos.svg" style={{width: "90%"}}/>
+        <div className="learn-body">
+          Dust sets the rules of physics. Players build the rest.
+        </div>
+        <div className="learn-body">
+          Your code reads the world’s state and controls machines—force fields, chests, doors, spawn tiles, and more.
+        </div>
+        <div className="learn-body">
+         Players build on each other. If you program a reputation system that judges every action. Others may program doors that only open for the well judged.
+        </div>
+        <div className="learn-body">
+          Integrate with anything online—Reddit, Discord, real dollars—using web proofs and payment protocols. Your code blends worlds.
+        </div>
+        <div className="learn-body" style={{opacity: "0.5"}}>
+        Imagine your own version of the World of Warcraft Auction House, Runescape Grand Exchange, Final Fantasy XIV Gold Saucer, and Black Desert Online Transport Network. Systems once reserved for big studios—now in your hands.
+        </div>
+        <div className="learn-body" style={{opacity: "0.5"}}>
+        Imagine doors that open for pass holders; chests that run auctions, trade, and lending; force fields that reward those who protect it; ore reserves that back custom currencies; futarchy governing territory; and, insurance paying out after  mob attacks. Real financial and social infrastructure—inside the game.
+        </div>
+        <div className='learn-body' style={{opacity: "0.5"}}>
+          <a href="https://permutationcity.org/">Permutation City</a>{" "}
+          gives "Permutation Passport" holders the ability to spawn inside their territory, rent land, trade in shops, and participate in governance with "Permutation Pesos". They are programming in-game machines—spawn tiles, force fields, and chests—to control their city.
+        </div>
+      </div>
+      <div className="learn-grid-border"></div>
+
+
+      <div className="learn-grid-border"></div>
+      <button className="learn-footer-left" onClick={() => window.location.href = '/learn'}>How It Works</button>
+      <div className="learn-grid-border"></div>
+    </div>
+);
+};
+
+export default ProgramPage;

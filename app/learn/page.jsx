@@ -35,7 +35,7 @@ const LearnPage = () => {
             <img src="/provablerules.svg" className="learn-card-image" />
             <div className="learn-card-overlay">
             <div className="learn-card-label">The Rules</div>
-            <div className="learn-card-desc">The provable programs for Dust's set rules.</div>
+            <div className="learn-card-desc">The provable programs for Dust's rules.</div>
             </div>
           </Link>
           <Link href="/survive" className="learn-card">
@@ -51,7 +51,7 @@ const LearnPage = () => {
 
       <div className="learn-grid-border"></div>
       <div className="learn-description-left">
-        <div className='learn-title'>Program civilization.</div>
+        <div className='learn-title'>Code the world.</div>
         <div className='learn-body'>
           The world sets physics. You code civilization—reputation, currency, governments, markets, and more. 
         </div>
@@ -75,7 +75,7 @@ const LearnPage = () => {
               <div className="learn-card-desc">A guide for programming and uploading new mechanics.</div>
             </div>
           </Link>
-          <Link href="/projects" className="learn-card">
+          <Link href="/possible" className="learn-card">
             <img src="/permcityhero.svg" className="learn-card-image" />
             <div className="learn-card-overlay">
               <div className="learn-card-label">What’s Possible</div>
@@ -90,14 +90,14 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Can’t wipe. Built by all.</div>
         <div className='learn-body'>
-          The entire world—set rules and player code—runs together on a peer-to-peer network. No central server.
-          As long as one player runs it, the world lives.
+          The entire world, including player code, runs on a peer-to-peer network. No central server.
+          The world lives as long as one person runs it.
         </div>
         <div className="learn-body">
-        Start your greatest work. It can't wipe.
+          Start your greatest work. It can't be wiped.
         </div>
         <div className='learn-body'>
-          Every action is publicly recorded. Anyone can check the proofs that it ran correctly.
+          Every action is publicly recorded. Anyone can check their proofs to verify they followed the world's rules.
         </div>
       </div>
       <div className="learn-description-right">

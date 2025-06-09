@@ -15,9 +15,17 @@ const SurvivePage = () => {
 
       <div className="learn-grid-border"></div>
       <div className="survive-main">
-        <img src="/survival.svg" />
+        <div style={{textAlign: "center"}}>
+          <img src="/survival.svg" style={{width: "90%"}}/>
+        </div>
         <div className="learn-body">
-          You spawn with a partially full energy bar. It drains constantly. Eat food to gain more energy. Build a safe base and sleep to stop the drain—your force field drains instead. Run out of energy, and you die—your inventory drops and you must respawn.
+          You spawn with a partially full energy bar. It drains constantly.
+        </div>
+        <div className="learn-body">
+          Eat food to gain more energy. Build a safe base and sleep to stop the drain—your force field drains instead.
+        </div>
+        <div className="learn-body">
+         Run out of energy, and you die—your inventory drops and you must respawn.
         </div>
       </div>
       <div className="learn-grid-border"></div>
