@@ -48,7 +48,7 @@ const ProgramPage = () => {
           <ul>
             <li>Doors that open for pass holders</li>
             <li>Chests that run auctions, trade, and lending</li>
-            <li>Force fields that reward those who protect it</li>
+            <li>Force fields that reward those who secure it</li>
             <li>Ore reserves that back custom currencies</li>
             <li>Futarchy governing territory</li>
             <li>Insurance paying out after mob attacks</li>
@@ -60,6 +60,7 @@ const ProgramPage = () => {
 
       <div className="learn-grid-border"></div>
       <button className="learn-footer-left" onClick={() => window.location.href = '/learn'}>How It Works</button>
+      
       <div className="learn-grid-border"></div>
     </div>
 );

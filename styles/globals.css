@@ -1262,7 +1262,6 @@ transition: all 0.3s ease;
 
 .home-container {
   position: relative;
-  background-color: #171717;
   padding: 3rem;
   min-height: 400px;
 }
@@ -1389,7 +1388,7 @@ transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, .08);
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.175);
+  background-color: rgba(255, 255, 255, 0.422);
   position: relative; /* Add this for absolute positioning context */
 }
 
@@ -1408,6 +1407,8 @@ transition: all 0.3s ease;
   color: white;
   font-weight: bold;
   text-align: center;
+  font-size: 0.7rem;
+  line-height: 1rem;
   
   /* Background for readability */
   background: rgba(0, 0, 0, 0.8);
@@ -1421,6 +1422,8 @@ transition: all 0.3s ease;
   font-weight: bold;
   text-transform: uppercase;
   color: #eaeaea;
+  padding-left: 1rem;
+  font-size: 1rem;
 }
 
 
@@ -1587,8 +1590,8 @@ transition: all 0.3s ease;
 } 
 
 .full-stack{
-  width: 60%;
-  animation: float 4s ease-in-out infinite;
+  width: 40%;
+  /* animation: float 4s ease-in-out infinite; */
 }
 
 @keyframes float {

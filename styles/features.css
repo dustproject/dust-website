@@ -1,3 +1,13 @@
+.manifesto-layout {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr; /* wide center */
+  grid-template-rows: auto auto auto auto auto auto 1fr auto; /* 8 rows */
+  min-height: 100vh;
+  background: #141414;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #ffffff;
+}
+
 .survive-layout {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -161,14 +171,11 @@
 
 .learn-body {
   font-size: 1rem;
-  /* color: rgb(153, 153, 153); */
   color: #ffffffd4;
   font-weight: normal;
   line-height: 1.5;
   margin-top: 0.5rem;
 }
-
-
 
 
 
@@ -237,3 +244,57 @@
   opacity: 1;
 }
           
+
+.root-cause-learn{
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+  gap:1rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  backdrop-filter: blur(2px);
+  background-color: hsl(0deg 100% 68% / 15%);
+  margin-top: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.root-cause-learn .grid-title{
+  color: hsl(0, 100%, 68%);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media(max-width:768px){
+  .root-cause-learn{
+    grid-template-columns:1fr
+  }
+  .root-cause-learn .grid-title{
+    margin-bottom:.75rem
+  }
+} 
+
+.grid-title-sub-learn {
+  color: hsl(0, 100%, 68%);
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.learn-body-grid {
+  font-size: 0.9rem;
+  color: #ffffffd4;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+.root-cause-learn .learn-body-grid {
+  color: hsl(0, 100%, 68%);
+}
+
+.learn-title-grid {
+  font-size: 1rem;
+  color: #FFF;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}

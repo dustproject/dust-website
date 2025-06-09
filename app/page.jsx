@@ -333,7 +333,7 @@ export default function Page() {
                 </div>
                 <div className="text-button-block">
                   <Link href="/learn" style={{textDecoration: "none"}}>
-                    <div className='text-button'>[{" "}LEARN{" "}]</div>
+                    <div className='text-button' style={{opacity: 0.5}}>[{" "}LEARN{" "}]</div>
                   </Link>
                   <div className="text-subtext">Learn how it works. Explore Dust's past and future.</div>
                 </div>

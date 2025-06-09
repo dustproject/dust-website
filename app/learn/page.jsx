@@ -17,7 +17,7 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world only runs on its set rules—written as provable code. Break them, the proof fails, and the world halts. No admins. No interference. No overrides.
+        The world only runs on its set rules—written as provable code. Break them, the proof fails, and the world doesn't run. No admins. No interference. No overrides.
         </div>
         <div className='learn-body'>
           The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
@@ -57,13 +57,13 @@ const LearnPage = () => {
         </div>
         <div className='learn-body'>
           Your code reads world state and controls machines—turning chests into shops, doors into toll gates.
-          It integrates with other players’ code—and the entire internet, including real-world economies.
+          It integrates with other players’ code and anything online.
         </div>
         <div className='learn-body'>
           Upload your code once. It runs live in-game, affects everyone, and persists even if you leave.
         </div>
         <div className='learn-body'>
-        Other players treat it as native to the world. They use it. Build on it. Trust it.
+        Other players treat it as a native part of the world. They use it and build on it with trust.
         </div>
       </div>
       <div className="learn-description-right">
@@ -114,7 +114,7 @@ const LearnPage = () => {
       <div className="learn-grid-border"></div>
 
       <div className="learn-grid-border"></div>
-        <button className="learn-footer-left">Explore Further</button>
+        <button className="learn-footer-left" onClick={() => window.location.href = '/explore'}>Explore Further</button>
         <button className="learn-footer-right" onClick={() => window.location.href = 'https://discord.gg/J75hkmtmM4'}>Access Client</button>
       <div className="learn-grid-border"></div>
       </div>
