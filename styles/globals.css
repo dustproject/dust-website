@@ -760,6 +760,7 @@ transition: all 0.3s ease;
   font-family: 'IBM Plex Sans' !important;
   position: relative;
   width: 100%;
+  background-color: #141414;
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -1824,7 +1825,7 @@ transition: all 0.3s ease;
 }
 
 .logo {
-  text-align: center;
+  text-align: left;
   font-family: "Rubik Pixels";
   font-size: 128px;
   font-style: normal;
@@ -1854,7 +1855,8 @@ transition: all 0.3s ease;
 
 .text-buttons {
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
   width: 100%;
 }
 

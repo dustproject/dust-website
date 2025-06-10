@@ -154,7 +154,7 @@ const ExplorePage = () => {
         <div className="root-cause-learn" style={{padding: "2rem", background: "none", marginTop: "0rem", border: "1px solid rgba(255, 255, 255, .08)"}}>
             <div>
                 <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual Worlds Will Matter More With Every Passing Year.</div>
-                <div className="learn-title">What Happens When One Takes Itself Seriously?</div>
+                <div className="learn-title">What Happens When A Virtual World Takes Itself Seriously?</div>
             </div>
             <div style={{display: "flex", gap: "1rem"}}>
                 <Link href="/premise" style={{textDecoration: 'none'}}>

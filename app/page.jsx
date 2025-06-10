@@ -319,7 +319,7 @@ export default function Page() {
                 You code the world itself—not mods. Your mechanics run live, shape everyone's play, and persist without you.</div>
               </div>
               <div className="section">
-                <div className='hero-header'>Can’t wipe. Built by all.</div>
+                <div className='hero-header'>Can’t be wiped.</div>
                 <div className='hero-body'>All mechanics run together on one permanent network. One shared world to outlast us all.</div>
               </div>
             </div>
@@ -334,10 +334,10 @@ export default function Page() {
                 </div>
                 <div className="text-button-block">
                   <Link href="/learn" style={{textDecoration: "none"}}>
-                    <div className='text-button'>[{" "}LEARN{" "}]</div>
+                    <div className='text-button' style={{opacity: 0.8}}>[{" "}LEARN{" "}]</div>
                   </Link>
                   <div className="text-subtext">
-                    What Dust is, why it exists, and how you survive and build inside.</div>
+                    Learn what Dust is, what's now possible, and why it exists.</div>
                 </div>
               </div>
             </div>
