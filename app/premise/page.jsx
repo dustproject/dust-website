@@ -347,7 +347,7 @@ const AcademicManifesto = () => {
 
       
             <SectionHeading 
-              title="II. Mathematical Platonism" 
+              title="II. Mathematical Realism" 
               href="https://drive.google.com/drive/folders/1sMYIAQFJc15ayAu_6SXPItwFvuKXP3i6?usp=sharing" 
             />
 
@@ -425,7 +425,7 @@ const AcademicManifesto = () => {
 
       
             <SectionHeading 
-              title="IV. Manifesting Realism" 
+              title="IV. Manifesting Universes" 
               href="https://drive.google.com/drive/folders/1xPzLZy9cpWaeg7vZju8PJpOciYPStpfw?usp=sharing" 
             />      
             <div className="paragraph">

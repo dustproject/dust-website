@@ -315,7 +315,8 @@ export default function Page() {
               </div>
               <div className="section">
                 <div className='hero-header'>Code civilization.</div>
-                <div className='hero-body'>You code its mechanics. They run live in-game, shape everyone's world, and persist without you.</div>
+                <div className='hero-body'>
+                You code the world itself—not mods. Your mechanics run live, shape everyone's play, and persist without you.</div>
               </div>
               <div className="section">
                 <div className='hero-header'>Can’t wipe. Built by all.</div>
@@ -333,7 +334,7 @@ export default function Page() {
                 </div>
                 <div className="text-button-block">
                   <Link href="/learn" style={{textDecoration: "none"}}>
-                    <div className='text-button' style={{opacity: 0.5}}>[{" "}LEARN{" "}]</div>
+                    <div className='text-button'>[{" "}LEARN{" "}]</div>
                   </Link>
                   <div className="text-subtext">
                     What Dust is, why it exists, and how you survive and build inside.</div>

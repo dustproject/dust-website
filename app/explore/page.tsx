@@ -67,8 +67,8 @@ const ExplorePage = () => {
                 <div>
                     <div className="grid-title">ROOT&nbsp;CAUSE</div>
                     <div>
-                        <div className="learn-body-grid" >Theme parks are the most we can build with what we have — servers.</div>
-                        <div className="learn-body-grid" >A server is a black box — only its owner knows what’s happening inside — everyone else just has to believe what it says.</div>
+                        <div className="learn-body-grid" >Theme parks are the most we can build with what we have—servers.</div>
+                        <div className="learn-body-grid" >A server is a black box. Only its owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
                         <div className="learn-body-grid" >The owner can change anything at anytime, then unplug it when they eventually leave or run out of money.</div>
                     </div>
                 </div>
@@ -93,9 +93,9 @@ const ExplorePage = () => {
                 <div>
                     <div className="grid-title" style={{color: "#66b966"}}>KEY&nbsp;INSIGHT</div>
                     <div>
-                        <div className="learn-body-grid" style={{color: "#66b966"}}>Bitcoin is fully virtual money - not backed by physical commodities or militaries - yet treated as real (worth $2T).</div>
+                        <div className="learn-body-grid" style={{color: "#66b966"}}>Bitcoin is fully virtual money. Not backed by physical commodities or militaries—yet treated as real (worth $2T).</div>
                         <div className="learn-body-grid" style={{color: "#66b966"}}>Its enabling breakthrough, peer-to-peer computation, is use-case agnostic.</div>
-                        <div className="learn-body-grid" style={{color: "#66b966"}}>If applied differently, it creates far more than money - it defines physics, spawns matter, and grows worlds.</div>
+                        <div className="learn-body-grid" style={{color: "#66b966"}}>If applied differently, it creates far more than money. It defines physics, spawns matter, and grows worlds.</div>
                     </div>
                 </div>
                 <Link href="/blog/rising-dust" style={{textDecoration: 'none'}}>
@@ -115,7 +115,7 @@ const ExplorePage = () => {
                     <div className="grid-image-label">Dark Forest (2020) & Biomes (2024)</div>
                 </div>
                 <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#66b966"}}>PvP/PvE For Scarce Matter</div>
+                    <div className="learn-title-grid" style={{color: "#66b966"}}>PvP & PvE For Scarce Matter</div>
                     <div className="learn-body-grid">Mine from nature, burn by crafting and using. Can be stolen by PvP or reclaimed by PvE. Must be moved - can't teleport.</div>
                 </div>
                 <div className="grid-cell">
@@ -154,11 +154,11 @@ const ExplorePage = () => {
         <div className="root-cause-learn" style={{padding: "2rem", background: "none", marginTop: "0rem", border: "1px solid rgba(255, 255, 255, .08)"}}>
             <div>
                 <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual Worlds Will Matter More With Every Passing Year.</div>
-                <div className="learn-title">What Happens When A Virtual World Takes Itself Seriously?</div>
+                <div className="learn-title">What Happens When One Takes Itself Seriously?</div>
             </div>
             <div style={{display: "flex", gap: "1rem"}}>
-                <Link href="/philosophy" style={{textDecoration: 'none'}}>
-                    <div className="grid-title grid-button last-button" style={{color: "white"}}>[ PHILOSOPHY ]</div>
+                <Link href="/premise" style={{textDecoration: 'none'}}>
+                    <div className="grid-title grid-button last-button" style={{color: "white"}}>[ PREMISE ]</div>
                 </Link>
                 <div style={{ pointerEvents: 'none', opacity: 0.3 }}>
                     <Link href="/economics" style={{ textDecoration: 'none' }}>

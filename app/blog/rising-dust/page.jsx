@@ -69,13 +69,13 @@ const RaisingDust = () => {
     return (
         <div className="wrapper">
           <div className="container">
-            <div className="title">Rising Dust:
-              Learning From Dark Forest, MUD, and Biomes to Realize Virtual Worlds
+            <div className="title">The World Computer Is For Worlds:
+              Learning From Dark Forest, MUD, and Biomes
             </div>
             <SectionHeading 
               title="How We Got Here" 
             />
-            <div style={{textAlign: "center"}}>
+            {/* <div style={{textAlign: "center"}}>
               <Image 
                 src="/evolution.svg" 
                 width={0}
@@ -85,17 +85,18 @@ const RaisingDust = () => {
                 style={{margin: "0px"}}
                 alt="how we got here"
               />
-            </div>
+            </div> */}
 
-            <div className='subheading'>Dark Forest</div>
             <div className="paragraph">
-              Blockchains and cryptography create secret-bearing peer-to-peer state machines, which result in digital systems with radical properties.
+              Blockchains and cryptography create peer-to-peer computers, which result in digital systems with radical properties.
             </div>
             <div className="paragraph">
               When <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin</a> introduced these technologies for the purpose of digital money,
                they got planted in the minds of most as something with primarily financial consequences.
                Their initial purpose effectively obscured their deeper properties, of which the financial consequences are important, but only one of many.
             </div>
+
+            <div className='subheading'>Dark Forest</div>
             <div className="paragraph">
               <a href="https://blog.zkga.me/announcing-darkforest">Dark Forest</a> (2020) broke new ground by exploring how these technologies create <strong>Digital Physics</strong>, MMO-like rules that are as immutable and "<a href="https://stark.mirror.xyz/A9csRsDaAJHJCCWa2Vv16bmxl0BgDqiLdupASxBT2r4">hard</a>" as physical laws.
               Movement, mining, crafting, and combat were all enforced using smart contracts. This hinted at a digital world that would be impossible to shutdown, reset, tamper, or forcefully update. One that is uniquely and maximally robust for people to settle and invest in.
@@ -132,6 +133,9 @@ const RaisingDust = () => {
               Bitcoin was an anon-created currency that used cryptography to enforce supply and transfer rules, which allowed it to accrue {">"}$2T in value. This wouldn't have happened if Bitcoin was managed by the anon's server. Similarly, Biomes hinted that Digital Matter may accrue far more value far faster than "monopoly resources" managed by a studio's server.
             </div>
             <div className="paragraph">
+              This creates natural incentives for early adoption. They can simply mine & farm matter for $0.0001 in computation fees. Late adopters have to compete. Unlike coins, matter isn't absolutely owned—they decay, deplete, or get taken. Effort is always required, so the system remains fair across time.
+            </div>
+            <div className="paragraph">
               While large MMOs foster economic activity, Biomes saw thousands of dollars spent by players in computation fees to mine resources with {"<"}100 daily active users. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.
             </div>
             <div className="paragraph">
@@ -153,10 +157,8 @@ const RaisingDust = () => {
             <div className="paragraph">
               We've been engaging with "virtual worlds" for a while.
               It's pretty clear that they will play an increasingly larger role heading into the future and may eventually consume the entirety of where humans spend their time.
-            
-              But they're fundamentally capped by today's client-server paradigm and it's impossible to grow them beyond "theme parks" as a result.
             </div>
-            <div style={{textAlign: "center"}}>
+            {/* <div style={{textAlign: "center"}}>
               <Image 
                 src="/themeparks.svg" 
                 width={0}
@@ -166,11 +168,11 @@ const RaisingDust = () => {
                 style={{margin: "0px"}}
                 alt="dust project"
               />
-            </div>
+            </div> */}
             <div className="paragraph">
-              Our observations from Dark Forest, MUD, and Biomes have led us to formulate a question worth asking: <strong>what happens if a virtual world takes itself maximally seriously and goes beyond being a theme park?</strong>
+              Our observations from Dark Forest, MUD, and Biomes have led us to formulate a question worth asking: <strong>what happens if a virtual world takes itself seriously?</strong>
             </div>
-            <div className="paragraph" style={{marginTop: "1rem"}}>To answer our question, The Dust Project is building an infinite permanent world with tamper-proof resources, immutable PvP & PvE rules, diverse clients, and real player-driven societies.</div>
+            {/* <div className="paragraph" style={{marginTop: "1rem"}}>To answer our question, The Dust Project is building an infinite permanent world with tamper-proof resources, immutable PvP & PvE rules, diverse clients, and real player-driven societies.</div>
 
             <ul>
               <li className="paragraph">The size of today's virtual worlds are bottlenecked by <a href="https://2b2t.miraheze.org/wiki/Queue">dependence on their server owner</a> to run and scale them. For example, Minecraft and Fortnite exist as fragmented server owner-hosted "islands" with &lt;100s of players each. With Open Scalability, Dust may eventually exist as one continuous space with unlimited player capacity.</li>
@@ -178,22 +180,33 @@ const RaisingDust = () => {
               <li className="paragraph"> Similarly, the resulting Digital Matter - Dust's resources with provably scarce supply and circulation - may accrue much more value much faster than they would otherwise. This creates natural incentives for early adoption, as late adopters have to compete instead of simply mining & farming for &lt;$0.0001 in computation fees. Resources can't be absolutely owned and require effort to keep against <a href="https://rust.facepunch.com/">Rust</a>-like PvP and PvE rules, so Dust remains fair for late adopters.</li>
               <li className="paragraph">Dust's initial design uses voxel physics (most performant) and interfaces with Minecraft-like clients (most familiar UX). We're contributing a high production browser client ourselves, and encouraging others to make more - especially for different platforms like mobile, console, and VR.</li>
               <li className="paragraph">Inside Dust, players will establish territories and program them with Extensions & Integrations. This will let their creations freely interface with the entire internet and economy, instead of remaining isolated as they are today due to regulation and gatekeeping. Envision it feeling like Earth - countless places each with their own social rules but sharing the same spacetime, matter, and physics - which billions inhabit together.</li>
-            </ul>
+            </ul> */}
 
             <div className="paragraph">
               <strong>
-                As players establish and program territories, societies emerge and break out, organizations contribute compute and clients, resources accrue value and start rushes and wars... Dust becomes increasingly consequential. At what point is Dust no longer a virtual world but rather an expansion of the real world? Does it still remain a game? Or does it become something akin to a fully fledged parallel universe with a civilization of its own?
+                As players program civilization, they break into the internet and economy, organizations contribute compute and clients, resources accrue value and start rushes and wars... Dust becomes increasingly consequential. At what point is Dust no longer a virtual world but rather an expansion of the real world? Does it still remain a game? Or does it become something akin to a fully fledged parallel universe with a civilization of its own?
               </strong>
             </div>
 
-            <div className='paragraph'>
+            {/* <div className='paragraph'>
             The Dust Project is an <Link href="/coalition">open coalition</Link> for collectively asking this question and tangibly filling out its answer to the greatest capacity possible.
-            </div>
+            </div> */}
 
             <div className="paragraph">The answer to Bitcoin's question of true digital scarcity evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. Similarly, the answer that emerges to Dust's question promises to surprise.</div>
 
+            <div style={{textAlign: "center"}}>
+              <Image 
+                src="/homepageone.svg" 
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="responsive-image-two"
+                style={{margin: "0px", width: "60%"}}
+                alt="dust project"
+              />
+            </div>
 
-            <SectionHeading 
+            {/* <SectionHeading 
               title="Stages of Deployment" 
             />
             
@@ -210,7 +223,7 @@ const RaisingDust = () => {
             <div className="paragraph">
             Onboard by bridging funds for computation fees and try to survive. 
             Use the survival guide, watch the walkthrough video, and <a href="https://discord.gg/J75hkmtmM4">join the Discord community</a> for help.
-            </div>
+            </div> */}
 
             {/* <div className="video-container" style={{justifySelf: "center", width: "80%", marginBottom: "2rem"}}>
               <iframe 
@@ -218,7 +231,7 @@ const RaisingDust = () => {
               ></iframe>
             </div> */}
 
-            <div style={{textAlign: "center"}}>
+            {/* <div style={{textAlign: "center"}}>
               <Image 
                 src="/survival.svg" 
                 width={0}
@@ -228,9 +241,9 @@ const RaisingDust = () => {
                 className="responsive-image-three"
                 alt="survival"
               />
-            </div>
+            </div> */}
 
-            <div className="paragraph" style={{marginTop: "1rem"}}>
+            {/* <div className="paragraph" style={{marginTop: "1rem"}}>
               Those who survive, get a head start.
               Establish and program your territory into something uniquely yours.
               This requires using command-line interfaces and there's few existing examples to learn from, but the <a href="https://discord.gg/J75hkmtmM4">Discord community</a> will help.
@@ -257,23 +270,7 @@ const RaisingDust = () => {
             </div>
             <div className="paragraph">
               At this point, Dust will have a great client, great creator tools, a protocol upgrade process everyone can believe in, and open infrastructure that can limitlessly scale.
-            </div>
-
-
-
-            <div style={{textAlign: "center"}}>
-              <Image 
-                src="/homepageone.svg" 
-                width={0}
-                height={0}
-                sizes="100vw"
-                className="responsive-image-two"
-                style={{margin: "0px", width: "60%"}}
-                alt="dust project"
-              />
-            </div>
-
-
+            </div> */}
           </div>
         </div>
       );

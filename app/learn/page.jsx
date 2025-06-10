@@ -14,7 +14,7 @@ const LearnPage = () => {
         The world only runs on its set rules—written as provable code. If you break them, the proof fails, and the world doesn't run. Impossible to override.
         </div>
         <div className='learn-body'>
-          The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
+          Resource supply is fixed by the world's rules. Mine, craft, trade, and build with them.
         </div>
         <div className='learn-body'>
           Energy fuels players and machines. Farm plants to gain it. Energy drains with time, action, and damage.
@@ -43,7 +43,7 @@ const LearnPage = () => {
         </div>
         <div className='learn-body'>
           Your code reads world state and controls its machines—turn chests into shops, doors into toll gates.
-          It integrates with other players’ code and anything online.
+          It can build on other players’ code and anything online.
         </div>
         <div className='learn-body'>
           Upload your code once. It runs live in-game, affects everyone, and persists even if you leave.
@@ -72,7 +72,7 @@ const LearnPage = () => {
           The world lives as long as one person keeps running it.
         </div>
         <div className="learn-body">
-        Every action inside is publicly recorded. Anyone can inspect the proofs that they ran correctly.
+        Every action is publicly recorded. Anyone can inspect the proofs that they ran correctly.
         </div>
         <div className='learn-body'>
         Start your greatest work. It can't be wiped.
