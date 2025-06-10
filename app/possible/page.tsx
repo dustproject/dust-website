@@ -9,12 +9,6 @@ const ProgramPage = () => {
   return (
     <div className="survive-layout">
       <div className="learn-grid-border"></div>
-        <header className="survive-header">
-          <div className="learn-logo">What's Possible</div>
-        </header>
-      <div className="learn-grid-border"></div>
-
-      <div className="learn-grid-border"></div>
       <div className="survive-main">
         <img src="/civlegos.svg" className="mobile-image"/>
         <div className="learn-body">
@@ -30,10 +24,6 @@ const ProgramPage = () => {
           Integrate with anything online—Reddit, Discord, real dollars—using web proofs and payment protocols. Your code blends worlds.
         </div>
         <hr className="line"></hr>
-        <div className='learn-body'>
-          <a href="https://permutationcity.org/">Permutation City</a>{" "}
-          gives "Permutation Passport" holders the ability to spawn inside their territory, rent land, trade in shops, and participate in governance with "Permutation Pesos". They are programming in-game machines—spawn tiles, force fields, and chests—to control their city.
-        </div>
         <div className="learn-body">
           Systems once reserved for big studios—now in your hands. Imagine your own version of:
           <ul>
@@ -44,7 +34,7 @@ const ProgramPage = () => {
           </ul>
         </div>
         <div className="learn-body">
-          Real financial and social infrastructure—inside the game. Imagine:
+          Real financial and social infrastructure—inside the game:
           <ul>
             <li>Doors that open for pass holders</li>
             <li>Chests that run auctions, trade, and lending</li>
@@ -54,13 +44,21 @@ const ProgramPage = () => {
             <li>Insurance paying out after mob attacks</li>
           </ul>
         </div>
+        <div className="learn-body">
+          Experiment with glimpses of the future:
+          <ul>
+            <li>Algorithmic social contracts for exploring coordination beyond physical limitations</li>
+            <li>Bots that independently act and create value to earn the compute needed to sustain themselves.</li>
+          </ul>
+        </div>
+        <hr className="line"></hr>
+        <div className='learn-body'>
+          What others are building:
+          {" "}
+          <a href="https://permutationcity.org/">Permutation City</a>{" "}
+          gives "Permutation Passport" holders the ability to spawn inside their territory, rent land, trade in shops, and participate in governance with "Permutation Pesos". They are programming in-game machines—spawn tiles, force fields, and chests—to control their city.
+        </div>
       </div>
-      <div className="learn-grid-border"></div>
-
-
-      <div className="learn-grid-border"></div>
-      <button className="learn-footer-left" onClick={() => window.location.href = '/learn'}>How It Works</button>
-      
       <div className="learn-grid-border"></div>
     </div>
 );

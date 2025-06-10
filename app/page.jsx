@@ -335,7 +335,8 @@ export default function Page() {
                   <Link href="/learn" style={{textDecoration: "none"}}>
                     <div className='text-button' style={{opacity: 0.5}}>[{" "}LEARN{" "}]</div>
                   </Link>
-                  <div className="text-subtext">Learn how it works. Explore Dust's past and future.</div>
+                  <div className="text-subtext">
+                    What Dust is, why it exists, and how you survive and build inside.</div>
                 </div>
               </div>
             </div>

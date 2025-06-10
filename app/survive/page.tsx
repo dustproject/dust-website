@@ -8,12 +8,6 @@ const SurvivePage = () => {
   return (
     <div className="survive-layout">
       <div className="learn-grid-border"></div>
-        <header className="survive-header">
-          <div className="learn-logo">How To Survive</div>
-        </header>
-      <div className="learn-grid-border"></div>
-
-      <div className="learn-grid-border"></div>
       <div className="survive-main">
         <div style={{textAlign: "center"}}>
           <img src="/survival.svg" style={{width: "90%"}}/>
@@ -29,10 +23,7 @@ const SurvivePage = () => {
         </div>
       </div>
       <div className="learn-grid-border"></div>
-      <div className="learn-grid-border"></div>
-      <button className="learn-footer-left" onClick={() => window.location.href = '/learn'}>How It Works</button>
-      <div className="learn-grid-border"></div>
-      </div>
+    </div>
 );
 };
 

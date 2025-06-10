@@ -1,7 +1,7 @@
 .manifesto-layout {
   display: grid;
   grid-template-columns: 1fr 10fr 1fr; /* wide center */
-  grid-template-rows: auto auto auto auto auto auto 1fr auto; /* 8 rows */
+  grid-template-rows: auto auto auto auto 1fr; /* 6 rows */
   min-height: 100vh;
   background: #141414;
   font-family: "IBM Plex Sans", sans-serif;
@@ -10,7 +10,6 @@
 
 .survive-layout {
   display: grid;
-  grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr 2fr 1fr;
   min-height: 100vh;
   background: #141414;
@@ -28,7 +27,6 @@
 }
 .survive-main {
   grid-column: 2 / 3;
-  grid-row: 2;
   padding: 2rem;
 }
 
@@ -59,8 +57,8 @@
 
 .learn-layout {
   display: grid;
-  grid-template-rows: auto 1fr 1fr auto auto;
-  grid-template-columns: 1fr 2.5fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 2.5fr 1.5fr 1fr;
   min-height: 100vh;
   background: #141414;
   font-family: "IBM Plex Sans" !important;
@@ -246,11 +244,10 @@
           
 
 .root-cause-learn{
-  display:grid;
-  grid-template-columns: 1fr 4fr;
-  gap:1rem;
-  padding: 1rem;
-  padding-left: 2rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
   backdrop-filter: blur(2px);
   background-color: hsl(0deg 100% 68% / 15%);
   margin-top: 2rem;
@@ -297,4 +294,57 @@
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 0.25rem;
+}
+
+
+
+
+
+
+
+.final-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.final-image {
+  text-align: center;
+}
+
+.final-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-self: center;
+}
+
+@media (max-width: 768px) {
+  .final-section {
+    grid-template-columns: 1fr;
+  }
+  .final-buttons {
+    margin-top: 1rem;
+  }
+}
+
+
+.grid-button {
+  color: #ff6060;
+  background: black;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.grid-button:hover {
+  background: white;
+}
+
+
+.last-button:hover {
+  color: black !important;
 }

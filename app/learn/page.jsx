@@ -8,16 +8,10 @@ const LearnPage = () => {
   return (
     <div className="learn-layout">
       <div className="learn-grid-border"></div>
-      <header className="learn-header">
-        <div className="learn-logo">How It Works</div>
-      </header>
-      <div className="learn-grid-border"></div>
-
-      <div className="learn-grid-border"></div>
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world only runs on its set rules—written as provable code. Break them, the proof fails, and the world doesn't run. No admins. No interference. No overrides.
+        The world only runs on its set rules—written as provable code. If you break them, the proof fails, and the world doesn't run. Can't interfere or override.
         </div>
         <div className='learn-body'>
           The world is made up of resources. Their supply is fixed by the rules. Mine and use resources to build, craft, and trade.
@@ -56,7 +50,7 @@ const LearnPage = () => {
           The world sets physics. You code civilization—reputation, currency, governments, markets, and more. 
         </div>
         <div className='learn-body'>
-          Your code reads world state and controls machines—turning chests into shops, doors into toll gates.
+          Your code reads world state and controls its machines—turn chests into shops, doors into toll gates.
           It integrates with other players’ code and anything online.
         </div>
         <div className='learn-body'>
@@ -94,7 +88,7 @@ const LearnPage = () => {
           The world lives as long as one person keeps running it.
         </div>
         <div className="learn-body">
-        Every action inside is publicly recorded. Anyone can inspect proofs they ran correctly.
+        Every action inside is publicly recorded. Anyone can inspect the proofs that they ran correctly.
         </div>
         <div className='learn-body'>
         Start your greatest work. It can't be wiped.
@@ -111,11 +105,6 @@ const LearnPage = () => {
           </Link>
         </div>
       </div>
-      <div className="learn-grid-border"></div>
-
-      <div className="learn-grid-border"></div>
-        <button className="learn-footer-left" onClick={() => window.location.href = '/explore'}>Explore Further</button>
-        <button className="learn-footer-right" onClick={() => window.location.href = 'https://discord.gg/J75hkmtmM4'}>Access Client</button>
       <div className="learn-grid-border"></div>
       </div>
 );
