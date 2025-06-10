@@ -10,7 +10,7 @@ const SurvivePage = () => {
       <div className="learn-grid-border"></div>
       <div className="survive-main">
         <div style={{textAlign: "center"}}>
-          <img src="/survival.svg" style={{width: "90%"}}/>
+          <img src="/survival.svg" style={{width: "60%"}}/>
         </div>
         <div className="learn-body">
           You spawn with a partially full energy bar. It drains constantly.

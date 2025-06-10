@@ -9,7 +9,7 @@ const ExplorePage = () => {
   return (
     <div className="manifesto-layout">
         <div className="learn-grid-border"></div>
-        <div style={{padding: "2rem 1rem"}}>
+        <div style={{padding: "2rem"}}>
             <div className="learn-title ">We’ve Been Trying To Live in Virtual Worlds for Decades. But All We Can Build Are Theme Parks.</div>
         </div>
         <div className="learn-grid-border"></div>
@@ -67,9 +67,9 @@ const ExplorePage = () => {
                 <div>
                     <div className="grid-title">ROOT&nbsp;CAUSE</div>
                     <div>
-                        <div className="learn-body-grid" style={{fontSize: "1rem"}}>Theme parks are the most we can build with what we have — servers.</div>
-                        <div className="learn-body-grid" style={{fontSize: "1rem"}}>A server is a black box — only its owner knows what’s happening inside — everyone else just has to believe what it says.</div>
-                        <div className="learn-body-grid" style={{fontSize: "1rem"}}>The owner can change anything at anytime, then unplug it when they eventually leave or run out of money.</div>
+                        <div className="learn-body-grid" >Theme parks are the most we can build with what we have — servers.</div>
+                        <div className="learn-body-grid" >A server is a black box — only its owner knows what’s happening inside — everyone else just has to believe what it says.</div>
+                        <div className="learn-body-grid" >The owner can change anything at anytime, then unplug it when they eventually leave or run out of money.</div>
                     </div>
                 </div>
                 <div style={{ pointerEvents: 'none', opacity: 0.3 }}>
@@ -82,7 +82,7 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
 
         <div className="learn-grid-border"></div>
-        <div style={{padding: "2rem 1rem"}}>
+        <div style={{padding: "2rem"}}>
             <div className="learn-title ">Misunderstood Breakthroughs Are Making Virtual Objects Real. Applied Differently, They Can Grow Virtual Worlds.</div>
         </div>
         <div className="learn-grid-border"></div>
@@ -93,9 +93,9 @@ const ExplorePage = () => {
                 <div>
                     <div className="grid-title" style={{color: "#66b966"}}>KEY&nbsp;INSIGHT</div>
                     <div>
-                        <div className="learn-body-grid" style={{color: "#66b966", fontSize: "1rem"}}>Bitcoin is fully virtual money - not backed by physical commodities or militaries - yet treated as real (worth $2T).</div>
-                        <div className="learn-body-grid" style={{color: "#66b966", fontSize: "1rem"}}>Its enabling breakthrough, peer-to-peer computation, is use-case agnostic.</div>
-                        <div className="learn-body-grid" style={{color: "#66b966", fontSize: "1rem"}}>If applied differently, it creates far more than money - it defines physics, spawns matter, and grows worlds.</div>
+                        <div className="learn-body-grid" style={{color: "#66b966"}}>Bitcoin is fully virtual money - not backed by physical commodities or militaries - yet treated as real (worth $2T).</div>
+                        <div className="learn-body-grid" style={{color: "#66b966"}}>Its enabling breakthrough, peer-to-peer computation, is use-case agnostic.</div>
+                        <div className="learn-body-grid" style={{color: "#66b966"}}>If applied differently, it creates far more than money - it defines physics, spawns matter, and grows worlds.</div>
                     </div>
                 </div>
                 <Link href="/blog/rising-dust" style={{textDecoration: 'none'}}>
@@ -103,11 +103,11 @@ const ExplorePage = () => {
                 </Link>
             </div>
             <section className="dust-grid virtual-money-vs-world responsive-grid" style={{marginBottom: "2rem"}}>
-                <div className="grid-label" style={{color: "#B8A898"}}>Virtual Money</div>
+                <div className="grid-label" style={{color: "#ff6060"}}>Virtual Money</div>
                 <div className="grid-label" style={{opacity: "0.8"}}>Applied Differently</div>
                 <div className="grid-label" style={{color: "#66b966"}}>Virtual World</div>
                 <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#B8A898"}}>Own Scarce Tokens</div>
+                    <div className="learn-title-grid" style={{color: "#ff6060"}}>Own Scarce Tokens</div>
                     <div className="learn-body-grid">Mine by validating, burn by computing. Can't be stolen and transfer anywhere instantly.</div>
                 </div>
                 <div className="grid-image">
@@ -119,7 +119,7 @@ const ExplorePage = () => {
                     <div className="learn-body-grid">Mine from nature, burn by crafting and using. Can be stolen by PvP or reclaimed by PvE. Must be moved - can't teleport.</div>
                 </div>
                 <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#B8A898"}}>Program Money</div>
+                    <div className="learn-title-grid" style={{color: "#ff6060"}}>Program Money</div>
                     <div className=" learn-body-grid">
                     Program Ether and integrate with the internet & economy.
                     </div>
@@ -135,7 +135,7 @@ const ExplorePage = () => {
                     </div>
                 </div>
                 <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#B8A898"}}>Superchain of Chains</div>
+                    <div className="learn-title-grid" style={{color: "#ff6060"}}>Superchain of Chains</div>
                     <div className="learn-body-grid">Anyone can provably run new chains to extend the ledger.</div>
                 </div>
                 <div className="grid-image">
@@ -151,7 +151,7 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
 
         <div className="learn-grid-border"></div>
-        <div className="root-cause-learn" style={{padding: "2rem 1rem", background: "none", marginTop: "0rem", border: "1px solid rgba(255, 255, 255, .08)"}}>
+        <div className="root-cause-learn" style={{padding: "2rem", background: "none", marginTop: "0rem", border: "1px solid rgba(255, 255, 255, .08)"}}>
             <div>
                 <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual Worlds Will Matter More With Every Passing Year.</div>
                 <div className="learn-title">What Happens When A Virtual World Takes Itself Seriously?</div>
