@@ -156,7 +156,7 @@ const RaisingDust = () => {
             />
             <div className="paragraph">
               We've been engaging with "virtual worlds" for a while.
-              It's pretty clear that they will play an increasingly larger role heading into the future and may eventually consume the entirety of where humans spend their time.
+              It's pretty clear that they will play an increasingly larger role heading into the future. They may eventually even consume the entirety of where humans spend their time.
             </div>
             {/* <div style={{textAlign: "center"}}>
               <Image 

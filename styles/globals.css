@@ -1509,7 +1509,7 @@ transition: all 0.3s ease;
 
 /* -------- desktop grids -------- */
 .responsive-grid{display:grid;gap:1rem}
-.theme-vs-world{grid-template-columns:1fr 2fr 2fr}
+.theme-vs-world{grid-template-columns:1fr 1.5fr 1.5fr}
 
 /* -------- mobile tweaks -------- */
 @media(max-width:768px){

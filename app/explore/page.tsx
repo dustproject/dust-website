@@ -40,7 +40,7 @@ const ExplorePage = () => {
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Isolated Mods</div>
                 <div className="learn-body-grid">
                     Studios build first-party features.
-                    Players either build third-party workarounds or completely separate mods that run in isolation.
+                    Players either build third-party workarounds or separate mods that run in isolation.
                 </div>
                 </div>
                 <div className="grid-cell">
@@ -56,11 +56,11 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Capped & Temporary</div>
-                <div className="learn-body-grid">Server eventually shuts down, and all creations & achievements are lost. Player cap only increases if owner can afford to scale.</div>
+                <div className="learn-body-grid">Server eventually shuts down. All creations & achievements are lost. Player cap only increases if owner can afford to scale.</div>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Infinite & Permanent</div>
-                <div className="learn-body-grid">One continuous space that infinitely grows as players do. Nobody can shut it down. Creations & achievements outlive players.</div>
+                <div className="learn-body-grid">One continuous space that infinitely grows as players do. Creations & achievements outlive players. Can't shutdown.</div>
                 </div>
             </section>
             <div className="root-cause-learn">
