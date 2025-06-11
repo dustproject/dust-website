@@ -6,57 +6,6 @@ import React from 'react';
 import "/styles/features.css";
 
 
-
-const ComparisonCards = () => {
-    return (
-      <div className="comparison-container">
-        <div className="grid-cell" style={{padding: "1rem"}}>
-          <div className="learn-title-grid" style={{color: "#ffffffd4"}}>Virtual Money</div>
-          <Image
-            src="/money-card.png" // replace with actual path
-            alt="Ethereum Wallet"
-            className="card-image"
-            width={600}
-            height={300}
-          />
-            <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
-                <div className="learn-body-grid">
-                    Own scarce tokens. Supply and transfer rules can’t be tampered with.
-                </div>
-                <div className="learn-body-grid">
-                    Mine by validating. Burn by computing. Can’t be stolen. Transfers instantly.
-                </div>
-                <div className="learn-body-grid">
-                    Anyone can program new rules on top. Everything runs on a permanent ledger.
-                </div>
-            </div>
-        </div>
-        <div className="grid-cell" style={{padding: "1rem"}}>
-          <div className="learn-title-grid world" style={{color: "#66b966"}}>Virtual World</div>
-          <Image
-            src="/world-card.png" // replace with actual path
-            alt="Minecraft PvP"
-            className="card-image"
-            width={600}
-            height={300}
-          />
-            <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
-                <div className="learn-body-grid">
-                PvP and PvE over scarce resources. Supply and physics rules can’t be tampered with.
-                </div>
-                <div className="learn-body-grid">
-                Mine from nature. Burn by using. Can be taken by PvP or PvE. Must be physically moved.
-                </div>
-                <div className="learn-body-grid">
-                Anyone can program new rules in their territory. Everything runs on a permanent map.
-                </div>
-            </div>
-        </div>
-      </div>
-    );
-  };
-  
-
 const ExplorePage = () => {
   return (
     <div className="manifesto-layout">
@@ -197,12 +146,12 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
 
         <div className="learn-grid-border"></div>
-        <div className="root-cause-learn" style={{padding: "2rem", background: "none", marginTop: "0rem", border: "1px solid rgba(255, 255, 255, .08)"}}>
+        <div className="root-cause-learn final-learn">
             <div>
                 <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual worlds will matter more with every passing year.</div>
                 <div className="learn-title">What happens when a virtual world takes itself seriously?</div>
             </div>
-            <div style={{display: "flex", gap: "1rem"}}>
+            <div className="final-buttons">
                 <Link href="/premise" style={{textDecoration: 'none'}}>
                     <div className="grid-title grid-button last-button" style={{color: "white"}}>[ PREMISE ]</div>
                 </Link>
