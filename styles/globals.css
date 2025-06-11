@@ -12,6 +12,7 @@
 
 html,
 body {
+  height: 100%;
   font-family: var(--font-ibm-plex-sans-condensed);
 }
 
