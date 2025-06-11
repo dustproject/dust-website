@@ -18,11 +18,11 @@ export function LinkButton({
   return (
     <a
       href={href}
-      className={cn("text-left xl:text-right", {
+      className={cn("text-left xl:text-right group inline-block", {
         "opacity-60 text-left": variant === "secondary",
       })}
     >
-      <span className="bg-transparent text-white rounded-md text-[36px] xl:text-[40px] font-bold">
+      <span className="bg-transparent text-white rounded-md text-[36px] xl:text-[40px] font-bold transition-all group-hover:underline">
         {children}
       </span>
 
@@ -37,32 +37,6 @@ export function Video() {
   const handlePlayClick = () => {
     const iframe = document.querySelector("iframe");
     if (iframe) {
-      // @ts-ignore
-      // iframe.contentWindow.postMessage(
-      //   JSON.stringify({
-      //     event: "command",
-      //     func: "setMuted",
-      //     args: [false],
-      //   }),
-      //   "*"
-      // );
-      // // @ts-ignore
-      // iframe.contentWindow.postMessage(
-      //   JSON.stringify({
-      //     event: "command",
-      //     func: "setVolume",
-      //     args: [100],
-      //   }),
-      //   "*"
-      // );
-      // iframe.contentWindow.postMessage(
-      //   JSON.stringify({
-      //     event: "command",
-      //     func: "volumechange",
-      //     args: [100],
-      //   }),
-      //   "*"
-      // );
       iframe.requestFullscreen();
     }
   };
@@ -167,7 +141,7 @@ export default function Landing() {
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col md:flex-row xl:flex-col text-white w-full md:gap-[58px] lg:px-[100px]">
+        <div className="flex flex-col md:flex-row xl:flex-col text-white w-full md:gap-[58px] xl:gap-[60px] lg:px-[100px]">
           <div className="flex flex-col xl:flex-row items-center justify-center gap-[48px]">
             <div>
               <Features />

@@ -30,14 +30,14 @@ export default function RootLayout({
             alt="DUST"
             width={1000}
             height={1000}
-            className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-2/3"
+            className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-2/3 xl:w-1/2"
           />
           <Image
             src="/DUST.png"
             alt="DUST"
             width={1000}
             height={1000}
-            className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-2/3"
+            className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-2/3 xl:w-1/2"
           />
 
           {children}
