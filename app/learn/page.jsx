@@ -66,7 +66,7 @@ const LearnPage = () => {
 
       <div className="learn-grid-border"></div>
       <div className="learn-description-left">
-        <div className='learn-title'>Can’t wipe. Built by all.</div>
+        <div className='learn-title'>Can’t be wiped.</div>
         <div className='learn-body'>
           Everything runs on a peer-to-peer network. No central server.
           The world lives as long as one person keeps running it.
@@ -89,7 +89,8 @@ const LearnPage = () => {
         </div>
       </div>
       <div className="learn-grid-border"></div>
-      </div>
+
+    </div>
 );
 };
 

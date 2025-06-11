@@ -57,16 +57,19 @@
 
 .learn-layout {
   display: grid;
-  grid-template-rows: 1fr 1fr auto;
-  grid-template-columns: 1fr 6fr 4fr 1fr;
-  min-height: 100vh;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 6.5fr 3.5fr 1fr;
   background: #141414;
   font-family: "IBM Plex Sans" !important;
   color: #fff;
+  position: relative;
 }
+
+
 .learn-grid-border {
   border: 0.5px solid rgba(255, 255, 255, .08);
 }
+
 .learn-header {
   grid-column: 2 / 4;
   display: flex;
@@ -363,4 +366,55 @@
 
 .last-button:hover {
   color: black !important;
+}
+
+
+
+
+
+
+.comparison-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.comparison-card {
+  background-color: #111;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 600px;
+  flex: 1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-title.money {
+  color: #ff3e3e;
+}
+
+.card-title.world {
+  color: #00d26a;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-body p {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.5;
 }

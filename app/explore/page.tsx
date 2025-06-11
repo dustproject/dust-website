@@ -5,12 +5,64 @@ import Image from "next/image";
 import React from 'react';
 import "/styles/features.css";
 
+
+
+const ComparisonCards = () => {
+    return (
+      <div className="comparison-container">
+        <div className="grid-cell" style={{padding: "1rem"}}>
+          <div className="learn-title-grid" style={{color: "#ffffffd4"}}>Virtual Money</div>
+          <Image
+            src="/money-card.png" // replace with actual path
+            alt="Ethereum Wallet"
+            className="card-image"
+            width={600}
+            height={300}
+          />
+            <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
+                <div className="learn-body-grid">
+                    Own scarce tokens. Supply and transfer rules can’t be tampered with.
+                </div>
+                <div className="learn-body-grid">
+                    Mine by validating. Burn by computing. Can’t be stolen. Transfers instantly.
+                </div>
+                <div className="learn-body-grid">
+                    Anyone can program new rules on top. Everything runs on a permanent ledger.
+                </div>
+            </div>
+        </div>
+        <div className="grid-cell" style={{padding: "1rem"}}>
+          <div className="learn-title-grid world" style={{color: "#66b966"}}>Virtual World</div>
+          <Image
+            src="/world-card.png" // replace with actual path
+            alt="Minecraft PvP"
+            className="card-image"
+            width={600}
+            height={300}
+          />
+            <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
+                <div className="learn-body-grid">
+                PvP and PvE over scarce resources. Supply and physics rules can’t be tampered with.
+                </div>
+                <div className="learn-body-grid">
+                Mine from nature. Burn by using. Can be taken by PvP or PvE. Must be physically moved.
+                </div>
+                <div className="learn-body-grid">
+                Anyone can program new rules in their territory. Everything runs on a permanent map.
+                </div>
+            </div>
+        </div>
+      </div>
+    );
+  };
+  
+
 const ExplorePage = () => {
   return (
     <div className="manifesto-layout">
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem"}}>
-            <div className="learn-title ">We’ve Been Trying To Live in Virtual Worlds for Decades. But All We Can Build Are Theme Parks.</div>
+            <div className="learn-title ">We have been trying to live in virtual worlds for decades. But all we can build are theme parks.</div>
         </div>
         <div className="learn-grid-border"></div>
 
@@ -25,7 +77,7 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>ADMIN ABUSE</div>
-                <div className="learn-body-grid">Owner can wipe the world, override its rules, and infinitely spawn, wipe, or nerf resources at will.</div>
+                <div className="learn-body-grid">Admins often wipe the world, override its rules, and infinitely spawn, wipe, or nerf resources at will.</div>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>IMMUTABLE LAWS</div>
@@ -48,7 +100,6 @@ const ExplorePage = () => {
                 <div className="learn-body-grid">
                     Players build trusted, first-party mechanics on top of each other.
                     No workarounds. No isolation.
-                    Redstone on steroids.
                 </div>
                 </div>
                 <div className="grid-image">
@@ -60,7 +111,7 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Infinite & Permanent</div>
-                <div className="learn-body-grid">One continuous space that infinitely grows as players do. Creations & achievements outlive players. Can't shutdown.</div>
+                <div className="learn-body-grid">One continuous space that infinitely grows as players do. Creations & achievements outlive players. Can't be shutdown.</div>
                 </div>
             </section>
             <div className="root-cause-learn">
@@ -83,7 +134,7 @@ const ExplorePage = () => {
 
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem"}}>
-            <div className="learn-title ">Misunderstood Breakthroughs Are Making Virtual Objects Real. Applied Differently, They Can Grow Virtual Worlds.</div>
+            <div className="learn-title ">Overlooked breakthroughs are making virtual objects real. Applied differently, they can grow virtual worlds.</div>
         </div>
         <div className="learn-grid-border"></div>
 
@@ -102,49 +153,44 @@ const ExplorePage = () => {
                     <div className="grid-title grid-button" style={{color: "#66b966"}}>[ READ MORE ]</div>
                 </Link>
             </div>
-            <section className="dust-grid virtual-money-vs-world responsive-grid" style={{marginBottom: "2rem"}}>
-                <div className="grid-label" style={{color: "#ff6060"}}>Virtual Money</div>
-                <div className="grid-label" style={{opacity: "0.8"}}>Applied Differently</div>
+            <section className="dust-grid-sub theme-vs-world responsive-grid">
+                <div className="grid-label"></div>
+                <div className="grid-label" style={{color: "#ffffffd4"}}>Virtual Money</div>
                 <div className="grid-label" style={{color: "#66b966"}}>Virtual World</div>
-                <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#ff6060"}}>Own Scarce Tokens</div>
-                    <div className="learn-body-grid">Mine by validating, burn by computing. Can't be stolen and transfer anywhere instantly.</div>
-                </div>
                 <div className="grid-image">
-                    <img src="/tokens.svg" className='grid-image-kid'/>
-                    <div className="grid-image-label">Dark Forest (2020) & Biomes (2024)</div>
+                    <img src="/tokenstwo.svg" className='grid-image-kid'/>
                 </div>
                 <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#66b966"}}>PvP & PvE For Scarce Matter</div>
-                    <div className="learn-body-grid">Mine from nature, burn by crafting and using. Can be stolen by PvP or reclaimed by PvE. Must be moved - can't teleport.</div>
-                </div>
-                <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#ff6060"}}>Program Money</div>
-                    <div className=" learn-body-grid">
-                    Program Ether and integrate with the internet & economy.
-                    </div>
-                </div>
-                <div className="grid-image">
-                    <img src="/contracts.svg" className='grid-image-kid'/>
-                    <div className="grid-image-label">MUD (2022)</div>
-                </div>
-                <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#66b966"}}>Program Civilization</div>
-                    <div className="learn-body-grid">
-                    Program machines (force fields, chests, doors, etc) and integrate with the internet & economy.
+                    <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
+                        <div className="learn-body-grid">
+                            Token supply and transfer rules can’t be tampered.
+                        </div>
+                        <div className="learn-body-grid">
+                        Program rules around transfers. Runs on a permanent ledger.
+                        </div>
+                        <div className="learn-body-grid">
+                            Mine by validating. Burn by computing.
+                        </div>
+                        <div className="learn-body-grid">
+                            Can’t be stolen. Transfers instantly.
+                        </div>
                     </div>
                 </div>
                 <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#ff6060"}}>Superchain of Chains</div>
-                    <div className="learn-body-grid">Anyone can provably run new chains to extend the ledger.</div>
-                </div>
-                <div className="grid-image">
-                    <img src="/quarry.svg" className='grid-image-kid'/>
-                    <div className="grid-image-label">Quarry (2025)</div>
-                </div>
-                <div className="grid-cell">
-                    <div className="learn-title-grid" style={{color: "#66b966"}}>Supergrid of Chunks</div>
-                    <div className="learn-body-grid">Anyone can provably run new chunks to expand the map.</div>
+                    <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
+                        <div className="learn-body-grid">
+                         Resource supply and physics rules can’t be tampered.
+                        </div>
+                        <div className="learn-body-grid">
+                        Program rules inside territory. Runs on a permanent map.
+                        </div>
+                        <div className="learn-body-grid">
+                        Mine from nature. Burn by using. 
+                        </div>
+                        <div className="learn-body-grid">
+                        Can be taken by PvP or PvE. Must be physically moved.
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -153,8 +199,8 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="root-cause-learn" style={{padding: "2rem", background: "none", marginTop: "0rem", border: "1px solid rgba(255, 255, 255, .08)"}}>
             <div>
-                <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual Worlds Will Matter More With Every Passing Year.</div>
-                <div className="learn-title">What Happens When A Virtual World Takes Itself Seriously?</div>
+                <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual worlds will matter more with every passing year.</div>
+                <div className="learn-title">What happens when a virtual world takes itself seriously?</div>
             </div>
             <div style={{display: "flex", gap: "1rem"}}>
                 <Link href="/premise" style={{textDecoration: 'none'}}>

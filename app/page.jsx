@@ -309,6 +309,7 @@ export default function Page() {
         <div className="content-wrapper">
           <div className="hero">
             <div className="hero-left">
+              <div className='hero-body'>Dust is an autonomous world with fixed physics, scarce resources, and player-programmable civilization.</div>
               <div className="section">
                 <div className='hero-header'>No admins. Just physics.</div>
                 <div className='hero-body'>Resources are scarce. Energy drains. Survival takes effort.</div>
@@ -337,7 +338,8 @@ export default function Page() {
                     <div className='text-button' style={{opacity: 0.8}}>[{" "}LEARN{" "}]</div>
                   </Link>
                   <div className="text-subtext">
-                    Learn what Dust is, what's now possible, and why it exists.</div>
+                    Learn what Dust is, what it enables, and why it exists.
+                    </div>
                 </div>
               </div>
             </div>

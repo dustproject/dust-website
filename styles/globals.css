@@ -527,6 +527,7 @@ transition: all 0.3s ease;
     grid-template-columns: 1fr 10fr 1fr;
     background: #141414;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
   
   .navbar-grid {
@@ -1354,13 +1355,9 @@ transition: all 0.3s ease;
 }
 
 .dust-grid-sub {
-  border-bottom: 1px solid rgba(255, 255, 255, .08);
   display: grid;
   gap: 1rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
+  padding: 2rem;
 }
 
 .theme-vs-world {

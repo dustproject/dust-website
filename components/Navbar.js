@@ -30,9 +30,6 @@ export default function Navbar() {
             <Link href="/explore" className={`nav-link ${isActive("/explore") ? "active" : ""}`}>
               [ WHY ]
             </Link>
-            <Link href="/survive" className={`nav-link ${isActive("/survive") ? "active" : ""}`}>
-              [ HOW ]
-            </Link>
           </div>
           <div className="nav-right">
             <Link href="https://discord.gg/J75hkmtmM4" className="nav-link">
