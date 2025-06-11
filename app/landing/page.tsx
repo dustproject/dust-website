@@ -99,7 +99,7 @@ export function Announcement() {
 export function Features() {
   return (
     <div className="flex flex-col gap-[36px] w-full xl:w-[500px] xl:text-right">
-      <p className="text-[22px] text-white/70 italic font-light">
+      <p className="text-[22px] text-white/85 italic font-light">
         <span className="text-[28px] text-white font-bold not-italic">
           DUST
         </span>{" "}
