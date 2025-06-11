@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { cn } from "../../utils/cn";
 import { useEffect, useRef } from "react";
 
@@ -18,8 +17,10 @@ export function LinkButton({
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className={cn("text-left xl:text-right group inline-block", {
-        "opacity-60 text-left": variant === "secondary",
+        "opacity-60 text-left xl:text-left": variant === "secondary",
       })}
     >
       <span className="bg-transparent text-white rounded-md text-[36px] xl:text-[40px] font-bold transition-all group-hover:underline">
@@ -79,7 +80,11 @@ export function Announcement() {
   return (
     <a
       href="#"
-      className="w-full inline-block border border-dashed border-[#929292] xl:w-[400px] px-4 pt-3 pb-4"
+      className="w-full inline-block xl:w-[400px] px-4 pt-3 pb-4"
+      style={{
+        backgroundImage:
+          "url(\"data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='dimgray' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e\")",
+      }}
     >
       <p className="uppercase text-[16px] opacity-30 leading-snug">
         JULY 12 2025
