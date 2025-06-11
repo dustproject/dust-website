@@ -58,6 +58,7 @@
 .learn-layout {
   display: grid;
   grid-template-rows: auto auto auto;
+  min-height: 91vh;
   grid-template-columns: 1fr 6.5fr 3.5fr 1fr;
   background: #141414;
   font-family: "IBM Plex Sans" !important;
@@ -265,7 +266,6 @@
 .root-cause-learn{
   display:flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 2rem;
   background-color: hsl(0deg 100% 68% / 15%);
   margin-top: 2rem;
@@ -303,7 +303,7 @@
   font-size: 0.9rem;
   color: #ffffffd4;
   font-weight: normal;
-  line-height: 1.8;
+  line-height: 2;
 }
 
 .root-cause-learn .learn-body-grid {
@@ -426,6 +426,8 @@
   padding: 2rem;
   background: none;
   margin-top: 0rem;
+  gap: 2rem;
+  flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 

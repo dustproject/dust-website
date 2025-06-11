@@ -83,7 +83,7 @@ const ExplorePage = () => {
 
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem"}}>
-            <div className="learn-title ">Overlooked breakthroughs are making virtual objects real. Applied differently, they can grow virtual worlds.</div>
+            <div className="learn-title ">Recent breakthroughs are making virtual objects real. Fully realized, they will grow virtual worlds.</div>
         </div>
         <div className="learn-grid-border"></div>
 
@@ -95,7 +95,7 @@ const ExplorePage = () => {
                     <div>
                         <div className="learn-body-grid" style={{color: "#66b966"}}>Bitcoin is fully virtual money. Not backed by physical commodities or militaries—yet treated as real (worth $2T).</div>
                         <div className="learn-body-grid" style={{color: "#66b966"}}>Its enabling breakthrough, peer-to-peer computation, is use-case agnostic.</div>
-                        <div className="learn-body-grid" style={{color: "#66b966"}}>If applied differently, it creates far more than money. It defines physics, spawns matter, and grows worlds.</div>
+                        <div className="learn-body-grid" style={{color: "#66b966"}}>Applied differently, it creates far more than money. It defines physics, spawns matter, and grows worlds.</div>
                     </div>
                 </div>
                 <Link href="/blog/rising-dust" style={{textDecoration: 'none'}}>
@@ -134,7 +134,7 @@ const ExplorePage = () => {
                         Program rules inside territory. Runs on a permanent map.
                         </div>
                         <div className="learn-body-grid">
-                        Mine from nature. Burn by using. 
+                        Mine from nature. Burn through use. 
                         </div>
                         <div className="learn-body-grid">
                         Can be taken by PvP or PvE. Must be physically moved.
@@ -148,8 +148,7 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="root-cause-learn final-learn">
             <div>
-                <div className="learn-title" style={{marginBottom: "0.5rem"}}>Virtual worlds will matter more with every passing year.</div>
-                <div className="learn-title">What happens when a virtual world takes itself seriously?</div>
+                <div className="learn-title">Virtual worlds will matter more with every passing year. Dust is the first virtual world that takes itself seriously.</div>
             </div>
             <div className="final-buttons">
                 <Link href="/premise" style={{textDecoration: 'none'}}>
