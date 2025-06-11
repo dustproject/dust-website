@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className={ibmPlexSansCondensed.variable}>
       <body className="font-sans bg-black h-full w-full">
         {/* <Navbar /> */}
-        <main className="relative pt-[150px] pb-[140px] lg:py-[200px] px-6 overflow-hidden min-h-full xl:h-screen">
+        <main className="relative pt-[150px] pb-[140px] lg:py-[200px] px-6 overflow-hidden min-h-full xl:h-screen xl:flex xl:items-center xl:justify-center">
           <Image
             src="/DUST.png"
             alt="DUST"

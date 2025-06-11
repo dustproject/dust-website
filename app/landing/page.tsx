@@ -50,7 +50,7 @@ export function Video() {
       <button
         type="button"
         onClick={handlePlayClick}
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-white transition-colors cursor-pointer text-[16px] font-"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-white transition-colors cursor-pointer text-[16px]"
       >
         [ play with sound ]
       </button>
@@ -93,7 +93,7 @@ export function Announcement() {
 
 export function Features() {
   return (
-    <div className="flex flex-col gap-[36px] w-full xl:w-2xl xl:w-[500px] xl:text-right">
+    <div className="flex flex-col gap-[36px] w-full xl:w-[500px] xl:text-right">
       <p className="text-[22px] italic font-light">
         <span className="text-[28px] font-bold not-italic">DUST</span> is an
         autonomous world with fixed physics, scarce resources, and
@@ -139,9 +139,9 @@ export default function Landing() {
   }, []);
 
   return (
-    <div>
+    <div className="xl:max-w-full">
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col md:flex-row xl:flex-col text-white w-full md:gap-[58px] xl:gap-[60px] lg:px-[100px]">
+        <div className="flex flex-col md:flex-row xl:flex-col text-white w-full md:gap-[58px] xl:gap-[60px]">
           <div className="flex flex-col xl:flex-row items-center justify-center gap-[48px]">
             <div>
               <Features />
