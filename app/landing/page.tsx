@@ -45,7 +45,7 @@ export function Video() {
   return (
     <div className="aspect-video relative group">
       <div
-        className="absolute inset-0 bg-black/70 z-10 transition-colors cursor-pointer"
+        className="absolute inset-0 bg-black/85 z-10 transition-colors cursor-pointer"
         onClick={handlePlayClick}
       />
       <button
@@ -89,7 +89,7 @@ export function Announcement() {
       <p className="uppercase text-[16px] opacity-30 leading-snug">
         JULY 12 2025
       </p>
-      <p className="text-[16px] leading-snug">
+      <p className="text-[16px] leading-snug mt-1">
         DUST IS LIVE AND DEPLOYED TO THE NETWORK. READ THE ANNOUNCEMENT.
       </p>
     </a>
@@ -99,22 +99,24 @@ export function Announcement() {
 export function Features() {
   return (
     <div className="flex flex-col gap-[36px] w-full xl:w-[500px] xl:text-right">
-      <p className="text-[22px] italic font-light">
-        <span className="text-[28px] font-bold not-italic">DUST</span> is an
-        autonomous world with fixed physics, scarce resources, and
+      <p className="text-[22px] text-white/70 italic font-light">
+        <span className="text-[28px] text-white font-bold not-italic">
+          DUST
+        </span>{" "}
+        is an autonomous world with fixed physics, scarce resources, and
         player-programmable civilization.
       </p>
 
       <div>
         <h3 className="text-[28px] font-bold">No admins. Just physics.</h3>
-        <p className="text-[22px] mt-2">
+        <p className="text-[22px] text-white/70 mt-2">
           Resources are scarce. Energy drains. Survival takes effort.
         </p>
       </div>
 
       <div>
         <h3 className="text-[28px] font-bold">Code civilization.</h3>
-        <p className="text-[22px] mt-2">
+        <p className="text-[22px] text-white/70 mt-2">
           You code the world itself—not mods. Your mechanics run live, shape
           everyone's play, and persist without you.
         </p>
@@ -122,7 +124,7 @@ export function Features() {
 
       <div>
         <h3 className="text-[28px] font-bold">Can't be wiped.</h3>
-        <p className="text-[22px] mt-2">
+        <p className="text-[22px] text-white/70 mt-2">
           All mechanics run together on one permanent network. One shared world
           to outlast us all.
         </p>
