@@ -141,7 +141,7 @@ export default function Landing() {
   return (
     <div className="xl:max-w-full">
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col md:flex-row xl:flex-col text-white w-full md:gap-[58px] xl:gap-[60px]">
+        <div className="flex flex-col md:flex-row xl:flex-col text-white w-full md:gap-[58px] xl:gap-[60px] md:px-[100px] xl:px-0">
           <div className="flex flex-col xl:flex-row items-center justify-center gap-[48px]">
             <div>
               <Features />
