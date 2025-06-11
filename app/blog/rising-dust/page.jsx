@@ -133,7 +133,7 @@ const RaisingDust = () => {
               Bitcoin was an anon-created currency that used cryptography to enforce supply and transfer rules, which allowed it to accrue {">"}$2T in value. This wouldn't have happened if Bitcoin was managed by the anon's server. Similarly, Biomes hinted that Digital Matter may accrue far more value far faster than "monopoly resources" managed by a studio's server.
             </div>
             <div className="paragraph">
-              This creates natural incentives for early adoption. They can simply mine & farm matter for $0.0001 in computation fees. Late adopters have to compete. Unlike coins, matter isn't absolutely owned—they decay, deplete, or get taken. Effort is always required, so the system remains fair across time.
+              This creates natural incentives for early adoption. Early adopters can simply mine & farm matter for $0.0001 in computation fees. Late adopters have to compete. Unlike coins, matter isn't absolutely owned—it decays, depletes, or gets taken. Effort is always required, so the system remains fair across time.
             </div>
             <div className="paragraph">
               While large MMOs foster economic activity, Biomes saw thousands of dollars spent by players in computation fees to mine resources with {"<"}100 daily active users. This was driven by the credible commitment on tamper-proof supply made by Digital Matter, rather than players desiring status in a large social graph.

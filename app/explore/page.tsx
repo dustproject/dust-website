@@ -104,40 +104,40 @@ const ExplorePage = () => {
             </div>
             <section className="dust-grid-sub theme-vs-world responsive-grid">
                 <div className="grid-label"></div>
-                <div className="grid-label" style={{color: "#ffffffd4"}}>Virtual Money</div>
-                <div className="grid-label" style={{color: "#66b966"}}>Virtual World</div>
+                <div className="grid-label" style={{color: "#ffffffd4"}}>Bitcoin (Virtual Money)</div>
+                <div className="grid-label" style={{color: "#66b966"}}>Dust (Virtual World)</div>
                 <div className="grid-image">
                     <img src="/tokenstwo.svg" className='grid-image-kid'/>
                 </div>
                 <div className="grid-cell">
-                    <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
+                    <div style={{display: "flex", flexDirection: "column"}}>
                         <div className="learn-body-grid">
                             Token supply and transfer rules can’t be tampered.
                         </div>
                         <div className="learn-body-grid">
-                        Program rules around transfers. Runs on a permanent ledger.
+                         Tokens can’t be stolen. Transfers anywhere instantly.
                         </div>
                         <div className="learn-body-grid">
-                            Mine by validating. Burn by computing.
+                            Anyone can program new rules around transfers.
                         </div>
                         <div className="learn-body-grid">
-                            Can’t be stolen. Transfers instantly.
+                        Runs on one shared permanent ledger.
                         </div>
                     </div>
                 </div>
                 <div className="grid-cell">
-                    <div style={{display: "flex", flexDirection: "column", gap: "0.5rem"}}>
+                    <div style={{display: "flex", flexDirection: "column"}}>
                         <div className="learn-body-grid">
                          Resource supply and physics rules can’t be tampered.
                         </div>
                         <div className="learn-body-grid">
-                        Program rules inside territory. Runs on a permanent map.
+                            Resources can be taken by PvP or PvE. Must be moved.
                         </div>
                         <div className="learn-body-grid">
-                        Mine from nature. Burn through use. 
+                            Anyone can program new rules inside territory.
                         </div>
                         <div className="learn-body-grid">
-                        Can be taken by PvP or PvE. Must be physically moved.
+                        Runs on one shared permanent map.
                         </div>
                     </div>
                 </div>
