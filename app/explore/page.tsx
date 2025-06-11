@@ -148,7 +148,7 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="root-cause-learn final-learn">
             <div>
-                <div className="learn-title">Virtual worlds will matter more with every passing year. Dust is the first virtual world that takes itself seriously.</div>
+                <div className="learn-title">Virtual worlds will matter more with each passing year. What happens when a virtual world takes itself seriously?</div>
             </div>
             <div className="final-buttons">
                 <Link href="/premise" style={{textDecoration: 'none'}}>
