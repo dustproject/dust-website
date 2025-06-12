@@ -14,12 +14,12 @@ export function Timer() {
 
   return (
     <a
-      href="#"
+      href="https://alpha.dustproject.org/map"
       target="_blank"
       rel="noopener noreferrer"
       className="w-[168px] uppercase gap-2 flex-shrink-0 hidden xl:flex px-[20px] py-[16px] link-button-border"
     >
-      <div className="text-[16px] opacity-50 leading-none">Dust time</div>
+      <div className="text-[16px] opacity-50 leading-none">DUST time</div>
       <div className="text-[16px] leading-none">
         {time.toLocaleTimeString([], {
           hour: "2-digit",
