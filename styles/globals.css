@@ -15,9 +15,9 @@ body {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
-    font-family: IBM Plex Sans !important;
+    font-family: IBM Plex Sans Condensed !important;
     line-height: 180%;
-    background-color: #141414;
+    background-color: #101010;
 }
 
 .page-style {
@@ -47,7 +47,7 @@ padding: 1px 21px;
 background-color: white;
 border: 2px solid black;
 color: black;
-font-family: 'IBM Plex Sans', serif;
+font-family: 'IBM Plex Sans Condensed', serif;
 font-size: 1rem;
 text-align: center;
 transition: all 0.3s ease;
@@ -65,7 +65,7 @@ transition: all 0.3s ease;
     width: 100%;
     text-align: center;
     color: #F1E0CD;
-    font-family: 'IBM Plex Sans', serif;
+    font-family: 'IBM Plex Sans Condensed', serif;
     font-size: 14px;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -118,7 +118,7 @@ transition: all 0.3s ease;
   }
 
   .container {
-    font-family: 'IBM Plex Sans', Garamond, Georgia, serif;
+    font-family: 'IBM Plex Sans Condensed', Garamond, Georgia, serif;
     margin: 0 auto;
     padding: 1.5rem;
     color: #2a2a2a;
@@ -525,7 +525,7 @@ transition: all 0.3s ease;
   .navbar {
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
-    background: #141414;
+    background: #101010;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
@@ -551,29 +551,24 @@ transition: all 0.3s ease;
   
   .nav-link {
     color: white;
-    background-color: black;
+    font-family: 'IBM Plex Sans Condensed';
+    border: 1px dashed rgba(255, 255, 255, 0.08);
     padding: 0rem 1rem;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: bold;
   }
-
-  
-  
   .nav-link:hover {
-    background: white;
-    color: black;
+    border: 1px dashed white;
   }
 
   .nav-link.active {
-    background: rgba(255, 255, 255, 0.9);
-    color: black;
+    border: 1px dashed white;
   }
   
 
 
 .navbar-logo {
-  font-family: 'IBM Plex Sans', serif;
+  font-family: 'IBM Plex Sans Condensed', serif;
   font-size: 1.8rem;
   letter-spacing: 0.3em;
   font-weight: 500;
@@ -767,10 +762,10 @@ transition: all 0.3s ease;
 
 
 .dust-container {
-  font-family: 'IBM Plex Sans' !important;
+  font-family: 'IBM Plex Sans Condensed' !important;
   position: relative;
   width: 100%;
-  background-color: #141414;
+  background-color: #101010;
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -934,7 +929,7 @@ transition: all 0.3s ease;
 
 .coalition-text {
   font-size: clamp(20px, 5vw, 60px); /* Minimum and maximum size limits */
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans Condensed';
   text-align: center;
   color: inherit; 
   text-decoration: none;
@@ -1130,7 +1125,7 @@ transition: all 0.3s ease;
 
 .endgame-body {
   font-size: clamp(20px, 2vw, 40px);
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans Condensed';
   text-align: left;
   color: white; 
   text-decoration: none;
@@ -1144,7 +1139,7 @@ transition: all 0.3s ease;
 
 .endgame-subbody {
   font-size: clamp(12px, 1.25vw, 24px);
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans Condensed';
   text-align: left;
   color: white; 
   text-decoration: none;
@@ -1158,7 +1153,7 @@ transition: all 0.3s ease;
 .join-button {
   margin-top: 3rem;
   font-size: clamp(10px, 1.5vw, 30px);
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans Condensed';
   text-align: center;
   color: black; 
   background-color: white;
@@ -1338,7 +1333,7 @@ transition: all 0.3s ease;
 
 .dust-protocol {
   color: #eaeaea;
-  background: #141414;
+  background: #101010;
 }
 
 .dust-row {
@@ -1375,7 +1370,7 @@ transition: all 0.3s ease;
 
 
 .virtual-money-vs-world {
-  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
 }
 
 
@@ -1418,19 +1413,16 @@ transition: all 0.3s ease;
 
 
 .grid-label {
-  font-weight: 500;
   text-transform: uppercase;
   color: #eaeaea;
   padding-left: 1rem;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 
 .grid-cell {
-  padding: 0.5rem 1rem;
-  border: 1px solid rgba(255, 255, 255, .08);
-  backdrop-filter: blur(2px);
-  background-color: hsla(60, 68%, 94%, 0.017);
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .grid-cell-sub {
@@ -1466,7 +1458,6 @@ transition: all 0.3s ease;
   text-transform: uppercase;
   margin-bottom: 0.25rem;
   color: #eaeaea;
-  font-weight: bold;
 }
 
 .grid-title-sub {
@@ -1569,12 +1560,10 @@ transition: all 0.3s ease;
 
 .root-cause{
   display:grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   gap:1rem;
-  padding: 0.5rem 1rem;
-  border: 1px dashed #ff6060;
-  backdrop-filter: blur(2px);
-  background-color: hsla(60, 68%, 94%, 0.017);
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   margin: 2rem;
   box-sizing: border-box;
   position: relative;

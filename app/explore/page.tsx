@@ -10,8 +10,8 @@ const ExplorePage = () => {
   return (
     <div className="manifesto-layout">
         <div className="learn-grid-border"></div>
-        <div style={{padding: "2rem"}}>
-            <div className="learn-title ">We have been trying to live in virtual worlds for decades. But all we can build are theme parks.</div>
+        <div style={{padding: "3rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+            <div className="explore-title ">We tried to live in virtual worlds for decades. But theme parks were the best we could build.</div>
         </div>
         <div className="learn-grid-border"></div>
 
@@ -26,12 +26,12 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>ADMIN ABUSE</div>
-                <div className="learn-body-grid">Admins often wipe the world, override its rules, and infinitely spawn, wipe, or nerf resources at will.</div>
+                <div className="learn-body-grid">Admins wipe worlds, override rules, and spawn or nerf resources at will.</div>
                 </div>
                 <div className="grid-cell">
-                <div className="learn-title-grid" style={{color: "#66b966"}}>IMMUTABLE LAWS</div>
+                <div className="learn-title-grid" style={{color: "#66b966"}}>IMMUTABLE RULES</div>
                 <div className="learn-body-grid">
-                    Nobody can wipe the world, override its rules, or change the supply and behavior of resources.
+                No one can wipe the world, override its rules, or alter the supply and behavior of resources.
                 </div>
                 </div>
                 <div className="grid-image">
@@ -40,15 +40,13 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Isolated Mods</div>
                 <div className="learn-body-grid">
-                    Studios build first-party features.
-                    Players either build third-party workarounds or separate mods that run in isolation.
+                Studios build first-party features. Players can only build third-party workarounds or mods that run isolated from the world.
                 </div>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Connected Mechanics</div>
                 <div className="learn-body-grid">
-                    Players build trusted, first-party mechanics on top of each other.
-                    No workarounds. No isolation.
+                Players build first-party mechanics on top of each other. Nothing is isolated from the world.
                 </div>
                 </div>
                 <div className="grid-image">
@@ -56,115 +54,71 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Capped & Temporary</div>
-                <div className="learn-body-grid">Server eventually shuts down. All creations & achievements are lost. Player cap only increases if owner can afford to scale.</div>
+                <div className="learn-body-grid">Servers eventually shutdown. Player progress is lost. The player limit only increases if the owner can afford to scale.</div>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Infinite & Permanent</div>
-                <div className="learn-body-grid">One continuous space that infinitely grows as players do. Creations & achievements outlive players. Can't be shutdown.</div>
+                <div className="learn-body-grid">The world grows as its players do—endlessly. It can’t be shut down, so your progress outlives you.</div>
                 </div>
             </section>
-            <div className="root-cause-learn">
+            <div className="root-cause">
+                <div className="grid-title">A SERVER IS A BLACK BOX</div>
                 <div>
-                    <div className="grid-title">ROOT&nbsp;CAUSE</div>
-                    <div>
-                        <div className="learn-body-grid" >Theme parks are the most we can build with what we have—servers.</div>
-                        <div className="learn-body-grid" >A server is a black box. Only its owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
-                        <div className="learn-body-grid" >The owner can change anything at anytime, then unplug it when they eventually leave or run out of money.</div>
-                    </div>
-                </div>
-                <div style={{ pointerEvents: 'none', opacity: 0.3 }}>
-                    <Link href="https://www.slayherobrine.com/" style={{ textDecoration: 'none' }}>
-                        <div className="grid-title grid-button last-button" style={{ color: "rgba(255, 255, 255, .5)" }}>[ READ MORE ]</div>
-                    </Link>
+                        <div className="learn-body-grid" >Only the server owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
+                        <div className="learn-body-grid" >They can change anything on a whim—then unplug it when they eventually leave or run out of money.</div>
                 </div>
             </div>
         </div>
         <div className="learn-grid-border"></div>
 
         <div className="learn-grid-border"></div>
-        <div style={{padding: "2rem"}}>
-            <div className="learn-title ">Recent breakthroughs are making virtual objects real. Fully realized, they will grow virtual worlds.</div>
+        <div style={{padding: "3rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+            <div className="explore-title ">Breakthroughs in peer-to-peer computation made virtual objects real—Bitcoin is fully virtual money, yet it's worth $2T. The same breakthrough goes far beyond money: it defines physics, spawns matter, and grows worlds.</div>
         </div>
         <div className="learn-grid-border"></div>
 
         <div className="learn-grid-border"></div>
         <div style={{border: "1px solid rgba(255, 255, 255, .08)"}}>
-            <div className="root-cause-learn" style={{background: "#66b96617", marginTop: "0"}}>
-                <div>
-                    <div className="grid-title" style={{color: "#66b966"}}>KEY&nbsp;INSIGHT</div>
-                    <div>
-                        <div className="learn-body-grid" style={{color: "#66b966"}}>Bitcoin is fully virtual money. Not backed by physical commodities or militaries—yet treated as real (worth $2T).</div>
-                        <div className="learn-body-grid" style={{color: "#66b966"}}>Its enabling breakthrough, peer-to-peer computation, is use-case agnostic.</div>
-                        <div className="learn-body-grid" style={{color: "#66b966"}}>Applied differently, it creates far more than money. It defines physics, spawns matter, and grows worlds.</div>
-                    </div>
-                </div>
-                <Link href="/blog/rising-dust" style={{textDecoration: 'none'}}>
-                    <div className="grid-title grid-button" style={{color: "#66b966"}}>[ READ MORE ]</div>
-                </Link>
-            </div>
-            <section className="dust-grid-sub theme-vs-world responsive-grid">
+            <section className="dust-grid-sub virtual-money-vs-world responsive-grid">
                 <div className="grid-label"></div>
                 <div className="grid-label" style={{color: "#ffffffd4"}}>Bitcoin (Virtual Money)</div>
                 <div className="grid-label" style={{color: "#66b966"}}>Dust (Virtual World)</div>
                 <div className="grid-image">
-                    <img src="/tokenstwo.svg" className='grid-image-kid'/>
+                    <img src="/moneyworld.svg" className='grid-image-kid'/>
                 </div>
                 <div className="grid-cell">
-                    <div style={{display: "flex", flexDirection: "column"}}>
-                        <div className="learn-body-grid">
-                            Token supply and transfer rules can’t be tampered.
-                        </div>
-                        <div className="learn-body-grid">
-                         Tokens can’t be stolen. Transfers anywhere instantly.
-                        </div>
-                        <div className="learn-body-grid">
-                            Anyone can program new rules around transfers.
-                        </div>
-                        <div className="learn-body-grid">
-                        Runs on one shared permanent ledger.
-                        </div>
-                    </div>
+                    <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0" }}>
+                        <li className="learn-body-grid">
+                        Token supply and transfer rules can’t be tampered with.
+                        </li>
+                        <li className="learn-body-grid">
+                        Your tokens can’t be stolen. You can transfer them instantly to anywhere.
+                        </li>
+                        <li className="learn-body-grid">
+                        Anyone can program new rules around transfers.
+                        </li>
+                        <li className="learn-body-grid">
+                        It runs on one shared, permanent ledger.
+                        </li>
+                    </ol>
                 </div>
                 <div className="grid-cell">
-                    <div style={{display: "flex", flexDirection: "column"}}>
-                        <div className="learn-body-grid">
-                         Resource supply and physics rules can’t be tampered.
-                        </div>
-                        <div className="learn-body-grid">
-                            Resources can be taken by PvP or PvE. Must be moved.
-                        </div>
-                        <div className="learn-body-grid">
-                            Anyone can program new rules inside territory.
-                        </div>
-                        <div className="learn-body-grid">
-                        Runs on one shared permanent map.
-                        </div>
-                    </div>
+                    <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0" }}>
+                        <li className="learn-body-grid">
+                        Resource supply and physics rules can’t be tampered with.
+                        </li>
+                        <li className="learn-body-grid">
+                        Your resources can be taken through PvP or PvE. You must physically move them.
+                        </li>
+                        <li className="learn-body-grid">
+                        Anyone can program new rules inside territory.
+                        </li>
+                        <li className="learn-body-grid">
+                        It runs on one shared, permanent map.
+                        </li>
+                    </ol>
                 </div>
             </section>
-        </div>
-        <div className="learn-grid-border"></div>
-
-        <div className="learn-grid-border"></div>
-        <div className="root-cause-learn final-learn">
-            <div>
-                <div className="learn-title">Virtual worlds will matter more with each passing year. What happens when a virtual world takes itself seriously?</div>
-            </div>
-            <div className="final-buttons">
-                <Link href="/premise" style={{textDecoration: 'none'}}>
-                    <div className="grid-title grid-button last-button" style={{color: "white"}}>[ PREMISE ]</div>
-                </Link>
-                <div style={{ pointerEvents: 'none', opacity: 0.3 }}>
-                    <Link href="/economics" style={{ textDecoration: 'none' }}>
-                        <div className="grid-title grid-button last-button" style={{ color: "rgba(255, 255, 255, .5)" }}>[ ECONOMICS ]</div>
-                    </Link>
-                </div>
-                <div style={{ pointerEvents: 'none', opacity: 0.3 }}>
-                    <Link href="/research" style={{ textDecoration: 'none' }}>
-                        <div className="grid-title grid-button last-button" style={{ color: "rgba(255, 255, 255, .5)" }}>[ RESEARCH ]</div>
-                    </Link>
-                </div>
-            </div>
         </div>
         <div className="learn-grid-border"></div>
     </div>

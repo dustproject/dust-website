@@ -25,15 +25,15 @@ export default function Navbar() {
         <div className="navbar-inner">
           <div className="nav-left">
             <Link href="/learn" className={`nav-link ${isActive("/learn") ? "active" : ""}`}>
-              [ WHAT ]
+              WHAT
             </Link>
             <Link href="/explore" className={`nav-link ${isActive("/explore") ? "active" : ""}`}>
-              [ WHY ]
+              WHY
             </Link>
           </div>
           <div className="nav-right">
             <Link href="https://discord.gg/J75hkmtmM4" className="nav-link">
-              [ ACCESS ]
+              GET ACCESS
             </Link>
           </div>
         </div>
