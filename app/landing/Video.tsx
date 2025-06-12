@@ -1,12 +1,25 @@
 "use client";
 
 import { Stream, StreamPlayerApi } from "@cloudflare/stream-react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const VIDEO_ID = "e9db0ea6b81b9c30e1984750363d99fa";
 
 export function Video() {
   const videoRef = useRef<StreamPlayerApi>(null);
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      if (!document.fullscreenElement && videoRef.current) {
+        videoRef.current.muted = true;
+      }
+    };
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+    };
+  }, []);
 
   const handlePlayClick = () => {
     const iframe = document.querySelector("iframe");
@@ -23,7 +36,7 @@ export function Video() {
   };
 
   return (
-    <div className="aspect-video relative group border">
+    <div className="aspect-video relative group">
       <div
         className="absolute inset-0 bg-black/70 z-10 transition-colors cursor-pointer"
         onClick={handlePlayClick}
