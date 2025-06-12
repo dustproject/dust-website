@@ -22,7 +22,7 @@ const ExplorePage = () => {
                 <div className="grid-label" style={{color: "#ff6060"}}>We Have Theme Parks</div>
                 <div className="grid-label" style={{color: "#66b966"}}>We Need Worlds</div>
                 <div className="grid-image">
-                <img src="/malleable.svg" className='grid-image-kid'/>
+                <img src="/opcommand.svg" className='grid-image-kid'/>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>ADMIN ABUSE</div>
@@ -50,7 +50,7 @@ const ExplorePage = () => {
                 </div>
                 </div>
                 <div className="grid-image">
-                <img src="/lastonline.svg" className='grid-image-kid'/>
+                <img src="/serverlost.svg" className='grid-image-kid'/>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Capped & Temporary</div>
@@ -108,7 +108,7 @@ const ExplorePage = () => {
                         Resource supply and physics rules can’t be tampered with.
                         </li>
                         <li className="learn-body-grid">
-                        Your resources can be taken through PvP or PvE. You must physically move them.
+                        Your resources can be taken through PvP or PvE. You must physically move them across space.
                         </li>
                         <li className="learn-body-grid">
                         Anyone can program new rules inside territory.
