@@ -1,8 +1,8 @@
-import { Video } from "./Video";
-import { Announcement } from "./Announcement";
-import { Features } from "./Features";
-import { CTA } from "./CTA";
-import { Countdown } from "./Countdown";
+import { Video } from "../Video";
+import { Announcement } from "../Announcement";
+import { Features } from "../Features";
+import { CTA } from "../CTA";
+import { Countdown } from "../Countdown";
 
 export default function LandingPage() {
   return (
@@ -29,8 +29,6 @@ export default function LandingPage() {
           <Video />
         </div>
       </div>
-
-      <Countdown />
     </>
   );
 }
