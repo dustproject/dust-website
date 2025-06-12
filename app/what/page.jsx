@@ -20,7 +20,7 @@ const LearnPage = () => {
         Resource supplies are fixed by these same rules. You mine, farm, craft, trade, and build—using only what the world allows.
         </div>
         <div className='learn-body'>
-        Players and machines need energy to act and survive. Plants provide energy. Time, actions, and damage drain it.
+        Players and machines need energy. Plants provide it. Time, actions, and damage drain it.
         </div>
         <div className='learn-body'>
         Machines—like force fields, doors, and chests—spend energy to control territory.
@@ -45,10 +45,11 @@ const LearnPage = () => {
         On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, markets, and more. 
         </div>
         <div className='learn-body'>
-        Your code runs live, shapes everyone's gameplay, and persists even after you leave. It's equal to Dust’s rules of physics, a native part of the world itself—not an isolated mod.
+        Your code runs live, shapes everyone's gameplay, and persists even after you leave.
+        It’s a native part of the world itself, equal to the fixed rules of physics—not an isolated mod.        
         </div>
         <div className='learn-body'>
-        Command machines—turn chests into shops and doors into toll gates. Build atop other players’ live code, and they build atop yours. Connect to anything online—Reddit, Discord, Dollars.
+        Your code commands machines directly—turning chests into shops and doors into toll gates. Build on top of other players’ live code, and they build on top of yours. Connect your code to anything online—Reddit, Discord, Dollars.
         </div>
         <div className='learn-body'>
         A world programmed by its players.
@@ -70,16 +71,16 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Can’t be wiped.</div>
         <div className='learn-body'>
-        Everything—the world's fixed rules of physics and players' uploaded code—runs together on one permanent network.
+        Everything—the world's fixed rules of physics and player uploaded code—runs together on one permanent network.
         </div>
         <div className="learn-body">
-        No central server controls the world. It lives as long as even one person keeps running it on their computer.
+        No central server controls it. The world lives as long as one person keeps running it.
         </div>
         <div className='learn-body'>
-        Every action is recorded publicly, letting anyone verify they followed the rules.
+        Every action is recorded publicly, letting anyone verify that rules are being followed.
         </div>
         <div className='learn-body'>
-        Build your greatest work in a world with a truly shared history.
+        Build your greatest work in a world with truly shared history.
         </div>
       </div>
       <div className="learn-description-right">

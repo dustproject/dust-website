@@ -31,7 +31,7 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>IMMUTABLE RULES</div>
                 <div className="learn-body-grid">
-                No one can wipe the world, override its rules, or alter the supply and behavior of resources.
+                No one can wipe the world, override rules, or alter resource supplies and behavior.
                 </div>
                 </div>
                 <div className="grid-image">
@@ -40,7 +40,7 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Isolated Mods</div>
                 <div className="learn-body-grid">
-                Studios build first-party features. Players can only build third-party workarounds or mods that run isolated from the world.
+                Studios build first-party features. Players can only build third-party workarounds or isolated mods.
                 </div>
                 </div>
                 <div className="grid-cell">
@@ -58,13 +58,13 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Infinite & Permanent</div>
-                <div className="learn-body-grid">The world grows as its players do—endlessly. It can’t be shut down, so your progress outlives you.</div>
+                <div className="learn-body-grid">The world scales endlessly as its players do. It never shuts down. Your progress outlives you.</div>
                 </div>
             </section>
             <div className="root-cause">
                 <div className="grid-title">A SERVER IS A BLACK BOX</div>
                 <div>
-                        <div className="learn-body-grid" >Only the server owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
+                        <div className="learn-body-grid" >Only the owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
                         <div className="learn-body-grid" >They can change anything on a whim—then unplug it when they eventually leave or run out of money.</div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ const ExplorePage = () => {
                         Resource supply and physics rules can’t be tampered with.
                         </li>
                         <li className="learn-body-grid">
-                        Your resources can be taken through PvP or PvE. You must physically move them across space.
+                        Your resources can be lost through PvP or PvE. You need to physically move them across space.
                         </li>
                         <li className="learn-body-grid">
                         Anyone can program new rules inside territory.

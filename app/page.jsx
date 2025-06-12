@@ -312,12 +312,12 @@ export default function Page() {
               <div className='hero-body'>Dust is an autonomous world with fixed rules of physics, scarce resources, and player-programmable civilization.</div>
               <div className="section">
                 <div className='hero-header'>No admins. Just physics.</div>
-                <div className='hero-body'>Resources are scarce. Energy drains. Survival takes effort.</div>
+                <div className='hero-body'>Resources are scarce. Energy drains. Survival requires effort.</div>
               </div>
               <div className="section">
                 <div className='hero-header'>Code civilization.</div>
                 <div className='hero-body'>
-                You code the world itself—not mods. Your mechanics run live, shape everyone's play, and persist without you.</div>
+                You code the world itself—not mods. Your code runs live, shapes everyone's gameplay, and persists without you.</div>
               </div>
               <div className="section">
                 <div className='hero-header'>Can’t be wiped.</div>
