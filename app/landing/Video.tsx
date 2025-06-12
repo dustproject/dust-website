@@ -44,27 +44,6 @@ export function Video() {
         muted
         loop
       />
-
-      {/* <div
-        style={{
-          position: "relative",
-          paddingTop: "56.25%",
-        }}
-      >
-        <iframe
-          src="https://customer-goievxu4mr4ewqoz.cloudflarestream.com/07b2e147a732cb52ffff39165f35a498/iframe?preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-goievxu4mr4ewqoz.cloudflarestream.com%2F07b2e147a732cb52ffff39165f35a498%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D0%26height%3D600&startTime=0"
-          style={{
-            border: "none",
-            position: "absolute",
-            top: 0,
-            left: 0,
-            height: "100%",
-            width: "100%",
-          }}
-          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-          allowFullScreen
-        />
-      </div> */}
     </div>
   );
 }
