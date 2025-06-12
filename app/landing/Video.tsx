@@ -38,7 +38,7 @@ export function Video() {
   return (
     <div className="relative group overflow-hidden aspect-[16/9]">
       <div
-        className="absolute inset-0 bg-black/50 z-10 transition-colors cursor-pointer"
+        className="absolute inset-0 bg-black/30 z-10 transition-colors transition-bg cursor-pointer hover:bg-transparent"
         onClick={handlePlayClick}
       />
       <button
@@ -57,6 +57,7 @@ export function Video() {
           controls
           muted
           loop
+          startTime={74}
         />
       </div>
     </div>
