@@ -84,7 +84,7 @@ const ExplorePage = () => {
                 <div className="grid-label" style={{color: "#ffffffd4"}}>Bitcoin (Virtual Money)</div>
                 <div className="grid-label" style={{color: "#66b966"}}>Dust (Virtual World)</div>
                 <div className="grid-image">
-                    <img src="/moneyworld.svg" className='grid-image-kid'/>
+                    <img src="/moneyworld.svg" className='grid-image-kid' style={{filter: "none"}}/>
                 </div>
                 <div className="grid-cell">
                     <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0" }}>
