@@ -1,6 +1,6 @@
 export function Announcement() {
   return (
-    <div className="bg-green-100 xl:flex xl:justify-between xl:gap-[35px]">
+    <div className="xl:flex xl:justify-between xl:gap-[35px]">
       <Tweet />
       <Timer />
     </div>
@@ -8,7 +8,19 @@ export function Announcement() {
 }
 
 function Tweet() {
-  return <div className="bg-purple-100 xl:flex-1">Tweet</div>;
+  return (
+    <a
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex flex-col md:flex-row gap-2 px-[16px] md:px-[24px] py-[16px] xl:flex-1 border border-[#929292] border-dashed"
+    >
+      <div className="text-[16px] opacity-50 leading-none">JULY 12 2025</div>
+      <div className="text-[16px] leading-normal md:leading-none">
+        DUST IS LIVE AND DEPLOYED TO THE NETWORK. READ THE ANNOUNCEMENT.
+      </div>
+    </a>
+  );
 }
 
 function Timer() {
@@ -56,7 +68,7 @@ export function Feature({
   description: React.ReactNode;
 }) {
   return (
-    <div className="space-y-[10px]">
+    <div className="space-y-2">
       <h3 className="text-[26px] font-bold">{title}</h3>
       <p className="text-[26px] italic font-extralight leading-normal">
         {description}
@@ -84,7 +96,7 @@ export function Video() {
 
 export default function LandingPage() {
   return (
-    <div className="w-full md:max-w-[824px] md:px-6 mx-auto text-white">
+    <div className="w-full md:max-w-[824px] xl:max-w-[1400px] md:px-6 xl:px-12 mx-auto text-white">
       <div className="max-w-[322px] mx-auto md:max-w-none">
         <Announcement />
 
