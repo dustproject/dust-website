@@ -25,7 +25,7 @@ const calculateTimeLeft = (targetTime: number) => {
 export default function LandingPage() {
   const [timeLeft, setTimeLeft] = useState(() => {
     const target = new Date();
-    target.setUTCHours(14, 40, 45, 0);
+    target.setUTCHours(16, 0, 0, 0);
     return calculateTimeLeft(target.getTime());
   });
 
