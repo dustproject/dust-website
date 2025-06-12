@@ -11,19 +11,20 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world runs on fixed rules of physics—verifiable programs everyone must obey.
+        The world runs on fixed rules of physics that everyone must obey.
         </div>
         <div className='learn-body'>
-        If you try to break them, your action fails the check, and the world stops you.
+        The rules are verifiable programs that check every action.
+        If you try to break the rules, the world stops you.
         </div>
         <div className='learn-body'>
-        These same rules fix resource supply and scarcity. You mine, farm, craft, trade, and build within their limits.
+        These same rules fix the supply and scarcity of resources. You mine, farm, craft, trade, and build within their limits.
         </div>
         <div className='learn-body'>
         Players and machines need energy. Plants provide it. Time, actions, and damage drain it.
         </div>
         <div className='learn-body'>
-        Machines—like force fields, doors, and chests—spend energy to control territory.
+        Machines—like chests, doors, and force fields—consume energy to control territory.
         </div>
       </div>
       <div className="learn-description-right">
@@ -77,10 +78,10 @@ const LearnPage = () => {
         No central server controls it. The world lives as long as one person keeps running it.
         </div>
         <div className='learn-body'>
-        Every action is recorded publicly, letting anyone verify that rules are being followed.
+        Every action is recorded publicly, letting anyone check that rules are being followed.
         </div>
         <div className='learn-body'>
-        Build your greatest work in a world with truly shared history.
+        This creates a truly shared history—a world worthy of your greatest work.
         </div>
       </div>
       <div className="learn-description-right">

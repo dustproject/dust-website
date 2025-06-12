@@ -13,7 +13,7 @@ export function Features() {
 
       <Feature
         title="No admins. Just physics."
-        description="Resources are scarce. Energy drains. Survival takes effort."
+        description="Resources are scarce. Energy drains. Survival requires effort."
       />
       <Feature
         title="Code civilization."
