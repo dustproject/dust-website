@@ -21,16 +21,48 @@ function Timer() {
 
 export function Features() {
   return (
-    <div className="bg-blue-100 space-y-[45px] w-full xl:w-[400px]">
-      <Feature />
-      <Feature />
-      <Feature />
+    <div className="space-y-[45px] w-full xl:w-[400px]">
+      <Feature
+        description={
+          <>
+            <span className="font-bold not-italic">DUST</span> is an autonomous
+            world with fixed rules of physics, scarce resources, and
+            player-programmable civilization.
+          </>
+        }
+      />
+
+      <Feature
+        title="No admins. Just physics."
+        description="Resources are scarce. Energy drains. Survival takes effort."
+      />
+      <Feature
+        title="Code civilization."
+        description="You code the world itself—not mods. Your mechanics run live, shape everyone's play, and persist without you."
+      />
+      <Feature
+        title="Can’t be wiped."
+        description="All mechanics run together on one permanent network. One shared world to outlast us all."
+      />
     </div>
   );
 }
 
-export function Feature() {
-  return <div className="bg-orange-100">Feature</div>;
+export function Feature({
+  title,
+  description,
+}: {
+  title?: string;
+  description: React.ReactNode;
+}) {
+  return (
+    <div className="space-y-[10px]">
+      <h3 className="text-[26px] font-bold">{title}</h3>
+      <p className="text-[26px] italic font-extralight leading-normal">
+        {description}
+      </p>
+    </div>
+  );
 }
 
 export function LinkButton() {
@@ -52,7 +84,7 @@ export function Video() {
 
 export default function LandingPage() {
   return (
-    <div className="w-full md:max-w-[824px] md:px-6 mx-auto">
+    <div className="w-full md:max-w-[824px] md:px-6 mx-auto text-white">
       <div className="max-w-[322px] mx-auto md:max-w-none">
         <Announcement />
 
