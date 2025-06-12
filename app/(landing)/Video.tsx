@@ -46,7 +46,7 @@ export function Video() {
         onClick={handlePlayClick}
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-white transition-opacity opacity-0 group-hover:opacity-100 duration-300 text-center flex flex-col gap-0 cursor-pointer"
       >
-        <span className="text-[16px]">Watch in full screen</span>
+        <span className="text-[16px] leading-none">Watch in full screen</span>
         <span className="text-[14px] text-white/70">with audio</span>
       </button>
 
