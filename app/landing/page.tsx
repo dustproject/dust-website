@@ -12,7 +12,7 @@ export default function LandingPage() {
         <div className="flex lg:gap-[85px] xl:gap-[100px] mt-[45px] md:mt-[60px]">
           <Features />
 
-          <div className="flex-1 flex-col justify-between hidden xl:flex">
+          <div className="flex-1 flex-col justify-between hidden xl:flex mt-4">
             <Video />
             <CTA />
           </div>

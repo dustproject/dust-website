@@ -36,9 +36,9 @@ export function Video() {
   };
 
   return (
-    <div className="relative group overflow-hidden aspect-[16/6.5]">
+    <div className="relative group overflow-hidden aspect-[16/9]">
       <div
-        className="absolute inset-0 bg-black/70 z-10 transition-colors cursor-pointer"
+        className="absolute inset-0 bg-black/50 z-10 transition-colors cursor-pointer"
         onClick={handlePlayClick}
       />
       <button
@@ -49,7 +49,7 @@ export function Video() {
         {/* [ play with sound ] */}
       </button>
 
-      <div className="absolute -top-14 left-0 h-full w-full scale-105">
+      <div className="absolute -top-0 left-0 h-full w-full scale-140">
         <Stream
           src={VIDEO_ID}
           streamRef={videoRef}
