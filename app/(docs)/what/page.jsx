@@ -11,13 +11,13 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world runs on fixed rules of physics. Everyone must obey them.
+        The world runs on fixed rules of physics—verifiable programs everyone must obey.
         </div>
         <div className='learn-body'>
-        These rules are verifiable programs. If you try to break them, the world stops you.
+        If you try to break them, your action fails the check, and the world stops you.
         </div>
         <div className='learn-body'>
-        Resource supplies are fixed by these same rules. You mine, farm, craft, trade, and build—using only what the world allows.
+        These same rules fix resource supply and scarcity. You mine, farm, craft, trade, and build within their limits.
         </div>
         <div className='learn-body'>
         Players and machines need energy. Plants provide it. Time, actions, and damage drain it.
@@ -42,14 +42,14 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Code civilization.</div>
         <div className='learn-body'>
-        On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, markets, and more.
+        On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, and more.
         </div>
         <div className='learn-body'>
         Your code runs live, shapes everyone's gameplay, and persists even after you leave.
         It becomes a native part of the world itself, equal to the fixed rules of physics—not an isolated mod.
         </div>
         <div className='learn-body'>
-        Your code commands machines directly—turning chests into shops and doors into toll gates. Build on top of other players’ live code, and they build on top of yours. Connect your code to anything online—Reddit, Discord, Dollars.
+        Your code commands machines—turn chests into shops, doors into toll gates. It builds on other players’ live code, and connects to anything online: Reddit, Discord, Dollars. Everything is your codebase.        
         </div>
         <div className='learn-body'>
         A world programmed by its players.
@@ -86,7 +86,7 @@ const LearnPage = () => {
       <div className="learn-description-right">
         <div className="learn-right-grid">
           <Link href="https://explorer.mud.dev/redstone/worlds/0x253eb85B3C953bFE3827CC14a151262482E7189C" className="learn-card">
-            <img src="/explorer.svg" className="learn-card-image" />
+            <img src="/explorertwo.svg" className="learn-card-image" />
             <div className="learn-card-overlay">
             <div className="learn-card-label">Network Explorer</div>
             </div>
