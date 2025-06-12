@@ -2,7 +2,7 @@ import { LinkButton } from "./LinkButton";
 
 export function CTA() {
   return (
-    <div className="mt-[60px] flex flex-col sm:flex-row gap-[40px]">
+    <div className="mt-[60px] flex flex-row w-full sm:flex-row gap-[60px]">
       <LinkButton
         href="#"
         title="Get access"

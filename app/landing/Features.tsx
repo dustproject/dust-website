@@ -1,12 +1,24 @@
+import Image from "next/image";
+
 export function Features() {
   return (
     <div className="space-y-[45px] w-full xl:w-[430px]">
       <Feature
         description={
           <>
-            <span className="font-bold not-italic">DUST</span> is an autonomous
-            world with fixed rules of physics, scarce resources, and
-            player-programmable civilization.
+            <span className="font-bold not-italic text-white">
+              <Image
+                src="/dust-white.png"
+                alt="DUST"
+                width={100}
+                height={48}
+                className="inline-block -mt-2 mr-2"
+              />
+            </span>{" "}
+            <span className="text-white">
+              is an autonomous world with fixed rules of physics, scarce
+              resources, and player-programmable civilization.
+            </span>
           </>
         }
       />
@@ -35,11 +47,11 @@ export function Feature({
   description: React.ReactNode;
 }) {
   return (
-    <div className="space-y-2">
-      <h3 className="text-[22px] sm:text-[26px] font-bold tracking-wide">
+    <div className="space-y-4">
+      <h3 className="text-[22px] sm:text-[32px] font-bold tracking-wide">
         {title}
       </h3>
-      <p className="text-[22px] sm:text-[26px] italic font-extralight leading-normal">
+      <p className="text-[22px] sm:text-[22px] font-extralight leading-relaxed text-white/70">
         {description}
       </p>
     </div>

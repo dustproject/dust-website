@@ -2,6 +2,7 @@ import { Video } from "./Video";
 import { Announcement } from "./Announcement";
 import { Features } from "./Features";
 import { CTA } from "./CTA";
+import { CTA2 } from "./CTA2";
 
 export default function LandingPage() {
   return (
