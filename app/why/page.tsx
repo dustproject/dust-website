@@ -46,7 +46,7 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Connected Mechanics</div>
                 <div className="learn-body-grid">
-                Players build first-party mechanics on top of each other. Nothing is isolated from the world.
+                Players build first-party mechanics on top of each other. All mechanics run live in-game. Nothing is isolated.
                 </div>
                 </div>
                 <div className="grid-image">
