@@ -3,7 +3,7 @@
 import { Stream, StreamPlayerApi } from "@cloudflare/stream-react";
 import { useEffect, useRef } from "react";
 
-const VIDEO_ID = "e9db0ea6b81b9c30e1984750363d99fa";
+const VIDEO_ID = "da4a72e9380f416c68c195daeec0e08c";
 
 export function Video() {
   const videoRef = useRef<StreamPlayerApi>(null);
@@ -36,7 +36,7 @@ export function Video() {
   };
 
   return (
-    <div className="aspect-video relative group">
+    <div className="relative group overflow-hidden aspect-[16/6.5]">
       <div
         className="absolute inset-0 bg-black/70 z-10 transition-colors cursor-pointer"
         onClick={handlePlayClick}
@@ -49,14 +49,16 @@ export function Video() {
         {/* [ play with sound ] */}
       </button>
 
-      <Stream
-        src={VIDEO_ID}
-        streamRef={videoRef}
-        autoplay
-        controls
-        muted
-        loop
-      />
+      <div className="absolute -top-14 left-0 h-full w-full scale-105">
+        <Stream
+          src={VIDEO_ID}
+          streamRef={videoRef}
+          autoplay
+          controls
+          muted
+          loop
+        />
+      </div>
     </div>
   );
 }

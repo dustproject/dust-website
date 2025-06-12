@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className={ibmPlexSansCondensed.variable}>
       <body className="font-sans bg-black min-h-full w-full">
         <main className="relative py-[100px] md:py-[115px] min-h-full w-full xl:flex xl:items-center xl:justify-center overflow-hidden">
-          <Image
+          {/* <Image
             src="/DUST.png"
             alt="DUST"
             width={1000}
@@ -37,7 +37,7 @@ export default function RootLayout({
             width={1000}
             height={1000}
             className="absolute bottom-0 translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 opacity-20"
-          />
+          /> */}
 
           {children}
         </main>
