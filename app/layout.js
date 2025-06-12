@@ -13,8 +13,9 @@ export const metadata = {
     google: "tG3xbPj9WMyQC9rPYo-ZRzOQYEhS0T9hFdIyuKtR1ok",
   },
   openGraph: {
+    title: "DUST",
     description:
-      "Dust is an autonomous world with fixed rules of physics, scarce resources, and player-programmable civilization.",
+      "DUST is an autonomous world with fixed rules of physics, scarce resources, and player-programmable civilization.",
     images: [
       {
         url: "/og.jpg",
