@@ -5,17 +5,19 @@ export function LinkButton({
   title,
   description,
   className,
+  external,
 }: {
   href: string;
   title: string;
   description: string;
   className?: string;
+  external?: boolean;
 }) {
   return (
     <a
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+      target={external ? "_blank" : undefined}
+      rel={external ? "noopener noreferrer" : undefined}
       className={cn(
         "w-full p-[20px] inline-flex flex-col gap-2 sm:w-[200px]",
         ["custom-dashed-border"],

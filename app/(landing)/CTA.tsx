@@ -7,6 +7,7 @@ export function CTA() {
         href="/access"
         title="Get access"
         description="Join Discord for early access to the Dust world."
+        external
       />
       <LinkButton
         href="/what"
