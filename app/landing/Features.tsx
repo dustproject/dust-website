@@ -10,9 +10,9 @@ export function Features() {
               <Image
                 src="/dust-white.png"
                 alt="DUST"
-                width={100}
+                width={160}
                 height={48}
-                className="inline-block -mt-2 mr-2"
+                className="inline-block -mt-8 mr-2"
               />
             </span>{" "}
             <span className="text-white">
