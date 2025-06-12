@@ -11,16 +11,19 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>No admins. Just physics.</div>
         <div className='learn-body'>
-        The world only runs on its set rules—written as provable code. If you break them, the proof fails, and the world doesn't run. Impossible to override.
+        The world runs on fixed rules of physics. Everyone must obey them.
         </div>
         <div className='learn-body'>
-          Resource supply is fixed by the world's rules. Mine, craft, trade, and build with them.
+        These rules are verifiable programs. If you try to break them, the world stops you.
         </div>
         <div className='learn-body'>
-          Energy fuels players and machines. Farm plants to gain it. Energy drains with time, action, and damage.
+        Resource supplies are fixed by these same rules. You mine, farm, craft, trade, and build—using only what the world allows.
         </div>
         <div className='learn-body'>
-          Machines—like force fields, doors, and chests—use energy to control territory.
+        Players and machines need energy to act and survive. Plants provide energy. Time, actions, and damage drain it.
+        </div>
+        <div className='learn-body'>
+        Machines—like force fields, doors, and chests—spend energy to control territory.
         </div>
       </div>
       <div className="learn-description-right">
@@ -39,17 +42,16 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Code civilization.</div>
         <div className='learn-body'>
-          The world sets physics. You code civilization—reputation, currency, governments, markets, and more. 
+        On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, markets, and more. 
         </div>
         <div className='learn-body'>
-          Your code reads world state and controls its machines—turn chests into shops, doors into toll gates.
-          It can build on other players’ code and anything online.
+        Your code runs live, shapes everyone's gameplay, and persists even after you leave. It's equal to Dust’s rules of physics, a native part of the world itself—not an isolated mod.
         </div>
         <div className='learn-body'>
-          Upload your code once. It runs live in-game, affects everyone, and persists even if you leave.
+        Command machines—turn chests into shops and doors into toll gates. Build atop other players’ live code, and they build atop yours. Connect to anything online—Reddit, Discord, Dollars.
         </div>
         <div className='learn-body'>
-          It becomes a native part of the world for other players. They use it and build on it with trust.
+        A world programmed by its players.
         </div>
       </div>
       <div className="learn-description-right">
@@ -68,14 +70,16 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Can’t be wiped.</div>
         <div className='learn-body'>
-          Everything runs on a peer-to-peer network. No central server.
-          The world lives as long as one person keeps running it.
+        Everything—the world's fixed rules of physics and players' uploaded code—runs together on one permanent network.
         </div>
         <div className="learn-body">
-        Every action is publicly recorded. Anyone can inspect the proofs that they ran correctly.
+        No central server controls the world. It lives as long as even one person keeps running it on their computer.
         </div>
         <div className='learn-body'>
-        Start your greatest work. It can't be wiped.
+        Every action is recorded publicly, letting anyone verify they followed the rules.
+        </div>
+        <div className='learn-body'>
+        Build your greatest work in a world with a truly shared history.
         </div>
       </div>
       <div className="learn-description-right">
