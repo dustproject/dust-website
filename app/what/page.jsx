@@ -54,7 +54,7 @@ const LearnPage = () => {
       </div>
       <div className="learn-description-right">
         <div className="learn-right-grid">
-          <Link href="/possible" className="learn-card">
+          <Link href="https://github.com/dustproject/dust/tree/main/packages/programs" className="learn-card">
             <img src="/possiblehero.svg" className="learn-card-image" />
             <div className="learn-card-overlay">
               <div className="learn-card-label">What’s Possible</div>

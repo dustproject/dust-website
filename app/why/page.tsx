@@ -10,7 +10,7 @@ const ExplorePage = () => {
   return (
     <div className="manifesto-layout">
         <div className="learn-grid-border"></div>
-        <div style={{padding: "3rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+        <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
             <div className="explore-title ">We tried to live in virtual worlds for decades. But the best we could build were theme parks.</div>
         </div>
         <div className="learn-grid-border"></div>
@@ -72,7 +72,7 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
 
         <div className="learn-grid-border"></div>
-        <div style={{padding: "3rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+        <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
             <div className="explore-title ">Breakthroughs in peer-to-peer computation made virtual objects real—Bitcoin is fully virtual money, yet it's worth $2T. The same breakthrough goes far beyond money: it defines physics, spawns matter, and grows worlds.</div>
         </div>
         <div className="learn-grid-border"></div>

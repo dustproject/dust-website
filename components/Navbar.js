@@ -24,10 +24,10 @@ export default function Navbar() {
         <div /> {/* Left empty column */}
         <div className="navbar-inner">
           <div className="nav-left">
-            <Link href="/learn" className={`nav-link ${isActive("/learn") ? "active" : ""}`}>
+            <Link href="/what" className={`nav-link ${isActive("/what") ? "active" : ""}`}>
               WHAT
             </Link>
-            <Link href="/explore" className={`nav-link ${isActive("/explore") ? "active" : ""}`}>
+            <Link href="/why" className={`nav-link ${isActive("/why") ? "active" : ""}`}>
               WHY
             </Link>
           </div>

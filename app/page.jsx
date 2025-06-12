@@ -334,7 +334,7 @@ export default function Page() {
                   <div className="text-subtext">Join Discord for early access to Dust’s free browser client.</div>
                 </div>
                 <div className="text-button-block">
-                  <Link href="/learn" style={{textDecoration: "none"}}>
+                  <Link href="/what" style={{textDecoration: "none"}}>
                     <div className='text-button' style={{opacity: 0.8}}>[{" "}LEARN{" "}]</div>
                   </Link>
                   <div className="text-subtext">
