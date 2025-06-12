@@ -12,6 +12,16 @@ export const metadata = {
   verification: {
     google: "tG3xbPj9WMyQC9rPYo-ZRzOQYEhS0T9hFdIyuKtR1ok",
   },
+  openGraph: {
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "DUST",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
