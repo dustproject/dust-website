@@ -11,7 +11,7 @@ const ExplorePage = () => {
     <div className="manifesto-layout">
         <div className="learn-grid-border"></div>
         <div style={{padding: "3rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
-            <div className="explore-title ">We tried to live in virtual worlds for decades. But theme parks were the best we could build.</div>
+            <div className="explore-title ">We tried to live in virtual worlds for decades. But the best we could build were theme parks.</div>
         </div>
         <div className="learn-grid-border"></div>
 
