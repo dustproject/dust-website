@@ -23,44 +23,24 @@ export default function RootLayout({
   return (
     <html lang="en" className={ibmPlexSansCondensed.variable}>
       <body className="font-sans bg-black min-h-full w-full">
-        {/* <main className="relative pt-[150px] pb-[140px] lg:py-[200px] overflow-hidden min-h-full xl:h-screen xl:flex xl:items-center xl:justify-center">
-          <Image
-            src="/DUST.png"
-            alt="DUST"
-            width={1000}
-            height={1000}
-            className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-20"
-          />
-          <Image
-            src="/DUST.png"
-            alt="DUST"
-            width={1000}
-            height={1000}
-            className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-20"
-          />
-
-          */}
-
         <main className="relative py-[100px] md:py-[115px] min-h-full w-full xl:flex xl:items-center xl:justify-center overflow-hidden">
           <Image
             src="/DUST.png"
             alt="DUST"
             width={1000}
             height={1000}
-            className="absolute top-0 -translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-30"
+            className="absolute top-0 -translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 opacity-20"
           />
           <Image
             src="/DUST.png"
             alt="DUST"
             width={1000}
             height={1000}
-            className="absolute bottom-0 translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-30"
+            className="absolute bottom-0 translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 opacity-20"
           />
 
           {children}
         </main>
-
-        {/* </main> */}
       </body>
     </html>
   );

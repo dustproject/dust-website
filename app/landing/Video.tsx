@@ -23,7 +23,7 @@ export function Video() {
   };
 
   return (
-    <div className="aspect-video relative group">
+    <div className="aspect-video relative group border">
       <div
         className="absolute inset-0 bg-black/70 z-10 transition-colors cursor-pointer"
         onClick={handlePlayClick}
