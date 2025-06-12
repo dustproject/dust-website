@@ -17,11 +17,11 @@ export function Features() {
       />
       <Feature
         title="Code civilization."
-        description="You code the world itself—not mods. Your mechanics run live, shape everyone's play, and persist without you."
+        description="Your code becomes part of the world itself—not just a mod. It runs live and persists without you."
       />
       <Feature
         title="Can't be wiped."
-        description="All mechanics run together on one permanent network. One shared world to outlast us all."
+        description="Everything runs together on one permanent network. One shared world to outlast us all."
       />
     </div>
   );
