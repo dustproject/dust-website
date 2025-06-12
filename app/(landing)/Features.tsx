@@ -1,6 +1,6 @@
 export function Features() {
   return (
-    <div className="space-y-[45px] w-full xl:w-[430px]">
+    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[430px]">
       <Feature
         description={
           <>
@@ -36,10 +36,10 @@ export function Feature({
 }) {
   return (
     <div className="space-y-2">
-      <h3 className="text-[22px] sm:text-[26px] font-bold tracking-wide">
+      <h3 className="text-[20px] sm:text-[22px] font-bold tracking-wide">
         {title}
       </h3>
-      <p className="text-[22px] sm:text-[26px] italic font-extralight leading-normal">
+      <p className="text-[20px] sm:text-[22px] italic font-extralight leading-normal">
         {description}
       </p>
     </div>

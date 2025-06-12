@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${ibmPlexSansCondensed.variable}`}>
         {/* <Navbar /> */}
-        <main>{children}</main>
+        <main className="min-h-full">{children}</main>
       </body>
     </html>
   );

@@ -6,13 +6,13 @@ export function CTA() {
       <LinkButton
         href="/access"
         title="Get access"
-        description="Join Discord for early access to the Dust world."
+        description="Join Discord to enter the Dust client."
         external
       />
       <LinkButton
         href="/what"
         title="Learn more"
-        description="Learn what Dust enables and why it exists."
+        description="What Dust enables and why it exists."
       />
     </div>
   );
