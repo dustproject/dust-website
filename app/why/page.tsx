@@ -73,7 +73,7 @@ const ExplorePage = () => {
 
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
-            <div className="explore-title ">Breakthroughs in peer-to-peer computation made virtual objects real—Bitcoin is fully virtual money, yet it's worth $2T. The same breakthrough goes far beyond money: it defines physics, spawns matter, and grows worlds.</div>
+            <div className="explore-title ">Breakthroughs in peer-to-peer computation made virtual objects real—Bitcoin is purely virtual money, yet it's worth $2T. The same breakthrough goes far beyond money: it defines physics, spawns matter, and grows worlds.</div>
         </div>
         <div className="learn-grid-border"></div>
 
