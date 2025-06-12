@@ -12,7 +12,7 @@ export default function Page() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-06-12T17:00:00Z");
+    const targetDate = new Date("2025-06-12T16:00:00Z");
 
     const updateCountdown = () => {
       const now = new Date();
