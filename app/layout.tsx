@@ -37,9 +37,26 @@ export default function RootLayout({
             width={1000}
             height={1000}
             className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-20"
-          /> */}
+          />
 
-        <main className="py-[100px] md:py-[115px] min-h-full w-full xl:flex xl:items-center xl:justify-center">
+          */}
+
+        <main className="relative py-[100px] md:py-[115px] min-h-full w-full xl:flex xl:items-center xl:justify-center overflow-hidden">
+          <Image
+            src="/DUST.png"
+            alt="DUST"
+            width={1000}
+            height={1000}
+            className="absolute top-0 -translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-30"
+          />
+          <Image
+            src="/DUST.png"
+            alt="DUST"
+            width={1000}
+            height={1000}
+            className="absolute bottom-0 translate-y-3/5 left-1/2 -translate-x-1/2 w-full px-3 md:w-3/4 xl:w-3/5 opacity-30"
+          />
+
           {children}
         </main>
 

@@ -18,7 +18,9 @@ function Tweet() {
       rel="noopener noreferrer"
       className="flex flex-col md:flex-row gap-2 px-[16px] md:px-[24px] py-[16px] xl:flex-1 border border-[#929292] border-dashed"
     >
-      <div className="text-[16px] opacity-50 leading-none">JULY 12 2025</div>
+      <div className="text-[16px] opacity-50 leading-none flex-shrink-0">
+        JULY 12 2025
+      </div>
       <div className="text-[16px] leading-normal md:leading-none">
         DUST IS LIVE AND DEPLOYED TO THE NETWORK. READ THE ANNOUNCEMENT.
       </div>
@@ -64,8 +66,8 @@ export function Feature({
 }) {
   return (
     <div className="space-y-2">
-      <h3 className="text-[26px] font-bold">{title}</h3>
-      <p className="text-[26px] italic font-extralight leading-normal">
+      <h3 className="text-[22px] sm:text-[26px] font-bold">{title}</h3>
+      <p className="text-[22px] sm:text-[26px] italic font-extralight leading-normal">
         {description}
       </p>
     </div>
@@ -88,7 +90,7 @@ export function CTA() {
 export default function LandingPage() {
   return (
     <div className="w-full md:max-w-[824px] xl:max-w-[1400px] md:px-6 xl:px-6 mx-auto text-white">
-      <div className="max-w-[322px] mx-auto md:max-w-none">
+      <div className="px-8 sm:px-12 mx-auto md:max-w-none">
         <Announcement />
 
         <div className="flex xl:gap-[85px] mt-[45px] md:mt-[60px]">
