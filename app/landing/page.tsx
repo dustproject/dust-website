@@ -1,3 +1,5 @@
+import { Timer } from "./Timer";
+
 export function Announcement() {
   return (
     <div className="xl:flex xl:justify-between xl:gap-[35px]">
@@ -23,14 +25,6 @@ function Tweet() {
   );
 }
 
-function Timer() {
-  return (
-    <div className="bg-yellow-100 w-[168px] flex-shrink-0 hidden xl:block">
-      Timer
-    </div>
-  );
-}
-
 export function Features() {
   return (
     <div className="space-y-[45px] w-full xl:w-[400px]">
@@ -53,7 +47,7 @@ export function Features() {
         description="You code the world itself—not mods. Your mechanics run live, shape everyone's play, and persist without you."
       />
       <Feature
-        title="Can’t be wiped."
+        title="Can't be wiped."
         description="All mechanics run together on one permanent network. One shared world to outlast us all."
       />
     </div>
