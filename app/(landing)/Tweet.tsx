@@ -1,7 +1,7 @@
 export function Tweet() {
   return (
     <a
-      href="#"
+      href="https://x.com/Dust_Org/status/1933190322705874947"
       target="_blank"
       rel="noopener noreferrer"
       className="flex flex-col md:flex-row gap-2 px-[16px] md:px-[24px] py-[16px] xl:flex-1 custom-dashed-border"
