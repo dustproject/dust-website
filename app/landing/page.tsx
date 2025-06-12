@@ -1,4 +1,5 @@
 import { Timer } from "./Timer";
+import { Video } from "./Video";
 
 export function Announcement() {
   return (
@@ -27,7 +28,7 @@ function Tweet() {
 
 export function Features() {
   return (
-    <div className="space-y-[45px] w-full xl:w-[400px]">
+    <div className="space-y-[45px] w-full xl:w-[430px]">
       <Feature
         description={
           <>
@@ -84,17 +85,13 @@ export function CTA() {
   );
 }
 
-export function Video() {
-  return <div className="bg-purple-100">Video</div>;
-}
-
 export default function LandingPage() {
   return (
-    <div className="w-full md:max-w-[824px] xl:max-w-[1400px] md:px-6 xl:px-12 mx-auto text-white">
+    <div className="w-full md:max-w-[824px] xl:max-w-[1400px] md:px-6 xl:px-6 mx-auto text-white">
       <div className="max-w-[322px] mx-auto md:max-w-none">
         <Announcement />
 
-        <div className="flex xl:gap-[70px] mt-[45px] md:mt-[60px]">
+        <div className="flex xl:gap-[85px] mt-[45px] md:mt-[60px]">
           <Features />
 
           <div className="flex-1 flex-col justify-between hidden xl:flex">
