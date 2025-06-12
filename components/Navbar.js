@@ -32,7 +32,7 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="nav-right">
-            <Link href="https://discord.gg/J75hkmtmM4" className="nav-link">
+            <Link href="/access" target="_blank" rel="noopener noreferrer" className="nav-link">
               GET ACCESS
             </Link>
           </div>

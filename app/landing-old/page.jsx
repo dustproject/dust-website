@@ -4,17 +4,17 @@ import React, { useEffect, useRef, useState } from 'react';
 import "/styles/globals.css";
 import Image from 'next/image';
 import Link from "next/link";
-import ProjectsPage from './projects/page';
+import ProjectsPage from '../projects/page';
 import TopographicMapBackground from '/components/TopoBackground';
-import SmartButton from '../components/smartbutton';
+import SmartButton from '../../components/smartbutton';
 
-const LandingGridTwo = () => {   
-  return (    
+const LandingGridTwo = () => {
+  return (
     <div className="home-container">
-      <video 
-        autoPlay 
-        loop 
-        muted 
+      <video
+        autoPlay
+        loop
+        muted
         playsInline
         style={{
           position: 'absolute',
@@ -83,7 +83,7 @@ const LandingGridTwo = () => {
             Secure and expand territory. No shutdowns or resets - what you build inside lasts.
             </div>
             <div className='columnParagraph'>
-            Program it completely: turn chests into shops, doors into toll gates, and more.         
+            Program it completely: turn chests into shops, doors into toll gates, and more.
             </div>
             <div className='columnParagraph' style={{marginBottom: "1.5rem"}}>
             Integrate with anything online or even real dollars - truly unrestricted.
@@ -99,9 +99,9 @@ const LandingGridTwo = () => {
             </div>
           </div>
         </div>
-      </div>        
+      </div>
     </div>
-  ); 
+  );
 };
 
 const LandingGridThree = () => {
@@ -243,10 +243,10 @@ const LandingGridThree = () => {
           </div>
         </section>
         <div className="home-container">
-          <video 
-            autoPlay 
-            loop 
-            muted 
+          <video
+            autoPlay
+            loop
+            muted
             playsInline
             style={{
               position: 'absolute',
@@ -288,7 +288,7 @@ const applyShimmerEffect = (element) => {
 
 export default function Page() {
   return (
-    <div> 
+    <div>
       <div className="dust-container">
         <div className="background-map">
           <video

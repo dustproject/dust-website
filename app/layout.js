@@ -1,19 +1,27 @@
-import { Inter, EB_Garamond } from "next/font/google";
+import { IBM_Plex_Sans_Condensed, EB_Garamond } from "next/font/google";
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
+
 const garamond = EB_Garamond({ subsets: ["latin"] });
+
+const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-ibm-plex-sans-condensed",
+  display: "swap",
+});
 
 export const metadata = {
   verification: {
-    google: "tG3xbPj9WMyQC9rPYo-ZRzOQYEhS0T9hFdIyuKtR1ok"
-  }
+    google: "tG3xbPj9WMyQC9rPYo-ZRzOQYEhS0T9hFdIyuKtR1ok",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={garamond.className}>
-        <Navbar />
+      <body className={`${garamond.className} ${ibmPlexSansCondensed.variable}`}>
+        {/* <Navbar /> */}
         <main>{children}</main>
       </body>
     </html>
