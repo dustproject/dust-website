@@ -49,9 +49,7 @@ const LearnPage = () => {
         Your code becomes a native part of the world itself—not an isolated mod. It runs live, shapes everyone's gameplay, and persists even after you leave.
         </div>
         <div className='learn-body'>
-        Everything is your codebase.
-        Your code can command machines—turn chests into shops, doors into toll gates.
-        It can build on other players’ code and anything online: Reddit, Discord, Dollars.       
+        Everything is your codebase. Your code commands machines—turning chests into shops, doors into toll gates—and connects with everything else: other players’ code, Reddit, Discord, Dollars.
         </div>
       </div>
       <div className="learn-description-right">
