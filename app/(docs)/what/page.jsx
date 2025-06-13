@@ -46,14 +46,12 @@ const LearnPage = () => {
         On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, and more.
         </div>
         <div className='learn-body'>
-        Your code runs live, shapes everyone's gameplay, and persists even after you leave.
-        It becomes a native part of the world itself, equal to the fixed rules of physics—not an isolated mod.
-
+        Your code becomes a native part of the world itself—not an isolated mod. It runs live, shapes everyone's gameplay, and persists even after you leave.
         </div>
         <div className='learn-body'>
         Everything is your codebase.
-        Your code commands machines—turn chests into shops, doors into toll gates.
-        It builds on other players’ live code and connects to anything online: Reddit, Discord, Dollars.       
+        Your code can command machines—turn chests into shops, doors into toll gates.
+        It can build on other players’ code and anything online: Reddit, Discord, Dollars.       
         </div>
       </div>
       <div className="learn-description-right">
