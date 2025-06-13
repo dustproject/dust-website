@@ -14,7 +14,6 @@
 //   );
 // }
 
-
 // LandingLayout.tsx
 import "./styles.css";
 
@@ -25,7 +24,7 @@ export default function LandingLayout({
 }) {
   return (
     <div className="xl:flex xl:items-center xl:justify-center xl:min-h-screen">
-      <div className="relative py-[50px] xl:py-0 w-full xl:flex xl:items-center xl:justify-center overflow-hidden">
+      <div className="relative pt-[50px] md:pb-[50px] xl:py-0 w-full xl:flex xl:items-center xl:justify-center overflow-hidden">
         {children}
       </div>
     </div>
