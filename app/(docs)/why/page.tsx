@@ -87,7 +87,7 @@ const ExplorePage = () => {
                     <img src="/moneyworld.svg" className='grid-image-kid' style={{filter: "none"}}/>
                 </div>
                 <div className="grid-cell">
-                    <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0" }}>
+                    <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0", listStyle: "number" }}>
                         <li className="learn-body-grid">
                         Token supply and transfer rules can’t be tampered with.
                         </li>
@@ -103,7 +103,7 @@ const ExplorePage = () => {
                     </ol>
                 </div>
                 <div className="grid-cell">
-                    <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0" }}>
+                    <ol style={{ display: "flex", flexDirection: "column", paddingLeft: "1.25rem", gap: "0.5rem", margin: "0",  listStyle: "number" }}>
                         <li className="learn-body-grid">
                         Resource supply and physics rules can’t be tampered with.
                         </li>

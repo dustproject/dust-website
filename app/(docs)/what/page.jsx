@@ -32,7 +32,7 @@ const LearnPage = () => {
           <Link href="https://github.com/dustproject/dust/tree/main/packages/world" className="learn-card">
             <img src="/provablerules.svg" className="learn-card-image" />
             <div className="learn-card-overlay">
-            <div className="learn-card-label">The Provable Rules</div>
+            <div className="learn-card-label">Rules & Resources</div>
             </div>
           </Link>
         </div>
