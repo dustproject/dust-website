@@ -17,7 +17,7 @@ export function Features() {
       />
       <Feature
         title="Code civilization."
-        description="Your code becomes part of the world itself—not just a mod. It runs live and persists without you."
+        description="Your code becomes a part of the world itself. Not a mod. It runs live and persists without you."
       />
       <Feature
         title="Can't be wiped."
