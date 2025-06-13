@@ -16,7 +16,7 @@ export function Features() {
         description="Resources are scarce. Energy drains. Survival requires effort."
       />
       <Feature
-        title="Code civilization."
+        title="Code the world."
         description="Your code becomes a part of the world itself. Not a mod. It runs live and persists without you."
       />
       <Feature
