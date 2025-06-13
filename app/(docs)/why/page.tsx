@@ -92,7 +92,7 @@ const ExplorePage = () => {
                         Token supply and transfer rules can’t be tampered with.
                         </li>
                         <li className="learn-body-grid">
-                        Your tokens can’t be stolen. You can transfer them instantly to anywhere.
+                        Your tokens can’t be stolen. You can transfer them instantly to anyone.
                         </li>
                         <li className="learn-body-grid">
                         Anyone can program new rules around transfers.
