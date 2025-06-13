@@ -62,10 +62,10 @@ export function Video() {
           src={VIDEO_ID}
           streamRef={videoRef}
           autoplay={!isMobile}
-          controls
+          controls={isMobile}
           muted={!isMobile}
-          loop
-          startTime={74}
+          loop={!isMobile}
+          startTime={isMobile ? 0 : 74}
         />
       </div>
     </div>
