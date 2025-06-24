@@ -26,12 +26,12 @@ const ExplorePage = () => {
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>ADMIN ABUSE</div>
-                <div className="learn-body-grid">Admins wipe worlds, override rules, and spawn or nerf resources at will.</div>
+                <div className="learn-body-grid">Admins wipe worlds, override rules, ban players, and spawn or nerf resources at will.</div>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>IMMUTABLE RULES</div>
                 <div className="learn-body-grid">
-                No one can wipe the world, override rules, or alter resource supplies and behavior.
+                No one can wipe the world, override rules, ban anyone, or alter resource supplies and behavior.
                 </div>
                 </div>
                 <div className="grid-image">
