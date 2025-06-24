@@ -23,6 +23,12 @@ const nextConfig = {
           "https://explorer.mud.dev/redstone/worlds/0x253eb85B3C953bFE3827CC14a151262482E7189C",
         permanent: false,
       },
+      {
+        source: "/map",
+        destination:
+          "https://alpha.dustproject.org/map",
+        permanent: false,
+      },
     ];
   },
 };
