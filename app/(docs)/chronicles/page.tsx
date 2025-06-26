@@ -57,7 +57,7 @@ export default function ThreeColumnLayout() {
   return (
   <div className="grid grid-cols-1 md:grid-cols-[1fr_10fr_1fr] h-[91vh] overflow-hidden bg-[#101010]">
     {/* Left column: sticky TOC */}
-    <aside className="md:sticky top-0 h-full p-4 border-r border-[rgba(255,255,255,0.08)]" >
+      <aside className="hidden md:block md:sticky top-0 h-full p-4 border-r border-[rgba(255,255,255,0.08)]" >
         {/* <div className='text-white opacity-50 leading-none uppercase mb-2'>Chronicles:</div> */}
         <nav>
           <ul className="space-y-2">
@@ -103,7 +103,7 @@ export default function ThreeColumnLayout() {
       </main>
 
       {/* Right column: empty */}
-      <section className="h-full p-4">
+      <section className="hidden md:block h-full p-4">
         {/* empty space */}
       </section>
     </div>
