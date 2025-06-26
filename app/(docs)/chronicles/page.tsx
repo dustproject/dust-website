@@ -21,15 +21,18 @@ const sections = [
     id: 'chronicles-002',
     title: '002',
     tweetIds: [
-      '1936081171234567890',
-      '1936081170987654321',
-      '1936081171122334455'
+      '1937946629841293693',
+      '1937946632282366007',
+      '1937946634023014915',
+      '1937946636489265198',
+      '1937946639198785744',
     ]
   },
   {
     id: 'campfires',
     title: 'Campfires',
     tweetIds: [
+      '1937919910581309607',
       '1935044118826336664',
       '1933191753726873867',
     ]
@@ -52,17 +55,17 @@ export default function ThreeColumnLayout() {
   }, []);
 
   return (
-    <div className="grid grid-cols-[1fr_10fr_1fr] h-[91vh] overflow-hidden bg-[#101010]">
-      {/* Left column: sticky TOC */}
-      <aside className="sticky top-0 h-full p-4 border-r border-[rgba(255,255,255,0.08)]">
-        <div className='text-white opacity-50 leading-none uppercase mb-2'>Chronicles:</div>
+  <div className="grid grid-cols-1 md:grid-cols-[1fr_10fr_1fr] h-[91vh] overflow-hidden bg-[#101010]">
+    {/* Left column: sticky TOC */}
+    <aside className="md:sticky top-0 h-full p-4 border-r border-[rgba(255,255,255,0.08)]" >
+        {/* <div className='text-white opacity-50 leading-none uppercase mb-2'>Chronicles:</div> */}
         <nav>
           <ul className="space-y-2">
             {sections.map(sec => (
               <li key={sec.id}>
                 <a
                   href={`#${sec.id}`}
-                  className="text-white underline block hover:opacity-50"
+                  className="text-white opacity-50  underline block hover:opacity-100"
                 >
                   {sec.title}
                 </a>
@@ -73,7 +76,7 @@ export default function ThreeColumnLayout() {
       </aside>
 
       {/* Middle column: vertical scroll of sections */}
-      <main className="overflow-y-auto h-full p-4 border-r border-[rgba(255,255,255,0.08)] space-y-8">
+      <main className="overflow-y-auto h-full p-4 border-r border-[rgba(255,255,255,0.08)] space-y-8" >
         {sections.map(sec => (
           <section id={sec.id} key={sec.id}>
             <div className="learn-title mb-2">
