@@ -29,6 +29,17 @@ const sections = [
     ]
   },
   {
+    id: 'chronicles-003',
+    title: '003',
+    tweetIds: [
+      '1939381707037430162',
+      '1939381710535426246',
+      '1939381714205417892',
+      '1939381717565153319',
+      '1939381721511952405'
+    ]
+  },
+  {
     id: 'campfires',
     title: 'Campfires',
     tweetIds: [
@@ -42,30 +53,52 @@ const sections = [
 export default function ThreeColumnLayout() {
   useEffect(() => {
     const win = window as any;
-    const renderTweets = () => win.twttr?.widgets?.load();
-    if (win.twttr?.widgets) {
-      renderTweets();
-    } else {
-      const script = document.createElement('script');
-      script.src = 'https://platform.twitter.com/widgets.js';
-      script.async = true;
-      script.onload = renderTweets;
-      document.body.appendChild(script);
-    }
+
+    const ensureSDK = () =>
+      new Promise<void>(res => {
+        if (win.twttr?.widgets) return res();
+        const s = document.createElement("script");
+        s.src = "https://platform.twitter.com/widgets.js";
+        s.async = true;
+        s.onload = () => res();
+        document.body.appendChild(s);
+      });
+
+    const loadSequentially = async () => {
+      await ensureSDK();
+      const opts = {
+        theme: "dark",
+        conversation: "none",
+        chrome: "noheader nofooter noborders noscrollbar",
+      };
+
+      for (const sec of sections) {
+        for (const id of sec.tweetIds) {
+          const el = document.querySelector<HTMLDivElement>(
+            `[data-tweet="${id}"]`
+          );
+          if (!el) continue;
+
+          const skeleton = el.querySelector(".skeleton");
+          await win.twttr.widgets.createTweet(id, el, opts);
+          skeleton?.remove(); // drop placeholder after embed loads
+        }
+      }
+    };
+
+    loadSequentially();
   }, []);
 
   return (
-  <div className="grid grid-cols-1 md:grid-cols-[1fr_10fr_1fr] h-[91vh] overflow-hidden bg-[#101010]">
-    {/* Left column: sticky TOC */}
-      <aside className="hidden md:block md:sticky top-0 h-full p-4 border-r border-[rgba(255,255,255,0.08)]" >
-        {/* <div className='text-white opacity-50 leading-none uppercase mb-2'>Chronicles:</div> */}
+    <div className="grid grid-cols-1 md:grid-cols-[1fr_10fr_1fr] h-[91vh] overflow-hidden bg-[#101010]">
+      <aside className="hidden md:block md:sticky top-0 h-full p-4 border-r border-[rgba(255,255,255,0.08)]">
         <nav>
           <ul className="space-y-2">
             {sections.map(sec => (
               <li key={sec.id}>
                 <a
                   href={`#${sec.id}`}
-                  className="text-white opacity-50  underline block hover:opacity-100"
+                  className="text-white opacity-50 underline block hover:opacity-100"
                 >
                   {sec.title}
                 </a>
@@ -75,26 +108,22 @@ export default function ThreeColumnLayout() {
         </nav>
       </aside>
 
-      {/* Middle column: vertical scroll of sections */}
-      <main className="overflow-y-auto h-full p-4 border-r border-[rgba(255,255,255,0.08)] space-y-8" >
+      <main className="overflow-y-auto h-full p-4 border-r border-[rgba(255,255,255,0.08)] space-y-8">
         {sections.map(sec => (
           <section id={sec.id} key={sec.id}>
             <div className="learn-title mb-2">
-              {sec.id.startsWith('chronicles-')
+              {sec.id.startsWith("chronicles-")
                 ? `Chronicles ${sec.title}`
                 : sec.title}
             </div>
             <div className="flex space-x-4 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-hide">
               {sec.tweetIds.map(id => (
-                <div key={id} className="min-w-[400px] snap-start">
-                  <blockquote
-                    className="twitter-tweet"
-                    data-chrome="noheader nofooter noborders noscrollbar transparent"
-                    data-theme="dark"
-                    data-conversation="none"
-                  >
-                    <a href={`https://twitter.com/twitter/status/${id}`} />
-                  </blockquote>
+                <div
+                  key={id}
+                  data-tweet={id}
+                  className="min-w-[400px] snap-start"
+                >
+                  <div className="skeleton h-[400px] bg-[#1e1e1e] animate-pulse rounded-lg" />
                 </div>
               ))}
             </div>
@@ -102,10 +131,7 @@ export default function ThreeColumnLayout() {
         ))}
       </main>
 
-      {/* Right column: empty */}
-      <section className="hidden md:block h-full p-4">
-        {/* empty space */}
-      </section>
+      <section className="hidden md:block h-full p-4" />
     </div>
   );
 }

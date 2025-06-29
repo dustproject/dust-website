@@ -41,7 +41,7 @@ const LearnPage = () => {
         On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, and more.
         </div>
         <div className='learn-body'>
-        Your code becomes a native part of the world itself—not an isolated mod.        
+        Your code becomes a native feature of the world itself—not an isolated mod.        
         It lives inside, runs live, shapes everyone's gameplay, and persists even after you leave.
         </div>
         <div className='learn-body'>
