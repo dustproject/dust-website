@@ -64,7 +64,7 @@ const ExplorePage = () => {
             <div className="root-cause">
                 <div className="grid-title">A SERVER IS A BLACK BOX</div>
                 <div>
-                        <div className="learn-body-grid" >Only the owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
+                        <div className="learn-body-grid" >Only the server owner knows what’s happening inside. Everyone else just has to believe what it says.</div>
                         <div className="learn-body-grid" >They can change anything on a whim—then unplug it when they eventually leave or run out of money.</div>
                 </div>
             </div>
