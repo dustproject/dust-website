@@ -8,6 +8,16 @@
   color: #ffffff;
 }
 
+.computer-layout {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr; /* wide center */
+  grid-template-rows: auto auto auto auto auto 1fr; /* 7 rows */
+  min-height: 100vh;
+  background: #101010;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  color: #ffffff;
+}
+
 .survive-layout {
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
@@ -183,7 +193,12 @@
 }
 
 
-
+.learn-right-grid-image {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  width: 100%;
+}
 
 
 .learn-right-grid {
@@ -438,3 +453,62 @@
 }
 
 
+.computer-parent {
+  display: flex;
+}
+
+
+.computer-child-left {
+  flex: 2;
+  padding: 2rem;
+  border: 0.5px solid rgba(255, 255, 255, .08);
+  display: flex;
+  flex-direction: column;
+}
+
+.computer-child-right {
+  flex: 1;
+  border: 0.5px solid rgba(255, 255, 255, .08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.world-child-left {
+  flex: 1;
+  border: 0.5px solid rgba(255, 255, 255, .08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.world-child-right {
+  flex: 2;
+  padding: 2rem;
+  border: 0.5px solid rgba(255, 255, 255, .08);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.comp-card-image {
+  inset: 0;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.5;
+}

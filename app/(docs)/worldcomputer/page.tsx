@@ -1,0 +1,242 @@
+'use client';
+
+import Link from "next/link";
+import Image from "next/image";
+import React from 'react';
+import "/styles/features.css";
+
+
+const ExplorePage = () => {
+  return (
+    <div className="computer-layout">
+        <div className="learn-grid-border"></div>
+        <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+            <div className="explore-title">
+                The World Completes The World Computer.
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="computer-child-left">
+                <div className='learn-body' style={{fontWeight: "bold"}}>
+                    Etheruem: The World Computer
+                </div>
+                <div className='learn-body'>
+                Ethereum is a ledger with a scarce token and fixed rules for transfer. We built a new financial system on top: AMMs, lending, staking.
+                </div>
+                <div className='learn-body'>
+                But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
+                </div>
+                <div className='learn-body'>
+                To make DeFi productive, we created NFTs: PFPs, 1/1s, memes. You flex and trade them onchain, but never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
+                </div>
+                <div className='learn-body'>
+                Without a digital world to anchor value, we returned to the systems we meant to replace: stablecoins, oracles, RWAs, ETFs.
+                </div>
+                <div className='learn-body'>
+                The World Computer doesn't really make sense until we complete it with The World.
+                </div>
+            </div>
+            <div className="computer-child-right">
+                <div className="learn-right-grid-image">
+                    <img src="/worldComputer.svg" className="comp-card-image" />
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="computer-child-left">
+            <div className='learn-body' style={{fontWeight: "bold"}}>
+                    DUST: The World
+                </div>
+                <div className='learn-body'>
+                    DUST is a 3D space with scarce matter and fixed rules of physics. We build a new civilization inside.
+                </div>
+                <div className='learn-body'>
+                    The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
+                </div>
+                <div className='learn-body'>
+                    Matter trades through local chest shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like “sakura sakura”. As players arrive, supply grows contested.
+                </div>
+                <div className='learn-body'>
+                Earth’s economy emerges from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
+                </div>
+                <div className='learn-body'>
+                    Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers, Sakura Sniper Bots, Diamond Ore Hands
+                </div>
+            </div>
+            <div className="computer-child-right">
+                <div className="learn-right-grid-image">
+                    <img src="/theworld.svg" className="comp-card-image" />
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+        <div className="learn-grid-border"></div>
+        <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+            <div className="explore-title">The World Computer Completes The World.</div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="world-child-left">
+                <div className="learn-right-grid-image">
+                    <img src="/theworld.svg" className="comp-card-image" />
+                </div>
+            </div>
+            <div className="world-child-right">
+                <div className='learn-body' style={{fontWeight: "bold"}}>
+                    Dark Forest (2020): The Revelation
+                </div>
+
+                <div className='learn-body'>
+                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not in culture—people just use it to program more digital money.
+                </div>
+
+                <div className='learn-body'>
+                The World Computer's roots in digital money shape how people see it—and what it has become. <Link href='https://blog.zkga.me/announcing-darkforest' target='_blank'>Dark Forest</Link> (2020) broke away from that path and started a new one.
+                </div>
+
+                <div className='learn-body'>
+                Dark Forest used smart contracts to enforce a game’s rules: movement, crafting, attack. It hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds were exposed as theme parks at the whims of their owners.
+                </div>
+
+                <div className='learn-body'>
+                Dark Forest saw strong player-driven <Link href='https://plugins.zkga.me/' target='_blank'>emergence</Link>—despite only a few hundred players—because smart contracts guaranteed fixed rules and unstoppable uptime.
+                With <Link href='https://astralcolossus.xyz/' target='_blank'>The Astral Colossus</Link>, 50 strangers pooled their resources within 24 hours into a smart contract-governed spaceship. Markets emerged for trading <Link href='https://github.com/darkforest-eth/plugins/blob/master/content/artifacts/artifactory/plugin.js' target='_blank'>artifacts</Link> and <Link href='https://nightmart.xyz/' target='_blank'>secret coordinates</Link>. Players developed <Link href='https://github.com/projectsophon/darkforest-rs/tree/main/mimc-fast' target='_blank'>custom tools</Link> to explore the secret map faster. One player even spent <Link href='https://instances.vantage.sh/aws/ec2/c6a.24xlarge?min_vcpus=96' target='_blank'>~$3/hour</Link> running such tools on AWS.
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="world-child-left">
+                <div className="learn-right-grid-image">
+                    <img src="/theworld.svg" className="comp-card-image" />
+                </div>
+            </div>
+            <div className="world-child-right">
+                <div className='learn-body' style={{fontWeight: "bold"}}>
+                    MUD (2022): The Means
+                </div>
+
+                <div className='learn-body'>
+                    Dark Forest was a revelation, but also a demonstration. It couldn’t deploy and scale on mainnet. The{' '}
+                    <Link href='https://mud.dev/' target='_blank'>
+                    MUD
+                    </Link>{' '}
+                    (2022) framework was built to take systems like it into production—faster to develop, cheaper to scale.
+                </div>
+
+                <div className='learn-body'>
+                Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject code into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone. 
+                Traditionally, only studios could do that and players would be limited to building third-party workarounds and isolated mods.
+                </div>
+
+                <div className='learn-body'>
+                    CCP Games, creators of EVE Online,{' '}
+                    <Link href='https://lattice.xyz/blog/working-with-ccp' target='_blank'>
+                   used MUD
+                    </Link>{' '}
+                    to build this capability into{' '}
+                    <Link href='https://evefrontier.com/en' target='_blank'>
+                    EVE Frontier
+                    </Link>
+                    —letting players program in-game infrastructure with smart contracts, like turning storage units into trading posts.                    
+                </div>
+
+                <div className='learn-body'>
+                    By this point, the path Dark Forest started had grown into the 
+                    {' '}
+                    <Link href='https://0xparc.org/blog/autonomous-worlds' target='_blank'>
+                    Autonomous Worlds
+                    </Link>{' '}
+                     movement. Hundreds of developers{' '}
+                    <Link href='https://aw.network/' target='_blank'>
+                    gathered in assemblies
+                    </Link>,{' '}
+                    <Link href='https://autonomousworlds.metalabel.com/aw01?variantId=1' target='_blank'>
+                    authored books
+                    </Link>, 
+                    and built early experiments in onchain games—searching for the first digital world.
+                </div>
+                </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="world-child-left">
+                <div className="learn-right-grid-image">
+                    <img src="/theworld.svg" className="comp-card-image" />
+                </div>
+            </div>
+
+            <div className="world-child-right">
+                <div className='learn-body' style={{fontWeight: "bold"}}>
+                    Biomes (2024): The Blueprint
+                </div>
+
+                <div className='learn-body'>
+                    As MUD matured, developers built production-grade onchain games but no one built an onchain world. A game has a win condition and resets when finished. A world doesn’t. It builds history, players drive emergence, and resources grow in value over time.
+                </div>
+
+                <div className='learn-body'>
+                    Biomes (2024) was the first proof-of-concept for an onchain world, using Minecraft's design as a starting point. Minecraft is the most general-purpose and familiar virtual world today—hundreds of millions of players have spent 15 years building social structures, economies, and games inside it.
+                </div>
+
+                <div className='learn-body'>
+                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences and have the most to gain: server shutdowns, progress wipes, admin overrides, item duping, player bans, and forced updates.
+                </div>
+
+                <div className='learn-body'>
+                    Beyond solving Minecraft’s core problems by replacing servers with smart contracts, Biomes let players program in-game objects and deployed on mainnet using MUD. Its resources became provably scarce, with supply and behavior fixed on mainnet. Players spent thousands in gas mining them, despite &lt;100 DAUs.{' '}
+                    <Link href='https://x.com/0xwasdcorp/status/1849907628031324405' target='_blank' className='text-blue-500 underline'>
+                    WasdSwap
+                    </Link>{' '}
+                    programmed chests into shops to earn real revenue for their guild.
+                    Biomes made Minecraft real.
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="world-child-left">
+                <div className="learn-right-grid-image">
+                    <img src="/theworld.svg" className="comp-card-image" />
+                </div>
+            </div>
+
+            <div className="world-child-right">
+                <div className='learn-body' style={{fontWeight: "bold"}}>
+                    DUST (2025): The World
+                </div>
+
+                <div className='learn-body'>
+                    DUST turns Biomes’ proof-of-concept into the first serious attempt in building The World. Bitcoin, the first digital money, evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. How far will the first digital world go?
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+    </div>
+  );
+};
+
+export default ExplorePage;
