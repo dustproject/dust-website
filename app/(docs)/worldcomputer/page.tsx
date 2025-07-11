@@ -39,7 +39,7 @@ const ExplorePage = () => {
             </div>
             <div className="computer-child-right">
                 <div className="learn-right-grid-image">
-                    <img src="/worldComputer.svg" className="comp-card-image" />
+                    <img src="/worldcomputer.svg" className="comp-card-image" />
                 </div>
             </div>
         </div>
@@ -197,7 +197,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences: server shutdowns, progress wipes, admin overrides, item duping, player bans, forced updates. They have the most to gain from a solution.
+                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences: server shutdowns, progress wipes, admin overrides, item duping, player bans, capped size, forced updates. They have the most to gain from a solution.
                 </div>
 
                 <div className='learn-body'>
