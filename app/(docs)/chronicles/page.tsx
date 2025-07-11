@@ -40,6 +40,16 @@ const sections = [
     ]
   },
   {
+    id: 'chronicles-004',
+    title: '004',
+    tweetIds: [
+      '1943734981211066388',
+      '1943734985439277321',
+      '1943734990426321242',
+      '1943734994913882403'
+    ]
+  },
+  {
     id: 'campfires',
     title: 'Campfires',
     tweetIds: [
