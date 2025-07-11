@@ -31,13 +31,10 @@ const ExplorePage = () => {
                 But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
                 </div>
                 <div className='learn-body'>
-                To make DeFi productive, we created NFTs as an asset people may value: PFPs, 1/1s, memes. While you flex and trade them onchain, you never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
+                We tried to make DeFi productive with NFTs—digital assets people may value: PFPs, 1/1s, memes. While you flex and trade them onchain, you never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
                 </div>
                 <div className='learn-body'>
-                Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
-                </div>
-                <div className='learn-body'>
-                The World Computer doesn't really make sense until we complete it with The World.
+                    Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
                 </div>
             </div>
             <div className="computer-child-right">
@@ -62,7 +59,8 @@ const ExplorePage = () => {
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
                 </div>
                 <div className='learn-body'>
-                    Matter trades through local chest shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like “sakura sakura”. As players arrive, supply grows contested.
+                    Matter trades through local chest shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like
+                    {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
                 </div>
                 <div className='learn-body'>
                 Earth’s economy emerges from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
