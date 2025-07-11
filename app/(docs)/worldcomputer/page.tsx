@@ -112,7 +112,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Dark Forest saw strong player-driven <Link href='https://plugins.zkga.me/' target='_blank'>emergence</Link>—despite only a few hundred players—because smart contracts guaranteed fixed rules and unstoppable uptime.
+                Dark Forest saw strong player-driven <Link href='https://plugins.zkga.me/' target='_blank'>emergence</Link>—despite only a few hundred players—because they trust in smart contract enforced rules and unstoppable uptime.
                 With <Link href='https://astralcolossus.xyz/' target='_blank'>The Astral Colossus</Link>, 50 strangers pooled their resources within 24 hours into a smart contract-governed spaceship. Markets emerged for trading <Link href='https://github.com/darkforest-eth/plugins/blob/master/content/artifacts/artifactory/plugin.js' target='_blank'>artifacts</Link> and <Link href='https://nightmart.xyz/' target='_blank'>secret coordinates</Link>. Players developed <Link href='https://github.com/projectsophon/darkforest-rs/tree/main/mimc-fast' target='_blank'>custom tools</Link> to explore the secret map faster. One player even spent <Link href='https://instances.vantage.sh/aws/ec2/c6a.24xlarge?min_vcpus=96' target='_blank'>~$3/hour</Link> running such tools on AWS.
                 </div>
             </div>
@@ -199,12 +199,12 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences and have the most to gain from a solution: server shutdowns, progress wipes, admin overrides, item duping, player bans, forced updates.
+                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences: server shutdowns, progress wipes, admin overrides, item duping, player bans, forced updates. They have the most to gain from a solution.
                 </div>
 
                 <div className='learn-body'>
-                    Beyond solving Minecraft’s core problems by replacing servers with smart contracts, Biomes let players program in-game objects using MUD and ran on mainnet. Its resources became provably scarce, with fixed supply and behavior. Players spent thousands in gas mining them, despite &lt;100 DAUs.{' '}
-                    <Link href='https://x.com/0xwasdcorp/status/1849907628031324405' target='_blank' className='text-blue-500 underline'>
+                    Beyond solving Minecraft’s core problems by replacing servers with smart contracts, Biomes let players program in-game objects using MUD. Its resources became provably scarce, with fixed supply and behavior on mainnet. Players spent thousands in gas mining them, despite &lt;100 DAUs, for their scarcity.
+                    {' '}<Link href='https://x.com/0xwasdcorp/status/1849907628031324405'>
                     WasdSwap
                     </Link>{' '}
                     programmed chests into shops to earn real revenue for their guild.

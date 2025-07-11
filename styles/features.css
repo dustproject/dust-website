@@ -161,7 +161,7 @@
 }
 
 @media (max-width: 768px) {
-  .learn-layout, .manifesto-layout {
+  .learn-layout, .manifesto-layout, .computer-layout {
     grid-template-columns: 1fr !important;
   }
   .learn-header, .learn-hero-left, .learn-hero-right, .learn-description-left, .learn-description-right,
@@ -533,4 +533,31 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+/* mobile: one-column layout */
+@media (max-width: 768px) {
+  .computer-parent {
+    flex-direction: column;
+  }
+
+  /* make sure these class names match your markup */
+  .world-child-left,
+  .world-child-right,
+  .computer-child-left,
+  .computer-child-right {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+}
+
+/* ≤1220 px */
+@media (max-width: 1220px) {
+  .learn-right-grid-image { padding: 2rem; }
+}
+
+/* ≤768 px (or pick your phone breakpoint) */
+@media (max-width: 768px) {
+  .learn-right-grid-image { padding: 4rem; }
 }
