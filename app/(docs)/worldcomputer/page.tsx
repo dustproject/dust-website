@@ -90,8 +90,8 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="computer-parent">
             <div className="world-child-left">
-                <div className="learn-right-grid-image">
-                    <img src="/theworld.svg" className="comp-card-image" />
+                <div className="learn-left-grid-image">
+                    <img src="/darkforestt.svg" className="comp-card-image" />
                 </div>
             </div>
             <div className="world-child-right">
@@ -122,8 +122,8 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="computer-parent">
             <div className="world-child-left">
-                <div className="learn-right-grid-image">
-                    <img src="/theworld.svg" className="comp-card-image" />
+                <div className="learn-left-grid-image">
+                    <img src="/mudeco.svg" className="comp-card-image" />
                 </div>
             </div>
             <div className="world-child-right">
@@ -180,8 +180,8 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="computer-parent">
             <div className="world-child-left">
-                <div className="learn-right-grid-image">
-                    <img src="/theworld.svg" className="comp-card-image" />
+                <div className="learn-left-grid-image">
+                    <img src="/biomesstats.svg" className="comp-card-image" />
                 </div>
             </div>
 
@@ -191,19 +191,19 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    As MUD matured, developers built production-grade onchain games but no one built an onchain world. A game has a win condition and resets when finished. A world doesn’t. It builds history, players drive emergence, and resources grow in value over time.
+                    As MUD matured, developers built production-grade onchain games. But no one built an onchain world. A game has a win condition and resets when finished. A world doesn’t. It builds history, players drive emergence, and resources grow in value over time.
                 </div>
 
                 <div className='learn-body'>
-                    Biomes (2024) was the first proof-of-concept for an onchain world, using Minecraft's design as a starting point. Minecraft is the most general-purpose and familiar virtual world today—hundreds of millions of players have spent 15 years building social structures, economies, and games inside it.
+                    Biomes (2024) was the first proof-of-concept for an onchain world, using Minecraft's design as a starting point. Minecraft is the most general-purpose and familiar world today. Hundreds of millions of players have spent 15 years building social structures, economies, and games inside it.
                 </div>
 
                 <div className='learn-body'>
-                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences and have the most to gain: server shutdowns, progress wipes, admin overrides, item duping, player bans, and forced updates.
+                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences and have the most to gain from a solution: server shutdowns, progress wipes, admin overrides, item duping, player bans, forced updates.
                 </div>
 
                 <div className='learn-body'>
-                    Beyond solving Minecraft’s core problems by replacing servers with smart contracts, Biomes let players program in-game objects and deployed on mainnet using MUD. Its resources became provably scarce, with supply and behavior fixed on mainnet. Players spent thousands in gas mining them, despite &lt;100 DAUs.{' '}
+                    Beyond solving Minecraft’s core problems by replacing servers with smart contracts, Biomes let players program in-game objects using MUD and ran on mainnet. Its resources became provably scarce, with fixed supply and behavior. Players spent thousands in gas mining them, despite &lt;100 DAUs.{' '}
                     <Link href='https://x.com/0xwasdcorp/status/1849907628031324405' target='_blank' className='text-blue-500 underline'>
                     WasdSwap
                     </Link>{' '}
@@ -218,8 +218,18 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div className="computer-parent">
             <div className="world-child-left">
-                <div className="learn-right-grid-image">
-                    <img src="/theworld.svg" className="comp-card-image" />
+                <div className="learn-left-grid-image">
+                <div className="video-wrapper">
+                    <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/zYsqfo2eOig"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    ></iframe>
+                </div>
                 </div>
             </div>
 
