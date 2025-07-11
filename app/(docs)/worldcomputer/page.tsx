@@ -104,7 +104,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                The World Computer's roots in digital money shape how people see it—and what it has become. <Link href='https://blog.zkga.me/announcing-darkforest' target='_blank'>Dark Forest</Link> (2020) broke away from that path and started a new one.
+                The World Computer's roots in digital money shape how people see it—and what it has become. <Link href='https://blog.zkga.me/announcing-darkforest' target='_blank'>Dark Forest</Link> broke away from that path and started a new one.
                 </div>
 
                 <div className='learn-body'>
@@ -136,7 +136,7 @@ const ExplorePage = () => {
                     <Link href='https://mud.dev/' target='_blank'>
                     MUD
                     </Link>{' '}
-                    (2022) framework was built to take systems like it into production—faster to develop, cheaper to scale.
+                    framework was built to take systems like it into production—faster to develop, cheaper to scale.
                 </div>
 
                 <div className='learn-body'>
@@ -195,7 +195,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Biomes (2024) was the first proof-of-concept for an onchain world, using Minecraft's design as a starting point. Minecraft is the most general-purpose and familiar world today. Hundreds of millions of players have spent 15 years building social structures, economies, and games inside it.
+                    Biomes was the first proof-of-concept for an onchain world, using Minecraft's design as a starting point. Minecraft is the most general-purpose and familiar world today. Hundreds of millions of players have spent 15 years building social structures, economies, and games inside it.
                 </div>
 
                 <div className='learn-body'>
