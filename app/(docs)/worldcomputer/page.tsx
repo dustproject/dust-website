@@ -31,10 +31,10 @@ const ExplorePage = () => {
                 But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
                 </div>
                 <div className='learn-body'>
-                To make DeFi productive, we created NFTs: PFPs, 1/1s, memes. You flex and trade them onchain, but never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
+                To make DeFi productive, we created NFTs as an asset people may value: PFPs, 1/1s, memes. While you flex and trade them onchain, you never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
                 </div>
                 <div className='learn-body'>
-                Without a digital world to anchor value, we returned to the systems we meant to replace: stablecoins, oracles, RWAs, ETFs.
+                Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
                 </div>
                 <div className='learn-body'>
                 The World Computer doesn't really make sense until we complete it with The World.
@@ -203,7 +203,8 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Beyond solving Minecraft’s core problems by replacing servers with smart contracts, Biomes let players program in-game objects using MUD. Its resources became provably scarce, with fixed supply and behavior on mainnet. Players spent thousands in gas mining them, despite &lt;100 DAUs, for their scarcity.
+                    Biomes solved Minecraft’s core problems by replacing servers with smart contracts. Then it went further: players programmed in-game objects with MUD, and resources became provably scarce on mainnet.
+                    Players spent thousands in gas mining resources, despite &lt;100 DAUs, for their scarcity.
                     {' '}<Link href='https://x.com/0xwasdcorp/status/1849907628031324405'>
                     WasdSwap
                     </Link>{' '}
@@ -239,7 +240,11 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    DUST turns Biomes’ proof-of-concept into the first serious attempt in building The World. Bitcoin, the first digital money, evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. How far will the first digital world go?
+                    DUST turns Biomes’ proof-of-concept into the first serious attempt in building The World. The rules of physics are fixed onchain, the supply of matter is provably scarce, and together we program a new civilization inside.
+                </div>
+
+                <div className='learn-body'>
+                    Bitcoin, the first digital money, evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. How far will the first digital world go?
                 </div>
             </div>
         </div>
