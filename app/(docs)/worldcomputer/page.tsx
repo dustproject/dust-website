@@ -22,7 +22,7 @@ const ExplorePage = () => {
         <div className="computer-parent">
             <div className="computer-child-left">
                 <div className='learn-body' style={{fontWeight: "bold"}}>
-                    Etheruem: The World Computer
+                    Ethereum: The World Computer
                 </div>
                 <div className='learn-body'>
                 Ethereum is a ledger with a scarce token and fixed rules for transfer. We built a new financial system on top: AMMs, lending, staking.
