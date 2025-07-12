@@ -138,7 +138,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject code into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone. 
+                Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject programs into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone. 
                 Traditionally, only studios could do that and players would be limited to building third-party workarounds and isolated mods.
                 </div>
 
@@ -151,7 +151,7 @@ const ExplorePage = () => {
                     <Link href='https://evefrontier.com/en' target='_blank'>
                     EVE Frontier
                     </Link>
-                    —letting players program in-game infrastructure with smart contracts, like turning storage units into trading posts.                    
+                    —letting players program in-game objects with smart contracts, like turning storage units into trading posts.                    
                 </div>
 
                 <div className='learn-body'>
@@ -222,7 +222,7 @@ const ExplorePage = () => {
                     <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/zYsqfo2eOig"
+                    src="https://www.youtube.com/embed/SbCCQ3v0wlY"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
