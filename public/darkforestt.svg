@@ -1,27 +1,19 @@
 <svg width="79" height="111" viewBox="0 0 79 111" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="path-1-inside-1_431_20" fill="white">
-<path d="M0 0H79V28H0V0Z"/>
-</mask>
-<path d="M0 0H79V28H0V0Z" fill="url(#pattern0_431_20)"/>
-<path d="M79 28V27.8H0V28V28.2H79V28Z" fill="white" fill-opacity="0.5" mask="url(#path-1-inside-1_431_20)"/>
-<mask id="path-3-inside-2_431_20" fill="white">
+<rect x="0.2" y="0.2" width="78.6" height="109.875" stroke="white" stroke-width="0.4"/>
+<rect x="0.2" y="0.2" width="78.6" height="27.6" fill="url(#pattern0_431_20)" stroke="white" stroke-width="0.4"/>
+<mask id="path-3-inside-1_431_20" fill="white">
 <path d="M0 28H26.6409V92.195H0V28Z"/>
 </mask>
 <path d="M0 28H26.6409V92.195H0V28Z" fill="url(#pattern1_431_20)"/>
-<path d="M26.6409 28H26.4409V92.195H26.6409H26.8409V28H26.6409Z" fill="white" fill-opacity="0.5" mask="url(#path-3-inside-2_431_20)"/>
+<path d="M0 92.195H0.4V28H0H-0.4V92.195H0Z" fill="white" mask="url(#path-3-inside-1_431_20)"/>
 <rect x="26.6409" y="28" width="26.4002" height="64.2753" fill="url(#pattern2_431_20)"/>
-<mask id="path-6-inside-3_431_20" fill="white">
+<mask id="path-6-inside-2_431_20" fill="white">
 <path d="M53.0411 28H79V92.195H53.0411V28Z"/>
 </mask>
 <path d="M53.0411 28H79V92.195H53.0411V28Z" fill="url(#pattern3_431_20)"/>
-<path d="M53.0411 92.195H53.2411V28H53.0411H52.8411V92.195H53.0411Z" fill="white" fill-opacity="0.5" mask="url(#path-6-inside-3_431_20)"/>
-<rect x="20.0834" y="46.9066" width="39.5" height="26.2873" fill="url(#pattern4_431_20)"/>
-<rect x="20.2334" y="47.0566" width="39.2" height="25.9873" stroke="white" stroke-opacity="0.5" stroke-width="0.3"/>
-<mask id="path-10-inside-4_431_20" fill="white">
-<path d="M0 92.2753H79V110.275H0V92.2753Z"/>
-</mask>
-<path d="M0 92.2753H79V110.275H0V92.2753Z" fill="url(#pattern5_431_20)"/>
-<path d="M0 92.2753V92.4753H79V92.2753V92.0753H0V92.2753Z" fill="white" fill-opacity="0.5" mask="url(#path-10-inside-4_431_20)"/>
+<path d="M79 28H78.6V92.195H79H79.4V28H79Z" fill="white" mask="url(#path-6-inside-2_431_20)"/>
+<rect x="20.2834" y="47.1067" width="39.1" height="25.8873" fill="url(#pattern4_431_20)" stroke="white" stroke-width="0.4"/>
+<rect x="0.2" y="92.4753" width="78.6" height="17.6" fill="url(#pattern5_431_20)" stroke="white" stroke-width="0.4"/>
 <defs>
 <pattern id="pattern0_431_20" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_431_20" transform="matrix(0.000669181 0 0 0.00189461 -0.000547129 -0.00980392)"/>
