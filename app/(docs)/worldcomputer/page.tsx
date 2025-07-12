@@ -138,8 +138,8 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject programs into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone. 
-                Traditionally, studios host the servers, so only they can add new core mechanics. Players are limited to building third-party workarounds and isolated mods on separate servers.
+                    Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject programs into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone. 
+                    Traditionally, studios host the servers, so only they can add new core mechanics. Players are limited to building third-party workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
