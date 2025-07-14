@@ -106,7 +106,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Dark Forest used smart contracts to enforce a game’s rules: movement, crafting, attack. It hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds were exposed as theme parks at the whims of their owners.
+                It used smart contracts to enforce a game’s rules: movement, crafting, attack. It hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds were exposed as theme parks at the whims of their owners.
                 </div>
 
                 <div className='learn-body'>
@@ -138,8 +138,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject programs into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone.
-                    Traditionally, games run on studio-hosted servers, so only the studio can add new core mechanics, while players are limited to building third-party workarounds and isolated mods on separate servers.
+                Beyond scaling Dark Forest, MUD unlocked cocreation: letting players inject new mechanics into live games at runtime. Now players can program the core game as it runs, shaping it for everyone. Traditionally, games run on studio-hosted servers, so only studios can add core mechanics, while players build workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
