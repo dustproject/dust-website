@@ -110,7 +110,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Dark Forest saw strong player-driven <Link href='https://plugins.zkga.me/' target='_blank'>emergence</Link>—despite only a few hundred players—because they trust in smart contract enforced rules and unstoppable uptime.
+                Dark Forest saw strong player-driven <Link href='https://plugins.zkga.me/' target='_blank'>emergence</Link>—despite only a few hundred players—because they trusted in smart contract enforced rules and unstoppable uptime.
                 With <Link href='https://astralcolossus.xyz/' target='_blank'>The Astral Colossus</Link>, 50 strangers pooled their resources within 24 hours into a smart contract-governed spaceship. Markets emerged for trading <Link href='https://github.com/darkforest-eth/plugins/blob/master/content/artifacts/artifactory/plugin.js' target='_blank'>artifacts</Link> and <Link href='https://nightmart.xyz/' target='_blank'>secret coordinates</Link>. Players developed <Link href='https://github.com/projectsophon/darkforest-rs/tree/main/mimc-fast' target='_blank'>custom tools</Link> to explore the secret map faster. One player even spent <Link href='https://instances.vantage.sh/aws/ec2/c6a.24xlarge?min_vcpus=96' target='_blank'>~$3/hour</Link> running such tools on AWS.
                 </div>
             </div>
