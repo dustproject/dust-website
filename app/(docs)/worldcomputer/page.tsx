@@ -31,7 +31,7 @@ const ExplorePage = () => {
                 But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
                 </div>
                 <div className='learn-body'>
-                We tried to make DeFi productive with NFTs—digital assets people may value: PFPs, 1/1s, memes. While you flex and trade them onchain, you never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
+                We tried to make DeFi productive with NFTs—digital assets people may value: PFPs, 1/1s, memes. You flex and trade them onchain, but never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
                 </div>
                 <div className='learn-body'>
                     Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
@@ -138,8 +138,8 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject programs into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone. 
-                    Traditionally, studios host the servers, so only they can add new core mechanics. Players are limited to building third-party workarounds and isolated mods on separate servers.
+                    Dark Forest let players permissionlessly build plugins on top. MUD went further by letting players permissionlessly inject programs into live games at runtime. Now players themselves could add core mechanics to a game—not just build around it, but shape it directly for everyone.
+                    Traditionally, games run on studio-hosted servers, so only the studio can add new core mechanics, while players are limited to building third-party workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
