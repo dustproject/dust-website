@@ -106,7 +106,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                It used smart contracts to enforce a game’s rules: movement, crafting, attack. It hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds were exposed as theme parks at the whims of their owners.
+                It used smart contracts to enforce a game’s rules: movement, crafting, attack. This hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds were exposed as theme parks at the whims of their owners.
                 </div>
 
                 <div className='learn-body'>
