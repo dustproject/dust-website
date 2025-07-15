@@ -138,7 +138,8 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Beyond scaling Dark Forest, MUD unlocked co-creation: letting players add new mechanics to a live game at runtime. Now anyone can program the core game as it runs, shaping it for everyone. Traditionally, games run on studio-hosted servers, so only studios can add core mechanics, while players build workarounds and isolated mods on separate servers.
+                Beyond scaling Dark Forest, MUD unlocked co-creation: letting anyone program new mechanics into the core game at runtime, shaping it for everyone.
+                Traditionally, games run on studio-hosted servers, so only studios can add new mechanics, while players build workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
@@ -241,7 +242,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Bitcoin, the first digital money, evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. How far will the first digital world go?
+                    Bitcoin, the first digital money, evolved over 15 years from e-cash for idealists to payments for unregulated activity to digital gold for government reserves. How far will the first digital world go? Could it flip Earth?
                 </div>
             </div>
         </div>
