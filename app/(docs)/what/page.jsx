@@ -42,7 +42,7 @@ const LearnPage = () => {
         </div>
         <div className='learn-body'>
         Your code becomes a native feature of the world itself—not an isolated mod.        
-        It lives inside the world, runs live, shapes everyone's gameplay, and persists even after you leave.
+        It lives inside the world, shapes everyone's gameplay, and persists even after you leave.
         </div>
         <div className='learn-body'>
         The world is your codebase. 

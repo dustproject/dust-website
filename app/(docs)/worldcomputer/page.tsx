@@ -25,13 +25,13 @@ const ExplorePage = () => {
                     Ethereum: The World Computer
                 </div>
                 <div className='learn-body'>
-                Ethereum is a ledger with a scarce token and fixed rules for transfer. We built a new financial system on top: AMMs, lending, staking.
+                Ethereum is a ledger with a scarce token and fixed rules for transferring it. We built a new financial system on top: AMMs, lending, staking.
                 </div>
                 <div className='learn-body'>
                 But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
                 </div>
                 <div className='learn-body'>
-                We tried to make DeFi productive with NFTs—digital assets people may value: PFPs, 1/1s, memes. You flex and trade them onchain, but never use them onchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
+                We tried to make DeFi productive with NFTs—digital assets people may value: PFPs, 1/1s, memes. They trade onchain, but function offchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
                 </div>
                 <div className='learn-body'>
                     Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
@@ -53,7 +53,7 @@ const ExplorePage = () => {
                     DUST: The World
                 </div>
                 <div className='learn-body'>
-                    DUST is a 3D space with scarce matter and fixed rules of physics. We build a new civilization inside.
+                    DUST is a 3D space with scarce matter and fixed rules of physics controlling it. We build a new civilization inside.
                 </div>
                 <div className='learn-body'>
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
@@ -138,7 +138,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Beyond scaling Dark Forest, MUD unlocked cocreation: letting players inject new mechanics into live games at runtime. Now players can program the core game as it runs, shaping it for everyone. Traditionally, games run on studio-hosted servers, so only studios can add core mechanics, while players build workarounds and isolated mods on separate servers.
+                Beyond scaling Dark Forest, MUD unlocked co-creation: letting players inject new mechanics into live games at runtime. Now players can program the core game as it runs, shaping it for everyone. Traditionally, games run on studio-hosted servers, so only studios can add core mechanics, while players build workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
