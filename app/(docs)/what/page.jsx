@@ -21,6 +21,9 @@ const LearnPage = () => {
         <div className='learn-body'>
         Players and machines—like chests, doors, and force fields—need energy. Plants provide it. Time, actions, and damage drain it.
         </div>
+        <div className='learn-body'>
+        Physical constraints and resource scarcity drive coordination and conflict.
+        </div>
       </div>
       <div className="learn-description-right">
         <div className="learn-right-grid">

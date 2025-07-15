@@ -138,7 +138,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Beyond scaling Dark Forest, MUD unlocked co-creation: letting players inject new mechanics into live games at runtime. Now players can program the core game as it runs, shaping it for everyone. Traditionally, games run on studio-hosted servers, so only studios can add core mechanics, while players build workarounds and isolated mods on separate servers.
+                Beyond scaling Dark Forest, MUD unlocked co-creation: letting players add new mechanics to a live game at runtime. Now anyone can program the core game as it runs, shaping it for everyone. Traditionally, games run on studio-hosted servers, so only studios can add core mechanics, while players build workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
@@ -196,7 +196,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences: server shutdowns, progress wipes, admin overrides, item duping, player bans, capped size, forced updates. They have the most to gain from a solution.
+                    Most crucially, Minecraft worlds run on player-hosted servers. Every other world—World of Warcraft, Runescape, EVE Online, Roblox—runs on studio-hosted servers. Studios can make credible commitments on server longevity and fairness. Players can't. The Minecraft community lives with the consequences: server shutdowns, progress wipes, admin overrides, item duping, player bans, capped size, forced updates. No one has more to gain from a solution.
                 </div>
 
                 <div className='learn-body'>
