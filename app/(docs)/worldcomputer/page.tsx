@@ -25,7 +25,7 @@ const ExplorePage = () => {
                     Ethereum: The World Computer
                 </div>
                 <div className='learn-body'>
-                Ethereum is a ledger with a scarce token and fixed rules for transferring it. We built a new financial system on top: AMMs, lending, staking.
+                Ethereum is a permanent ledger with a scarce token and fixed rules for transferring it. We built a new financial system on top: AMMs, lending, staking.
                 </div>
                 <div className='learn-body'>
                 But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
@@ -53,7 +53,7 @@ const ExplorePage = () => {
                     DUST: The World
                 </div>
                 <div className='learn-body'>
-                    DUST is a 3D space with scarce matter and fixed rules of physics controlling it. We build a new civilization inside.
+                    DUST is a permanent 3D spacetime with scarce matter and fixed rules of physics controlling it. We build a new civilization inside.
                 </div>
                 <div className='learn-body'>
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
