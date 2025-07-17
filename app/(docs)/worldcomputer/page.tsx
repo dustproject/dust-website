@@ -234,7 +234,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    DUST turns Biomes’ proof-of-concept into the first serious attempt in building The World. The rules of physics are fixed onchain, the supply of matter is provably scarce, and together we program a new civilization inside.
+                    DUST turns Biomes’ proof-of-concept into the first serious attempt in building The World. The rules of physics are fixed onchain, the supply of matter is provably scarce, the history is permanently kept, and together we program a new civilization inside.
                 </div>
 
                 <div className='learn-body'>

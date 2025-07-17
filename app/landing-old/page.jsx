@@ -309,7 +309,7 @@ export default function Page() {
         <div className="content-wrapper">
           <div className="hero">
             <div className="hero-left">
-              <div className='hero-body'>DUST is an autonomous world with fixed rules of physics, scarce resources, and player-programmable civilization.</div>
+              <div className='hero-body'>DUST is an autonomous world for programmable civilization. It runs on fixed rules of physics, scarce matter, and permanent history.</div>
               <div className="section">
                 <div className='hero-header'>No admins. Just physics.</div>
                 <div className='hero-body'>Resources are scarce. Energy drains. Survival requires effort.</div>

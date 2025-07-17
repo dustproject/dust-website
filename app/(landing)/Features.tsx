@@ -1,23 +1,21 @@
 export function Features() {
   return (
-    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[430px]">
+    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[440px]">
       <Feature
         description={
           <>
-            <span className="font-bold not-italic">DUST</span> is an autonomous
-            world with fixed rules of physics, scarce resources, permanent history, and
-            player-programmable civilization.
+            <span className="font-bold not-italic">DUST</span> is an autonomous world for programmable civilization. It runs on fixed rules of physics, scarce matter, and permanent history.
           </>
         }
       />
 
       <Feature
         title="No admins. Just physics."
-        description="Resources are scarce. Energy drains. Coordinate or contest."
+        description="Matter is scarce. Energy drains. Coordinate or contest. The rules enforce themselves."
       />
       <Feature
         title="Code the world."
-        description="Your code shapes the world's core mechanics. It affects everyone, even if you leave. Not a mod."
+        description="Program your territory. Add to the world's rules. Your code affects everyone, even if you leave."
       />
       <Feature
         title="Can't be wiped."

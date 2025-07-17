@@ -5,26 +5,26 @@ const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-ibm-plex-sans-condensed",
-  display: "swap",
+  display: "swap"
 });
 
 export const metadata = {
   verification: {
-    google: "tG3xbPj9WMyQC9rPYo-ZRzOQYEhS0T9hFdIyuKtR1ok",
+    google: "tG3xbPj9WMyQC9rPYo-ZRzOQYEhS0T9hFdIyuKtR1ok"
   },
   openGraph: {
     title: "DUST",
     description:
-      "DUST is an autonomous world with fixed rules of physics, scarce resources, and player-programmable civilization.",
+      "DUST is an autonomous world for programmable civilization. It runs on fixed rules of physics, scarce matter, and permanent history.",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "DUST",
-      },
-    ],
-  },
+        alt: "DUST"
+      }
+    ]
+  }
 };
 
 export default function RootLayout({ children }) {
