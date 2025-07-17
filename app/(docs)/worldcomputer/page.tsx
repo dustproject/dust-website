@@ -98,7 +98,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not in culture—people just use it to program more digital money.
+                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in culture—people just use it to program more digital money.
                 </div>
 
                 <div className='learn-body'>
@@ -193,7 +193,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Biomes prototyped the first onchain world, using Minecraft's design as its starting point—the most familiar sandbox, where millions have spent 15 years building economies, games, and societies. Unlike studio-hosted worlds like WoW, Runescape, EVE, or Roblox, Minecraft runs on player-hosted servers. Players can't make credible commitments on server longevity or fairness, so the community is plagued with: server shutdowns, progress wipes, admin abuse, player bans, forced updates. No one has more to gain from a solution.
+                Biomes prototyped the first onchain world, using Minecraft's design as its starting point—the most familiar sandbox, where millions of players have spent 15 years building economies, games, and societies. Unlike studio-hosted worlds like WoW, Runescape, EVE, or Roblox, Minecraft runs on player-hosted servers. Players can't make credible commitments on server longevity or fairness, so the community is plagued with: server shutdowns, progress wipes, admin abuse, player bans, forced updates. No one has more to gain from a solution.
                 </div>
 
                 <div className='learn-body'>
