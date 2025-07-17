@@ -13,16 +13,16 @@ const LearnPage = () => {
         <div className='learn-body'>
         The world runs on fixed rules of physics.
         These are verifiable programs that check every action and stop anyone who tries to break them.
-        No admins—the world enforces itself.
+        No admins—the world's rules enforce themselves.
         </div>
         <div className='learn-body'>
-        These same rules fix the supply and scarcity of resources. You mine, farm, craft, trade, and build within their limits.
+        These same rules fix the supply and scarcity of matter. You mine, farm, craft, trade, and build within their limits.
         </div>
         <div className='learn-body'>
         Players and machines—like chests, doors, and force fields—need energy. Plants provide it. Time, actions, and damage drain it.
         </div>
         <div className='learn-body'>
-        Physical constraints and resource scarcity drive coordination and conflict.
+        Physical constraints and matter scarcity drives coordination and conflict.
         </div>
       </div>
       <div className="learn-description-right">
@@ -44,7 +44,7 @@ const LearnPage = () => {
         On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, and more.
         </div>
         <div className='learn-body'>
-        Your code becomes a native feature of the world itself—not an isolated mod.        
+        Your code becomes a core rule of the world itself—not an isolated mod.        
         It lives inside the world, shapes everyone's gameplay, and persists even after you leave.
         </div>
         <div className='learn-body'>
