@@ -139,7 +139,7 @@ const ExplorePage = () => {
 
                 <div className='learn-body'>
                 Beyond scaling Dark Forest, MUD unlocked co-creation: letting anyone program new mechanics into the core game at runtime, shaping it for everyone.
-                Traditionally, games run on studio-hosted servers, so only studios can add new mechanics, while players build workarounds and isolated mods on separate servers.
+                By contrast, today's games run on studio-hosted servers, so only studios can add new mechanics, while players build workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
