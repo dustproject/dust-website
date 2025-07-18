@@ -49,7 +49,7 @@ const LearnPage = () => {
         </div>
         <div className='learn-body'>
         The world is your codebase. 
-        Command machines—turn chests into shops, doors into toll gates. Build on others' live code. Connect to anything online: Reddit, Discord, Dollars.
+        Command machines in your territory—turn chests into shops, doors into toll gates. Build on others' live code. Connect to anything online: Reddit, Discord, Dollars.
         </div>
       </div>
       <div className="learn-description-right">
