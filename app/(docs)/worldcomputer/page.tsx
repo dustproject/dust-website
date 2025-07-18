@@ -25,13 +25,13 @@ const ExplorePage = () => {
                     Ethereum: The World Computer
                 </div>
                 <div className='learn-body'>
-                Ethereum is a permanent ledger with a scarce token and fixed rules for transferring it. We built a new financial system on top: AMMs, lending, staking.
+                Ethereum is a permanent ledger managing scarce tokens with fixed rules of transfer. We program finance on top.
                 </div>
                 <div className='learn-body'>
-                But DeFi has no real productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
+                But DeFi has no native productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
                 </div>
                 <div className='learn-body'>
-                We tried to make DeFi productive with NFTs—digital assets people may value: PFPs, 1/1s, memes. They trade onchain, but function offchain. If assets are onchain but The World isn’t, their value anchors to nothing real.
+                We tried to make DeFi productive with NFTs—digital native assets people may value: PFPs, 1/1s, memes. They trade onchain but function offchain, so their value floats.
                 </div>
                 <div className='learn-body'>
                     Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
@@ -53,20 +53,20 @@ const ExplorePage = () => {
                     DUST: The World
                 </div>
                 <div className='learn-body'>
-                    DUST is a permanent 3D spacetime with scarce matter and fixed rules of physics controlling it. We build a new civilization inside.
+                    DUST is a permanent spacetime controlling scarce matter with fixed rules of physics. We program civilization inside.
                 </div>
                 <div className='learn-body'>
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
                 </div>
                 <div className='learn-body'>
-                    Matter trades through local chest shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like
+                    Matter trades through local shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like
                     {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
                 </div>
                 <div className='learn-body'>
                 Earth’s economy emerges from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
                 </div>
                 <div className='learn-body'>
-                    Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers, Sakura Sniper Bots, Diamond Ore Hands
+                    Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers
                 </div>
             </div>
             <div className="computer-child-right">
