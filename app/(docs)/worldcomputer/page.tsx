@@ -160,7 +160,7 @@ const ExplorePage = () => {
 
             <div className="world-child-right">
                 <div className='learn-body' style={{fontWeight: "bold"}}>
-                    DUST ({"> "}2025): Flip Earth
+                    DUST ({">"}2025): Flip Earth
                 </div>
 
                 <div className='learn-body'>
@@ -178,7 +178,7 @@ const ExplorePage = () => {
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
             <div className="explore-title">
-                The World Completes The World Computer.
+                The World Completes The World Computer
             </div>
         </div>
         <div className="learn-grid-border"></div>
