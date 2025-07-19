@@ -11,7 +11,7 @@ const ExplorePage = () => {
     <div className="computer-layout">
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
-            <div className="explore-title">Flip Earth: Lessons from Dark Forest, MUD, and Biomes.</div>
+            <div className="explore-title">Flip Earth: Lessons from Dark Forest, MUD, and Biomes</div>
         </div>
         <div className="learn-grid-border"></div>
 
