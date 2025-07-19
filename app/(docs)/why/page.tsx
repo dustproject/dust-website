@@ -40,7 +40,8 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Isolated Mods</div>
                 <div className="learn-body-grid">
-                Studios build first-party features. Players can only build third-party workarounds or isolated mods.
+                Studios build first-party features on their official servers. Players build workarounds or mods on separate servers.
+
                 </div>
                 </div>
                 <div className="grid-cell">
