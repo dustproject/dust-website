@@ -160,7 +160,7 @@ const ExplorePage = () => {
 
             <div className="world-child-right">
                 <div className='learn-body' style={{fontWeight: "bold"}}>
-                    DUST (2025): The World
+                    DUST ({"> "}2025): Flip Earth
                 </div>
 
                 <div className='learn-body'>
