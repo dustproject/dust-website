@@ -11,79 +11,9 @@ const ExplorePage = () => {
     <div className="computer-layout">
         <div className="learn-grid-border"></div>
         <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
-            <div className="explore-title">
-                The World Completes The World Computer.
-            </div>
+            <div className="explore-title">Flip Earth: Lessons from Dark Forest, MUD, and Biomes.</div>
         </div>
         <div className="learn-grid-border"></div>
-
-
-        <div className="learn-grid-border"></div>
-        <div className="computer-parent">
-            <div className="computer-child-left">
-                <div className='learn-body' style={{fontWeight: "bold"}}>
-                    Ethereum: The World Computer
-                </div>
-                <div className='learn-body'>
-                Ethereum is a permanent ledger managing scarce tokens with fixed rules of transfer. We program finance on top.
-                </div>
-                <div className='learn-body'>
-                But DeFi has no native productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
-                </div>
-                <div className='learn-body'>
-                We tried to make DeFi productive with NFTs—digital native assets people may value: PFPs, 1/1s, memes. They trade onchain but function offchain, so their value floats.
-                </div>
-                <div className='learn-body'>
-                    Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
-                </div>
-            </div>
-            <div className="computer-child-right">
-                <div className="learn-right-grid-image">
-                    <img src="/worldcomputer.svg" className="comp-card-image" />
-                </div>
-            </div>
-        </div>
-        <div className="learn-grid-border"></div>
-
-
-        <div className="learn-grid-border"></div>
-        <div className="computer-parent">
-            <div className="computer-child-left">
-            <div className='learn-body' style={{fontWeight: "bold"}}>
-                    DUST: The World
-                </div>
-                <div className='learn-body'>
-                    DUST is a permanent spacetime controlling scarce matter with fixed rules of physics. We program civilization inside.
-                </div>
-                <div className='learn-body'>
-                    The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
-                </div>
-                <div className='learn-body'>
-                    Matter trades through local shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like
-                    {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
-                </div>
-                <div className='learn-body'>
-                Earth’s economy emerges from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
-                </div>
-                <div className='learn-body'>
-                    Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers
-                </div>
-            </div>
-            <div className="computer-child-right">
-                <div className="learn-right-grid-image">
-                    <img src="/theworld.svg" className="comp-card-image" />
-                </div>
-            </div>
-        </div>
-        <div className="learn-grid-border"></div>
-
-        <div className="learn-grid-border"></div>
-        <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
-            <div className="explore-title">The World Computer Completes The World.</div>
-        </div>
-        <div className="learn-grid-border"></div>
-
-
 
         <div className="learn-grid-border"></div>
         <div className="computer-parent">
@@ -243,6 +173,76 @@ const ExplorePage = () => {
             </div>
         </div>
         <div className="learn-grid-border"></div>
+
+
+        <div className="learn-grid-border"></div>
+        <div style={{padding: "2rem 2rem", borderLeft: "1px solid rgba(255, 255, 255, .08)", borderRight: "1px solid rgba(255, 255, 255, .08)"}}>
+            <div className="explore-title">
+                The World Completes The World Computer.
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="computer-child-left">
+                <div className='learn-body' style={{fontWeight: "bold"}}>
+                    Ethereum: The World Computer
+                </div>
+                <div className='learn-body'>
+                Ethereum is a permanent ledger managing scarce tokens with fixed rules of transfer. We program finance on top.
+                </div>
+                <div className='learn-body'>
+                But DeFi has no native productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
+                </div>
+                <div className='learn-body'>
+                We tried to make DeFi productive with NFTs—digital native assets people may value: PFPs, 1/1s, memes. They trade onchain but function offchain, so their value floats.
+                </div>
+                <div className='learn-body'>
+                    Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
+                </div>
+            </div>
+            <div className="computer-child-right">
+                <div className="learn-right-grid-image">
+                    <img src="/worldcomputer.svg" className="comp-card-image" />
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
+
+        <div className="learn-grid-border"></div>
+        <div className="computer-parent">
+            <div className="computer-child-left">
+            <div className='learn-body' style={{fontWeight: "bold"}}>
+                    DUST: The World
+                </div>
+                <div className='learn-body'>
+                    DUST is a permanent spacetime controlling scarce matter with fixed rules of physics. We program civilization inside.
+                </div>
+                <div className='learn-body'>
+                    The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
+                </div>
+                <div className='learn-body'>
+                    Matter trades through local shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like
+                    {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
+                </div>
+                <div className='learn-body'>
+                Earth’s economy emerges from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
+                </div>
+                <div className='learn-body'>
+                    Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers
+                </div>
+            </div>
+            <div className="computer-child-right">
+                <div className="learn-right-grid-image">
+                    <img src="/theworld.svg" className="comp-card-image" />
+                </div>
+            </div>
+        </div>
+        <div className="learn-grid-border"></div>
+
 
     </div>
   );
