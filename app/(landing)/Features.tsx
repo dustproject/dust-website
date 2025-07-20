@@ -4,7 +4,7 @@ export function Features() {
       <Feature
         description={
           <>
-            <span className="font-bold not-italic">DUST</span> is an autonomous world where everyone programs civilization. It runs on fixed rules of physics, scarce matter, and permanent history.
+            <span className="font-bold not-italic">DUST</span> is an autonomous world where we program civilization. It runs on fixed rules of physics, scarce matter, and permanent history.
           </>
         }
       />
