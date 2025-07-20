@@ -28,7 +28,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in culture—people use it to program more forms of digital money.
+                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in culture—people still use it to program more digital money.
                 </div>
 
                 <div className='learn-body'>
@@ -191,16 +191,16 @@ const ExplorePage = () => {
                     Ethereum: The World Computer
                 </div>
                 <div className='learn-body'>
-                Ethereum is a permanent ledger with scarce tokens and fixed rules of transfer. We program finance on top.
+                Ethereum is a permanent ledger with fixed rules to transfer scarce tokens. We program finance on top.
                 </div>
                 <div className='learn-body'>
-                But DeFi has no native productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
+                DeFi brought billions in value onto an open, composable financial infrastructure. But it lacks native productivity to manage. Protocols serve other protocols in a closed game of risk: yield farming, recursive lending, leverage loops, borrowing tokens to trade tokens.
                 </div>
                 <div className='learn-body'>
-                We tried to make DeFi productive with NFTs—digital native assets people may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain, so their value floats.
+                We tried creating native productivity with NFTs—digitally native assets people can own and may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain. Ethereum scaled finance but not utility beyond it.
                 </div>
                 <div className='learn-body'>
-                    Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
+                Without a world of our own to create native utility and anchor value, we returned to the world we meant to replace: stablecoins, RWAs, ETFs.
                 </div>
             </div>
             <div className="computer-child-right">
@@ -219,13 +219,13 @@ const ExplorePage = () => {
                     DUST: The World
                 </div>
                 <div className='learn-body'>
-                    DUST is a permanent spacetime with scarce matter and fixed rules of physics. We program civilization inside.
+                    DUST is a permanent spacetime with fixed rules of physics controlling scarce matter. We program civilization inside.
                 </div>
                 <div className='learn-body'>
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
                 </div>
                 <div className='learn-body'>
-                    Matter trades through local shops, not global exchanges. Its value comes from onchain utility—PvE, PvP, building, programming—and the stories it carries, like
+                    Matter trades through local shops, not global exchanges. Its value comes from utility in onchain physics—PvE, PvP, building—and the stories it carries, like
                     {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
                 </div>
                 <div className='learn-body'>
