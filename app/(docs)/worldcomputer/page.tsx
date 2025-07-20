@@ -28,7 +28,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in culture—people just use it to program more digital money.
+                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in culture—people use it to program more forms of digital money.
                 </div>
 
                 <div className='learn-body'>
@@ -197,7 +197,7 @@ const ExplorePage = () => {
                 But DeFi has no native productivity to manage. Protocols serve protocols: yield farming, recursive lending, leverage loops. Users borrow tokens to buy tokens in a closed game of risk: aping into pools, rebalancing LPs.
                 </div>
                 <div className='learn-body'>
-                We tried to make DeFi productive with NFTs—digital native assets people may value: PFPs, 1/1s, memes. They trade onchain but function offchain, so their value floats.
+                We tried to make DeFi productive with NFTs—digital native assets people may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain, so their value floats.
                 </div>
                 <div className='learn-body'>
                     Without a world of our own to anchor value, we returned to the one we meant to replace: stablecoins, oracles, RWAs, ETFs.
