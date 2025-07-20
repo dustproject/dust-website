@@ -194,7 +194,7 @@ const ExplorePage = () => {
                 Ethereum is a permanent ledger with fixed rules to transfer scarce tokens. We program finance on top.
                 </div>
                 <div className='learn-body'>
-                DeFi brought billions in value onto an open, composable financial infrastructure. But it lacks native productivity to manage. Protocols serve other protocols in a closed game of risk: yield farming, recursive lending, leverage loops, borrowing tokens to trade tokens.
+                DeFi brought billions in value onto open, composable finance. But it lacks native productivity to manage. Protocols serve other protocols in a closed game of risk: yield farming, recursive lending, leverage loops, borrowing tokens to trade tokens.
                 </div>
                 <div className='learn-body'>
                 We tried creating native productivity through NFTs—digitally native assets people can own and may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain. Ethereum scaled finance but not utility beyond it.
