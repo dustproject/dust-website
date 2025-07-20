@@ -1,10 +1,10 @@
 export function Features() {
   return (
-    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[430px]">
+    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[440px]">
       <Feature
         description={
           <>
-            <span className="font-bold not-italic">DUST</span> is an autonomous world where we program civilization. It runs on fixed rules of physics, scarce matter, and permanent history.
+            <span className="font-bold not-italic">DUST</span> is an autonomous world running on fixed rules of physics. We program civilization, contest for scarce matter, and grow permanent history.
           </>
         }
       />
