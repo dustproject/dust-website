@@ -219,7 +219,7 @@ const ExplorePage = () => {
                     DUST: The World
                 </div>
                 <div className='learn-body'>
-                    DUST is a permanent spacetime with fixed rules of physics controlling scarce matter. We program civilization inside.
+                    DUST is a permanent spacetime with fixed rules of physics for scarce matter. We program civilization inside.
                 </div>
                 <div className='learn-body'>
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
