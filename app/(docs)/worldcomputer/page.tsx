@@ -197,7 +197,7 @@ const ExplorePage = () => {
                 DeFi brought billions in value onto an open, composable financial infrastructure. But it lacks native productivity to manage. Protocols serve other protocols in a closed game of risk: yield farming, recursive lending, leverage loops, borrowing tokens to trade tokens.
                 </div>
                 <div className='learn-body'>
-                We tried creating native productivity with NFTs—digitally native assets people can own and may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain. Ethereum scaled finance but not utility beyond it.
+                We tried creating native productivity through NFTs—digitally native assets people can own and may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain. Ethereum scaled finance but not utility beyond it.
                 </div>
                 <div className='learn-body'>
                 Without a world of our own to create native utility and anchor value, we returned to the world we meant to replace: stablecoins, RWAs, ETFs.
