@@ -22,7 +22,7 @@ const LearnPage = () => {
         Players and machines—like chests, doors, and force fields—need energy. Plants provide it. Time, actions, and damage drain it.
         </div>
         <div className='learn-body'>
-        Physical constraints and consequences drive coordination and conflict.
+        Scarcities, constraints, and consequences drive coordination and conflict.
         </div>
       </div>
       <div className="learn-description-right">
@@ -44,12 +44,12 @@ const LearnPage = () => {
         On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, and more.
         </div>
         <div className='learn-body'>
-        Your code becomes a core rule of the world itself—not an isolated mod.        
-        It lives inside the world, shapes everyone's gameplay, and persists even after you leave.
+        The world is your codebase. 
+        Command machines in your territory—turn chests into shops, doors into toll gates. Build on top of others' live code. Connect to anything online: Reddit, Discord, Dollars.
         </div>
         <div className='learn-body'>
-        The world is your codebase. 
-        Command machines in your territory—turn chests into shops, doors into toll gates. Build on others' live code. Connect to anything online: Reddit, Discord, Dollars.
+        Your code becomes a core rule of the world itself—not an isolated mod.        
+        It lives inside the world, shapes everyone's gameplay, and persists even after you leave.
         </div>
       </div>
       <div className="learn-description-right">
@@ -71,7 +71,7 @@ const LearnPage = () => {
         Everything—the world's fixed rules of physics and player uploaded code—runs together on one permanent network. No central server controls it. The world lives as long as one person keeps running it.
         </div>
         <div className='learn-body'>
-        Every action is recorded publicly, letting anyone check that rules are being followed. This creates a truly shared history—a world worthy of your greatest work.
+        Every action is recorded publicly, letting anyone check that rules are being followed. This creates a truly shared history—a world worthy of our greatest work.
         </div>
       </div>
       <div className="learn-description-right">

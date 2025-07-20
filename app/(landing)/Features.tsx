@@ -11,7 +11,7 @@ export function Features() {
 
       <Feature
         title="No admins. Just physics."
-        description="Scarce matter drives coordination and conflict. The world's rules enforce themselves on all."
+        description="The world's rules enforce themselves on all. Scarce matter drives coordination and conflict."
       />
       <Feature
         title="Code the world."
