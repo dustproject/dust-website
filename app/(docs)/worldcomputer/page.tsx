@@ -230,7 +230,7 @@ const ExplorePage = () => {
                     {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
                 </div>
                 <div className='learn-body'>
-                Earth’s economy emerged from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
+                Earth’s economy emerged from physical constraints: oil, land, energy. The World gives the World Computer constraints and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
                 </div>
                 <div className='learn-body'>
                     Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers
