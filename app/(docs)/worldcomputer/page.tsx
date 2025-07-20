@@ -191,16 +191,16 @@ const ExplorePage = () => {
                     Ethereum: The World Computer
                 </div>
                 <div className='learn-body'>
-                Ethereum is a permanent ledger with fixed rules to transfer scarce tokens. We program finance on top.
+                Ethereum is a permanent ledger with fixed rules for transferring scarce tokens. We program finance on top.
                 </div>
                 <div className='learn-body'>
-                DeFi brought billions in value onto open, composable finance. But it lacks native productivity to manage. Protocols serve other protocols in a closed game of risk: yield farming, recursive lending, leverage loops, borrowing tokens to trade tokens.
+                DeFi brought billions in value onto open, composable finance. But it lacks native productivity. Protocols serve protocols in a closed game of risk: yield farming, recursive lending, leverage loops, borrowing tokens to trade tokens.
                 </div>
                 <div className='learn-body'>
-                We tried creating native productivity through NFTs—digitally native assets people can own and may value: PFPs, 1/1s, collectibles. They trade onchain but function offchain. Ethereum scaled finance but not utility beyond it.
+                We tried creating native productivity through NFTs—digitally native assets people can own and might value: PFPs, 1/1s, collectibles. They trade onchain but function offchain. Ethereum scaled finance, but not utility beyond it.
                 </div>
                 <div className='learn-body'>
-                Without a world of our own to create native utility and anchor value, we returned to the world we meant to replace: stablecoins, RWAs, ETFs.
+                Without a world of our own to create native utility and anchor value, we returned to the one we meant to replace: stablecoins, RWAs, ETFs.
                 </div>
             </div>
             <div className="computer-child-right">
@@ -225,11 +225,12 @@ const ExplorePage = () => {
                     The cost to extract and keep matter sets its floor price. Every action—mining, farming, moving, defending—is an onchain transaction that burns gas.
                 </div>
                 <div className='learn-body'>
-                    Matter trades through local shops, not global exchanges. Its value comes from utility in onchain physics—PvE, PvP, building—and the stories it carries, like
+                    Matter exists at a position in space, and must be moved through it. So, it trades through local shops, not global exchanges.
+                    Its value comes from utility in onchain physics—PvE, PvP, building—and the stories it carries, like
                     {" "}<Link href='https://x.com/ZuseDust/status/1848776951764513034' target='_blank'>“sakura sakura”</Link>. As players arrive, supply grows contested.
                 </div>
                 <div className='learn-body'>
-                Earth’s economy emerges from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
+                Earth’s economy emerged from physical constraints: oil, land, energy. The World gives the World Computer scarcities and consequences of its own. When value is created onchain—not just exchanged into it—a new civilization begins:
                 </div>
                 <div className='learn-body'>
                     Ore-Backed Stablecoins, DeFi Chests, MEV Trains, Token-Gated Doors, Forcefield Staking, Raid Slashing, Mob Coverage, Multisig Inventories, DAO Cities, Wheat Laundering, Inventory Mixers
