@@ -1,6 +1,6 @@
 export function Features() {
   return (
-    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[440px]">
+    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[430px]">
       <Feature
         description={
           <>
