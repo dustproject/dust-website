@@ -45,7 +45,7 @@ const LearnPage = () => {
         </div>
         <div className='learn-body'>
         The world is your codebase. 
-        Command machines in your territory, turn chests into shops and doors into toll gates. Extend the rules others create. Connect to anything online: Reddit, Discord, Dollars.
+        Command machines in your territory, turn chests into shops and doors into toll gates. Extend the rules others deploy. Connect to anything online: Reddit, Discord, Dollars.
         </div>
         <div className='learn-body'>
         You deploy your code into the single shard of the world, not a separate mod or server. It becomes a new core rule of the world, shaping everyone's reality and persisting even if you leave.
