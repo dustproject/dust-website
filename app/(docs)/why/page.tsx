@@ -40,14 +40,13 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#ff6060"}}>Isolated Mods</div>
                 <div className="learn-body-grid">
-                Studios build first-party features on their official servers. Players build workarounds or mods on separate servers.
-
+                Studios build the world's core mechanics on their servers. Players build workarounds or mods on separate servers.
                 </div>
                 </div>
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Connected Mechanics</div>
                 <div className="learn-body-grid">
-                Players build first-party mechanics on top of each other. All mechanics run live in-game. Nothing is isolated.
+                Players build the world's core mechanics on top of each other. All mechanics run live in-game. Nothing is isolated.
                 </div>
                 </div>
                 <div className="grid-image">
