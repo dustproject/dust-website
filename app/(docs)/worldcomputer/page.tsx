@@ -32,7 +32,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                The World Computer's roots in digital money shape how people see it—and what it has become. <Link href='https://blog.zkga.me/announcing-darkforest' target='_blank'>Dark Forest</Link> broke away from that path and started a new one.
+                Ethereum's roots in digital money shape how people see it—and what it has become. <Link href='https://blog.zkga.me/announcing-darkforest' target='_blank'>Dark Forest</Link> broke away from that path and started a new one.
                 </div>
 
                 <div className='learn-body'>
