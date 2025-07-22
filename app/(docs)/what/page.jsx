@@ -41,15 +41,14 @@ const LearnPage = () => {
       <div className="learn-description-left">
         <div className='learn-title'>Code the world.</div>
         <div className='learn-body'>
-        On top of the world's fixed rules of physics, you code civilization—reputation, currency, governments, and more.
+        On top of the world's fixed rules of physics, you code the rules of civilization. Build reputation systems, currencies, governments, and more.
         </div>
         <div className='learn-body'>
         The world is your codebase. 
-        Command machines in your territory—turn chests into shops, doors into toll gates. Build on top of others' live code. Connect to anything online: Reddit, Discord, Dollars.
+        Command machines in your territory, turn chests into shops and doors into toll gates. Extend the rules others create. Connect to anything online: Reddit, Discord, Dollars.
         </div>
         <div className='learn-body'>
-        Your code becomes a core rule of the world itself—not an isolated mod.        
-        It lives inside the world, shapes everyone's gameplay, and persists even after you leave.
+        You deploy your code into the single shard of the world, not a separate mod or server. It becomes a new core rule of the world, shaping everyone's reality and persisting even if you leave.
         </div>
       </div>
       <div className="learn-description-right">
