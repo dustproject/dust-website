@@ -11,11 +11,6 @@ export function CTA() {
         description="Spawn inside DUST and help build the monument."
         external
       />
-      <LinkButton
-        href="/what"
-        title="Learn about DUST"
-        description="Learn what DUST enables and why it exists."
-      />
       <a
         href={"https://ethereum.org/en/10years/"}
         target="_blank"
