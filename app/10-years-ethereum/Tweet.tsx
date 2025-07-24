@@ -5,7 +5,7 @@ export function Tweet() {
       href="https://dustproject.org"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-col md:flex-row gap-2 px-[16px] md:px-[24px] py-[16px] xl:flex-1 custom-dashed-border-dark"
+      className="flex flex-col md:flex-row gap-8 px-[16px] md:px-[24px] py-[16px] xl:flex-1 custom-dashed-border-dark"
     >
       <div className="text-[16px] opacity-50 leading-normal flex-shrink-0">
         HAPPENING IN DUST
