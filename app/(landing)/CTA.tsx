@@ -4,9 +4,9 @@ export function CTA() {
   return (
     <div className="mt-[60px] flex flex-col sm:flex-row gap-[40px]">
       <LinkButton
-        href="/access"
-        title="Get access"
-        description="Join Discord for early access."
+        href="https://alpha.dustproject.org"
+        title="Enter"
+        description="Enter the world of DUST."
         external
       />
       <LinkButton

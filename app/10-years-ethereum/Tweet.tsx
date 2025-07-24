@@ -1,8 +1,7 @@
 export function Tweet() {
   return (
     <a
-      // TODO: update with deeplink
-      href="https://alpha.dustproject.org"
+      href="https://alpha.dustproject.org?open-app=https://ethereum-monument.vercel.app"
       target="_blank"
       rel="noopener noreferrer"
       className="flex flex-col md:flex-row gap-2 px-[16px] md:px-[24px] py-[16px] xl:flex-1 custom-dashed-border-dark"
