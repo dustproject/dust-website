@@ -1,0 +1,32 @@
+import { cn } from "../../utils/cn";
+import { LinkButton } from "./LinkButton";
+
+export function CTA() {
+  return (
+    <div className="mt-[60px] flex flex-col sm:flex-row gap-[40px]">
+      <LinkButton
+        // TODO: update with deeplink
+        href="https://alpha.dustproject.org"
+        title="Start building"
+        description="Spawn inside DUST and help build the monument."
+        external
+      />
+      <LinkButton
+        href="/what"
+        title="Learn about DUST"
+        description="Learn what DUST enables and why it exists."
+      />
+      <a
+        href={"https://ethereum.org/en/10years/"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cn(
+          "w-full p-[20px] inline-flex flex-col gap-2 justify-center items-center sm:w-[220px]",
+          ["custom-dashed-border-dark"]
+        )}
+      >
+        <img src="/images/10-years-ethereum.png" alt="DUST" />
+      </a>
+    </div>
+  );
+}
