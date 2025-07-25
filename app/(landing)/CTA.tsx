@@ -5,8 +5,8 @@ export function CTA() {
     <div className="mt-[60px] flex flex-col sm:flex-row gap-[40px]">
       <LinkButton
         href="https://alpha.dustproject.org"
-        title="Enter"
-        description="Enter the world of DUST."
+        title="Enter Dust"
+        description="Spawn in a free browser client."
         external
       />
       <LinkButton
