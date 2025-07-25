@@ -122,7 +122,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Biomes prototyped the first onchain world, using Minecraft's design as its starting point—the most familiar sandbox, where millions of players have spent 15 years building economies, games, and societies. Unlike studio-hosted worlds like WoW, Runescape, EVE, or Roblox, Minecraft runs on player-hosted servers. Players can't make credible commitments on server longevity or fairness, so the community is plagued with: server shutdowns, progress wipes, admin abuse, player bans, forced updates. No one has more to gain from a solution.
+                Biomes prototyped the first onchain world, using Minecraft's design as its starting point—the most familiar sandbox, where millions of players have spent 15 years building economies, games, and societies. Unlike studio-hosted worlds like WoW, Runescape, EVE, or Roblox, Minecraft runs on player-hosted servers. Players can't promise server longevity or fairness, so the community is plagued with: server shutdowns, progress wipes, admin abuse, player bans, forced updates. No one has more to gain from a solution.
                 </div>
 
                 <div className='learn-body'>
