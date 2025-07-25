@@ -7,7 +7,7 @@ export function CTA() {
       <LinkButton
         href="https://alpha.dustproject.org?open-app=https://ethereum-monument.vercel.app/dust-app.json"
         title="Start building"
-        description="Spawn inside DUST and help build the monument."
+        description="Spawn inside DUST's Free Browser Client and join the build."
         external
       />
       <a

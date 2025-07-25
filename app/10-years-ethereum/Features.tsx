@@ -6,7 +6,7 @@ export function Features() {
       <FeatureSmall
         title="Build Ethereum's 10 Year Monument."
         description="Gather and place blocks to complete the monument's blueprint."
-        descriptionTwo="Power the force field that will protect the monument forever."
+        descriptionTwo="Supply energy to the force field that will protect the monument forever."
         descriptionThree="Every contribution is recorded onchain."
       />
       <FeatureSmall
