@@ -5,8 +5,7 @@ export function CTA() {
   return (
     <div className="mt-[60px] flex flex-col sm:flex-row gap-[40px]">
       <LinkButton
-        // TODO: update with deeplink
-        href="https://alpha.dustproject.org"
+        href="https://alpha.dustproject.org?open-app=https://ethereum-monument.vercel.app/dust-app.json"
         title="Start building"
         description="Spawn inside DUST and help build the monument."
         external
