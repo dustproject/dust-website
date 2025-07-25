@@ -11,8 +11,9 @@ export function Tweet() {
       JULY 30 2025
       </div>
       <div className="text-[16px] leading-none uppercase">
-      CELEBRATE 10 YEARS OF ETHEREUM. BUILD THE FIRST FULLY ONCHAIN MONUMENT.
+      CELEBRATE 10 YEARS OF ETHEREUM.
       PARTICIPATE IN SMART CONTRACT DRIVEN CONSTRUCTION.
+      BUILD THE FIRST FULLY ONCHAIN MONUMENT.
       </div>
     </a>
   );
