@@ -2,7 +2,7 @@ import { cn } from "../../utils/cn";
 
 export function Features() {
   return (
-    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[440px]">
+    <div className="space-y-[45px] xl:space-y-[55px] w-full xl:w-[430px]">
       <FeatureSmall
         title="Build Ethereum's 10 Year Monument."
         description="Gather and place blocks to complete the monument's blueprint."
@@ -11,7 +11,7 @@ export function Features() {
       />
       <FeatureSmall
         title="Inside Ethereum Itself."
-        description="The monument will be built inside DUST, a fully onchain world, using scarce matter like Gold & Glass."
+        description="The monument will be built inside DUST, a fully onchain world, using scarce Gold Ores & Glass."
         descriptionTwo="DUST is programmable, so players deployed the smart contracts that define this monument's blueprint and govern its force field."
       />
     </div>
