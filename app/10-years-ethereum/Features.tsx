@@ -11,7 +11,7 @@ export function Features() {
       />
       <FeatureSmall
         title="Inside Ethereum Itself."
-        description="The monument will be built inside DUST, a fully onchain world, using its provably scarce materials."
+        description="The monument will be built inside DUST, a fully onchain world, using provably scarce materials like Gold & Glass."
         descriptionTwo="DUST is programmable, so players deployed the smart contracts that define this monument's blueprint and govern its force field."
       />
     </div>
