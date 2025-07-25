@@ -1,7 +1,7 @@
 export function Tweet() {
   return (
     <a
-      href="https://alpha.dustproject.org?open-app=https://ethereum-monument.vercel.app"
+      href="https://alpha.dustproject.org?open-app=https://ethereum-monument.vercel.app/dust-app.json"
       target="_blank"
       rel="noopener noreferrer"
       className="flex flex-col md:flex-row gap-8 px-[16px] md:px-[24px] py-[16px] xl:flex-1 custom-dashed-border-dark"
