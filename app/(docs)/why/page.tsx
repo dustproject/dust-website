@@ -46,7 +46,7 @@ const ExplorePage = () => {
                 <div className="grid-cell">
                 <div className="learn-title-grid" style={{color: "#66b966"}}>Programmable Single Shard</div>
                 <div className="learn-body-grid">
-                Players program new mechanics into the single shard of the world, not in separate mods and servers, and affect everyone.
+                Players program new mechanics into the single shard of the world, not in separate mods and servers, that affect everyone.
                 </div>
                 </div>
                 <div className="grid-image">
