@@ -44,9 +44,9 @@ const ExplorePage = () => {
                 </div>
                 </div>
                 <div className="grid-cell">
-                <div className="learn-title-grid" style={{color: "#66b966"}}>Connected Mechanics</div>
+                <div className="learn-title-grid" style={{color: "#66b966"}}>Programmable Single Shard</div>
                 <div className="learn-body-grid">
-                Players build the world's core mechanics on top of each other. All mechanics run live in-game. Nothing is isolated.
+                Players program new mechanics into the single shard of the world, not in separate mods and servers, and affect everyone.
                 </div>
                 </div>
                 <div className="grid-image">
