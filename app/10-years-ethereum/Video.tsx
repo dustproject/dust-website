@@ -1,43 +1,31 @@
 "use client";
 
-import { Stream, StreamPlayerApi } from "@cloudflare/stream-react";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "../../utils/cn";
 
-const VIDEO_ID = "da4a72e9380f416c68c195daeec0e08c";
+const YOUTUBE_EMBED_URL = "https://www.youtube.com/embed/nJGc3ScC2fU?enablejsapi=1";
 
 export function Video() {
-  const videoRef = useRef<StreamPlayerApi>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
   }, []);
 
-  useEffect(() => {
-    const handleFullscreenChange = () => {
-      if (!document.fullscreenElement && videoRef.current) {
-        videoRef.current.muted = true;
-      }
-    };
-
-    document.addEventListener("fullscreenchange", handleFullscreenChange);
-    return () => {
-      document.removeEventListener("fullscreenchange", handleFullscreenChange);
-    };
-  }, []);
-
   const handlePlayClick = () => {
-    const iframe = document.querySelector("iframe");
-    if (iframe) {
-      iframe.requestFullscreen();
-    }
+    const iframe = iframeRef.current;
 
-    if (videoRef.current) {
-      videoRef.current.muted = false;
-      videoRef.current.currentTime = 0;
-      videoRef.current.volume = 1;
-      videoRef.current.play();
+    if (iframe) {
+      iframe.requestFullscreen?.();
+      iframe.contentWindow?.postMessage(
+        '{"event":"command","func":"unMute","args":""}',
+        "*"
+      );
+      iframe.contentWindow?.postMessage(
+        '{"event":"command","func":"playVideo","args":""}',
+        "*"
+      );
     }
   };
 
@@ -53,25 +41,19 @@ export function Video() {
           onClick={handlePlayClick}
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-white transition-opacity opacity-0 group-hover:opacity-100 duration-300 text-center flex flex-col gap-0 cursor-pointer"
         >
-          <span className="text-[16px] leading-none">Watch in full screen</span>
-          <span className="text-[14px] text-white/70">with audio</span>
+          {/* Intentionally left empty for overlay click interaction */}
         </button>
       </div>
 
-      <div
-        className={cn(
-          "absolute -top-0 left-0 h-full w-full scale-140",
-          isMobile && "scale-100"
-        )}
-      >
-        <Stream
-          src={VIDEO_ID}
-          streamRef={videoRef}
-          autoplay={!isMobile}
-          controls={isMobile}
-          muted={!isMobile}
-          loop={!isMobile}
-          startTime={isMobile ? 0 : 74}
+      <div className="absolute top-0 left-0 h-full w-full">
+        <iframe
+          ref={iframeRef}
+          className="w-full h-full object-contain"
+          src={YOUTUBE_EMBED_URL}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="autoplay; fullscreen; encrypted-media"
+          allowFullScreen
         />
       </div>
     </div>
