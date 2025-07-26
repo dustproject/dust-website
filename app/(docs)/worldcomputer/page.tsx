@@ -28,7 +28,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                If you want to understand something, study how it began. <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in culture—people still use it to program more digital money.
+            <Link href='https://satoshi.nakamotoinstitute.org/emails/cryptography/1/' target='_blank'>Bitcoin</Link> emerged from decades of attempts to build digital money. <Link href='https://www.youtube.com/watch?v=l9dpjN3Mwps' target='_blank'>Ethereum</Link> set out to generalize Bitcoin. It succeeded in engineering, but not yet in purpose—people still use it to program more digital money.
                 </div>
 
                 <div className='learn-body'>
@@ -36,7 +36,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                It used smart contracts to enforce a game’s rules: movement, crafting, attack. This hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds were exposed as theme parks at the whims of their owners.
+                It used smart contracts to enforce a game’s rules: movement, crafting, attack. This hinted at a digital world no one could shut down or tamper with—akin to physical laws, robust enough to settle and invest in. By contrast, today’s virtual worlds revealed themselves as theme parks at the whims of their owners.
                 </div>
 
                 <div className='learn-body'>
@@ -68,7 +68,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Beyond scaling Dark Forest, MUD made games deeply programmable. It let anyone program new mechanics into the core game at runtime, shaping it for everyone. By contrast, today's games run on studio-hosted servers, so only studios can add new mechanics, while players build workarounds and isolated mods on separate servers.
+                Beyond scaling Dark Forest, MUD made games deeply programmable: letting anyone program new mechanics into the shared game for all players. By contrast, today's games run on studio-hosted servers, so only studios can add new mechanics, while players build workarounds and isolated mods on separate servers.
                 </div>
 
                 <div className='learn-body'>
@@ -122,17 +122,20 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                Biomes prototyped the first onchain world, using Minecraft's design as its starting point—the most familiar sandbox, where millions of players have spent 15 years building economies, games, and societies. Unlike studio-hosted worlds like WoW, Runescape, EVE, or Roblox, Minecraft runs on player-hosted servers. Players can't promise server longevity or fairness, so the community is plagued with: server shutdowns, progress wipes, admin abuse, player bans, forced updates. No one has more to gain from a solution.
+                Biomes prototyped the first onchain world, using Minecraft's design—the most familiar sandbox, where millions have spent 15 years building economies, games, and societies. Unlike studio-hosted worlds, Minecraft runs on player-hosted servers that can't promise longevity or fairness. The community suffers from server shutdowns, progress wipes, admin abuse. No one has more to gain from a solution.
                 </div>
 
                 <div className='learn-body'>
-                    Biomes solved Minecraft’s core problems by replacing servers with smart contracts. Then it went further: players programmed in-game objects with MUD, and resources became provably scarce on mainnet.
+                    Biomes solved Minecraft’s core problems by replacing servers with smart contracts. Then it went further: resources became provably scarce on mainnet and players programmed in-game objects with MUD.
+                </div>
+
+                <div className='learn-body'>
+                    Biomes made Minecraft real.
                     Players spent thousands in gas mining resources, despite &lt;100 DAUs, for their scarcity.
                     {' '}<Link href='https://x.com/0xwasdcorp/status/1849907628031324405'>
                     WasdSwap
                     </Link>{' '}
                     programmed chests into shops to earn real revenue for their guild.
-                    Biomes made Minecraft real.
                 </div>
             </div>
         </div>
@@ -163,7 +166,7 @@ const ExplorePage = () => {
                 </div>
 
                 <div className='learn-body'>
-                    DUST turns Biomes’ proof-of-concept into the first serious attempt in building The World. The rules of physics are fixed onchain, the supply of matter is provably scarce, and the history is permanently recorded. Together, we program a new civilization inside.
+                    DUST turns Biomes’ proof-of-concept into the first serious attempt at building The World. The rules of physics are fixed onchain, the supply of matter is provably scarce, and the history is permanently recorded. Together, we program a new civilization inside.
                 </div>
 
                 <div className='learn-body'>
