@@ -3,8 +3,8 @@
 <path d="M1536 0H0V1024H1536V0Z" fill="url(#pattern0_306_2)"/>
 <path d="M1412 257H902V767H1412V257Z" fill="url(#pattern1_306_2)"/>
 <path d="M1536 0H778V1024H1536V0Z" fill="url(#pattern2_306_2)"/>
-<rect x="109" y="237" width="551" height="486" fill="url(#pattern3_306_2)"/>
-<rect x="109" y="723" width="551" height="57" fill="url(#pattern4_306_2)"/>
+<rect x="64" y="194" width="646.444" height="570.589" fill="url(#pattern3_306_2)"/>
+<rect x="66.3262" y="762.104" width="646.674" height="66.8973" fill="url(#pattern4_306_2)"/>
 </g>
 <defs>
 <pattern id="pattern0_306_2" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -17,7 +17,7 @@
 <use xlink:href="#image2_306_2" transform="matrix(0.00131926 0 0 0.000976562 -0.316623 -0.368164)"/>
 </pattern>
 <pattern id="pattern3_306_2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image3_306_2" transform="matrix(0.000519211 0 0 0.000588653 0 -0.000354687)"/>
+<use xlink:href="#image3_306_2" transform="scale(0.000519211 0.000588235)"/>
 </pattern>
 <pattern id="pattern4_306_2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image4_306_2" transform="scale(0.000527496 0.00509913)"/>
