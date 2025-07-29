@@ -14,7 +14,7 @@ export default function Navbar() {
     return null;
   }
 
-  const isActive = path => {
+  const isActive = (path) => {
     return pathname === path;
   };
 
@@ -24,16 +24,27 @@ export default function Navbar() {
         <div /> {/* Left empty column */}
         <div className="navbar-inner">
           <div className="nav-left">
-            <Link href="/what" className={`nav-link ${isActive("/what") ? "active" : ""}`}>
+            <Link
+              href="/what"
+              className={`nav-link ${isActive("/what") ? "active" : ""}`}
+            >
               WHAT
             </Link>
-            <Link href="/why" className={`nav-link ${isActive("/why") ? "active" : ""}`}>
+            <Link
+              href="/why"
+              className={`nav-link ${isActive("/why") ? "active" : ""}`}
+            >
               WHY
             </Link>
           </div>
           <div className="nav-right">
-            <Link href="/access" target="_blank" rel="noopener noreferrer" className="nav-link">
-              GET ACCESS
+            <Link
+              href="https://alpha.dustproject.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >
+              ENTER DUST
             </Link>
           </div>
         </div>
