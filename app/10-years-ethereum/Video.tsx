@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { cn } from "../../utils/cn";
 
-const YOUTUBE_EMBED_URL = "https://www.youtube.com/embed/nJGc3ScC2fU?enablejsapi=1";
+const YOUTUBE_EMBED_URL = "https://www.youtube.com/embed/n7rQcubgSpc?enablejsapi=1";
 
 export function Video() {
   const iframeRef = useRef<HTMLIFrameElement>(null);
