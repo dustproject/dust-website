@@ -29,6 +29,12 @@ const nextConfig = {
           "https://alpha.dustproject.org/map",
         permanent: false,
       },
+      {
+        source: "/hack",
+        destination:
+          "https://latticexyz.notion.site/DUST-HACK-1-2406ddcddf9f80d9a7b5ea50d459ed14",
+        permanent: false,
+      },
     ];
   },
 };
