@@ -21,7 +21,7 @@ export function Read() {
     >
       <div className="text-[16px] opacity-50 leading-none">Chronicles</div>
       <div className="text-[16px] leading-none">
-        005
+        006
       </div>
     </a>
   );
