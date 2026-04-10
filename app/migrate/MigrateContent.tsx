@@ -75,7 +75,16 @@ export default function MigratePage() {
 
       <p className="text-[16px] font-extralight leading-normal mt-4 opacity-50">
         Follow these steps to start playing in the new, migrated world.
-        Redstone is shutting down on May 15, 2026 (23:59 UTC).
+        Redstone is shutting down on May 15, 2026 (23:59 UTC).{" "}
+        <a
+          href="https://landing-kbowtmbqw-latticexyz.vercel.app/winding-down"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:opacity-100 transition-opacity"
+        >
+          See Lattice announcement
+        </a>
+        .
       </p>
 
       {/* Steps */}
