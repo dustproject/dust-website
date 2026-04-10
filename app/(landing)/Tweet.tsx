@@ -8,7 +8,7 @@ export function Tweet() {
         APRIL 2026
       </div>
       <div className="text-[16px] leading-normal md:leading-none">
-        DUST HAS MIGRATED TO DUST CHAIN. WITHDRAW FROM REDSTONE BEFORE MAY 15, 2026.
+        DUST HAS MIGRATED TO DUST CHAIN. FOLLOW THESE STEPS TO CONTINUE PLAYING.
       </div>
     </a>
   );
