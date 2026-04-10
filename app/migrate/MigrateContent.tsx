@@ -125,7 +125,7 @@ export default function MigratePage() {
 
       <p className="text-[18px] sm:text-[20px] italic font-extralight leading-normal mt-4 opacity-80">
         DUST has migrated from Redstone to the{" "}
-        <span className="not-italic font-bold">DUST Chain</span>, hosted by{" "}
+        <a href="/chain" className="not-italic font-bold underline hover:opacity-80 transition-opacity">DUST Chain</a>, hosted by{" "}
         <span className="not-italic font-bold">Conduit</span> with support from
         the <span className="not-italic font-bold">Optimism Foundation</span>.
         The entire world state from Redstone was migrated — everything that was
@@ -150,13 +150,20 @@ export default function MigratePage() {
 
           <p className="text-[16px] font-extralight leading-relaxed opacity-70 ml-[48px]">
             Your DUST session wallet holds ETH on Redstone. Connect your wallet
-            to check your balance and withdraw any remaining funds back to your
-            main wallet.
+            and switch to Redstone to check your balance and withdraw any
+            remaining funds back to your main wallet.
           </p>
 
           <div className="ml-[48px]">
             <ConnectWallet />
           </div>
+
+          <p className="text-[14px] font-extralight leading-relaxed opacity-40 ml-[48px]">
+            Once connected on Redstone, click "Manage Wallet" to open the
+            account modal. Your gas balance and a{" "}
+            <span className="font-bold opacity-70">Withdraw</span> button will
+            appear there.
+          </p>
         </section>
 
         {/* Step 2 */}
@@ -211,7 +218,14 @@ export default function MigratePage() {
 
           <p className="text-[16px] font-extralight leading-relaxed opacity-70 ml-[48px]">
             Bridge your ETH from Ethereum L1 to DUST Chain to continue playing
-            in the new world.
+            in the new world.{" "}
+            <a
+              href="/chain"
+              className="underline hover:opacity-100 transition-opacity"
+            >
+              See chain info
+            </a>
+            .
           </p>
 
           <div className="ml-[48px]">

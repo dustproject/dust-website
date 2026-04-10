@@ -14,6 +14,11 @@ export function CTA() {
         title="Learn more"
         description="What Dust enables and why it exists."
       />
+      <LinkButton
+        href="/chain"
+        title="Chain Info"
+        description="Network details for DUST Chain."
+      />
     </div>
   );
 }

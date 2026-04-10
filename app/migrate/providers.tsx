@@ -8,7 +8,6 @@ import {
   createWagmiConfig,
 } from "@latticexyz/entrykit/internal";
 import { redstone as redstoneConfig } from "@latticexyz/common/chains";
-import { mainnet } from "viem/chains";
 import { useState, type ReactNode } from "react";
 import { fallback, http, webSocket } from "viem";
 
@@ -49,14 +48,12 @@ const wagmiConfig = createWagmiConfig({
   chainId,
   walletConnectProjectId: "cf7034ca81619d057a3fa9f1b030c850",
   appName: "DUST Migration",
-  chains: [redstone, mainnet],
+  chains: [redstone],
   transports: {
     [redstone.id]: fallback([webSocket(undefined, { retryCount: 3 }), http()]),
-    [mainnet.id]: http(),
   },
   pollingInterval: {
     [redstone.id]: 2_000,
-    [mainnet.id]: 12_000,
   },
 });
 
