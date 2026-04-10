@@ -1,16 +1,21 @@
 "use client";
 
-import { useAccount } from "wagmi";
+import { useAccount, useSwitchChain } from "wagmi";
 import { useAccountModal } from "@latticexyz/entrykit/internal";
 import { Providers } from "./providers";
+
+const REDSTONE_CHAIN_ID = 690;
 
 function shortenAddress(address: string) {
   return `${address.slice(0, 6)}...${address.slice(-4)}`;
 }
 
 function ConnectWallet() {
-  const { address, isConnected } = useAccount();
+  const { address, isConnected, chainId } = useAccount();
   const { openAccountModal } = useAccountModal();
+  const { switchChain, isPending: isSwitching } = useSwitchChain();
+
+  const isWrongChain = isConnected && chainId !== REDSTONE_CHAIN_ID;
 
   if (!isConnected) {
     return (
@@ -23,11 +28,39 @@ function ConnectWallet() {
     );
   }
 
+  if (isWrongChain) {
+    return (
+      <div className="space-y-3">
+        <div className="custom-dashed-border px-5 py-4 space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-[14px] uppercase opacity-50">Connected</span>
+            <span className="text-[18px] font-mono">
+              {shortenAddress(address!)}
+            </span>
+          </div>
+          <div className="text-[14px] opacity-50">
+            Wrong network — switch to Redstone to continue.
+          </div>
+        </div>
+
+        <button
+          onClick={() => switchChain({ chainId: REDSTONE_CHAIN_ID })}
+          disabled={isSwitching}
+          className="custom-dashed-border px-6 py-3 text-[16px] uppercase tracking-wide hover:bg-white/5 transition-colors cursor-pointer disabled:opacity-30"
+        >
+          {isSwitching ? "Switching..." : "Switch to Redstone"}
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-3">
       <div className="custom-dashed-border px-5 py-4 space-y-2">
         <div className="flex items-center justify-between">
-          <span className="text-[14px] uppercase opacity-50">Connected</span>
+          <span className="text-[14px] uppercase opacity-50">
+            Connected to Redstone
+          </span>
           <span className="text-[18px] font-mono">
             {shortenAddress(address!)}
           </span>

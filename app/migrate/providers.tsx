@@ -72,9 +72,7 @@ export function Providers({ children }: { children: ReactNode }) {
   return (
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
-        <EntryKitProvider config={entryKitConfig}>
-          {children}
-        </EntryKitProvider>
+        <EntryKitProvider config={entryKitConfig}>{children}</EntryKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
   );
