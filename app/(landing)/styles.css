@@ -22,12 +22,3 @@
 .custom-dashed-border:focus {
   border: 1px solid #ffffff;
 }
-
-/* Push ConnectKit modal behind EntryKit modal */
-[data-connectkit] {
-  z-index: 2147483644 !important;
-}
-
-[data-radix-portal]:has([data-state]) {
-  z-index: 2147483645 !important;
-}
