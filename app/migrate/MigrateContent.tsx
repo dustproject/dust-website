@@ -274,16 +274,21 @@ export default function MigratePage() {
           .
         </p>
         <p className="text-[14px] font-extralight opacity-40 leading-relaxed">
-          Read the{" "}
+          <a
+            href="/chain"
+            className="underline hover:opacity-100 transition-opacity"
+          >
+            DUST Chain info
+          </a>
+          {" "}&middot;{" "}
           <a
             href="https://landing-kbowtmbqw-latticexyz.vercel.app/winding-down"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:opacity-100 transition-opacity"
           >
-            original Lattice announcement
+            Original Lattice announcement
           </a>
-          .
         </p>
       </div>
     </div>
