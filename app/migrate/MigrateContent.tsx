@@ -72,8 +72,16 @@ export default function MigratePage() {
           >
             DUST Chain
           </a>
-          , hosted by <span className="not-italic font-bold">Conduit</span> with
-          support from the{" "}
+          , hosted by{" "}
+          <a
+            href="https://www.conduit.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="not-italic font-bold underline hover:opacity-80 transition-opacity"
+          >
+            Conduit
+          </a>{" "}
+          with support from the{" "}
           <span className="not-italic font-bold">Optimism Foundation</span>. The
           entire world state from Redstone was migrated — everything that was
           built in the world is preserved on DUST Chain.
