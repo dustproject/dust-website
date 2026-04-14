@@ -33,7 +33,8 @@ const rows = [
     value: "bridge.dustproject.org",
     href: "https://bridge.dustproject.org/",
   },
-  { label: "Preconfirmation Time", value: "200ms" },
+  { label: "Data Availability", value: "EigenDA", href: "https://www.eigenda.xyz/" },
+  { label: "Preconfirmation Time", value: "200ms via Flashblocks" },
 ];
 
 export default function ChainInfoPage() {
@@ -53,7 +54,7 @@ export default function ChainInfoPage() {
           </h1>
 
           <p className="text-[16px] font-extralight leading-normal mt-4 opacity-50">
-            Network information for DUST Mainnet.
+            The public mainnet for DUST, settling on Ethereum Mainnet.
           </p>
 
           <div className="mt-10 space-y-0">
