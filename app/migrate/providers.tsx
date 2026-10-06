@@ -9,7 +9,7 @@ import {
 } from "@latticexyz/entrykit/internal";
 import { redstone as redstoneConfig } from "@latticexyz/common/chains";
 import { useState, type ReactNode } from "react";
-import { fallback, http, webSocket } from "viem";
+import { defineChain, fallback, http, webSocket } from "viem";
 
 const redstone = {
   ...redstoneConfig,
@@ -41,30 +41,93 @@ const redstone = {
   },
 } as const;
 
+const dustMainnet = defineChain({
+  id: 55378,
+  name: "DUST Mainnet",
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.dustproject.org"],
+      webSocket: ["wss://rpc.dustproject.org"],
+    },
+    bundler: {
+      http: ["https://bundler.alpha.dustproject.org"],
+    },
+  },
+  contracts: {
+    quarryPaymaster: {
+      address: "0x417d7e88123888831feb0FBA08B0Ea5F7E5Be198",
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Blockscout",
+      url: "https://explorer.dustproject.org",
+      apiUrl: "https://explorer.dustproject.org/api",
+    },
+  },
+});
+
+// Same world address on both chains (state was migrated from Redstone)
 const worldAddress = "0x253eb85B3C953bFE3827CC14a151262482E7189C" as const;
-const chainId = 690;
+const walletConnectProjectId = "cf7034ca81619d057a3fa9f1b030c850";
+const appName = "DUST Migration";
 
-const wagmiConfig = createWagmiConfig({
-  chainId,
-  walletConnectProjectId: "cf7034ca81619d057a3fa9f1b030c850",
-  appName: "DUST Migration",
-  chains: [redstone],
-  transports: {
-    [redstone.id]: fallback([webSocket(undefined, { retryCount: 3 }), http()]),
+const configs = {
+  redstone: {
+    wagmiConfig: createWagmiConfig({
+      chainId: redstone.id,
+      walletConnectProjectId,
+      appName,
+      chains: [redstone],
+      transports: {
+        [redstone.id]: fallback([
+          webSocket(undefined, { retryCount: 3 }),
+          http(),
+        ]),
+      },
+      pollingInterval: {
+        [redstone.id]: 2_000,
+      },
+    }),
+    entryKitConfig: defineConfig({
+      chainId: redstone.id,
+      worldAddress,
+      theme: "dark",
+    }),
   },
-  pollingInterval: {
-    [redstone.id]: 2_000,
+  dust: {
+    wagmiConfig: createWagmiConfig({
+      chainId: dustMainnet.id,
+      walletConnectProjectId,
+      appName,
+      chains: [dustMainnet],
+      transports: {
+        [dustMainnet.id]: http(),
+      },
+      pollingInterval: {
+        [dustMainnet.id]: 2_000,
+      },
+    }),
+    entryKitConfig: defineConfig({
+      chainId: dustMainnet.id,
+      worldAddress,
+      theme: "dark",
+    }),
   },
-});
+};
 
-const entryKitConfig = defineConfig({
-  chainId,
-  worldAddress,
-  theme: "dark",
-});
+export type MigrateChain = keyof typeof configs;
 
-export function Providers({ children }: { children: ReactNode }) {
+export function Providers({
+  chain,
+  children,
+}: {
+  chain: MigrateChain;
+  children: ReactNode;
+}) {
   const [queryClient] = useState(() => new QueryClient());
+  const { wagmiConfig, entryKitConfig } = configs[chain];
 
   return (
     <WagmiProvider config={wagmiConfig}>
