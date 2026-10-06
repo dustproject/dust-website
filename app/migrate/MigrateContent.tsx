@@ -50,7 +50,7 @@ function BridgeLink({
 
 export default function MigratePage() {
   return (
-    <Providers>
+    <Providers chain="redstone">
       <div className="text-white font-[family-name:var(--font-ibm-plex-sans-condensed)]">
         {/* Header */}
         <a
